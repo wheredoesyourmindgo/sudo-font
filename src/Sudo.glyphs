@@ -2,7 +2,8 @@
 .appVersion = "1181";
 DisplayStrings = (
 zz,
-"I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I"
+"I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
+d
 );
 classes = (
 {
@@ -67,7 +68,7 @@ name = "Variation Font Origin";
 value = "95FB0C11-C828-4064-8966-34220AA4D426";
 }
 );
-date = "2017-04-04 18:34:34 +0000";
+date = "2018-11-30 15:59:21 +0000";
 designer = "Jens Kutilek";
 designerURL = "http://www.kutilek.de/";
 familyName = Sudo;
@@ -100,7 +101,7 @@ name = subs;
 },
 {
 automatic = 1;
-code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012sub A by A.sups;\012sub B by B.sups;\012sub C by C.sups;\012sub D by D.sups;\012sub E by E.sups;\012sub F by F.sups;\012sub G by G.sups;\012sub H by H.sups;\012sub I by I.sups;\012sub J by J.sups;\012sub K by K.sups;\012sub L by L.sups;\012sub M by M.sups;\012sub N by N.sups;\012sub O by O.sups;\012sub P by P.sups;\012sub Q by Q.sups;\012sub R by R.sups;\012sub S by S.sups;\012sub T by T.sups;\012sub U by U.sups;\012sub V by V.sups;\012sub W by W.sups;\012sub X by X.sups;\012sub Y by Y.sups;\012sub Z by Z.sups;\012";
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012sub minus by minussuperior;\012sub plus by plussuperior;\012sub A by A.sups;\012sub B by B.sups;\012sub C by C.sups;\012sub D by D.sups;\012sub E by E.sups;\012sub F by F.sups;\012sub G by G.sups;\012sub H by H.sups;\012sub I by I.sups;\012sub J by J.sups;\012sub K by K.sups;\012sub L by L.sups;\012sub M by M.sups;\012sub N by N.sups;\012sub O by O.sups;\012sub P by P.sups;\012sub Q by Q.sups;\012sub R by R.sups;\012sub S by S.sups;\012sub T by T.sups;\012sub U by U.sups;\012sub V by V.sups;\012sub W by W.sups;\012sub X by X.sups;\012sub Y by Y.sups;\012sub Z by Z.sups;\012";
 name = sups;
 },
 {
@@ -147,6 +148,11 @@ name = ornm;
 {
 code = "  sub leftArrow hyphen' by emdash;\012  sub emdash hyphen' by emdash;\012  sub hyphen' hyphen by emdash;";
 name = calt;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
+name = sinf;
 },
 {
 automatic = 1;
@@ -240662,30 +240668,6 @@ name = pixel;
 transform = "{1, 0, 0, 1, 0, 128}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{56, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{520, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{520, 44}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-place = "{56, 44}";
-type = TTStem;
-options = 4;
-}
-);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 width = 448;
 },
@@ -241451,30 +241433,6 @@ transform = "{1, 0, 0, 1, 256, 128}";
 alignment = -1;
 name = pixel;
 transform = "{1, 0, 0, 1, 320, 128}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{56, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{520, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{520, 44}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-place = "{56, 44}";
-type = TTStem;
-options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -406974,28 +406932,6 @@ isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
-},
-{
-exports = 0;
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-n,
-f,
-g
-);
-}
-);
-interpolationWeight = 60;
-interpolationWidth = 50;
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.25;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.25;
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.25;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.25;
-};
-name = Test;
 }
 );
 kerning = {
@@ -408185,5 +408121,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 34;
+versionMinor = 35;
 }
