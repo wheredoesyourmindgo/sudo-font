@@ -62,8 +62,12 @@ Tag = ital;
 );
 },
 {
-name = "Variation Font Origin";
+name = "Variable Font Origin";
 value = "95FB0C11-C828-4064-8966-34220AA4D426";
+},
+{
+name = "Default Layer Width";
+value = "448";
 }
 );
 date = "2019-01-24 22:13:13 +0000";
