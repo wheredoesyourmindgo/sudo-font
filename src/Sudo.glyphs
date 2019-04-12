@@ -1,7 +1,9 @@
 {
-.appVersion = "1204";
+.appVersion = "1227";
 DisplayStrings = (
-"I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I"
+"I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
+s,
+"/Xi"
 );
 classes = (
 {
@@ -404153,6 +404155,7 @@ interpolationWidth = 0;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -404327,7 +404330,7 @@ instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
 isItalic = 1;
-name = "Regular Italic";
+name = Italic;
 weightClass = Normal;
 },
 {
@@ -409224,5 +409227,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 37;
+versionMinor = 38;
 }
