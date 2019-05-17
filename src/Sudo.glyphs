@@ -2,7 +2,8 @@
 .appVersion = "1238";
 DisplayStrings = (
 "I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
-s
+s,
+"/caroncomb"
 );
 classes = (
 {
@@ -411,6 +412,16 @@ Axis = Italic;
 Location = 0;
 }
 );
+},
+{
+name = "Color Palettes";
+value = (
+(
+"229,229,229,255",
+"179,179,179,255",
+"107,107,107,255"
+)
+);
 }
 );
 descender = -192;
@@ -530,6 +541,16 @@ Location = 200;
 Axis = Italic;
 Location = 0;
 }
+);
+},
+{
+name = "Color Palettes";
+value = (
+(
+"229,229,229,255",
+"179,179,179,255",
+"107,107,107,255"
+)
 );
 }
 );
@@ -657,6 +678,16 @@ Location = 1;
 {
 name = "Link Metrics With First Master";
 value = 1;
+},
+{
+name = "Color Palettes";
+value = (
+(
+"229,229,229,255",
+"179,179,179,255",
+"107,107,107,255"
+)
+);
 }
 );
 descender = -192;
@@ -791,6 +822,16 @@ Axis = Italic;
 Location = 1;
 }
 );
+},
+{
+name = "Color Palettes";
+value = (
+(
+"229,229,229,255",
+"179,179,179,255",
+"107,107,107,255"
+)
+);
 }
 );
 descender = -192;
@@ -910,6 +951,16 @@ Location = 200;
 Axis = Italic;
 Location = 1;
 }
+);
+},
+{
+name = "Color Palettes";
+value = (
+(
+"229,229,229,255",
+"179,179,179,255",
+"107,107,107,255"
+)
 );
 }
 );
@@ -176852,6 +176903,7 @@ width = 448;
 unicode = 005D;
 },
 {
+color = 6;
 glyphname = leftDoubleParen;
 layers = (
 {
@@ -176942,6 +176994,7 @@ width = 448;
 unicode = 2E28;
 },
 {
+color = 6;
 glyphname = rightDoubleParen;
 layers = (
 {
@@ -332799,6 +332852,7 @@ width = 448;
 unicode = 2800;
 },
 {
+color = 6;
 glyphname = "dots1-braille";
 layers = (
 {
@@ -332865,6 +332919,7 @@ width = 448;
 unicode = 2801;
 },
 {
+color = 6;
 glyphname = "dots12-braille";
 layers = (
 {
@@ -332955,6 +333010,7 @@ width = 448;
 unicode = 2803;
 },
 {
+color = 6;
 glyphname = "dots123-braille";
 layers = (
 {
@@ -333069,6 +333125,7 @@ width = 448;
 unicode = 2807;
 },
 {
+color = 6;
 glyphname = "dots1234-braille";
 layers = (
 {
@@ -333207,6 +333264,7 @@ width = 448;
 unicode = 280F;
 },
 {
+color = 6;
 glyphname = "dots12345-braille";
 layers = (
 {
@@ -333369,6 +333427,7 @@ width = 448;
 unicode = 281F;
 },
 {
+color = 6;
 glyphname = "dots123456-braille";
 layers = (
 {
@@ -333555,6 +333614,7 @@ width = 448;
 unicode = 283F;
 },
 {
+color = 6;
 glyphname = "dots12346-braille";
 layers = (
 {
@@ -333717,6 +333777,7 @@ width = 448;
 unicode = 282F;
 },
 {
+color = 6;
 glyphname = "dots1235-braille";
 layers = (
 {
@@ -333855,6 +333916,7 @@ width = 448;
 unicode = 2817;
 },
 {
+color = 6;
 glyphname = "dots12356-braille";
 layers = (
 {
@@ -334017,6 +334079,7 @@ width = 448;
 unicode = 2837;
 },
 {
+color = 6;
 glyphname = "dots1236-braille";
 layers = (
 {
@@ -334155,6 +334218,7 @@ width = 448;
 unicode = 2827;
 },
 {
+color = 6;
 glyphname = "dots124-braille";
 layers = (
 {
@@ -334269,6 +334333,7 @@ width = 448;
 unicode = 280B;
 },
 {
+color = 6;
 glyphname = "dots1245-braille";
 layers = (
 {
@@ -334407,6 +334472,7 @@ width = 448;
 unicode = 281B;
 },
 {
+color = 6;
 glyphname = "dots12456-braille";
 layers = (
 {
@@ -334569,6 +334635,7 @@ width = 448;
 unicode = 283B;
 },
 {
+color = 6;
 glyphname = "dots1246-braille";
 layers = (
 {
@@ -334707,6 +334774,7 @@ width = 448;
 unicode = 282B;
 },
 {
+color = 6;
 glyphname = "dots125-braille";
 layers = (
 {
@@ -334821,6 +334889,7 @@ width = 448;
 unicode = 2813;
 },
 {
+color = 6;
 glyphname = "dots1256-braille";
 layers = (
 {
@@ -334959,6 +335028,7 @@ width = 448;
 unicode = 2833;
 },
 {
+color = 6;
 glyphname = "dots126-braille";
 layers = (
 {
@@ -335073,6 +335143,7 @@ width = 448;
 unicode = 2823;
 },
 {
+color = 6;
 glyphname = "dots13-braille";
 layers = (
 {
@@ -335163,6 +335234,7 @@ width = 448;
 unicode = 2805;
 },
 {
+color = 6;
 glyphname = "dots134-braille";
 layers = (
 {
@@ -335277,6 +335349,7 @@ width = 448;
 unicode = 280D;
 },
 {
+color = 6;
 glyphname = "dots1345-braille";
 layers = (
 {
@@ -335415,6 +335488,7 @@ width = 448;
 unicode = 281D;
 },
 {
+color = 6;
 glyphname = "dots13456-braille";
 layers = (
 {
@@ -335577,6 +335651,7 @@ width = 448;
 unicode = 283D;
 },
 {
+color = 6;
 glyphname = "dots1346-braille";
 layers = (
 {
@@ -335715,6 +335790,7 @@ width = 448;
 unicode = 282D;
 },
 {
+color = 6;
 glyphname = "dots135-braille";
 layers = (
 {
@@ -335829,6 +335905,7 @@ width = 448;
 unicode = 2815;
 },
 {
+color = 6;
 glyphname = "dots1356-braille";
 layers = (
 {
@@ -335967,6 +336044,7 @@ width = 448;
 unicode = 2835;
 },
 {
+color = 6;
 glyphname = "dots136-braille";
 layers = (
 {
@@ -336081,6 +336159,7 @@ width = 448;
 unicode = 2825;
 },
 {
+color = 6;
 glyphname = "dots14-braille";
 layers = (
 {
@@ -336171,6 +336250,7 @@ width = 448;
 unicode = 2809;
 },
 {
+color = 6;
 glyphname = "dots145-braille";
 layers = (
 {
@@ -336285,6 +336365,7 @@ width = 448;
 unicode = 2819;
 },
 {
+color = 6;
 glyphname = "dots1456-braille";
 layers = (
 {
@@ -336423,6 +336504,7 @@ width = 448;
 unicode = 2839;
 },
 {
+color = 6;
 glyphname = "dots146-braille";
 layers = (
 {
@@ -336537,6 +336619,7 @@ width = 448;
 unicode = 2829;
 },
 {
+color = 6;
 glyphname = "dots15-braille";
 layers = (
 {
@@ -336627,6 +336710,7 @@ width = 448;
 unicode = 2811;
 },
 {
+color = 6;
 glyphname = "dots156-braille";
 layers = (
 {
@@ -336741,6 +336825,7 @@ width = 448;
 unicode = 2831;
 },
 {
+color = 6;
 glyphname = "dots16-braille";
 layers = (
 {
@@ -336831,6 +336916,7 @@ width = 448;
 unicode = 2821;
 },
 {
+color = 6;
 glyphname = "dots2-braille";
 layers = (
 {
@@ -336897,6 +336983,7 @@ width = 448;
 unicode = 2802;
 },
 {
+color = 6;
 glyphname = "dots23-braille";
 layers = (
 {
@@ -336987,6 +337074,7 @@ width = 448;
 unicode = 2806;
 },
 {
+color = 6;
 glyphname = "dots234-braille";
 layers = (
 {
@@ -337101,6 +337189,7 @@ width = 448;
 unicode = 280E;
 },
 {
+color = 6;
 glyphname = "dots2345-braille";
 layers = (
 {
@@ -337239,6 +337328,7 @@ width = 448;
 unicode = 281E;
 },
 {
+color = 6;
 glyphname = "dots23456-braille";
 layers = (
 {
@@ -337401,6 +337491,7 @@ width = 448;
 unicode = 283E;
 },
 {
+color = 6;
 glyphname = "dots2346-braille";
 layers = (
 {
@@ -337539,6 +337630,7 @@ width = 448;
 unicode = 282E;
 },
 {
+color = 6;
 glyphname = "dots235-braille";
 layers = (
 {
@@ -337653,6 +337745,7 @@ width = 448;
 unicode = 2816;
 },
 {
+color = 6;
 glyphname = "dots2356-braille";
 layers = (
 {
@@ -337791,6 +337884,7 @@ width = 448;
 unicode = 2836;
 },
 {
+color = 6;
 glyphname = "dots236-braille";
 layers = (
 {
@@ -337905,6 +337999,7 @@ width = 448;
 unicode = 2826;
 },
 {
+color = 6;
 glyphname = "dots24-braille";
 layers = (
 {
@@ -337995,6 +338090,7 @@ width = 448;
 unicode = 280A;
 },
 {
+color = 6;
 glyphname = "dots245-braille";
 layers = (
 {
@@ -338109,6 +338205,7 @@ width = 448;
 unicode = 281A;
 },
 {
+color = 6;
 glyphname = "dots2456-braille";
 layers = (
 {
@@ -338247,6 +338344,7 @@ width = 448;
 unicode = 283A;
 },
 {
+color = 6;
 glyphname = "dots246-braille";
 layers = (
 {
@@ -338361,6 +338459,7 @@ width = 448;
 unicode = 282A;
 },
 {
+color = 6;
 glyphname = "dots25-braille";
 layers = (
 {
@@ -338451,6 +338550,7 @@ width = 448;
 unicode = 2812;
 },
 {
+color = 6;
 glyphname = "dots256-braille";
 layers = (
 {
@@ -338565,6 +338665,7 @@ width = 448;
 unicode = 2832;
 },
 {
+color = 6;
 glyphname = "dots26-braille";
 layers = (
 {
@@ -338655,6 +338756,7 @@ width = 448;
 unicode = 2822;
 },
 {
+color = 6;
 glyphname = "dots3-braille";
 layers = (
 {
@@ -338721,6 +338823,7 @@ width = 448;
 unicode = 2804;
 },
 {
+color = 6;
 glyphname = "dots34-braille";
 layers = (
 {
@@ -338811,6 +338914,7 @@ width = 448;
 unicode = 280C;
 },
 {
+color = 6;
 glyphname = "dots345-braille";
 layers = (
 {
@@ -338925,6 +339029,7 @@ width = 448;
 unicode = 281C;
 },
 {
+color = 6;
 glyphname = "dots3456-braille";
 layers = (
 {
@@ -339063,6 +339168,7 @@ width = 448;
 unicode = 283C;
 },
 {
+color = 6;
 glyphname = "dots346-braille";
 layers = (
 {
@@ -339177,6 +339283,7 @@ width = 448;
 unicode = 282C;
 },
 {
+color = 6;
 glyphname = "dots35-braille";
 layers = (
 {
@@ -339267,6 +339374,7 @@ width = 448;
 unicode = 2814;
 },
 {
+color = 6;
 glyphname = "dots356-braille";
 layers = (
 {
@@ -339381,6 +339489,7 @@ width = 448;
 unicode = 2834;
 },
 {
+color = 6;
 glyphname = "dots36-braille";
 layers = (
 {
@@ -339471,6 +339580,7 @@ width = 448;
 unicode = 2824;
 },
 {
+color = 6;
 glyphname = "dots4-braille";
 layers = (
 {
@@ -339537,6 +339647,7 @@ width = 448;
 unicode = 2808;
 },
 {
+color = 6;
 glyphname = "dots45-braille";
 layers = (
 {
@@ -339627,6 +339738,7 @@ width = 448;
 unicode = 2818;
 },
 {
+color = 6;
 glyphname = "dots456-braille";
 layers = (
 {
@@ -339741,6 +339853,7 @@ width = 448;
 unicode = 2838;
 },
 {
+color = 6;
 glyphname = "dots46-braille";
 layers = (
 {
@@ -339831,6 +339944,7 @@ width = 448;
 unicode = 2828;
 },
 {
+color = 6;
 glyphname = "dots5-braille";
 layers = (
 {
@@ -339897,6 +340011,7 @@ width = 448;
 unicode = 2810;
 },
 {
+color = 6;
 glyphname = "dots56-braille";
 layers = (
 {
@@ -339987,6 +340102,7 @@ width = 448;
 unicode = 2830;
 },
 {
+color = 6;
 glyphname = "dots6-braille";
 layers = (
 {
@@ -340179,27 +340295,27 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 11}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 11}";
-target = "{0, 11}";
-type = Align;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 5}";
-target = "{0, 11}";
+origin = "{1, 11}";
+target = "{1, 5}";
 type = TTStem;
 stem = -1;
 },
 {
 horizontal = 1;
-origin = "{0, 5}";
+origin = "{0, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{1, 5}";
 target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 11}";
 type = Align;
 options = 4;
 }
@@ -347373,30 +347489,6 @@ name = gravecomb;
 transform = "{1, 0, 0, 1, 0, 192}";
 }
 );
-hints = (
-{
-horizontal = 1;
-place = "{696, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{696, 165}";
-type = TTStem;
-stem = -1;
-},
-{
-horizontal = 1;
-place = "{704, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{704, 128}";
-type = TTStem;
-stem = -1;
-}
-);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 width = 448;
 },
@@ -347523,19 +347615,6 @@ components = (
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 0, 192}";
-}
-);
-hints = (
-{
-horizontal = 1;
-place = "{704, -2147483648}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{704, 128}";
-type = TTStem;
-stem = -1;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
