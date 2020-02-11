@@ -1,5 +1,5 @@
 {
-.appVersion = "1284";
+.appVersion = "1290";
 classes = (
 {
 automatic = 1;
@@ -27,7 +27,7 @@ value = 64;
 },
 {
 name = vendorID;
-value = jens;
+value = JENS;
 },
 {
 name = postscriptIsFixedPitch;
