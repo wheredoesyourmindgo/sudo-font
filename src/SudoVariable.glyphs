@@ -1,5 +1,5 @@
 {
-.appVersion = "1290";
+.appVersion = "1286";
 classes = (
 {
 automatic = 1;
@@ -65,9 +65,24 @@ value = "95FB0C11-C828-4064-8966-34220AA4D426";
 {
 name = "Variable Font File Name";
 value = SudoVariable;
+},
+{
+name = "Axis Mappings";
+value = {
+ital = {
+-1 = -1;
+0 = 0;
+100 = 1;
+};
+wght = {
+200 = 48;
+400 = 72;
+700 = 112;
+};
+};
 }
 );
-date = "2020-01-13 16:21:52 +0000";
+date = "2020-02-21 14:12:05 +0000";
 designer = "Jens Kutilek";
 designerURL = "http://www.kutilek.de/";
 familyName = "Sudo Variable";
@@ -152479,7 +152494,7 @@ nodes = (
 "280 -8 OFFCURVE",
 "361 55 OFFCURVE",
 "381 156 CURVE SMOOTH",
-"405 272 OFFCURVE",
+"404 272 OFFCURVE",
 "346 328 OFFCURVE",
 "251 328 CURVE SMOOTH",
 "213 328 OFFCURVE",
@@ -152490,7 +152505,7 @@ nodes = (
 "425 519 CURVE",
 "425 583 LINE",
 "165 561 OFFCURVE",
-"81 378 OFFCURVE",
+"80 378 OFFCURVE",
 "54 246 CURVE SMOOTH",
 "20 76 OFFCURVE",
 "71 -8 OFFCURVE",
@@ -152508,7 +152523,7 @@ nodes = (
 "201 266 OFFCURVE",
 "240 266 CURVE SMOOTH",
 "315 266 OFFCURVE",
-"320 220 OFFCURVE",
+"321 220 OFFCURVE",
 "310 167 CURVE SMOOTH",
 "300 117 OFFCURVE",
 "268 56 OFFCURVE",
@@ -400205,6 +400220,19 @@ value = (
 asterisk,
 gearWithoutHub
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "0";
+},
+{
+Axis = Weight;
+Location = "200";
+}
+);
 }
 );
 interpolationWeight = 0;
@@ -400229,6 +400257,19 @@ name = "Decompose Glyphs";
 value = (
 asterisk,
 gearWithoutHub
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = Weight;
+Location = 300;
+}
 );
 }
 );
@@ -400256,6 +400297,19 @@ value = (
 asterisk,
 gearWithoutHub
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "0";
+},
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 interpolationWeight = 0;
@@ -400280,6 +400334,19 @@ name = "Decompose Glyphs";
 value = (
 asterisk,
 gearWithoutHub
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "0";
+},
+{
+Axis = Weight;
+Location = 600;
+}
 );
 }
 );
@@ -400306,6 +400373,19 @@ name = "Decompose Glyphs";
 value = (
 asterisk,
 gearWithoutHub
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "0";
+},
+{
+Axis = Weight;
+Location = 700;
+}
 );
 }
 );
@@ -400365,6 +400445,19 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "1";
+},
+{
+Axis = Weight;
+Location = "200";
+}
+);
 }
 );
 interpolationWidth = 48;
@@ -400423,6 +400516,19 @@ one,
 nine,
 seven,
 six
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "1";
+},
+{
+Axis = Weight;
+Location = 300;
+}
 );
 }
 );
@@ -400484,6 +400590,19 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = "1";
+},
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 interpolationWidth = 72;
@@ -400541,6 +400660,19 @@ one,
 nine,
 seven,
 six
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Weight;
+Location = "600";
+}
 );
 }
 );
@@ -400601,6 +400733,19 @@ one,
 nine,
 seven,
 six
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = Weight;
+Location = 700;
+}
 );
 }
 );
@@ -405456,5 +405601,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 41;
+versionMinor = 42;
 }
