@@ -1,0 +1,10 @@
+ ttx -f -d output/ttf output/ttx/Sudo-Regular.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-Italic.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-Bold.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-BoldItalic.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-Light.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-LightItalic.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-Medium.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-MediumItalic.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-Thin.ttx
+ ttx -f -d output/ttf output/ttx/Sudo-ThinItalic.ttx
