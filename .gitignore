@@ -6,5 +6,5 @@
 *(Autosaved).glyphs
 *.vfbak
 resources/
-sudo/output
+sudo/patch
 dist/sudo.zip
