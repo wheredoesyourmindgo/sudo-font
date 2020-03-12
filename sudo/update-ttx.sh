@@ -1,0 +1,1 @@
+gsed -i 's/unitsPerEm value="1024"/unitsPerEm value="784"/g' output/ttx/*
