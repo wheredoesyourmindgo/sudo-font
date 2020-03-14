@@ -7,4 +7,5 @@
 *.vfbak
 resources/
 sudo/patch/*
+!sudo/patch/.gitkeep 
 dist/sudo.zip
