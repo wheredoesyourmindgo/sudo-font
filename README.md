@@ -43,6 +43,6 @@ There is a custom shell script included `patch-fonts.sh` that will rebuild large
 
 On macOS, add FontTools and GNU Sed prior to running shell script.
 
-```
+```sh
 brew install fonttools gnu-sed
 ```
