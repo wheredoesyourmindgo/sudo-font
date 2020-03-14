@@ -10,3 +10,4 @@ sudo/patch/*
 !sudo/patch/.gitkeep 
 dist/sudo.zip
 !dist/.gitkeep 
+.vscode/
