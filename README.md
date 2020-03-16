@@ -41,7 +41,7 @@ Sudo is available in the [Arch User Repository](https://wiki.archlinux.org/index
 
 There is a custom shell script included `patch-fonts.sh` that will rebuild larger versions of this font. The patched fonts will be written to `dist/sudo.zip`. Note, the Sudo Variable font is omitted from this script.
 
-On macOS, add FontTools and GNU Sed prior to running shell script. For patching fonts with NerdFont's font-patcher install fontforge and place font-patcher.py in PATH.
+On macOS, add FontTools and GNU Sed prior to running shell script. Optionally, for patching fonts with Nerd Font's `font-patcher` install fontforge and place font-patcher python script in PATH. See `patch-fonts.sh` for example.
 
 ```sh
 brew install fonttools gnu-sed
