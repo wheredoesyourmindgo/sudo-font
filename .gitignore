@@ -8,6 +8,6 @@
 resources/
 sudo/patch/*
 !sudo/patch/.gitkeep 
-dist/sudo.zip
+dist/sudo
 !dist/.gitkeep 
 .vscode/
