@@ -1,11 +1,11 @@
 {
-.appVersion = "1300";
+.appVersion = "1320";
 DisplayStrings = (
 "I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
 "6",
 "/brevecomb/circumflexcomb/caroncomb/acutecomb á/ringcomb åâ/abreve/dieresiscomb äá",
-s,
-"AÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã"
+Oos,
+"ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã"
 );
 classes = (
 {
@@ -5277,8 +5277,8 @@ options = 4;
 },
 {
 horizontal = 1;
-origin = "{0, 7}";
-target = "{0, 10}";
+origin = "{0, 10}";
+target = "{0, 7}";
 type = TTStem;
 options = 4;
 },
@@ -11905,26 +11905,6 @@ hints = (
 {
 horizontal = 1;
 origin = "{0, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 2}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
 target = "{0, 1}";
 other1 = "{0, 2, 2, 5}";
 type = Interpolate;
@@ -11936,6 +11916,20 @@ origin = "{1, 2}";
 target = "{1, 4}";
 other1 = "{1, 0, 2, 2}";
 type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{1, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 2}";
+type = Align;
 options = 4;
 }
 );
@@ -12591,16 +12585,6 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{1, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 8}";
 type = Anchor;
 stem = 8;
@@ -12630,8 +12614,10 @@ options = 4;
 },
 {
 horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
+origin = "{1, 4}";
+target = "{0, 1}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -12795,52 +12781,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-origin = "{1, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 8}";
-type = Anchor;
-stem = 8;
-},
-{
-horizontal = 1;
-origin = "{1, 1}";
-target = "{2, 1}";
-type = Align;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{1, 4}";
-target = "{1, 1}";
-other1 = "{2, 6}";
-type = Interpolate;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{1, 4}";
-target = "{1, 1}";
-other1 = "{2, 3}";
-type = Interpolate;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -15697,11 +15637,6 @@ options = 4;
 {
 horizontal = 1;
 origin = "{0, 2}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 2}";
 target = "{1, 7}";
 type = TTStem;
 options = 4;
@@ -15723,6 +15658,11 @@ origin = "{0, 0}";
 target = "{1, 8}";
 type = Align;
 options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+type = Anchor;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -16083,11 +16023,6 @@ type = Anchor;
 },
 {
 horizontal = 1;
-origin = "{0, 6}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 12}";
 type = Anchor;
 },
@@ -16128,6 +16063,11 @@ origin = "{1, 0}";
 target = "{0, 0}";
 type = Align;
 options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+type = Anchor;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -22104,26 +22044,6 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{3, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{2, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{1, 4}";
 type = Anchor;
 },
@@ -22139,6 +22059,20 @@ options = 4;
 horizontal = 1;
 origin = "{0, 3, 1, 7}";
 target = "{2, 7, 3, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{2, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{3, 7}";
 type = Align;
 options = 4;
 }
@@ -30819,26 +30753,6 @@ position = "{280, 640}";
 hints = (
 {
 horizontal = 1;
-origin = "{0, 17}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 12}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 10}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 4}";
 type = Anchor;
 },
@@ -30862,6 +30776,20 @@ options = 4;
 horizontal = 1;
 origin = "{0, 2}";
 target = "{0, 7}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 9}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 17}";
+target = "{0, 12}";
 type = Align;
 options = 4;
 }
@@ -31124,26 +31052,6 @@ width = 448;
 hints = (
 {
 horizontal = 1;
-origin = "{0, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{3, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{2, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{1, 4}";
 type = Anchor;
 },
@@ -31159,6 +31067,20 @@ options = 4;
 horizontal = 1;
 origin = "{0, 3, 1, 7}";
 target = "{2, 7, 3, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{2, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{3, 7}";
 type = Align;
 options = 4;
 }
@@ -31750,31 +31672,6 @@ hints = (
 {
 horizontal = 1;
 origin = "{2, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{2, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{3, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{2, 4}";
 target = "{2, 1}";
 other1 = "{0, 0, 2, 3}";
 type = Interpolate;
@@ -31793,6 +31690,27 @@ origin = "{2, 4}";
 target = "{2, 1}";
 other1 = "{0, 3, 3, 2}";
 type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 1}";
+target = "{0, 1}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 1}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 4}";
+target = "{3, 0}";
+type = Align;
 options = 4;
 }
 );
@@ -39905,16 +39823,18 @@ type = Align;
 options = 4;
 },
 {
-origin = "{0, 22}";
+origin = "{0, 23}";
+target = "{0, 22}";
+type = TTStem;
+stem = -1;
+},
+{
+origin = "{0, 13}";
 type = Anchor;
 },
 {
-origin = "{0, 3}";
-type = Anchor;
-},
-{
-origin = "{0, 3}";
-target = "{0, 13}";
+origin = "{0, 13}";
+target = "{0, 3}";
 type = Align;
 options = 4;
 }
@@ -45670,6 +45590,12 @@ nodes = (
 };
 hints = (
 {
+origin = "{0, 2}";
+target = "{0, 15}";
+type = TTStem;
+options = 4;
+},
+{
 horizontal = 1;
 origin = "{0, 5}";
 target = "{0, 12}";
@@ -45680,12 +45606,6 @@ options = 4;
 horizontal = 1;
 origin = "{0, 16}";
 target = "{0, 1}";
-type = TTStem;
-options = 4;
-},
-{
-origin = "{0, 2}";
-target = "{0, 15}";
 type = TTStem;
 options = 4;
 }
@@ -45822,22 +45742,6 @@ nodes = (
 }
 );
 };
-hints = (
-{
-horizontal = 1;
-origin = "{0, 5}";
-target = "{0, 12}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 16}";
-type = TTStem;
-options = 4;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -48300,6 +48204,20 @@ options = 4;
 {
 origin = "{0, 1}";
 target = "{0, 3, 1, 14}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 0}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{1, 7}";
 type = Align;
 options = 4;
 }
@@ -56061,6 +55979,16 @@ origin = "{0, 19}";
 target = "{0, 16}";
 type = Align;
 options = 4;
+},
+{
+origin = "{0, 19}";
+target = "{0, 18}";
+type = TTStem;
+stem = -1;
+},
+{
+origin = "{0, 9}";
+type = Anchor;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -56445,8 +56373,10 @@ type = Align;
 options = 4;
 },
 {
-origin = "{0, 2}";
-type = Anchor;
+origin = "{0, 3}";
+target = "{0, 2}";
+type = TTStem;
+stem = -1;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -58961,16 +58891,6 @@ type = Anchor;
 },
 {
 horizontal = 1;
-origin = "{0, 3}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 12}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 7}";
 target = "{0, 3}";
 other1 = "{0, 3, 0, 15}";
@@ -58987,6 +58907,13 @@ options = 4;
 origin = "{0, 11}";
 target = "{0, 12}";
 type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 12}";
+type = Align;
 options = 4;
 }
 );
@@ -59087,51 +59014,6 @@ position = "{224, 0}";
 {
 name = top;
 position = "{224, 448}";
-}
-);
-hints = (
-{
-horizontal = 1;
-origin = "{0, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 3}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 12}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 7}";
-target = "{0, 3}";
-other1 = "{0, 3, 0, 15}";
-type = Interpolate;
-options = 4;
-},
-{
-origin = "{0, 4}";
-type = Anchor;
-},
-{
-origin = "{0, 12}";
-type = Anchor;
-},
-{
-origin = "{0, 4}";
-target = "{0, 3}";
-type = TTStem;
-options = 4;
-},
-{
-origin = "{0, 12}";
-target = "{0, 11}";
-type = TTStem;
-options = 4;
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -60696,26 +60578,6 @@ hints = (
 {
 horizontal = 1;
 origin = "{0, 12}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 3}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 4}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 11}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 12}";
 target = "{1, 11}";
 other1 = "{0, 7, 1, 11}";
 type = Interpolate;
@@ -60751,6 +60613,20 @@ options = 4;
 origin = "{1, 4}";
 target = "{1, 3}";
 type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{0, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{1, 3}";
+type = Align;
 options = 4;
 }
 );
@@ -61339,16 +61215,6 @@ options = 4;
 },
 {
 horizontal = 1;
-origin = "{1, 7}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 7, 1, 3}";
 type = Anchor;
 },
@@ -61405,6 +61271,13 @@ origin = "{0, 1}";
 target = "{0, 7}";
 other1 = "{0, 7, 1, 3}";
 type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 7}";
+target = "{0, 1}";
+type = Align;
 options = 4;
 }
 );
@@ -63459,13 +63332,6 @@ origin = "{0, 11, 2, 3}";
 target = "{0, 11, 2, 1}";
 type = TTStem;
 options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 11}";
-target = "{3, 26}";
-other1 = "{3, 7}";
-type = Interpolate;
 },
 {
 horizontal = 1;
@@ -68174,6 +68040,40 @@ origin = "{0, 1, 1, 3}";
 target = "{0, 5, 1, 17}";
 type = Align;
 options = 4;
+},
+{
+origin = "{1, 10}";
+type = Anchor;
+},
+{
+origin = "{1, 10}";
+target = "{0, 2}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 5, 1, 17}";
+target = "{0, 1, 1, 3}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 1, 1, 3}";
+target = "{0, 3, 1, 3}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 5, 1, 17}";
+target = "{0, 3, 1, 17}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 5, 1, 17}";
+target = "{0, 4}";
+type = TTStem;
+stem = -1;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -68784,10 +68684,6 @@ type = Anchor;
 },
 {
 origin = "{0, 4}";
-type = Anchor;
-},
-{
-origin = "{0, 4}";
 target = "{0, 1}";
 type = TTStem;
 options = 4;
@@ -69195,6 +69091,16 @@ origin = "{0, 0}";
 target = "{0, 3}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{0, 11}";
+type = Anchor;
+},
+{
+origin = "{0, 3}";
+target = "{0, 2}";
+type = TTStem;
+stem = -1;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -69409,6 +69315,16 @@ options = 4;
 {
 horizontal = 1;
 origin = "{0, 15}";
+type = Anchor;
+},
+{
+origin = "{0, 1}";
+target = "{0, 14}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 7}";
 type = Anchor;
 }
 );
@@ -69676,21 +69592,6 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 0}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{1, 15}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{2, 15}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 3}";
 type = Anchor;
 },
@@ -69712,6 +69613,61 @@ options = 4;
 horizontal = 1;
 origin = "{1, 11}";
 target = "{2, 11}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 5}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{2, 0}";
+type = Anchor;
+},
+{
+origin = "{2, 0}";
+target = "{2, 15}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 5}";
+target = "{2, 0}";
+other1 = "{1, 15}";
+type = Interpolate;
+options = 4;
+},
+{
+origin = "{1, 15}";
+target = "{1, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 2, 1, 7}";
+type = Align;
+options = 4;
+},
+{
+origin = "{1, 0}";
+target = "{1, 4, 2, 7}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 15}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 15}";
+target = "{2, 15}";
 type = Align;
 options = 4;
 }
@@ -70248,6 +70204,22 @@ origin = "{1, 3}";
 target = "{1, 13}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 1}";
+target = "{0, 3, 1, 9}";
+type = Align;
+options = 4;
+},
+{
+origin = "{1, 0}";
+type = Anchor;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -70664,6 +70636,30 @@ origin = "{0, 15}";
 target = "{0, 24}";
 other1 = "{0, 5, 0}";
 type = Interpolate;
+options = 4;
+},
+{
+origin = "{0, 18}";
+target = "{0, 5}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 2}";
+target = "{0, 21}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 18}";
+target = "{0, 28}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 2}";
+target = "{0, 12}";
+type = Align;
 options = 4;
 }
 );
@@ -71910,17 +71906,9 @@ options = 4;
 },
 {
 origin = "{0, 5}";
-type = Anchor;
-},
-{
-origin = "{0, 5}";
 target = "{0, 4}";
 type = TTStem;
 options = 4;
-},
-{
-origin = "{3, 4}";
-type = Anchor;
 },
 {
 origin = "{3, 4}";
@@ -72332,6 +72320,36 @@ options = 4;
 horizontal = 1;
 origin = "{1, 5}";
 target = "{2, 5}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{2, 1}";
+target = "{2, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{1, 0}";
+target = "{1, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 1}";
+target = "{0, 3, 1, 8}";
+type = Align;
+options = 4;
+},
+{
+origin = "{1, 1}";
+target = "{1, 5, 2, 8}";
 type = Align;
 options = 4;
 }
@@ -74497,6 +74515,30 @@ origin = "{0, 2}";
 target = "{0, 23}";
 type = Align;
 options = 4;
+},
+{
+origin = "{0, 23}";
+target = "{0, 2}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 23}";
+target = "{0, 20}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 2}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+origin = "{2, 3}";
+target = "{2, 2}";
+type = TTStem;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -75021,6 +75063,30 @@ origin = "{0, 16}";
 target = "{0, 9}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{0, 23}";
+target = "{0, 2}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{1, 2}";
+target = "{1, 9}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 2}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 23}";
+target = "{0, 20}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -75479,6 +75545,24 @@ origin = "{0, 0, 1, 19}";
 target = "{0, 0, 1, 3}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{1, 3}";
+target = "{1, 16}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 17}";
+target = "{0, 4}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{1, 3}";
+target = "{0, 10}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -75918,6 +76002,18 @@ origin = "{0, 9}";
 target = "{1, 3}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{0, 6}";
+target = "{1, 6}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{1, 0}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -76261,6 +76357,24 @@ horizontal = 1;
 origin = "{1, 5}";
 target = "{1, 12}";
 type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{1, 0}";
+target = "{1, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 1}";
+target = "{0, 3, 1, 8}";
+type = Align;
 options = 4;
 }
 );
@@ -78417,6 +78531,22 @@ origin = "{0, 10}";
 target = "{0, 3}";
 type = TTStem;
 options = 4;
+},
+{
+origin = "{0, 13}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 7}";
+type = Anchor;
+},
+{
+origin = "{0, 7}";
+target = "{0, 19}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -80385,6 +80515,49 @@ nodes = (
 }
 );
 };
+hints = (
+{
+origin = "{0, 9}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 7}";
+type = Anchor;
+},
+{
+origin = "{0, 7}";
+target = "{0, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{0, 5}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 1}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 4}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -81328,26 +81501,6 @@ hints = (
 {
 horizontal = 1;
 origin = "{0, 2}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 11}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 8}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 5}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 2}";
 target = "{0, 11}";
 other1 = "{0, 3}";
 type = Interpolate;
@@ -81357,6 +81510,44 @@ horizontal = 1;
 origin = "{0, 3}";
 target = "{0, 10}";
 type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 8}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 1}";
+target = "{0, 2}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 5}";
+target = "{0, 6}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 2}";
+target = "{0, 10}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 5}";
+target = "{0, 9}";
+type = Align;
 options = 4;
 }
 );
@@ -81573,6 +81764,36 @@ options = 4;
 horizontal = 1;
 origin = "{0, 7}";
 target = "{0, 0}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 7}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 7}";
+target = "{0, 9}";
+type = TTStem;
+stem = -1;
+},
+{
+origin = "{0, 0}";
+target = "{0, 10}";
+type = TTStem;
+stem = -1;
+},
+{
+origin = "{0, 9}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 10}";
+target = "{0, 2}";
 type = Align;
 options = 4;
 }
@@ -83210,6 +83431,30 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+type = Anchor;
+},
+{
+origin = "{0, 3}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 4}";
+type = Anchor;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -88815,6 +89060,30 @@ target = "{0, 16}";
 other1 = "{0, 3}";
 type = Interpolate;
 options = 4;
+},
+{
+origin = "{0, 19}";
+target = "{0, 6}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 25}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 13}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 19}";
+target = "{0, 32}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -89251,6 +89520,24 @@ options = 4;
 horizontal = 1;
 origin = "{0, 3}";
 type = Anchor;
+},
+{
+origin = "{0, 3}";
+target = "{0, 4}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 3}";
+target = "{0, 1}";
+type = TTStem;
+stem = -1;
+},
+{
+origin = "{0, 4}";
+target = "{0, 6}";
+type = TTStem;
+stem = -1;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -90241,16 +90528,6 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 12}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 5}";
-type = Anchor;
-},
-{
-horizontal = 1;
 origin = "{0, 0}";
 type = Anchor;
 },
@@ -90260,6 +90537,25 @@ origin = "{0, 12}";
 target = "{0, 0}";
 other1 = "{0, 8, 0, 12}";
 type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 12}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 13}";
+target = "{0, 12}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 4}";
+target = "{0, 5}";
+type = TTStem;
 options = 4;
 }
 );
@@ -145108,6 +145404,37 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{1, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 0}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 0}";
+target = "{0, 3}";
+other1 = "{2, 0}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{2, 0}";
+target = "{2, 3}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -145206,37 +145533,6 @@ nodes = (
 width = 448;
 },
 {
-hints = (
-{
-horizontal = 1;
-origin = "{1, 0}";
-target = "{1, 3}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{0, 3}";
-target = "{0, 0}";
-type = TTStem;
-options = 4;
-},
-{
-horizontal = 1;
-origin = "{1, 0}";
-target = "{0, 3}";
-other1 = "{2, 0}";
-type = Interpolate;
-options = 8;
-},
-{
-horizontal = 1;
-origin = "{2, 0}";
-target = "{2, 3}";
-type = TTStem;
-options = 4;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -185075,15 +185371,6 @@ nodes = (
 width = 448;
 },
 {
-hints = (
-{
-horizontal = 1;
-origin = "{0, 3}";
-target = "{0, 9}";
-type = TTStem;
-stem = -1;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -353991,20 +354278,6 @@ name = top;
 position = "{224, 640}";
 }
 );
-hints = (
-{
-horizontal = 1;
-origin = "{0, 3}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 3}";
-target = "{0, 2}";
-type = TTStem;
-options = 4;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -356650,18 +356923,6 @@ nodes = (
 width = 448;
 },
 {
-hints = (
-{
-horizontal = 1;
-place = "{640, 2000}";
-type = Anchor;
-},
-{
-horizontal = 1;
-place = "{384, 2000}";
-type = Anchor;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
@@ -356797,18 +357058,6 @@ nodes = (
 width = 448;
 },
 {
-hints = (
-{
-horizontal = 1;
-origin = "{0, 1}";
-type = Anchor;
-},
-{
-horizontal = 1;
-origin = "{0, 3}";
-type = Anchor;
-}
-);
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 paths = (
 {
