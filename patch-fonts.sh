@@ -36,7 +36,7 @@ if command -v font-patcher 1>/dev/null 2>&1; then
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-BoldItalic.ttf
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-Light.ttf
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-LightItalic.ttf
-  eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-Regular.tteval f
+  eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-Regular.ttf
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-Italic.ttf
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-Thin.ttf
   eval font-patcher $FONT_PATCH_OPT -out $OUT_FONT_DIR $OUT_FONT_DIR/Sudo-ThinItalic.ttf
