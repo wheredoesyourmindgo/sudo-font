@@ -162,15 +162,51 @@ def unique():
     legible_metrics()
     font("Sudo Regular")
     text_path(["grave", "agrave", "quotesingle", "quotedblright", "asciicircum", "ocircumflex", "greater", "guilsinglright"], (text_x, 0), "../sudo/Sudo-Regular.ttf")
+    
+def github():
+    line_height = 900
+    newPage(1280, 640)
+    
+    # Move up
+    translate(0, height())
+    s = 0.22
+    text_x = 448 + 224
+    scale(s)
+    #fontSize(620)
+    
+    # Orange box
+    save()
+    highlight_color()
+    rect(text_x + 1 * 448, 0, 448, -height()/s)
+    restore()
+    
+    # The text lines
+    translate(0, -line_height * 0.85)
+    mono_metrics()
+    font("Sudo Thin")
+    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Thin.ttf")
+    
+    translate(0, -line_height)
+    mono_metrics()
+    font("Sudo Regular")
+    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Regular.ttf")
+    
+    translate(0, -line_height)
+    mono_metrics()
+    font("Sudo Bold")
+    text_path("monospaced", (text_x, 0), "../sudo/Sudo-Bold.ttf")
 
 monospaced()
-saveImage("~/Sites/kuti/sudo-font/sudo-monospaced.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-monospaced.svg")
 
 legible()
-saveImage("~/Sites/kuti/sudo-font/sudo-legible.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-legible.svg")
 
 efficient()
-saveImage("~/Sites/kuti/sudo-font/sudo-space-saving.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-space-saving.svg")
 
 unique()
-saveImage("~/Sites/kuti/sudo-font/sudo-quotes.svg")
+saveImage("~/Sites/kuti/src/sudo-font/sudo-quotes.svg")
+
+github()
+saveImage("../images/sudo.png")
