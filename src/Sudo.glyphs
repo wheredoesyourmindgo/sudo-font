@@ -1,11 +1,12 @@
 {
-.appVersion = "1320";
+.appVersion = "1340";
 DisplayStrings = (
 "I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
 "6",
 "/brevecomb/circumflexcomb/caroncomb/acutecomb á/ringcomb åâ/abreve/dieresiscomb äá",
 Oos,
-"ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã"
+"ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã",
+S
 );
 classes = (
 {
@@ -18006,7 +18007,7 @@ nodes = (
 "378 648 OFFCURVE",
 "335 648 CURVE SMOOTH",
 "213 648 OFFCURVE",
-"136 575 OFFCURVE",
+"137 575 OFFCURVE",
 "117 477 CURVE SMOOTH",
 "69 239 OFFCURVE",
 "351 311 OFFCURVE",
@@ -18027,7 +18028,7 @@ nodes = (
 "408 346 OFFCURVE",
 "126 272 OFFCURVE",
 "165 471 CURVE SMOOTH",
-"180 543 OFFCURVE",
+"179 543 OFFCURVE",
 "229 604 OFFCURVE",
 "332 604 CURVE SMOOTH",
 "371 604 OFFCURVE",
