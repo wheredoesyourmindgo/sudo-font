@@ -305,6 +305,18 @@ name = "Alignment Zones";
 value = (
 "{576, 16}"
 );
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
 }
 );
 descender = -192;
@@ -439,6 +451,18 @@ Location = 700;
 Axis = Italic;
 Location = 0;
 }
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
 );
 },
 {
@@ -622,6 +646,18 @@ name = "Alignment Zones";
 value = (
 "{576, 16}"
 );
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
 }
 );
 descender = -192;
@@ -750,6 +786,18 @@ Location = 1;
 {
 name = "Link Metrics With First Master";
 value = 1;
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
 },
 {
 name = "Alignment Zones";
@@ -949,6 +997,18 @@ name = "Alignment Zones";
 value = (
 "{576, 16}"
 );
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
 }
 );
 descender = -192;
@@ -1075,6 +1135,18 @@ Location = 200;
 Axis = Italic;
 Location = 1;
 }
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
+);
+},
+{
+name = "Alignment Zones";
+value = (
+"{576, 16}"
 );
 },
 {
