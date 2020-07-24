@@ -82,7 +82,7 @@ Tag = wght;
 );
 }
 );
-date = "2020-06-22 09:04:05 +0000";
+date = "2020-07-24 22:51:50 +0000";
 designer = "Jens Kutilek";
 designerURL = "http://www.kutilek.de/";
 familyName = "Sudo Variable";
@@ -418651,5 +418651,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 43;
+versionMinor = 50;
 }

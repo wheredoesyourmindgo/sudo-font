@@ -81,7 +81,7 @@ Tag = ital;
 );
 }
 );
-date = "2020-02-21 14:12:20 +0000";
+date = "2020-07-24 22:49:51 +0000";
 designer = "Jens Kutilek";
 designerURL = "http://www.kutilek.de/";
 familyName = Sudo;
@@ -846,6 +846,7 @@ horizontalStems = (
 64
 );
 id = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+italicAngle = 11.31;
 userData = {
 GSOffsetHorizontal = 36;
 GSOffsetMakeStroke = 1;
@@ -1017,6 +1018,7 @@ horizontalStems = (
 80
 );
 id = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+italicAngle = 11.31;
 verticalStems = (
 112,
 80
@@ -1185,6 +1187,7 @@ horizontalStems = (
 );
 iconName = Light;
 id = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+italicAngle = 11.31;
 userData = {
 GSOffsetHorizontal = 22;
 GSOffsetMakeStroke = 1;
@@ -172536,7 +172539,7 @@ width = 448;
 components = (
 {
 name = zerosuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172546,7 +172549,7 @@ width = 448;
 components = (
 {
 name = zerosuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172556,7 +172559,7 @@ width = 448;
 components = (
 {
 name = zerosuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -172619,7 +172622,7 @@ width = 448;
 components = (
 {
 name = onesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172629,7 +172632,7 @@ width = 448;
 components = (
 {
 name = onesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172639,7 +172642,7 @@ width = 448;
 components = (
 {
 name = onesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -172702,7 +172705,7 @@ width = 448;
 components = (
 {
 name = twosuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172712,7 +172715,7 @@ width = 448;
 components = (
 {
 name = twosuperior;
-transform = "{1, 0, 0, 1, 0, -449}";
+transform = "{1, 0, 0, 1, -90, -449}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172722,7 +172725,7 @@ width = 448;
 components = (
 {
 name = twosuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -172785,7 +172788,7 @@ width = 448;
 components = (
 {
 name = threesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172795,7 +172798,7 @@ width = 448;
 components = (
 {
 name = threesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172805,7 +172808,7 @@ width = 448;
 components = (
 {
 name = threesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -172868,7 +172871,7 @@ width = 448;
 components = (
 {
 name = foursuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172878,7 +172881,7 @@ width = 448;
 components = (
 {
 name = foursuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172888,7 +172891,7 @@ width = 448;
 components = (
 {
 name = foursuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -172951,7 +172954,7 @@ width = 448;
 components = (
 {
 name = fivesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -172961,7 +172964,7 @@ width = 448;
 components = (
 {
 name = fivesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -172971,7 +172974,7 @@ width = 448;
 components = (
 {
 name = fivesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -173034,7 +173037,7 @@ width = 448;
 components = (
 {
 name = sixsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -173044,7 +173047,7 @@ width = 448;
 components = (
 {
 name = sixsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -173054,7 +173057,7 @@ width = 448;
 components = (
 {
 name = sixsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -173117,7 +173120,7 @@ width = 448;
 components = (
 {
 name = sevensuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -173127,7 +173130,7 @@ width = 448;
 components = (
 {
 name = sevensuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -173137,7 +173140,7 @@ width = 448;
 components = (
 {
 name = sevensuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -173200,7 +173203,7 @@ width = 448;
 components = (
 {
 name = eightsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -173210,7 +173213,7 @@ width = 448;
 components = (
 {
 name = eightsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -173220,7 +173223,7 @@ width = 448;
 components = (
 {
 name = eightsuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -173283,7 +173286,7 @@ width = 448;
 components = (
 {
 name = ninesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -173293,7 +173296,7 @@ width = 448;
 components = (
 {
 name = ninesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -173303,7 +173306,7 @@ width = 448;
 components = (
 {
 name = ninesuperior;
-transform = "{1, 0, 0, 1, 0, -448}";
+transform = "{1, 0, 0, 1, -90, -448}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -430114,5 +430117,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 42;
+versionMinor = 50;
 }
