@@ -424007,9 +424007,38 @@ width = 448;
 );
 },
 {
+color = 4;
 glyphname = emoji.eyes;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 11}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{1, 5}";
+type = TTStem;
+stem = -1;
+},
+{
+horizontal = 1;
+origin = "{1, 5}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -424252,9 +424281,66 @@ width = 448;
 );
 },
 {
+color = 4;
 glyphname = emoji.eyes.smiling;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{1, 7}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 7}";
+target = "{1, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 6}";
+type = TTStem;
+stem = -1;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 6}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{1, 1}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 1}";
+target = "{0, 1}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -424449,9 +424535,38 @@ width = 448;
 );
 },
 {
+color = 4;
 glyphname = emoji.mouth;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = "{0, 19}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 19}";
+target = "{0, 10}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 14}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 5}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -424640,6 +424755,7 @@ width = 448;
 );
 },
 {
+color = 4;
 glyphname = emoji.mouth.grinning;
 layers = (
 {
@@ -424695,6 +424811,62 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{2, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 9}";
+target = "{0, 5}";
+type = TTStem;
+stem = -1;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{2, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{1, 1, 2, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 1, 2, 4}";
+target = "{2, 4, 3, 1}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 9}";
+target = "{1, 1, 2, 9}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 1, 2, 9}";
+target = "{2, 9, 3, 1}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
