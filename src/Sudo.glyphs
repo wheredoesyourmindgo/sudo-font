@@ -1,7 +1,7 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"I/whiteFrowningFace I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/smilingFaceWithSmilingEyes I",
+"I/whiteFrowningFace I/emoji.mouth I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/emoji.eyes.smiling/smilingFaceWithSmilingEyes I",
 "ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã"
 );
 classes = (
@@ -1796,7 +1796,7 @@ rightKerningGroup = A;
 unicode = 0102;
 },
 {
-color = 11;
+color = 4;
 glyphname = Acaron;
 layers = (
 {
@@ -2077,7 +2077,7 @@ rightKerningGroup = A;
 unicode = 00C4;
 },
 {
-color = 11;
+color = 4;
 glyphname = Adotaccent;
 layers = (
 {
@@ -3577,7 +3577,7 @@ leftKerningGroup = A;
 unicode = 01FC;
 },
 {
-color = 11;
+color = 4;
 glyphname = AEmacron;
 layers = (
 {
@@ -4207,7 +4207,7 @@ width = 448;
 unicode = 0042;
 },
 {
-color = 11;
+color = 4;
 glyphname = Bdotaccent;
 layers = (
 {
@@ -4286,7 +4286,7 @@ width = 448;
 unicode = 1E02;
 },
 {
-color = 11;
+color = 4;
 glyphname = Bdotbelow;
 layers = (
 {
@@ -4365,7 +4365,7 @@ width = 448;
 unicode = 1E04;
 },
 {
-color = 11;
+color = 4;
 glyphname = Bstroke;
 layers = (
 {
@@ -5157,7 +5157,7 @@ rightKerningGroup = C;
 unicode = 00C7;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ccedillaacute;
 layers = (
 {
@@ -6195,7 +6195,7 @@ rightKerningGroup = O;
 unicode = 010E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Dcedilla;
 layers = (
 {
@@ -6375,7 +6375,7 @@ rightKerningGroup = O;
 unicode = 0110;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ddotaccent;
 layers = (
 {
@@ -6454,7 +6454,7 @@ width = 448;
 unicode = 1E0A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ddotbelow;
 layers = (
 {
@@ -7171,7 +7171,7 @@ width = 448;
 unicode = 011A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ecedilla;
 layers = (
 {
@@ -7250,7 +7250,7 @@ width = 448;
 unicode = 0228;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ecedillabreve;
 layers = (
 {
@@ -8260,7 +8260,7 @@ width = 448;
 unicode = 0046;
 },
 {
-color = 11;
+color = 4;
 glyphname = Fdotaccent;
 layers = (
 {
@@ -8839,7 +8839,7 @@ rightKerningGroup = G;
 unicode = 0047;
 },
 {
-color = 11;
+color = 4;
 glyphname = Gacute;
 layers = (
 {
@@ -9031,7 +9031,7 @@ rightKerningGroup = G;
 unicode = 011E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Gcaron;
 layers = (
 {
@@ -9433,7 +9433,7 @@ rightKerningGroup = G;
 unicode = 0120;
 },
 {
-color = 11;
+color = 4;
 glyphname = Gmacron;
 layers = (
 {
@@ -9979,7 +9979,7 @@ width = 448;
 unicode = 0126;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hcaron;
 layers = (
 {
@@ -10058,7 +10058,7 @@ width = 448;
 unicode = 021E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hcedilla;
 layers = (
 {
@@ -10248,7 +10248,7 @@ width = 448;
 unicode = 0124;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hdieresis;
 layers = (
 {
@@ -10327,7 +10327,7 @@ width = 448;
 unicode = 1E26;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hdotaccent;
 layers = (
 {
@@ -10406,7 +10406,7 @@ width = 448;
 unicode = 1E22;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hdotbelow;
 layers = (
 {
@@ -10485,61 +10485,238 @@ width = 448;
 unicode = 1E24;
 },
 {
-color = 11;
+color = 4;
 glyphname = Hturned;
 layers = (
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{224, 0}";
+},
+{
+name = top;
+position = "{224, 640}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{0, 4}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 2}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 7}";
+target = "{0, 4}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 0}";
+target = "{0, 9}";
+type = TTStem;
+options = 4;
+},
+{
+origin = "{0, 4}";
+target = "{0, 4}";
+type = Align;
+options = 4;
+},
+{
+origin = "{0, 9}";
+target = "{0, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+type = Anchor;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+paths = (
+{
+closed = 1;
+nodes = (
+"388 0 LINE",
+"388 640 LINE",
+"316 640 LINE",
+"316 320 LINE",
+"132 320 LINE",
+"132 640 LINE",
+"60 640 LINE",
+"60 256 LINE",
+"316 256 LINE",
+"316 0 LINE"
+);
+}
+);
 width = 448;
 },
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{224, 0}";
+},
+{
+name = top;
+position = "{224, 640}";
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+paths = (
+{
+closed = 1;
+nodes = (
+"398 0 LINE",
+"398 640 LINE",
+"286 640 LINE",
+"286 328 LINE",
+"162 328 LINE",
+"162 640 LINE",
+"50 640 LINE",
+"50 248 LINE",
+"286 248 LINE",
+"286 0 LINE"
+);
+}
+);
 width = 448;
 },
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{224, 0}";
+},
+{
+name = top;
+position = "{224, 640}";
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"382 0 LINE",
+"382 640 LINE",
+"334 640 LINE",
+"334 310 LINE",
+"114 310 LINE",
+"114 640 LINE",
+"66 640 LINE",
+"66 266 LINE",
+"334 266 LINE",
+"334 0 LINE"
+);
+}
+);
 width = 448;
 },
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{179, 0}";
+},
+{
+name = top;
+position = "{307, 640}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+paths = (
+{
+closed = 1;
+nodes = (
+"343 0 LINE",
+"471 640 LINE",
+"399 640 LINE",
+"335 320 LINE",
+"151 320 LINE",
+"215 640 LINE",
+"143 640 LINE",
+"66 256 LINE",
+"322 256 LINE",
+"271 0 LINE"
+);
+}
+);
 width = 448;
 },
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{179, 0}";
+},
+{
+name = top;
+position = "{307, 640}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+paths = (
+{
+closed = 1;
+nodes = (
+"353 0 LINE",
+"481 640 LINE",
+"369 640 LINE",
+"307 328 LINE",
+"183 328 LINE",
+"245 640 LINE",
+"133 640 LINE",
+"55 248 LINE",
+"291 248 LINE",
+"241 0 LINE"
+);
+}
+);
 width = 448;
 },
 {
-components = (
+anchors = (
 {
-name = "Che-cy";
+name = bottom;
+position = "{179, 0}";
+},
+{
+name = top;
+position = "{307, 640}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+paths = (
+{
+closed = 1;
+nodes = (
+"337 0 LINE",
+"465 640 LINE",
+"417 640 LINE",
+"351 310 LINE",
+"131 310 LINE",
+"197 640 LINE",
+"149 640 LINE",
+"74 266 LINE",
+"342 266 LINE",
+"289 0 LINE"
+);
+}
+);
 width = 448;
 }
 );
@@ -11451,7 +11628,7 @@ width = 448;
 unicode = 012C;
 },
 {
-color = 11;
+color = 4;
 glyphname = Icaron;
 layers = (
 {
@@ -12517,7 +12694,7 @@ width = 448;
 unicode = 004A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Jacute;
 layers = (
 {
@@ -13169,7 +13346,7 @@ width = 448;
 unicode = 004B;
 },
 {
-color = 11;
+color = 4;
 glyphname = Kacute;
 layers = (
 {
@@ -13248,7 +13425,7 @@ width = 448;
 unicode = 1E30;
 },
 {
-color = 11;
+color = 4;
 glyphname = Kcaron;
 layers = (
 {
@@ -13426,7 +13603,7 @@ width = 448;
 unicode = 0136;
 },
 {
-color = 11;
+color = 4;
 glyphname = Kdotbelow;
 layers = (
 {
@@ -13852,7 +14029,7 @@ rightKerningGroup = L;
 unicode = 0139;
 },
 {
-color = 11;
+color = 4;
 glyphname = Lbar;
 layers = (
 {
@@ -14251,7 +14428,7 @@ width = 448;
 unicode = 013F;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ldotbelow;
 layers = (
 {
@@ -14330,7 +14507,7 @@ width = 448;
 unicode = 1E36;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ldotbelowmacron;
 layers = (
 {
@@ -14933,7 +15110,7 @@ width = 448;
 unicode = 004D;
 },
 {
-color = 11;
+color = 4;
 glyphname = Macute;
 layers = (
 {
@@ -15012,7 +15189,7 @@ width = 448;
 unicode = 1E3E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Mdotaccent;
 layers = (
 {
@@ -15091,7 +15268,7 @@ width = 448;
 unicode = 1E40;
 },
 {
-color = 11;
+color = 4;
 glyphname = Mdotbelow;
 layers = (
 {
@@ -15857,7 +16034,7 @@ width = 448;
 unicode = 0145;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ndotaccent;
 layers = (
 {
@@ -15936,7 +16113,7 @@ width = 448;
 unicode = 1E44;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ndotbelow;
 layers = (
 {
@@ -16015,7 +16192,7 @@ width = 448;
 unicode = 1E46;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ngrave;
 layers = (
 {
@@ -17316,7 +17493,7 @@ rightKerningGroup = O;
 unicode = 014E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ocaron;
 layers = (
 {
@@ -17597,7 +17774,7 @@ rightKerningGroup = O;
 unicode = 00D6;
 },
 {
-color = 11;
+color = 4;
 glyphname = Odotaccent;
 layers = (
 {
@@ -17981,7 +18158,7 @@ rightKerningGroup = O;
 unicode = 014C;
 },
 {
-color = 11;
+color = 4;
 glyphname = Oogonek;
 layers = (
 {
@@ -18066,7 +18243,7 @@ width = 448;
 unicode = 01EA;
 },
 {
-color = 11;
+color = 4;
 glyphname = Oogonekmacron;
 layers = (
 {
@@ -19711,7 +19888,7 @@ width = 448;
 unicode = 0050;
 },
 {
-color = 11;
+color = 4;
 glyphname = Pacute;
 layers = (
 {
@@ -19790,7 +19967,7 @@ width = 448;
 unicode = 1E54;
 },
 {
-color = 11;
+color = 4;
 glyphname = Pdotaccent;
 layers = (
 {
@@ -21581,7 +21758,7 @@ width = 448;
 unicode = 0156;
 },
 {
-color = 11;
+color = 4;
 glyphname = Rdotaccent;
 layers = (
 {
@@ -21660,7 +21837,7 @@ width = 448;
 unicode = 1E58;
 },
 {
-color = 11;
+color = 4;
 glyphname = Rdotbelow;
 layers = (
 {
@@ -21739,7 +21916,7 @@ width = 448;
 unicode = 1E5A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Rdotbelowmacron;
 layers = (
 {
@@ -22987,7 +23164,7 @@ width = 448;
 unicode = 0218;
 },
 {
-color = 11;
+color = 4;
 glyphname = Sdotaccent;
 layers = (
 {
@@ -23066,7 +23243,7 @@ width = 448;
 unicode = 1E60;
 },
 {
-color = 11;
+color = 4;
 glyphname = Sdotbelow;
 layers = (
 {
@@ -23148,7 +23325,7 @@ width = 448;
 unicode = 1E62;
 },
 {
-color = 11;
+color = 4;
 glyphname = Sdotbelowdotaccent;
 layers = (
 {
@@ -25408,7 +25585,7 @@ rightKerningGroup = T;
 unicode = 021A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Tdotaccent;
 layers = (
 {
@@ -25487,7 +25664,7 @@ width = 448;
 unicode = 1E6A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Tdotbelow;
 layers = (
 {
@@ -26131,7 +26308,7 @@ rightKerningGroup = U;
 unicode = 016C;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ucaron;
 layers = (
 {
@@ -27287,7 +27464,7 @@ width = 448;
 unicode = 0056;
 },
 {
-color = 11;
+color = 4;
 glyphname = Vdotbelow;
 layers = (
 {
@@ -27366,7 +27543,7 @@ width = 448;
 unicode = 1E7E;
 },
 {
-color = 11;
+color = 4;
 glyphname = Vtilde;
 layers = (
 {
@@ -28312,7 +28489,7 @@ rightKerningGroup = W;
 unicode = 1E84;
 },
 {
-color = 11;
+color = 4;
 glyphname = Wdotaccent;
 layers = (
 {
@@ -28391,7 +28568,7 @@ width = 448;
 unicode = 1E86;
 },
 {
-color = 11;
+color = 4;
 glyphname = Wdotbelow;
 layers = (
 {
@@ -29217,7 +29394,7 @@ width = 448;
 unicode = 0058;
 },
 {
-color = 11;
+color = 4;
 glyphname = Xdieresis;
 layers = (
 {
@@ -29296,7 +29473,7 @@ width = 448;
 unicode = 1E8C;
 },
 {
-color = 11;
+color = 4;
 glyphname = Xdotaccent;
 layers = (
 {
@@ -30116,7 +30293,7 @@ rightKerningGroup = Y;
 unicode = 0178;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ydotaccent;
 layers = (
 {
@@ -30296,7 +30473,7 @@ rightKerningGroup = Y;
 unicode = 1EF2;
 },
 {
-color = 11;
+color = 4;
 glyphname = Ymacron;
 layers = (
 {
@@ -31213,7 +31390,7 @@ width = 448;
 unicode = 017D;
 },
 {
-color = 11;
+color = 4;
 glyphname = Zcircumflex;
 layers = (
 {
@@ -31399,7 +31576,7 @@ width = 448;
 unicode = 017B;
 },
 {
-color = 11;
+color = 4;
 glyphname = Zdotbelow;
 layers = (
 {
@@ -31478,7 +31655,7 @@ width = 448;
 unicode = 1E92;
 },
 {
-color = 11;
+color = 4;
 glyphname = Zstroke;
 layers = (
 {
@@ -31557,7 +31734,7 @@ width = 448;
 unicode = 01B5;
 },
 {
-color = 11;
+color = 4;
 glyphname = Iacute_J.loclNLD;
 layers = (
 {
@@ -39317,7 +39494,7 @@ width = 448;
 unicode = 0103;
 },
 {
-color = 11;
+color = 4;
 glyphname = acaron;
 layers = (
 {
@@ -39597,7 +39774,7 @@ width = 448;
 unicode = 00E4;
 },
 {
-color = 11;
+color = 4;
 glyphname = adotaccent;
 layers = (
 {
@@ -40403,6 +40580,65 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 12}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 25}";
+target = "{2, 15}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = "{2, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{1, 13}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 25}";
+target = "{2, 2}";
+other1 = "{2, 12, 2, 22}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{2, 12, 2, 22}";
+target = "{1, 19, 2, 2}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 19, 2, 2}";
+target = "{0, 0, 1, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0, 1, 3}";
+target = "{2, 15, 2, 20}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -41202,7 +41438,7 @@ width = 448;
 unicode = 01FD;
 },
 {
-color = 11;
+color = 4;
 glyphname = aemacron;
 layers = (
 {
@@ -41823,7 +42059,7 @@ width = 448;
 unicode = 0062;
 },
 {
-color = 11;
+color = 4;
 glyphname = bdotaccent;
 layers = (
 {
@@ -41902,7 +42138,7 @@ width = 448;
 unicode = 1E03;
 },
 {
-color = 11;
+color = 4;
 glyphname = bdotbelow;
 layers = (
 {
@@ -42717,7 +42953,7 @@ width = 448;
 unicode = 00E7;
 },
 {
-color = 11;
+color = 4;
 glyphname = ccedillaacute;
 layers = (
 {
@@ -44440,7 +44676,7 @@ width = 448;
 unicode = 010F;
 },
 {
-color = 11;
+color = 4;
 glyphname = dcedilla;
 layers = (
 {
@@ -44626,7 +44862,7 @@ width = 448;
 unicode = 0111;
 },
 {
-color = 11;
+color = 4;
 glyphname = ddotaccent;
 layers = (
 {
@@ -44705,7 +44941,7 @@ width = 448;
 unicode = 1E0B;
 },
 {
-color = 11;
+color = 4;
 glyphname = ddotbelow;
 layers = (
 {
@@ -45584,7 +45820,7 @@ width = 448;
 unicode = 011B;
 },
 {
-color = 11;
+color = 4;
 glyphname = ecedilla;
 layers = (
 {
@@ -45663,7 +45899,7 @@ width = 448;
 unicode = 0229;
 },
 {
-color = 11;
+color = 4;
 glyphname = ecedillabreve;
 layers = (
 {
@@ -47279,7 +47515,7 @@ width = 448;
 unicode = 0066;
 },
 {
-color = 11;
+color = 4;
 glyphname = fdotaccent;
 layers = (
 {
@@ -48010,7 +48246,7 @@ width = 448;
 unicode = 0067;
 },
 {
-color = 11;
+color = 4;
 glyphname = gacute;
 layers = (
 {
@@ -48188,7 +48424,7 @@ width = 448;
 unicode = 011F;
 },
 {
-color = 11;
+color = 4;
 glyphname = gcaron;
 layers = (
 {
@@ -48564,7 +48800,7 @@ width = 448;
 unicode = 0121;
 },
 {
-color = 11;
+color = 4;
 glyphname = gmacron;
 layers = (
 {
@@ -49142,7 +49378,7 @@ width = 448;
 unicode = 0127;
 },
 {
-color = 11;
+color = 4;
 glyphname = hcaron;
 layers = (
 {
@@ -49221,7 +49457,7 @@ width = 448;
 unicode = 021F;
 },
 {
-color = 11;
+color = 4;
 glyphname = hcedilla;
 layers = (
 {
@@ -49419,7 +49655,7 @@ width = 448;
 unicode = 0125;
 },
 {
-color = 11;
+color = 4;
 glyphname = hdieresis;
 layers = (
 {
@@ -49498,7 +49734,7 @@ width = 448;
 unicode = 1E27;
 },
 {
-color = 11;
+color = 4;
 glyphname = hdotaccent;
 layers = (
 {
@@ -49577,7 +49813,7 @@ width = 448;
 unicode = 1E23;
 },
 {
-color = 11;
+color = 4;
 glyphname = hdotbelow;
 layers = (
 {
@@ -49655,6 +49891,73 @@ width = 448;
 }
 );
 unicode = 1E25;
+},
+{
+color = 4;
+glyphname = hturned;
+layers = (
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+width = 448;
+},
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+width = 448;
+},
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+width = 448;
+},
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+width = 448;
+},
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+width = 448;
+},
+{
+components = (
+{
+name = h;
+transform = "{-1, 0, 0, -1, 448, 448}";
+}
+);
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+width = 448;
+}
+);
+unicode = 0265;
 },
 {
 color = 6;
@@ -50194,7 +50497,7 @@ width = 448;
 unicode = 012D;
 },
 {
-color = 11;
+color = 4;
 glyphname = icaron;
 layers = (
 {
@@ -50572,7 +50875,7 @@ width = 448;
 );
 },
 {
-color = 11;
+color = 4;
 glyphname = idotlessstroke;
 layers = (
 {
@@ -51788,7 +52091,7 @@ width = 448;
 unicode = 012F;
 },
 {
-color = 11;
+color = 4;
 glyphname = iotastroke;
 layers = (
 {
@@ -51867,7 +52170,7 @@ width = 448;
 unicode = 1D7C;
 },
 {
-color = 11;
+color = 4;
 glyphname = istroke;
 layers = (
 {
@@ -52501,7 +52804,7 @@ width = 448;
 unicode = 0237;
 },
 {
-color = 11;
+color = 4;
 glyphname = jacute;
 layers = (
 {
@@ -52585,7 +52888,7 @@ width = 448;
 );
 },
 {
-color = 11;
+color = 4;
 glyphname = jcaron;
 layers = (
 {
@@ -52773,67 +53076,6 @@ width = 448;
 }
 );
 unicode = 0135;
-},
-{
-color = 11;
-glyphname = jsubscript;
-layers = (
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
-width = 448;
-},
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
-width = 448;
-},
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
-width = 448;
-},
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
-width = 448;
-},
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
-width = 448;
-},
-{
-components = (
-{
-name = j;
-}
-);
-layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
-width = 448;
-}
-);
-unicode = 2C7C;
 },
 {
 glyphname = k;
@@ -53393,7 +53635,7 @@ width = 448;
 unicode = 006B;
 },
 {
-color = 11;
+color = 4;
 glyphname = kacute;
 layers = (
 {
@@ -53478,7 +53720,7 @@ width = 448;
 unicode = 1E31;
 },
 {
-color = 11;
+color = 4;
 glyphname = kcaron;
 layers = (
 {
@@ -53662,7 +53904,7 @@ width = 448;
 unicode = 0137;
 },
 {
-color = 11;
+color = 4;
 glyphname = kdotbelow;
 layers = (
 {
@@ -54808,7 +55050,7 @@ width = 448;
 unicode = 0140;
 },
 {
-color = 11;
+color = 4;
 glyphname = ldotbelow;
 layers = (
 {
@@ -54893,7 +55135,7 @@ width = 448;
 unicode = 1E37;
 },
 {
-color = 11;
+color = 4;
 glyphname = ldotbelowmacron;
 layers = (
 {
@@ -55002,7 +55244,7 @@ width = 448;
 unicode = 1E39;
 },
 {
-color = 11;
+color = 4;
 glyphname = longsdotaccent;
 layers = (
 {
@@ -55852,7 +56094,7 @@ width = 448;
 unicode = 006D;
 },
 {
-color = 11;
+color = 4;
 glyphname = macute;
 layers = (
 {
@@ -55931,7 +56173,7 @@ width = 448;
 unicode = 1E3F;
 },
 {
-color = 11;
+color = 4;
 glyphname = mdotaccent;
 layers = (
 {
@@ -56010,7 +56252,7 @@ width = 448;
 unicode = 1E41;
 },
 {
-color = 11;
+color = 4;
 glyphname = mdotbelow;
 layers = (
 {
@@ -57133,7 +57375,7 @@ width = 448;
 unicode = 0146;
 },
 {
-color = 11;
+color = 4;
 glyphname = ndotaccent;
 layers = (
 {
@@ -57212,7 +57454,7 @@ width = 448;
 unicode = 1E45;
 },
 {
-color = 11;
+color = 4;
 glyphname = ndotbelow;
 layers = (
 {
@@ -57291,7 +57533,7 @@ width = 448;
 unicode = 1E47;
 },
 {
-color = 11;
+color = 4;
 glyphname = ngrave;
 layers = (
 {
@@ -58566,7 +58808,7 @@ width = 448;
 unicode = 014F;
 },
 {
-color = 11;
+color = 4;
 glyphname = ocaron;
 layers = (
 {
@@ -58843,7 +59085,7 @@ width = 448;
 unicode = 00F6;
 },
 {
-color = 11;
+color = 4;
 glyphname = odotaccent;
 layers = (
 {
@@ -59221,7 +59463,7 @@ width = 448;
 unicode = 014D;
 },
 {
-color = 11;
+color = 4;
 glyphname = oogonek;
 layers = (
 {
@@ -59306,7 +59548,7 @@ width = 448;
 unicode = 01EB;
 },
 {
-color = 11;
+color = 4;
 glyphname = oogonekmacron;
 layers = (
 {
@@ -60027,6 +60269,35 @@ options = 4;
 {
 origin = "{0, 2}";
 target = "{1, 8}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 28}";
+target = "{2, 6}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 22}";
+target = "{2, 12}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 28}";
+target = "{2, 22}";
+other1 = "{2, 9, 2, 19}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{2, 9, 2, 19}";
+target = "{2, 12, 2, 17}";
 type = TTStem;
 options = 4;
 }
@@ -61259,7 +61530,7 @@ width = 448;
 unicode = 0070;
 },
 {
-color = 11;
+color = 4;
 glyphname = pacute;
 layers = (
 {
@@ -61338,7 +61609,7 @@ width = 448;
 unicode = 1E55;
 },
 {
-color = 11;
+color = 4;
 glyphname = pdotaccent;
 layers = (
 {
@@ -63053,7 +63324,7 @@ width = 448;
 unicode = 0157;
 },
 {
-color = 11;
+color = 4;
 glyphname = rdotaccent;
 layers = (
 {
@@ -63132,7 +63403,7 @@ width = 448;
 unicode = 1E59;
 },
 {
-color = 11;
+color = 4;
 glyphname = rdotbelow;
 layers = (
 {
@@ -63217,7 +63488,7 @@ width = 448;
 unicode = 1E5B;
 },
 {
-color = 11;
+color = 4;
 glyphname = rdotbelowmacron;
 layers = (
 {
@@ -64727,7 +64998,7 @@ width = 448;
 unicode = 0219;
 },
 {
-color = 11;
+color = 4;
 glyphname = sdotaccent;
 layers = (
 {
@@ -64806,7 +65077,7 @@ width = 448;
 unicode = 1E61;
 },
 {
-color = 11;
+color = 4;
 glyphname = sdotbelow;
 layers = (
 {
@@ -64885,7 +65156,7 @@ width = 448;
 unicode = 1E63;
 },
 {
-color = 11;
+color = 4;
 glyphname = sdotbelowdotaccent;
 layers = (
 {
@@ -66992,7 +67263,7 @@ width = 448;
 unicode = 021B;
 },
 {
-color = 11;
+color = 4;
 glyphname = tdieresis;
 layers = (
 {
@@ -67077,7 +67348,7 @@ width = 448;
 unicode = 1E97;
 },
 {
-color = 11;
+color = 4;
 glyphname = tdotaccent;
 layers = (
 {
@@ -67162,7 +67433,7 @@ width = 448;
 unicode = 1E6B;
 },
 {
-color = 11;
+color = 4;
 glyphname = tdotbelow;
 layers = (
 {
@@ -67928,7 +68199,7 @@ width = 448;
 unicode = 016D;
 },
 {
-color = 11;
+color = 4;
 glyphname = ucaron;
 layers = (
 {
@@ -69294,7 +69565,7 @@ width = 448;
 unicode = 0076;
 },
 {
-color = 11;
+color = 4;
 glyphname = vdotbelow;
 layers = (
 {
@@ -69373,7 +69644,7 @@ width = 448;
 unicode = 1E7F;
 },
 {
-color = 11;
+color = 4;
 glyphname = vtilde;
 layers = (
 {
@@ -70535,7 +70806,7 @@ width = 448;
 unicode = 1E85;
 },
 {
-color = 11;
+color = 4;
 glyphname = wdotaccent;
 layers = (
 {
@@ -70614,7 +70885,7 @@ width = 448;
 unicode = 1E87;
 },
 {
-color = 11;
+color = 4;
 glyphname = wdotbelow;
 layers = (
 {
@@ -70792,7 +71063,7 @@ width = 448;
 unicode = 1E81;
 },
 {
-color = 11;
+color = 4;
 glyphname = wring;
 layers = (
 {
@@ -71511,7 +71782,7 @@ width = 448;
 unicode = 0078;
 },
 {
-color = 11;
+color = 4;
 glyphname = xdieresis;
 layers = (
 {
@@ -71590,7 +71861,7 @@ width = 448;
 unicode = 1E8D;
 },
 {
-color = 11;
+color = 4;
 glyphname = xdotaccent;
 layers = (
 {
@@ -72600,7 +72871,7 @@ width = 448;
 unicode = 00FF;
 },
 {
-color = 11;
+color = 4;
 glyphname = ydotaccent;
 layers = (
 {
@@ -72778,7 +73049,7 @@ width = 448;
 unicode = 1EF3;
 },
 {
-color = 11;
+color = 4;
 glyphname = ymacron;
 layers = (
 {
@@ -72857,7 +73128,7 @@ width = 448;
 unicode = 0233;
 },
 {
-color = 11;
+color = 4;
 glyphname = yring;
 layers = (
 {
@@ -73855,7 +74126,7 @@ width = 448;
 unicode = 017E;
 },
 {
-color = 11;
+color = 4;
 glyphname = zcircumflex;
 layers = (
 {
@@ -74033,7 +74304,7 @@ width = 448;
 unicode = 017C;
 },
 {
-color = 11;
+color = 4;
 glyphname = zdotbelow;
 layers = (
 {
@@ -74112,7 +74383,7 @@ width = 448;
 unicode = 1E93;
 },
 {
-color = 11;
+color = 4;
 glyphname = zstroke;
 layers = (
 {
@@ -74191,7 +74462,7 @@ width = 448;
 unicode = 01B6;
 },
 {
-color = 11;
+color = 4;
 glyphname = iacute_j.loclNLD;
 layers = (
 {
@@ -79607,6 +79878,65 @@ position = "{352, 0}";
 {
 name = top;
 position = "{352, 448}";
+}
+);
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 12}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 25}";
+target = "{2, 15}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = "{2, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 6}";
+target = "{1, 13}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 25}";
+target = "{2, 2}";
+other1 = "{2, 12, 2, 22}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{2, 12, 2, 22}";
+target = "{1, 19, 2, 2}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 19, 2, 2}";
+target = "{0, 0, 1, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0, 1, 3}";
+target = "{2, 15, 2, 20}";
+type = Align;
+options = 4;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -93764,6 +94094,37 @@ nodes = (
 );
 };
 color = 4;
+hints = (
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 2}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 10}";
+target = "{0, 7}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{0, 10}";
+other1 = "{0, 3}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 6}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -258406,6 +258767,62 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 15}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 17}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{1, 17}";
+target = "{1, 8}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 17}";
+other1 = "{1, 23}";
+type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 23}";
+target = "{1, 2}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 17}";
+other1 = "{0, 9, 1, 14}";
+type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9, 1, 14}";
+target = "{0, 7, 1, 17}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -259719,6 +260136,41 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 1}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 7}";
+other1 = "{1, 9}";
+type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 14}";
+target = "{0, 7}";
+other1 = "{1, 3}";
+type = Interpolate;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -263114,7 +263566,7 @@ width = 448;
 unicode = 2630;
 },
 {
-color = 0;
+color = 4;
 glyphname = whiteFrowningFace;
 layers = (
 {
@@ -263235,58 +263687,12 @@ transform = "{1, 0, 0, 1, 256, 128}";
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -263387,58 +263793,12 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
@@ -263448,58 +263808,12 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -263509,58 +263823,12 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -263570,58 +263838,12 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -263631,58 +263853,12 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
+name = emoji.mouth;
+transform = "{-1, 0, 0, -1, 448, 384}";
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -263904,7 +264080,7 @@ width = 448;
 unicode = 2639;
 },
 {
-color = 0;
+color = 4;
 glyphname = whiteSmilingFace;
 layers = (
 {
@@ -264002,58 +264178,11 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -264154,58 +264283,11 @@ nodes = (
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
@@ -264215,58 +264297,11 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -264276,58 +264311,11 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -264337,58 +264325,11 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -264398,58 +264339,11 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.eyes;
 },
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
+name = emoji.mouth;
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -264671,6 +264565,7 @@ width = 448;
 unicode = 263A;
 },
 {
+color = 4;
 glyphname = blackSmilingFace;
 layers = (
 {
@@ -272121,6 +272016,43 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{2, 0}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 5}";
+other1 = "{1, 2}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 3}";
+target = "{0, 5}";
+other1 = "{1, 0}";
+type = Interpolate;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 2}";
+target = "{2, 3}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -297909,6 +297841,46 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{1, 5}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+target = "{1, 11}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 11}";
+other1 = "{2, 2}";
+type = Interpolate;
+},
+{
+horizontal = 1;
+origin = "{0, 5}";
+target = "{0, 11}";
+other1 = "{2, 8}";
+type = Interpolate;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -309371,6 +309343,56 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 18}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 15}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 25}";
+target = "{0, 8}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{0, 33, 1, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{1, 2}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 5}";
+type = TTStem;
+stem = -1;
+},
+{
+horizontal = 1;
+origin = "{0, 18}";
+target = "{1, 5}";
+other1 = "{1, 0, 1, 2}";
+type = Interpolate;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -317990,6 +318012,74 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{2, 1}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 1}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 0}";
+other1 = "{3, 7}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 0}";
+other1 = "{3, 1}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{0, 0}";
+other1 = "{2, 2}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{2, 2}";
+target = "{1, 0}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{3, 7}";
+target = "{3, 5}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{3, 5}";
+target = "{3, 10}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{3, 1}";
+target = "{3, 4}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -318893,6 +318983,52 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{1, 12}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{1, 6}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+other1 = "{1, 11}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 0}";
+target = "{0, 6}";
+other1 = "{1, 8}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+target = "{0, 2}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 8}";
+target = "{0, 3}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -319424,6 +319560,51 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{1, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{3, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 8}";
+other1 = "{1, 3}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{1, 9}";
+target = "{1, 8}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 4}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{3, 9}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -320207,6 +320388,54 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{2, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{2, 11}";
+target = "{0, 11}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{0, 7}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 5}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{2, 5}";
+target = "{2, 6}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{1, 5}";
+type = Anchor;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -343024,110 +343253,17 @@ width = 448;
 unicode = 1F5D8;
 },
 {
-color = 0;
+color = 4;
 glyphname = grinningFace;
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -343137,103 +343273,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
@@ -343243,103 +343286,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -343349,103 +343299,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -343455,103 +343312,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -343561,103 +343325,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 384}";
+name = emoji.eyes;
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -343667,120 +343338,17 @@ width = 448;
 unicode = 1F600;
 },
 {
-color = 0;
+color = 4;
 glyphname = grinningFaceWithSmilingEyes;
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -343790,113 +343358,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
@@ -343906,113 +343371,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -344022,113 +343384,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -344138,113 +343397,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -344254,113 +343410,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 64}";
+name = emoji.mouth.grinning;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 64}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -344370,75 +343423,17 @@ width = 448;
 unicode = 1F601;
 },
 {
-color = 0;
+color = 4;
 glyphname = smilingFaceWithSmilingEyes;
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -344448,68 +343443,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
@@ -344519,68 +343456,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
@@ -344590,68 +343469,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -344661,68 +343482,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
@@ -344732,68 +343495,10 @@ width = 448;
 components = (
 {
 alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 448}";
+name = emoji.mouth;
 },
 {
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 448}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 192}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 64, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 192, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 320, 128}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 0, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 128, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 256, 384}";
-},
-{
-alignment = -1;
-name = pixel;
-transform = "{1, 0, 0, 1, 384, 384}";
+name = emoji.eyes.smiling;
 }
 );
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
@@ -361747,6 +360452,20 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 2}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 2}";
+target = "{0, 3}";
+type = TTStem;
+stem = -1;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -417514,6 +416233,102 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 9}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{3, 0}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 13}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 11}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+type = Anchor;
+},
+{
+horizontal = 1;
+origin = "{0, 4}";
+target = "{1, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 4}";
+other1 = "{3, 1}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{3, 1}";
+target = "{0, 7}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 7}";
+target = "{2, 3}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 3}";
+target = "{0, 0}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 9}";
+target = "{0, 4}";
+other1 = "{0, 6}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{0, 6}";
+target = "{2, 0}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{2, 0}";
+target = "{0, 1}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 1}";
+target = "{1, 1}";
+type = TTStem;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -418476,6 +417291,51 @@ nodes = (
 }
 );
 };
+hints = (
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{1, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 8}";
+target = "{3, 3}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{0, 15}";
+target = "{0, 8}";
+other1 = "{1, 3}";
+type = Interpolate;
+options = 8;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{3, 9}";
+type = TTStem;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 9}";
+target = "{1, 8}";
+type = Align;
+options = 4;
+},
+{
+horizontal = 1;
+origin = "{1, 3}";
+target = "{1, 4}";
+type = Align;
+options = 4;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 paths = (
 {
@@ -425139,6 +423999,1020 @@ nodes = (
 "32 64 LINE",
 "-32 64 LINE",
 "-45 0 LINE"
+);
+}
+);
+width = 448;
+}
+);
+},
+{
+glyphname = emoji.eyes;
+layers = (
+{
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 378 OFFCURVE",
+"142 410 OFFCURVE",
+"142 448 CURVE SMOOTH",
+"142 486 OFFCURVE",
+"122 518 OFFCURVE",
+"96 518 CURVE SMOOTH",
+"70 518 OFFCURVE",
+"50 486 OFFCURVE",
+"50 448 CURVE SMOOTH",
+"50 410 OFFCURVE",
+"70 378 OFFCURVE",
+"96 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"378 378 OFFCURVE",
+"398 410 OFFCURVE",
+"398 448 CURVE SMOOTH",
+"398 486 OFFCURVE",
+"378 518 OFFCURVE",
+"352 518 CURVE SMOOTH",
+"326 518 OFFCURVE",
+"306 486 OFFCURVE",
+"306 448 CURVE SMOOTH",
+"306 410 OFFCURVE",
+"326 378 OFFCURVE",
+"352 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 378 OFFCURVE",
+"142 410 OFFCURVE",
+"142 448 CURVE SMOOTH",
+"142 486 OFFCURVE",
+"122 518 OFFCURVE",
+"96 518 CURVE SMOOTH",
+"70 518 OFFCURVE",
+"50 486 OFFCURVE",
+"50 448 CURVE SMOOTH",
+"50 410 OFFCURVE",
+"70 378 OFFCURVE",
+"96 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"378 378 OFFCURVE",
+"398 410 OFFCURVE",
+"398 448 CURVE SMOOTH",
+"398 486 OFFCURVE",
+"378 518 OFFCURVE",
+"352 518 CURVE SMOOTH",
+"326 518 OFFCURVE",
+"306 486 OFFCURVE",
+"306 448 CURVE SMOOTH",
+"306 410 OFFCURVE",
+"326 378 OFFCURVE",
+"352 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"122 378 OFFCURVE",
+"142 410 OFFCURVE",
+"142 448 CURVE SMOOTH",
+"142 486 OFFCURVE",
+"122 518 OFFCURVE",
+"96 518 CURVE SMOOTH",
+"70 518 OFFCURVE",
+"50 486 OFFCURVE",
+"50 448 CURVE SMOOTH",
+"50 410 OFFCURVE",
+"70 378 OFFCURVE",
+"96 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"378 378 OFFCURVE",
+"398 410 OFFCURVE",
+"398 448 CURVE SMOOTH",
+"398 486 OFFCURVE",
+"378 518 OFFCURVE",
+"352 518 CURVE SMOOTH",
+"326 518 OFFCURVE",
+"306 486 OFFCURVE",
+"306 448 CURVE SMOOTH",
+"306 410 OFFCURVE",
+"326 378 OFFCURVE",
+"352 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+paths = (
+{
+closed = 1;
+nodes = (
+"155 378 OFFCURVE",
+"179 407 OFFCURVE",
+"186 442 CURVE SMOOTH",
+"194 483 OFFCURVE",
+"178 518 OFFCURVE",
+"150 518 CURVE SMOOTH",
+"126 518 OFFCURVE",
+"103 489 OFFCURVE",
+"96 454 CURVE SMOOTH",
+"88 413 OFFCURVE",
+"103 378 OFFCURVE",
+"132 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"411 378 OFFCURVE",
+"435 407 OFFCURVE",
+"442 442 CURVE SMOOTH",
+"450 483 OFFCURVE",
+"434 518 OFFCURVE",
+"406 518 CURVE SMOOTH",
+"382 518 OFFCURVE",
+"359 489 OFFCURVE",
+"352 454 CURVE SMOOTH",
+"344 413 OFFCURVE",
+"359 378 OFFCURVE",
+"388 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+paths = (
+{
+closed = 1;
+nodes = (
+"155 378 OFFCURVE",
+"179 407 OFFCURVE",
+"186 442 CURVE SMOOTH",
+"194 483 OFFCURVE",
+"178 518 OFFCURVE",
+"150 518 CURVE SMOOTH",
+"126 518 OFFCURVE",
+"103 489 OFFCURVE",
+"96 454 CURVE SMOOTH",
+"88 413 OFFCURVE",
+"103 378 OFFCURVE",
+"132 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"411 378 OFFCURVE",
+"435 407 OFFCURVE",
+"442 442 CURVE SMOOTH",
+"450 483 OFFCURVE",
+"434 518 OFFCURVE",
+"406 518 CURVE SMOOTH",
+"382 518 OFFCURVE",
+"359 489 OFFCURVE",
+"352 454 CURVE SMOOTH",
+"344 413 OFFCURVE",
+"359 378 OFFCURVE",
+"388 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+paths = (
+{
+closed = 1;
+nodes = (
+"155 378 OFFCURVE",
+"179 407 OFFCURVE",
+"186 442 CURVE SMOOTH",
+"194 483 OFFCURVE",
+"178 518 OFFCURVE",
+"150 518 CURVE SMOOTH",
+"126 518 OFFCURVE",
+"103 489 OFFCURVE",
+"96 454 CURVE SMOOTH",
+"88 413 OFFCURVE",
+"103 378 OFFCURVE",
+"132 378 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"411 378 OFFCURVE",
+"435 407 OFFCURVE",
+"442 442 CURVE SMOOTH",
+"450 483 OFFCURVE",
+"434 518 OFFCURVE",
+"406 518 CURVE SMOOTH",
+"382 518 OFFCURVE",
+"359 489 OFFCURVE",
+"352 454 CURVE SMOOTH",
+"344 413 OFFCURVE",
+"359 378 OFFCURVE",
+"388 378 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+}
+);
+},
+{
+glyphname = emoji.eyes.smiling;
+layers = (
+{
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+paths = (
+{
+closed = 1;
+nodes = (
+"59 384 LINE",
+"91 448 LINE",
+"101 448 LINE",
+"133 384 LINE",
+"192 384 LINE",
+"128 512 LINE",
+"64 512 LINE",
+"0 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"315 384 LINE",
+"347 448 LINE",
+"357 448 LINE",
+"389 384 LINE",
+"448 384 LINE",
+"384 512 LINE",
+"320 512 LINE",
+"256 384 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+paths = (
+{
+closed = 1;
+nodes = (
+"59 384 LINE",
+"91 448 LINE",
+"101 448 LINE",
+"133 384 LINE",
+"192 384 LINE",
+"128 512 LINE",
+"64 512 LINE",
+"0 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"315 384 LINE",
+"347 448 LINE",
+"357 448 LINE",
+"389 384 LINE",
+"448 384 LINE",
+"384 512 LINE",
+"320 512 LINE",
+"256 384 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"59 384 LINE",
+"91 448 LINE",
+"101 448 LINE",
+"133 384 LINE",
+"192 384 LINE",
+"128 512 LINE",
+"64 512 LINE",
+"0 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"315 384 LINE",
+"347 448 LINE",
+"357 448 LINE",
+"389 384 LINE",
+"448 384 LINE",
+"384 512 LINE",
+"320 512 LINE",
+"256 384 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+paths = (
+{
+closed = 1;
+nodes = (
+"92 384 LINE",
+"137 448 LINE",
+"147 448 LINE",
+"166 384 LINE",
+"223 384 LINE",
+"185 512 LINE",
+"121 512 LINE",
+"31 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"348 384 LINE",
+"393 448 LINE",
+"403 448 LINE",
+"422 384 LINE",
+"479 384 LINE",
+"441 512 LINE",
+"377 512 LINE",
+"287 384 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+paths = (
+{
+closed = 1;
+nodes = (
+"92 384 LINE",
+"137 448 LINE",
+"147 448 LINE",
+"166 384 LINE",
+"223 384 LINE",
+"185 512 LINE",
+"121 512 LINE",
+"31 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"348 384 LINE",
+"393 448 LINE",
+"403 448 LINE",
+"422 384 LINE",
+"479 384 LINE",
+"441 512 LINE",
+"377 512 LINE",
+"287 384 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+paths = (
+{
+closed = 1;
+nodes = (
+"92 384 LINE",
+"137 448 LINE",
+"147 448 LINE",
+"166 384 LINE",
+"223 384 LINE",
+"185 512 LINE",
+"121 512 LINE",
+"31 384 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"348 384 LINE",
+"393 448 LINE",
+"403 448 LINE",
+"422 384 LINE",
+"479 384 LINE",
+"441 512 LINE",
+"377 512 LINE",
+"287 384 LINE"
+);
+}
+);
+width = 448;
+}
+);
+},
+{
+glyphname = emoji.mouth;
+layers = (
+{
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 130 LINE SMOOTH",
+"407 130 OFFCURVE",
+"448 177 OFFCURVE",
+"448 249 CURVE SMOOTH",
+"448 256 LINE",
+"384 256 LINE",
+"384 251 LINE SMOOTH",
+"384 212 OFFCURVE",
+"370 190 OFFCURVE",
+"332 190 CURVE SMOOTH",
+"116 190 LINE SMOOTH",
+"78 190 OFFCURVE",
+"64 212 OFFCURVE",
+"64 251 CURVE SMOOTH",
+"64 256 LINE",
+"0 256 LINE",
+"0 249 LINE SMOOTH",
+"0 177 OFFCURVE",
+"41 130 OFFCURVE",
+"116 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 130 LINE SMOOTH",
+"407 130 OFFCURVE",
+"448 177 OFFCURVE",
+"448 249 CURVE SMOOTH",
+"448 256 LINE",
+"384 256 LINE",
+"384 251 LINE SMOOTH",
+"384 212 OFFCURVE",
+"370 190 OFFCURVE",
+"332 190 CURVE SMOOTH",
+"116 190 LINE SMOOTH",
+"78 190 OFFCURVE",
+"64 212 OFFCURVE",
+"64 251 CURVE SMOOTH",
+"64 256 LINE",
+"0 256 LINE",
+"0 249 LINE SMOOTH",
+"0 177 OFFCURVE",
+"41 130 OFFCURVE",
+"116 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 130 LINE SMOOTH",
+"407 130 OFFCURVE",
+"448 177 OFFCURVE",
+"448 249 CURVE SMOOTH",
+"448 256 LINE",
+"384 256 LINE",
+"384 251 LINE SMOOTH",
+"384 212 OFFCURVE",
+"370 190 OFFCURVE",
+"332 190 CURVE SMOOTH",
+"116 190 LINE SMOOTH",
+"78 190 OFFCURVE",
+"64 212 OFFCURVE",
+"64 251 CURVE SMOOTH",
+"64 256 LINE",
+"0 256 LINE",
+"0 249 LINE SMOOTH",
+"0 177 OFFCURVE",
+"41 130 OFFCURVE",
+"116 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+paths = (
+{
+closed = 1;
+nodes = (
+"316 130 LINE SMOOTH",
+"391 130 OFFCURVE",
+"438 174 OFFCURVE",
+"452 246 CURVE SMOOTH",
+"454 256 LINE",
+"390 256 LINE",
+"390 254 LINE SMOOTH",
+"382 215 OFFCURVE",
+"361 190 OFFCURVE",
+"323 190 CURVE SMOOTH",
+"107 190 LINE SMOOTH",
+"69 190 OFFCURVE",
+"61 209 OFFCURVE",
+"69 248 CURVE SMOOTH",
+"70 256 LINE",
+"6 256 LINE",
+"6 252 LINE SMOOTH",
+"-9 180 OFFCURVE",
+"25 130 OFFCURVE",
+"100 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+paths = (
+{
+closed = 1;
+nodes = (
+"316 130 LINE SMOOTH",
+"391 130 OFFCURVE",
+"438 174 OFFCURVE",
+"452 246 CURVE SMOOTH",
+"454 256 LINE",
+"390 256 LINE",
+"390 254 LINE SMOOTH",
+"382 215 OFFCURVE",
+"361 190 OFFCURVE",
+"323 190 CURVE SMOOTH",
+"107 190 LINE SMOOTH",
+"69 190 OFFCURVE",
+"61 209 OFFCURVE",
+"69 248 CURVE SMOOTH",
+"70 256 LINE",
+"6 256 LINE",
+"6 252 LINE SMOOTH",
+"-9 180 OFFCURVE",
+"25 130 OFFCURVE",
+"100 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+paths = (
+{
+closed = 1;
+nodes = (
+"316 130 LINE SMOOTH",
+"391 130 OFFCURVE",
+"438 174 OFFCURVE",
+"452 246 CURVE SMOOTH",
+"454 256 LINE",
+"390 256 LINE",
+"390 254 LINE SMOOTH",
+"382 215 OFFCURVE",
+"361 190 OFFCURVE",
+"323 190 CURVE SMOOTH",
+"107 190 LINE SMOOTH",
+"69 190 OFFCURVE",
+"61 209 OFFCURVE",
+"69 248 CURVE SMOOTH",
+"70 256 LINE",
+"6 256 LINE",
+"6 252 LINE SMOOTH",
+"-9 180 OFFCURVE",
+"25 130 OFFCURVE",
+"100 130 CURVE SMOOTH"
+);
+}
+);
+width = 448;
+}
+);
+},
+{
+glyphname = emoji.mouth.grinning;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"352 64 LINE SMOOTH",
+"412 64 OFFCURVE",
+"448 104 OFFCURVE",
+"448 163 CURVE SMOOTH",
+"448 256 LINE",
+"0 256 LINE",
+"0 166 LINE SMOOTH",
+"0 103 OFFCURVE",
+"35 64 OFFCURVE",
+"96 64 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"73 128 OFFCURVE",
+"64 141 OFFCURVE",
+"64 163 CURVE SMOOTH",
+"64 192 LINE",
+"384 192 LINE",
+"384 163 LINE SMOOTH",
+"384 143 OFFCURVE",
+"373 128 OFFCURVE",
+"352 128 CURVE SMOOTH",
+"97 128 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"128 114 LINE",
+"192 114 LINE",
+"192 200 LINE",
+"128 200 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"256 114 LINE",
+"320 114 LINE",
+"320 200 LINE",
+"256 200 LINE"
+);
+}
+);
+};
+layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 66 LINE SMOOTH",
+"407 66 OFFCURVE",
+"448 113 OFFCURVE",
+"448 185 CURVE SMOOTH",
+"448 254 LINE",
+"0 254 LINE",
+"0 185 LINE SMOOTH",
+"0 113 OFFCURVE",
+"41 66 OFFCURVE",
+"116 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"192 114 LINE",
+"192 200 LINE",
+"128 200 LINE",
+"128 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 126 OFFCURVE",
+"64 148 OFFCURVE",
+"64 187 CURVE SMOOTH",
+"64 194 LINE",
+"384 194 LINE",
+"384 187 LINE SMOOTH",
+"384 148 OFFCURVE",
+"370 126 OFFCURVE",
+"332 126 CURVE SMOOTH",
+"116 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"320 114 LINE",
+"320 200 LINE",
+"256 200 LINE",
+"256 114 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 66 LINE SMOOTH",
+"407 66 OFFCURVE",
+"448 113 OFFCURVE",
+"448 185 CURVE SMOOTH",
+"448 254 LINE",
+"0 254 LINE",
+"0 185 LINE SMOOTH",
+"0 113 OFFCURVE",
+"41 66 OFFCURVE",
+"116 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"192 114 LINE",
+"192 200 LINE",
+"128 200 LINE",
+"128 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 126 OFFCURVE",
+"64 148 OFFCURVE",
+"64 187 CURVE SMOOTH",
+"64 194 LINE",
+"384 194 LINE",
+"384 187 LINE SMOOTH",
+"384 148 OFFCURVE",
+"370 126 OFFCURVE",
+"332 126 CURVE SMOOTH",
+"116 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"320 114 LINE",
+"320 200 LINE",
+"256 200 LINE",
+"256 114 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+paths = (
+{
+closed = 1;
+nodes = (
+"332 66 LINE SMOOTH",
+"407 66 OFFCURVE",
+"448 113 OFFCURVE",
+"448 185 CURVE SMOOTH",
+"448 254 LINE",
+"0 254 LINE",
+"0 185 LINE SMOOTH",
+"0 113 OFFCURVE",
+"41 66 OFFCURVE",
+"116 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"192 114 LINE",
+"192 200 LINE",
+"128 200 LINE",
+"128 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"78 126 OFFCURVE",
+"64 148 OFFCURVE",
+"64 187 CURVE SMOOTH",
+"64 194 LINE",
+"384 194 LINE",
+"384 187 LINE SMOOTH",
+"384 148 OFFCURVE",
+"370 126 OFFCURVE",
+"332 126 CURVE SMOOTH",
+"116 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"320 114 LINE",
+"320 200 LINE",
+"256 200 LINE",
+"256 114 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
+paths = (
+{
+closed = 1;
+nodes = (
+"303 66 LINE SMOOTH",
+"378 66 OFFCURVE",
+"425 110 OFFCURVE",
+"440 182 CURVE SMOOTH",
+"454 254 LINE",
+"6 254 LINE",
+"-7 188 LINE SMOOTH",
+"-22 116 OFFCURVE",
+"12 66 OFFCURVE",
+"87 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 114 LINE",
+"187 200 LINE",
+"123 200 LINE",
+"106 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 126 OFFCURVE",
+"48 145 OFFCURVE",
+"56 184 CURVE SMOOTH",
+"58 194 LINE",
+"378 194 LINE",
+"377 190 LINE SMOOTH",
+"369 151 OFFCURVE",
+"348 126 OFFCURVE",
+"310 126 CURVE SMOOTH",
+"94 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 114 LINE",
+"315 200 LINE",
+"251 200 LINE",
+"234 114 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
+paths = (
+{
+closed = 1;
+nodes = (
+"303 66 LINE SMOOTH",
+"378 66 OFFCURVE",
+"425 110 OFFCURVE",
+"440 182 CURVE SMOOTH",
+"454 254 LINE",
+"6 254 LINE",
+"-7 188 LINE SMOOTH",
+"-22 116 OFFCURVE",
+"12 66 OFFCURVE",
+"87 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 114 LINE",
+"187 200 LINE",
+"123 200 LINE",
+"106 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 126 OFFCURVE",
+"48 145 OFFCURVE",
+"56 184 CURVE SMOOTH",
+"58 194 LINE",
+"378 194 LINE",
+"377 190 LINE SMOOTH",
+"369 151 OFFCURVE",
+"348 126 OFFCURVE",
+"310 126 CURVE SMOOTH",
+"94 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 114 LINE",
+"315 200 LINE",
+"251 200 LINE",
+"234 114 LINE"
+);
+}
+);
+width = 448;
+},
+{
+layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
+paths = (
+{
+closed = 1;
+nodes = (
+"303 66 LINE SMOOTH",
+"378 66 OFFCURVE",
+"425 110 OFFCURVE",
+"440 182 CURVE SMOOTH",
+"454 254 LINE",
+"6 254 LINE",
+"-7 188 LINE SMOOTH",
+"-22 116 OFFCURVE",
+"12 66 OFFCURVE",
+"87 66 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 114 LINE",
+"187 200 LINE",
+"123 200 LINE",
+"106 114 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"56 126 OFFCURVE",
+"48 145 OFFCURVE",
+"56 184 CURVE SMOOTH",
+"58 194 LINE",
+"378 194 LINE",
+"377 190 LINE SMOOTH",
+"369 151 OFFCURVE",
+"348 126 OFFCURVE",
+"310 126 CURVE SMOOTH",
+"94 126 LINE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 114 LINE",
+"315 200 LINE",
+"251 200 LINE",
+"234 114 LINE"
 );
 }
 );
