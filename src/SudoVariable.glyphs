@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1344";
 classes = (
 {
 automatic = 1;
@@ -285,12 +285,6 @@ name = "Stem:0";
 width = 64;
 }
 );
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
-);
 }
 );
 descender = -192;
@@ -434,12 +428,6 @@ name = "Stem:0";
 width = 80;
 }
 );
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
-);
 }
 );
 descender = -192;
@@ -569,12 +557,6 @@ horizontal = 1;
 name = "Stem:0";
 width = 44;
 }
-);
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
 );
 }
 );
@@ -710,12 +692,6 @@ horizontal = 1;
 name = "Stem:0";
 width = 64;
 }
-);
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
 );
 }
 );
@@ -861,12 +837,6 @@ name = "Stem:0";
 width = 80;
 }
 );
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
-);
 }
 );
 descender = -192;
@@ -996,12 +966,6 @@ horizontal = 1;
 name = "Stem:0";
 width = 44;
 }
-);
-},
-{
-name = "Alignment Zones";
-value = (
-"{576, 16}"
 );
 }
 );
