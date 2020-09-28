@@ -2,8 +2,7 @@
 .appVersion = "1346";
 DisplayStrings = (
 "I/whiteFrowningFace I/emoji.mouth I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/emoji.eyes.smiling/smilingFaceWithSmilingEyes I",
-"ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã",
-"/Bstroke Ð/Hbar Ø/Tbar/dcroat/hbar/tbar"
+"ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã"
 );
 classes = (
 {
