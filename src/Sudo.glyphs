@@ -1,11 +1,12 @@
 {
-.appVersion = "1346";
+.appVersion = "1348";
 DisplayStrings = (
 "I/whiteFrowningFace I/emoji.mouth I/whiteSmilingFace I/grinningFaceWithSmilingEyes I/grinningFace I/emoji.eyes.smiling/smilingFaceWithSmilingEyes I",
 "ÉAÁ/Abreve ÂÄÀ/Amacron/Aogonek Å/Aringacute Ã",
 "/hbar",
 "/g.ss01",
-s
+s,
+"/ringcomb/ringcomb.case Å"
 );
 classes = (
 {
@@ -425975,6 +425976,54 @@ isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = "Remove Features";
+value = (
+kern,
+mark,
+mkmk
+);
+},
+{
+name = "Decompose Glyphs";
+value = (
+asterisk,
+gearWithoutHub
+);
+},
+{
+name = "Instance Preview";
+value = (
+H,
+a,
+i,
+m,
+f,
+g,
+r,
+o,
+n,
+k,
+one,
+nine,
+seven,
+six
+);
+}
+);
+interpolationWeight = 92;
+interpolationWidth = 50;
+instanceInterpolations = {
+"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.25;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.25;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.25;
+"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.25;
+};
+name = Medium;
+weightClass = Medium;
 },
 {
 exports = 0;
