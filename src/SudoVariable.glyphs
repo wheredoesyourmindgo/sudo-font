@@ -1,8 +1,5 @@
 {
-.appVersion = "1346";
-DisplayStrings = (
-x
-);
+.appVersion = "1348";
 classes = (
 {
 automatic = 1;
@@ -85,7 +82,7 @@ Tag = wght;
 );
 }
 );
-date = "2020-09-28 18:41:48 +0000";
+date = "2020-10-20 07:53:55 +0000";
 designer = "Jens Kutilek";
 designerURL = "http://www.kutilek.de/";
 familyName = "Sudo Variable";
@@ -312033,13 +312030,13 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 1}";
+origin = "{0, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-origin = "{0, 1}";
-target = "{0, 3}";
+origin = "{0, 0}";
+target = "{0, 2}";
 type = TTStem;
 stem = -1;
 }
@@ -312049,10 +312046,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"193 512 LINE",
 "255 512 LINE",
 "340 650 LINE",
-"240 650 LINE"
+"240 650 LINE",
+"193 512 LINE"
 );
 }
 );
@@ -312087,10 +312084,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"179 508 LINE",
 "269 508 LINE",
 "375 654 LINE",
-"210 654 LINE"
+"210 654 LINE",
+"179 508 LINE"
 );
 }
 );
@@ -313580,12 +313577,12 @@ nodes = (
 hints = (
 {
 horizontal = 1;
-origin = "{0, 5}";
+origin = "{0, 11}";
 type = Anchor;
 },
 {
 horizontal = 1;
-origin = "{0, 5}";
+origin = "{0, 11}";
 target = "{1, 11}";
 type = TTStem;
 options = 4;
@@ -313600,7 +313597,7 @@ stem = -1;
 {
 horizontal = 1;
 origin = "{1, 5}";
-target = "{0, 11}";
+target = "{0, 5}";
 type = TTStem;
 options = 4;
 }
@@ -313610,18 +313607,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"165 697 OFFCURVE",
-"121 651 OFFCURVE",
-"121 595 CURVE SMOOTH",
-"121 539 OFFCURVE",
-"165 493 OFFCURVE",
-"224 493 CURVE SMOOTH",
 "283 493 OFFCURVE",
 "327 539 OFFCURVE",
 "327 595 CURVE SMOOTH",
 "327 651 OFFCURVE",
 "283 697 OFFCURVE",
-"224 697 CURVE SMOOTH"
+"224 697 CURVE SMOOTH",
+"165 697 OFFCURVE",
+"121 651 OFFCURVE",
+"121 595 CURVE SMOOTH",
+"121 539 OFFCURVE",
+"165 493 OFFCURVE",
+"224 493 CURVE SMOOTH"
 );
 },
 {
@@ -401342,5 +401339,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 51;
+versionMinor = 52;
 }
