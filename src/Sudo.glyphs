@@ -435544,7 +435544,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "2009-2019 by Jens Kutilek";
+value = "2009-2021 by Jens Kutilek";
 }
 );
 },
@@ -436772,5 +436772,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 51;
+versionMinor = 53;
 }
