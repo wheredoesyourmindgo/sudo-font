@@ -76,7 +76,7 @@ Location = 0;
 },
 {
 Axis = "y transparent descender";
-Location = 64;
+Location = -64;
 }
 );
 }
