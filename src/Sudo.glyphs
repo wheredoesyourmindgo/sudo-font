@@ -432563,13 +432563,17 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = fileName;
+value = SudoUIVariable;
 }
 );
 exports = 0;
 instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
-name = Thin;
+name = Regular;
 properties = (
 {
 key = familyNames;
@@ -432829,12 +432833,16 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = fileName;
+value = SudoVariable;
 }
 );
 instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
-name = Thin;
+name = Regular;
 properties = (
 {
 key = familyNames;
