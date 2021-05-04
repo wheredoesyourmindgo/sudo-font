@@ -71706,12 +71706,12 @@ pos = (248,436);
 hints = (
 {
 horizontal = 1;
-place = (448, -2147483648);
+place = (448, 0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, -2147483648);
+place = (0, 0);
 type = TTSnap;
 },
 {
@@ -71732,12 +71732,12 @@ type = TTShift;
 },
 {
 options = 8;
-place = (358, -2147483648);
+place = (358, 0);
 type = TTSnap;
 },
 {
 options = 8;
-place = (105, -2147483648);
+place = (105, 0);
 type = TTSnap;
 },
 {
@@ -432555,7 +432555,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -432825,7 +432827,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -432896,6 +432900,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -432944,6 +433057,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -432993,6 +433215,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433040,6 +433371,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433089,6 +433529,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433152,6 +433701,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433216,6 +433874,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433281,6 +434048,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433343,6 +434219,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433406,6 +434391,115 @@ nine,
 seven,
 six
 );
+},
+{
+name = "Remove Glyphs";
+value = (
+A.ss20,
+C.ss20,
+D.ss20,
+F.ss20,
+G.ss20,
+H.ss20,
+Hturned.ss20,
+I.ss20,
+J.ss20,
+K.ss20,
+L.ss20,
+M.ss20,
+N.ss20,
+Eng.ss20,
+O.ss20,
+OE.ss20,
+Q.ss20,
+S.ss20,
+Germandbls.ss20,
+T.ss20,
+U.ss20,
+V.ss20,
+W.ss20,
+X.ss20,
+Y.ss20,
+Z.ss20,
+I.ss02.ss20,
+a.ss20,
+ae.ss20,
+c.ss20,
+f.ss20,
+i.ss20,
+idotless.ss20,
+j.ss20,
+jdotless.ss20,
+l.ss20,
+m.ss20,
+oe.ss20,
+r.ss20,
+s.ss20,
+t.ss20,
+w.ss20,
+z.ss20,
+idotless.ss02.ss20,
+"Ge-cy.ss20",
+"Geupturn-cy.ss20",
+"Zhe-cy.ss20",
+"Ze-cy.ss20",
+"Ii-cy.ss20",
+"El-cy.ss20",
+"Pe-cy.ss20",
+"Ef-cy.ss20",
+"Sha-cy.ss20",
+"Shcha-cy.ss20",
+"Yeru-cy.ss20",
+"Lje-cy.ss20",
+"Nje-cy.ss20",
+"Tshe-cy.ss20",
+"Yu-cy.ss20",
+"Dje-cy.ss20",
+"ge-cy.ss20",
+"zhe-cy.ss20",
+"em-cy.ss20",
+"ef-cy.ss20",
+"sha-cy.ss20",
+"shcha-cy.ss20",
+"yeru-cy.ss20",
+"lje-cy.ss20",
+"nje-cy.ss20",
+"yu-cy.ss20",
+Psi.ss20,
+period.ss20,
+comma.ss20,
+colon.ss20,
+semicolon.ss20,
+hyphen.ss20,
+quotesinglbase.ss20,
+quotedblbase.ss20,
+quotedblleft.ss20,
+quotedblright.ss20,
+quoteleft.ss20,
+quoteright.ss20,
+quotereversed.ss20,
+quotedblrightreversed.ss20,
+guillemetleft.ss20,
+guillemetright.ss20,
+guilsinglleft.ss20,
+guilsinglright.ss20,
+quotedbl.ss20,
+quotesingle.ss20,
+slash.ss20,
+backslash.ss20,
+space.ss20,
+nbspace.ss20
+);
+},
+{
+name = "Remove Features";
+value = (
+ss20
+);
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433660,7 +434754,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -433668,6 +434764,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -433930,7 +435030,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -433938,6 +435040,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -434201,7 +435307,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -434209,6 +435317,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -434471,7 +435583,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -434479,6 +435593,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -434743,7 +435861,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -434751,6 +435871,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -435017,7 +436141,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -435025,6 +436151,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -435293,7 +436423,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -435301,6 +436433,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -435570,7 +436706,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -435578,6 +436716,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -435845,7 +436987,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -435853,6 +436997,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -436122,7 +437270,9 @@ guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
 slash.ss20,
-backslash.ss20
+backslash.ss20,
+space.ss20,
+nbspace.ss20
 );
 },
 {
@@ -436130,6 +437280,10 @@ name = "Remove Features";
 value = (
 ss20
 );
+},
+{
+name = "Keep Overlapping Components";
+value = 1;
 }
 );
 instanceInterpolations = {
