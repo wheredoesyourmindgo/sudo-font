@@ -32956,6 +32956,8 @@ width = 448;
 {
 color = 8;
 glyphname = C.ss20;
+kernLeft = O;
+kernRight = C;
 layers = (
 {
 anchors = (
@@ -33283,6 +33285,7 @@ metricWidth = "=pixel*6";
 {
 color = 8;
 glyphname = D.ss20;
+kernRight = O;
 layers = (
 {
 anchors = (
@@ -33882,6 +33885,7 @@ metricWidth = "=pixel*6";
 {
 color = 8;
 glyphname = G.ss20;
+kernRight = G;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -34754,6 +34758,7 @@ metricWidth = "=pixel*5";
 {
 color = 8;
 glyphname = J.ss20;
+kernRight = U;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -34814,6 +34819,7 @@ width = 448;
 {
 color = 8;
 glyphname = K.ss20;
+kernRight = K;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -36473,6 +36479,8 @@ metricWidth = "=pixel*7.5";
 {
 color = 8;
 glyphname = S.ss20;
+kernLeft = S;
+kernRight = S;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -37424,6 +37432,8 @@ width = 448;
 {
 color = 8;
 glyphname = W.ss20;
+kernLeft = W;
+kernRight = W;
 layers = (
 {
 anchors = (
@@ -37871,6 +37881,8 @@ metricWidth = "=pixel*7";
 {
 color = 8;
 glyphname = X.ss20;
+kernLeft = X;
+kernRight = X;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -37931,6 +37943,8 @@ width = 448;
 {
 color = 8;
 glyphname = Y.ss20;
+kernLeft = Y;
+kernRight = Y;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -37991,6 +38005,8 @@ width = 448;
 {
 color = 8;
 glyphname = Z.ss20;
+kernLeft = Z;
+kernRight = Z;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -432762,6 +432778,7 @@ name = fileName;
 value = SudoVariable;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
