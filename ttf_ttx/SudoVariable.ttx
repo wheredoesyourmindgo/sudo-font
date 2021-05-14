@@ -1335,12 +1335,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.053"/>
-    <checkSumAdjustment value="0xc8919e9d"/>
+    <checkSumAdjustment value="0x2acf150c"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Sep 28 18:41:54 2020"/>
-    <modified value="Fri May 14 15:50:21 2021"/>
+    <modified value="Fri May 14 15:53:20 2021"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -1369,7 +1369,7 @@
     <reserved2 value="0"/>
     <reserved3 value="0"/>
     <metricDataFormat value="0"/>
-    <numberOfHMetrics value="2"/>
+    <numberOfHMetrics value="1"/>
   </hhea>
 
   <maxp>
@@ -1388,7 +1388,7 @@
     <maxStackElements value="100"/>
     <maxSizeOfInstructions value="116"/>
     <maxComponentElements value="6"/>
-    <maxComponentDepth value="3"/>
+    <maxComponentDepth value="2"/>
   </maxp>
 
   <OS_2>
