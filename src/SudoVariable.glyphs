@@ -2,7 +2,8 @@
 .appVersion = "3083";
 .formatVersion = 3;
 DisplayStrings = (
-"5"
+TVA,
+"↓¢"
 );
 axes = (
 {
@@ -14,6 +15,7 @@ name = Italic;
 tag = ital;
 },
 {
+hidden = 1;
 name = "y transparent descender";
 tag = ytde;
 }
@@ -84,8 +86,9 @@ ital = {
 };
 wght = {
 48 = 48;
-62 = 60;
+60 = 62;
 72 = 72;
+98.7 = 92;
 112 = 112;
 };
 ytde = {
@@ -135,6 +138,16 @@ feature ss02;
 feature ss20;
 ";
 tag = aalt;
+},
+{
+code = "#ifdef VARIABLE
+condition 0.5 < ital < 1;
+sub f by f.italic;
+sub germandbls by germandbls.italic;
+sub longs by longs.italic;
+#endif
+";
+tag = rvrn;
 },
 {
 code = "#ifdef VARIABLE
@@ -1503,8 +1516,6 @@ GSOffsetVertical = 10;
 glyphs = (
 {
 glyphname = A;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 anchors = (
@@ -1948,8 +1959,6 @@ unicode = 65;
 {
 color = 6;
 glyphname = Aacute;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2049,8 +2058,6 @@ unicode = 193;
 {
 color = 6;
 glyphname = Abreve;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2229,8 +2236,6 @@ unicode = 461;
 {
 color = 6;
 glyphname = Acircumflex;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2330,8 +2335,6 @@ unicode = 194;
 {
 color = 6;
 glyphname = Adieresis;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2510,8 +2513,6 @@ unicode = 550;
 {
 color = 6;
 glyphname = Agrave;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2611,8 +2612,6 @@ unicode = 192;
 {
 color = 6;
 glyphname = Amacron;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2712,8 +2711,6 @@ unicode = 256;
 {
 color = 6;
 glyphname = Aogonek;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2821,8 +2818,6 @@ unicode = 260;
 {
 color = 6;
 glyphname = Aring;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -2924,8 +2919,6 @@ unicode = 197;
 {
 color = 6;
 glyphname = Aringacute;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -3077,8 +3070,6 @@ unicode = 506;
 {
 color = 6;
 glyphname = Atilde;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 background = {
@@ -3177,7 +3168,6 @@ unicode = 195;
 },
 {
 glyphname = AE;
-kernLeft = A;
 layers = (
 {
 anchors = (
@@ -3879,7 +3869,6 @@ unicode = 198;
 {
 color = 6;
 glyphname = AEacute;
-kernLeft = A;
 layers = (
 {
 background = {
@@ -4884,8 +4873,6 @@ unicode = 579;
 },
 {
 glyphname = C;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 anchors = (
@@ -5283,8 +5270,6 @@ unicode = 67;
 {
 color = 6;
 glyphname = Cacute;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 background = {
@@ -5390,8 +5375,6 @@ unicode = 262;
 {
 color = 6;
 glyphname = Ccaron;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 background = {
@@ -5497,8 +5480,6 @@ unicode = 268;
 {
 color = 6;
 glyphname = Ccedilla;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 background = {
@@ -5701,8 +5682,6 @@ unicode = 7688;
 {
 color = 6;
 glyphname = Ccircumflex;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 background = {
@@ -5808,8 +5787,6 @@ unicode = 264;
 {
 color = 6;
 glyphname = Cdotaccent;
-kernLeft = O;
-kernRight = C;
 layers = (
 {
 background = {
@@ -5914,7 +5891,6 @@ unicode = 266;
 },
 {
 glyphname = D;
-kernRight = O;
 layers = (
 {
 anchors = (
@@ -6376,7 +6352,6 @@ unicode = 68;
 {
 color = 7;
 glyphname = Eth;
-kernRight = O;
 layers = (
 {
 background = {
@@ -6524,7 +6499,6 @@ unicode = 208;
 {
 color = 6;
 glyphname = Dcaron;
-kernRight = O;
 layers = (
 {
 background = {
@@ -6712,7 +6686,6 @@ unicode = 7696;
 {
 color = 6;
 glyphname = Dcroat;
-kernRight = O;
 layers = (
 {
 background = {
@@ -8787,8 +8760,6 @@ unicode = 7710;
 },
 {
 glyphname = G;
-kernLeft = O;
-kernRight = G;
 layers = (
 {
 anchors = (
@@ -9342,8 +9313,6 @@ unicode = 500;
 {
 color = 6;
 glyphname = Gbreve;
-kernLeft = O;
-kernRight = G;
 layers = (
 {
 background = {
@@ -9534,8 +9503,6 @@ unicode = 486;
 {
 color = 6;
 glyphname = Gcircumflex;
-kernLeft = O;
-kernRight = G;
 layers = (
 {
 background = {
@@ -9641,8 +9608,6 @@ unicode = 284;
 {
 color = 6;
 glyphname = Gcommaaccent;
-kernLeft = O;
-kernRight = G;
 layers = (
 {
 background = {
@@ -9744,8 +9709,6 @@ unicode = 290;
 {
 color = 6;
 glyphname = Gdotaccent;
-kernLeft = O;
-kernRight = G;
 layers = (
 {
 background = {
@@ -14163,7 +14126,6 @@ unicode = 7730;
 },
 {
 glyphname = L;
-kernRight = L;
 layers = (
 {
 anchors = (
@@ -14419,7 +14381,6 @@ unicode = 76;
 {
 color = 6;
 glyphname = Lacute;
-kernRight = L;
 layers = (
 {
 background = {
@@ -14719,7 +14680,6 @@ unicode = 317;
 {
 color = 6;
 glyphname = Lcommaaccent;
-kernRight = L;
 layers = (
 {
 background = {
@@ -15108,7 +15068,6 @@ unicode = 7736;
 {
 color = 6;
 glyphname = Lslash;
-kernRight = L;
 layers = (
 {
 background = {
@@ -17462,8 +17421,6 @@ unicode = 330;
 },
 {
 glyphname = O;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 anchors = (
@@ -17971,8 +17928,6 @@ unicode = 79;
 {
 color = 6;
 glyphname = Oacute;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18072,8 +18027,6 @@ unicode = 211;
 {
 color = 6;
 glyphname = Obreve;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18252,8 +18205,6 @@ unicode = 465;
 {
 color = 6;
 glyphname = Ocircumflex;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18353,8 +18304,6 @@ unicode = 212;
 {
 color = 6;
 glyphname = Odieresis;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18533,8 +18482,6 @@ unicode = 558;
 {
 color = 6;
 glyphname = Ograve;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18634,8 +18581,6 @@ unicode = 210;
 {
 color = 6;
 glyphname = Ohungarumlaut;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -18737,8 +18682,6 @@ unicode = 336;
 {
 color = 6;
 glyphname = Omacron;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -19026,8 +18969,6 @@ unicode = 492;
 {
 color = 7;
 glyphname = Oslash;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -19188,8 +19129,6 @@ unicode = 216;
 {
 color = 6;
 glyphname = Oslashacute;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -19307,8 +19246,6 @@ unicode = 510;
 {
 color = 6;
 glyphname = Otilde;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 background = {
@@ -19407,7 +19344,6 @@ unicode = 213;
 },
 {
 glyphname = OE;
-kernLeft = O;
 layers = (
 {
 anchors = (
@@ -21145,7 +21081,6 @@ unicode = 222;
 },
 {
 glyphname = Q;
-kernLeft = O;
 layers = (
 {
 anchors = (
@@ -25026,8 +24961,6 @@ unicode = 42920;
 },
 {
 glyphname = Schwa;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 anchors = (
@@ -25981,8 +25914,6 @@ unicode = 84;
 {
 color = 7;
 glyphname = Tbar;
-kernLeft = T;
-kernRight = T;
 layers = (
 {
 background = {
@@ -26130,8 +26061,6 @@ unicode = 358;
 {
 color = 6;
 glyphname = Tcaron;
-kernLeft = T;
-kernRight = T;
 layers = (
 {
 background = {
@@ -26231,8 +26160,6 @@ unicode = 356;
 {
 color = 6;
 glyphname = Tcedilla;
-kernLeft = T;
-kernRight = T;
 layers = (
 {
 background = {
@@ -26332,8 +26259,6 @@ unicode = 354;
 {
 color = 6;
 glyphname = Tcommaaccent;
-kernLeft = T;
-kernRight = T;
 layers = (
 {
 background = {
@@ -26590,8 +26515,6 @@ unicode = 7788;
 },
 {
 glyphname = U;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 anchors = (
@@ -26976,8 +26899,6 @@ unicode = 85;
 {
 color = 6;
 glyphname = Uacute;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27077,8 +26998,6 @@ unicode = 218;
 {
 color = 6;
 glyphname = Ubreve;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27257,8 +27176,6 @@ unicode = 467;
 {
 color = 6;
 glyphname = Ucircumflex;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27358,8 +27275,6 @@ unicode = 219;
 {
 color = 6;
 glyphname = Udieresis;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27459,8 +27374,6 @@ unicode = 220;
 {
 color = 6;
 glyphname = Ugrave;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27560,8 +27473,6 @@ unicode = 217;
 {
 color = 6;
 glyphname = Uhungarumlaut;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27663,8 +27574,6 @@ unicode = 368;
 {
 color = 6;
 glyphname = Umacron;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27764,8 +27673,6 @@ unicode = 362;
 {
 color = 6;
 glyphname = Uogonek;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27873,8 +27780,6 @@ unicode = 370;
 {
 color = 6;
 glyphname = Uring;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -27974,8 +27879,6 @@ unicode = 366;
 {
 color = 6;
 glyphname = Utilde;
-kernLeft = U;
-kernRight = U;
 layers = (
 {
 background = {
@@ -28507,8 +28410,6 @@ unicode = 7804;
 },
 {
 glyphname = W;
-kernLeft = W;
-kernRight = W;
 layers = (
 {
 anchors = (
@@ -28986,8 +28887,6 @@ unicode = 87;
 {
 color = 6;
 glyphname = Wacute;
-kernLeft = W;
-kernRight = W;
 layers = (
 {
 background = {
@@ -29087,8 +28986,6 @@ unicode = 7810;
 {
 color = 6;
 glyphname = Wcircumflex;
-kernLeft = W;
-kernRight = W;
 layers = (
 {
 background = {
@@ -29188,8 +29085,6 @@ unicode = 372;
 {
 color = 6;
 glyphname = Wdieresis;
-kernLeft = W;
-kernRight = W;
 layers = (
 {
 background = {
@@ -29447,8 +29342,6 @@ unicode = 7816;
 {
 color = 6;
 glyphname = Wgrave;
-kernLeft = W;
-kernRight = W;
 layers = (
 {
 background = {
@@ -30343,8 +30236,6 @@ unicode = 7818;
 },
 {
 glyphname = Y;
-kernLeft = Y;
-kernRight = Y;
 layers = (
 {
 anchors = (
@@ -30744,8 +30635,6 @@ unicode = 89;
 {
 color = 6;
 glyphname = Yacute;
-kernLeft = Y;
-kernRight = Y;
 layers = (
 {
 background = {
@@ -30845,8 +30734,6 @@ unicode = 221;
 {
 color = 6;
 glyphname = Ycircumflex;
-kernLeft = Y;
-kernRight = Y;
 layers = (
 {
 background = {
@@ -30946,8 +30833,6 @@ unicode = 374;
 {
 color = 6;
 glyphname = Ydieresis;
-kernLeft = Y;
-kernRight = Y;
 layers = (
 {
 background = {
@@ -31126,8 +31011,6 @@ unicode = 7822;
 {
 color = 6;
 glyphname = Ygrave;
-kernLeft = Y;
-kernRight = Y;
 layers = (
 {
 background = {
@@ -32577,6 +32460,7 @@ width = 448;
 },
 {
 glyphname = C.ss20;
+kernRight = C;
 layers = (
 {
 anchors = (
@@ -32903,6 +32787,7 @@ metricWidth = "=pixel*6";
 },
 {
 glyphname = D.ss20;
+kernRight = O;
 layers = (
 {
 anchors = (
@@ -33501,6 +33386,7 @@ metricWidth = "=pixel*6";
 {
 color = 8;
 glyphname = G.ss20;
+kernRight = G;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -34370,6 +34256,8 @@ metricWidth = "=pixel*5";
 {
 color = 8;
 glyphname = J.ss20;
+kernLeft = J;
+kernRight = U;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -34430,6 +34318,7 @@ width = 448;
 {
 color = 8;
 glyphname = K.ss20;
+kernRight = K;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -34686,6 +34575,8 @@ metricWidth = "=pixel*6";
 },
 {
 glyphname = M.ss20;
+kernLeft = M;
+kernRight = M;
 layers = (
 {
 anchors = (
@@ -35336,6 +35227,8 @@ width = 448;
 },
 {
 glyphname = O.ss20;
+kernLeft = O;
+kernRight = O;
 layers = (
 {
 anchors = (
@@ -35727,6 +35620,8 @@ metricWidth = "=pixel*7.5";
 {
 color = 8;
 glyphname = OE.ss20;
+kernLeft = O;
+kernRight = E;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -35811,6 +35706,7 @@ width = 896;
 {
 color = 7;
 glyphname = Q.ss20;
+kernLeft = O;
 layers = (
 {
 hints = (
@@ -36001,6 +35897,7 @@ metricWidth = "=pixel*7.5";
 {
 color = 8;
 glyphname = S.ss20;
+kernLeft = S;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -36941,6 +36838,8 @@ width = 448;
 {
 color = 0;
 glyphname = W.ss20;
+kernLeft = W;
+kernRight = W;
 layers = (
 {
 anchors = (
@@ -37388,6 +37287,8 @@ metricWidth = "=pixel*7";
 {
 color = 8;
 glyphname = X.ss20;
+kernLeft = X;
+kernRight = X;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -37448,6 +37349,8 @@ width = 448;
 {
 color = 8;
 glyphname = Y.ss20;
+kernLeft = Y;
+kernRight = Y;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -37508,6 +37411,8 @@ width = 448;
 {
 color = 8;
 glyphname = Z.ss20;
+kernLeft = Z;
+kernRight = Z;
 layers = (
 {
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
@@ -48012,7 +47917,6 @@ unicode = 384;
 },
 {
 glyphname = c;
-kernLeft = o;
 layers = (
 {
 anchors = (
@@ -49078,7 +48982,6 @@ unicode = 267;
 },
 {
 glyphname = d;
-kernLeft = o;
 layers = (
 {
 anchors = (
@@ -50933,7 +50836,6 @@ unicode = 7693;
 },
 {
 glyphname = e;
-kernLeft = o;
 layers = (
 {
 anchors = (
@@ -53165,7 +53067,6 @@ unicode = 7711;
 },
 {
 glyphname = g;
-kernLeft = o;
 layers = (
 {
 anchors = (
@@ -62612,7 +62513,6 @@ unicode = 7747;
 },
 {
 glyphname = n;
-kernLeft = n;
 layers = (
 {
 anchors = (
@@ -64945,7 +64845,6 @@ unicode = 331;
 },
 {
 glyphname = o;
-kernLeft = o;
 layers = (
 {
 anchors = (
@@ -68258,7 +68157,6 @@ unicode = 339;
 },
 {
 glyphname = p;
-kernLeft = n;
 layers = (
 {
 anchors = (
@@ -69580,7 +69478,6 @@ unicode = 254;
 },
 {
 glyphname = q;
-kernLeft = o;
 layers = (
 {
 background = {
@@ -76045,7 +75942,6 @@ unicode = 7789;
 },
 {
 glyphname = u;
-kernLeft = n;
 layers = (
 {
 anchors = (
@@ -77587,7 +77483,6 @@ unicode = 361;
 },
 {
 glyphname = v;
-kernLeft = v;
 layers = (
 {
 anchors = (
@@ -79573,7 +79468,6 @@ unicode = 7832;
 },
 {
 glyphname = x;
-kernLeft = x;
 layers = (
 {
 anchors = (
@@ -80340,7 +80234,6 @@ unicode = 7819;
 },
 {
 glyphname = y;
-kernLeft = y;
 layers = (
 {
 anchors = (
@@ -430745,6 +430638,10 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -431578,6 +431475,10 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = ital;
 }
 );
 instanceInterpolations = {
