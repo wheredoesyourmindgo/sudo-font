@@ -1,6 +1,9 @@
 {
 .appVersion = "3083";
 .formatVersion = 3;
+DisplayStrings = (
+"ȷjpg"
+);
 axes = (
 {
 name = Weight;
@@ -58296,6 +58299,39 @@ ref = jdotless;
 },
 {
 pos = (12,0);
+ref = dotaccentcomb;
+}
+);
+width = 448;
+},
+{
+associatedMasterId = "95FB0C11-C828-4064-8966-34220AA4D426";
+attr = {
+coordinates = (
+72,
+0,
+-64
+);
+};
+background = {
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-4,0);
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "84840E00-47F1-4FAC-9753-769DB5A87CE9";
+name = "17. Mai 21, 10:11";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (24,0);
 ref = dotaccentcomb;
 }
 );
