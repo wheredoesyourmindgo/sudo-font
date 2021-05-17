@@ -1,10 +1,6 @@
 {
 .appVersion = "3083";
 .formatVersion = 3;
-DisplayStrings = (
-TVA,
-"↓¢"
-);
 axes = (
 {
 name = Weight;
@@ -141,21 +137,12 @@ tag = aalt;
 },
 {
 code = "#ifdef VARIABLE
-condition 0.5 < ital < 1;
+condition 50 < ital < 100;
 sub f by f.italic;
 sub germandbls by germandbls.italic;
 sub longs by longs.italic;
 #endif
 ";
-tag = rvrn;
-},
-{
-code = "#ifdef VARIABLE
-condition 0.5 < ital < 1;
-sub f by f.italic;
-sub germandbls by germandbls.italic;
-sub longs by longs.italic;
-#endif";
 tag = rlig;
 },
 {
@@ -429883,6 +429870,14 @@ ss20
 {
 name = fileName;
 value = SudoUIVariable;
+},
+{
+name = "Remove Features";
+value = (
+kern,
+mark,
+mkmk
+);
 }
 );
 exports = 0;
@@ -430155,6 +430150,14 @@ ss20
 {
 name = fileName;
 value = SudoVariable;
+},
+{
+name = "Remove Features";
+value = (
+kern,
+mark,
+mkmk
+);
 }
 );
 instanceInterpolations = {
