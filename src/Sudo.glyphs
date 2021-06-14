@@ -1,10 +1,6 @@
 {
-.appVersion = "3083";
+.appVersion = "3086";
 .formatVersion = 3;
-DisplayStrings = (
-"/f.italic/germandbls.italic/longs.italic",
-"H%‰/zerosuperior.alt001/fraction.percent"
-);
 axes = (
 {
 name = Weight;
@@ -338125,7 +338121,7 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = (376, -2147483648);
+place = (376, 0);
 type = TTSnap;
 },
 {
@@ -338136,7 +338132,7 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = (264, -2147483648);
+place = (264, 0);
 type = TTSnap;
 },
 {
@@ -338695,166 +338691,19 @@ nodes = (
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
-closed = 1;
-nodes = (
-(320,0,l),
-(384,0,l),
-(384,64,l),
-(320,64,l)
-);
+alignment = -1;
+ref = fraction.percent;
 },
 {
-closed = 1;
-nodes = (
-(384,64,l),
-(448,64,l),
-(448,128,l),
-(384,128,l)
-);
+pos = (223,-384);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(256,64,l),
-(320,64,l),
-(320,128,l),
-(256,128,l)
-);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(64,0,l),
-(128,0,l),
-(128,64,l),
-(64,64,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,64,l),
-(64,64,l),
-(64,128,l),
-(0,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,64,l),
-(192,64,l),
-(192,128,l),
-(128,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,448,l),
-(64,448,l),
-(64,512,l),
-(0,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,384,l),
-(128,384,l),
-(128,448,l),
-(64,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,448,l),
-(192,448,l),
-(192,512,l),
-(128,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,128,l),
-(128,128,l),
-(128,192,l),
-(64,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(320,128,l),
-(384,128,l),
-(384,192,l),
-(320,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,256,l),
-(64,256,l),
-(64,320,l),
-(0,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,256,l),
-(128,256,l),
-(128,320,l),
-(64,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,256,l),
-(192,256,l),
-(192,320,l),
-(128,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,512,l),
-(128,512,l),
-(128,576,l),
-(64,576,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(192,320,l),
-(256,320,l),
-(256,384,l),
-(192,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(256,320,l),
-(320,320,l),
-(320,384,l),
-(256,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(320,320,l),
-(384,320,l),
-(384,384,l),
-(320,384,l)
-);
+pos = (-27,-501);
+ref = zerosuperior.alt001;
 }
 );
 width = 448;
@@ -338863,166 +338712,19 @@ width = 448;
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
-closed = 1;
-nodes = (
-(320,0,l),
-(384,0,l),
-(384,64,l),
-(320,64,l)
-);
+alignment = -1;
+ref = fraction.percent;
 },
 {
-closed = 1;
-nodes = (
-(384,64,l),
-(448,64,l),
-(448,128,l),
-(384,128,l)
-);
+pos = (223,-384);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(256,64,l),
-(320,64,l),
-(320,128,l),
-(256,128,l)
-);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(64,0,l),
-(128,0,l),
-(128,64,l),
-(64,64,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,64,l),
-(64,64,l),
-(64,128,l),
-(0,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,64,l),
-(192,64,l),
-(192,128,l),
-(128,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,448,l),
-(64,448,l),
-(64,512,l),
-(0,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,384,l),
-(128,384,l),
-(128,448,l),
-(64,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,448,l),
-(192,448,l),
-(192,512,l),
-(128,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,128,l),
-(128,128,l),
-(128,192,l),
-(64,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(320,128,l),
-(384,128,l),
-(384,192,l),
-(320,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(0,256,l),
-(64,256,l),
-(64,320,l),
-(0,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,256,l),
-(128,256,l),
-(128,320,l),
-(64,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(128,256,l),
-(192,256,l),
-(192,320,l),
-(128,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(64,512,l),
-(128,512,l),
-(128,576,l),
-(64,576,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(192,320,l),
-(256,320,l),
-(256,384,l),
-(192,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(256,320,l),
-(320,320,l),
-(320,384,l),
-(256,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(320,320,l),
-(384,320,l),
-(384,384,l),
-(320,384,l)
-);
+pos = (-27,-501);
+ref = zerosuperior.alt001;
 }
 );
 width = 448;
@@ -339031,166 +338733,21 @@ width = 448;
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
 shapes = (
 {
-closed = 1;
-nodes = (
-(275,0,l),
-(339,0,l),
-(352,64,l),
-(288,64,l)
-);
+alignment = -1;
+pos = (-54,0);
+ref = fraction.percent;
 },
 {
-closed = 1;
-nodes = (
-(352,64,l),
-(416,64,l),
-(429,128,l),
-(365,128,l)
-);
+pos = (169,-384);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(224,64,l),
-(288,64,l),
-(301,128,l),
-(237,128,l)
-);
+pos = (-54,0);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(19,0,l),
-(83,0,l),
-(96,64,l),
-(32,64,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(-32,64,l),
-(32,64,l),
-(45,128,l),
-(-19,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,64,l),
-(160,64,l),
-(173,128,l),
-(109,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,448,l),
-(109,448,l),
-(122,512,l),
-(58,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,384,l),
-(160,384,l),
-(173,448,l),
-(109,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(173,448,l),
-(237,448,l),
-(250,512,l),
-(186,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,128,l),
-(109,128,l),
-(122,192,l),
-(58,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(301,128,l),
-(365,128,l),
-(378,192,l),
-(314,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(6,256,l),
-(70,256,l),
-(83,320,l),
-(19,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(70,256,l),
-(134,256,l),
-(147,320,l),
-(83,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(134,256,l),
-(198,256,l),
-(211,320,l),
-(147,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(122,512,l),
-(186,512,l),
-(198,576,l),
-(134,576,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(211,320,l),
-(275,320,l),
-(288,384,l),
-(224,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(275,320,l),
-(339,320,l),
-(352,384,l),
-(288,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(339,320,l),
-(403,320,l),
-(416,384,l),
-(352,384,l)
-);
+pos = (-81,-501);
+ref = zerosuperior.alt001;
 }
 );
 width = 448;
@@ -339199,166 +338756,21 @@ width = 448;
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
-closed = 1;
-nodes = (
-(275,0,l),
-(339,0,l),
-(352,64,l),
-(288,64,l)
-);
+alignment = -1;
+pos = (-54,0);
+ref = fraction.percent;
 },
 {
-closed = 1;
-nodes = (
-(352,64,l),
-(416,64,l),
-(429,128,l),
-(365,128,l)
-);
+pos = (169,-384);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(224,64,l),
-(288,64,l),
-(301,128,l),
-(237,128,l)
-);
+pos = (-54,0);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(19,0,l),
-(83,0,l),
-(96,64,l),
-(32,64,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(-32,64,l),
-(32,64,l),
-(45,128,l),
-(-19,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,64,l),
-(160,64,l),
-(173,128,l),
-(109,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,448,l),
-(109,448,l),
-(122,512,l),
-(58,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,384,l),
-(160,384,l),
-(173,448,l),
-(109,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(173,448,l),
-(237,448,l),
-(250,512,l),
-(186,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,128,l),
-(109,128,l),
-(122,192,l),
-(58,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(301,128,l),
-(365,128,l),
-(378,192,l),
-(314,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(6,256,l),
-(70,256,l),
-(83,320,l),
-(19,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(70,256,l),
-(134,256,l),
-(147,320,l),
-(83,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(134,256,l),
-(198,256,l),
-(211,320,l),
-(147,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(122,512,l),
-(186,512,l),
-(198,576,l),
-(134,576,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(211,320,l),
-(275,320,l),
-(288,384,l),
-(224,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(275,320,l),
-(339,320,l),
-(352,384,l),
-(288,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(339,320,l),
-(403,320,l),
-(416,384,l),
-(352,384,l)
-);
+pos = (-81,-501);
+ref = zerosuperior.alt001;
 }
 );
 width = 448;
@@ -339367,166 +338779,21 @@ width = 448;
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 shapes = (
 {
-closed = 1;
-nodes = (
-(275,0,l),
-(339,0,l),
-(352,64,l),
-(288,64,l)
-);
+alignment = -1;
+pos = (-54,0);
+ref = fraction.percent;
 },
 {
-closed = 1;
-nodes = (
-(352,64,l),
-(416,64,l),
-(429,128,l),
-(365,128,l)
-);
+pos = (169,-384);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(224,64,l),
-(288,64,l),
-(301,128,l),
-(237,128,l)
-);
+pos = (-54,0);
+ref = zerosuperior.alt001;
 },
 {
-closed = 1;
-nodes = (
-(19,0,l),
-(83,0,l),
-(96,64,l),
-(32,64,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(-32,64,l),
-(32,64,l),
-(45,128,l),
-(-19,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,64,l),
-(160,64,l),
-(173,128,l),
-(109,128,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,448,l),
-(109,448,l),
-(122,512,l),
-(58,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(96,384,l),
-(160,384,l),
-(173,448,l),
-(109,448,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(173,448,l),
-(237,448,l),
-(250,512,l),
-(186,512,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(45,128,l),
-(109,128,l),
-(122,192,l),
-(58,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(301,128,l),
-(365,128,l),
-(378,192,l),
-(314,192,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(6,256,l),
-(70,256,l),
-(83,320,l),
-(19,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(70,256,l),
-(134,256,l),
-(147,320,l),
-(83,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(134,256,l),
-(198,256,l),
-(211,320,l),
-(147,320,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(122,512,l),
-(186,512,l),
-(198,576,l),
-(134,576,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(211,320,l),
-(275,320,l),
-(288,384,l),
-(224,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(275,320,l),
-(339,320,l),
-(352,384,l),
-(288,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(339,320,l),
-(403,320,l),
-(416,384,l),
-(352,384,l)
-);
+pos = (-81,-501);
+ref = zerosuperior.alt001;
 }
 );
 width = 448;
@@ -430142,6 +429409,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -430152,7 +429436,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
+58,
 0,
 -192
 );
@@ -430299,11 +429583,28 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.41667;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.58333;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
 };
 name = Light;
 weightClass = 300;
@@ -430457,6 +429758,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -430613,6 +429931,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -430771,6 +430106,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -430803,12 +430155,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Remove Features";
 value = (
 kern,
@@ -430943,6 +430289,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -430955,7 +430326,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
+58,
 100,
 -192
 );
@@ -430976,12 +430347,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Remove Features";
 value = (
 kern,
@@ -431116,11 +430481,36 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.58333;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.41667;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
+"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -431150,12 +430540,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Remove Features";
 value = (
 kern,
@@ -431290,6 +430674,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431321,12 +430730,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Remove Features";
 value = (
 kern,
@@ -431461,6 +430864,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431495,10 +430923,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = "";
-},
-{
 name = "Remove Features";
 value = (
 kern,
@@ -431633,6 +431057,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431901,6 +431350,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -432177,6 +431643,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -432454,6 +431937,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -432730,6 +432230,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -433008,6 +432525,23 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -433060,12 +432594,6 @@ six
 {
 name = italicAngle;
 value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
 },
 {
 name = "Update Features";
@@ -433288,6 +432816,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -433344,12 +432897,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -433570,6 +433117,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -433627,12 +433199,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -433853,6 +433419,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -433908,12 +433499,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -434134,6 +433719,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -434191,12 +433801,6 @@ name = italicAngle;
 value = "11.31";
 },
 {
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -434417,6 +434021,31 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Rename Glyphs";
+value = (
+"f.italic=f",
+"germandbls.italic=germandbls",
+"longs.italic=longs"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
