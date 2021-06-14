@@ -1,6 +1,12 @@
 {
-.appVersion = "3086";
+.appVersion = "3083";
 .formatVersion = 3;
+DisplayStrings = (
+"/f.italic/germandbls.italic/longs.italic",
+"H%‰/zerosuperior.alt001/fraction.percent",
+"C€=¥",
+"¥"
+);
 axes = (
 {
 name = Weight;
@@ -693,6 +699,7 @@ GSOffsetHorizontal = 34;
 GSOffsetMakeStroke = 1;
 GSOffsetVertical = 32;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -320268,6 +320275,7 @@ width = 448;
 unicode = 36;
 },
 {
+color = 4;
 glyphname = euro;
 layers = (
 {
@@ -320504,112 +320512,163 @@ nodes = (
 }
 );
 };
-color = 1;
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
 closed = 1;
 nodes = (
-(184,288,cs),
-(184,459,o),
-(227,519,o),
-(308,519,cs),
-(341,519,o),
-(369,512,o),
-(393,504,c),
-(409,563,l),
-(377,576,o),
-(338,583,o),
+(214,288,cs),
+(214,447,o),
+(251,503,o),
+(322,503,cs),
+(352,503,o),
+(377,496,o),
+(398,488,c),
+(419,563,l),
+(384,576,o),
+(341,583,o),
 (308,583,cs),
-(169,583,o),
-(112,475,o),
-(112,288,cs),
-(112,98,o),
-(169,-7,o),
+(162,583,o),
+(102,475,o),
+(102,288,cs),
+(102,98,o),
+(162,-7,o),
 (308,-7,cs),
-(338,-7,o),
-(377,0,o),
-(409,13,c),
-(393,72,l),
-(369,64,o),
-(341,57,o),
-(308,57,cs),
-(227,57,o),
-(184,114,o)
+(341,-7,o),
+(384,0,o),
+(419,13,c),
+(399,88,l),
+(377,80,o),
+(352,73,o),
+(322,73,cs),
+(251,73,o),
+(214,126,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(64,322,l),
-(352,322,l),
-(367,384,l),
-(64,384,l)
+(54,310,l),
+(370,310,l),
+(389,390,l),
+(54,390,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(64,192,l),
-(325,192,l),
-(339,254,l),
-(64,254,l)
+(54,182,l),
+(343,182,l),
+(361,262,l),
+(54,262,l)
 );
 }
 );
 width = 448;
 },
 {
-color = 1;
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(166,288,cs),
+(166,466,o),
+(213,529,o),
+(300,529,cs),
+(334,529,o),
+(364,522,o),
+(390,514,c),
+(403,563,l),
+(373,576,o),
+(336,583,o),
+(308,583,cs),
+(173,583,o),
+(118,475,o),
+(118,288,cs),
+(118,98,o),
+(173,-7,o),
+(308,-7,cs),
+(336,-7,o),
+(373,0,o),
+(403,13,c),
+(389,62,l),
+(364,54,o),
+(334,47,o),
+(300,47,cs),
+(213,47,o),
+(166,107,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,329,l),
+(341,329,l),
+(354,380,l),
+(70,380,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,198,l),
+(314,198,l),
+(326,249,l),
+(70,249,l)
+);
+}
+);
+};
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
 closed = 1;
 nodes = (
-(184,288,cs),
-(184,459,o),
-(227,519,o),
-(308,519,cs),
-(341,519,o),
-(369,512,o),
-(393,504,c),
-(409,563,l),
-(377,576,o),
-(338,583,o),
+(166,288,cs),
+(166,473,o),
+(217,539,o),
+(312,539,cs),
+(342,539,o),
+(370,533,o),
+(391,527,c),
+(403,565,l),
+(373,577,o),
+(335,583,o),
 (308,583,cs),
-(169,583,o),
-(112,475,o),
-(112,288,cs),
-(112,98,o),
-(169,-7,o),
+(173,583,o),
+(118,475,o),
+(118,288,cs),
+(118,98,o),
+(173,-7,o),
 (308,-7,cs),
 (338,-7,o),
-(377,0,o),
-(409,13,c),
-(393,72,l),
-(369,64,o),
-(341,57,o),
-(308,57,cs),
-(227,57,o),
-(184,114,o)
+(373,-1,o),
+(403,11,c),
+(392,50,l),
+(371,44,o),
+(343,37,o),
+(312,37,cs),
+(217,37,o),
+(166,99,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(64,322,l),
-(352,322,l),
-(367,384,l),
-(64,384,l)
+(70,331,l),
+(348,331,l),
+(358,375,l),
+(70,375,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(64,192,l),
-(325,192,l),
-(339,254,l),
-(64,254,l)
+(70,201,l),
+(321,201,l),
+(330,245,l),
+(70,245,l)
 );
 }
 );
@@ -320621,50 +320680,50 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(196,284,cs),
-(231,457,o),
-(288,519,o),
-(370,519,cs),
-(402,519,o),
-(428,513,o),
-(451,505,c),
-(475,562,l),
-(446,575,o),
-(408,583,o),
+(178,284,cs),
+(215,471,o),
+(282,539,o),
+(378,539,cs),
+(407,539,o),
+(434,534,o),
+(453,528,c),
+(470,564,l),
+(442,576,o),
+(405,583,o),
 (376,583,cs),
-(239,583,o),
-(163,477,o),
-(126,292,cs),
-(87,100,o),
-(125,-7,o),
+(243,583,o),
+(169,477,o),
+(132,292,cs),
+(93,100,o),
+(129,-7,o),
 (265,-7,cs),
 (294,-7,o),
-(334,-1,o),
-(368,12,c),
-(361,73,l),
-(335,65,o),
-(306,57,o),
-(271,57,cs),
-(192,57,o),
-(162,112,o)
+(329,-2,o),
+(362,10,c),
+(355,51,l),
+(333,45,o),
+(304,37,o),
+(271,37,cs),
+(178,37,o),
+(141,97,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(84,322,l),
-(372,322,l),
-(399,384,l),
-(96,384,l)
+(91,331,l),
+(370,331,l),
+(389,375,l),
+(100,375,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(58,192,l),
-(319,192,l),
-(345,254,l),
-(70,254,l)
+(65,201,l),
+(317,201,l),
+(335,245,l),
+(74,245,l)
 );
 }
 );
@@ -320726,56 +320785,55 @@ nodes = (
 width = 448;
 },
 {
-color = 1;
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 shapes = (
 {
 closed = 1;
 nodes = (
-(195,279,cs),
-(230,455,o),
-(289,519,o),
-(373,519,cs),
-(403,519,o),
-(430,513,o),
-(452,505,c),
-(474,561,l),
-(444,574,o),
-(407,583,o),
+(225,279,cs),
+(258,443,o),
+(310,503,o),
+(384,503,cs),
+(411,503,o),
+(435,498,o),
+(454,490,c),
+(484,561,l),
+(451,574,o),
+(410,583,o),
 (373,583,cs),
-(238,583,o),
-(163,479,o),
-(127,297,cs),
-(88,102,o),
-(126,-7,o),
+(231,583,o),
+(153,479,o),
+(117,297,cs),
+(78,102,o),
+(119,-7,o),
 (268,-7,cs),
-(295,-7,o),
-(335,-2,o),
-(369,11,c),
-(359,73,l),
-(334,65,o),
-(304,57,o),
-(268,57,cs),
-(190,57,o),
-(161,110,o)
+(298,-7,o),
+(342,-2,o),
+(379,11,c),
+(368,90,l),
+(346,82,o),
+(319,73,o),
+(285,73,cs),
+(218,73,o),
+(194,122,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(84,322,l),
-(372,322,l),
-(400,384,l),
-(96,384,l)
+(71,310,l),
+(388,310,l),
+(423,390,l),
+(87,390,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(58,192,l),
-(319,192,l),
-(346,254,l),
-(70,254,l)
+(46,182,l),
+(335,182,l),
+(369,262,l),
+(62,262,l)
 );
 }
 );
@@ -338691,19 +338749,166 @@ nodes = (
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
-alignment = -1;
-ref = fraction.percent;
+closed = 1;
+nodes = (
+(320,0,l),
+(384,0,l),
+(384,64,l),
+(320,64,l)
+);
 },
 {
-pos = (223,-384);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(384,64,l),
+(448,64,l),
+(448,128,l),
+(384,128,l)
+);
 },
 {
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(256,64,l),
+(320,64,l),
+(320,128,l),
+(256,128,l)
+);
 },
 {
-pos = (-27,-501);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(64,0,l),
+(128,0,l),
+(128,64,l),
+(64,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,64,l),
+(64,64,l),
+(64,128,l),
+(0,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,64,l),
+(192,64,l),
+(192,128,l),
+(128,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,448,l),
+(64,448,l),
+(64,512,l),
+(0,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,384,l),
+(128,384,l),
+(128,448,l),
+(64,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,448,l),
+(192,448,l),
+(192,512,l),
+(128,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,128,l),
+(128,128,l),
+(128,192,l),
+(64,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,128,l),
+(384,128,l),
+(384,192,l),
+(320,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,256,l),
+(64,256,l),
+(64,320,l),
+(0,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,256,l),
+(128,256,l),
+(128,320,l),
+(64,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,256,l),
+(192,256,l),
+(192,320,l),
+(128,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,512,l),
+(128,512,l),
+(128,576,l),
+(64,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,320,l),
+(256,320,l),
+(256,384,l),
+(192,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,320,l),
+(320,320,l),
+(320,384,l),
+(256,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,320,l),
+(384,320,l),
+(384,384,l),
+(320,384,l)
+);
 }
 );
 width = 448;
@@ -338712,19 +338917,166 @@ width = 448;
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
-alignment = -1;
-ref = fraction.percent;
+closed = 1;
+nodes = (
+(320,0,l),
+(384,0,l),
+(384,64,l),
+(320,64,l)
+);
 },
 {
-pos = (223,-384);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(384,64,l),
+(448,64,l),
+(448,128,l),
+(384,128,l)
+);
 },
 {
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(256,64,l),
+(320,64,l),
+(320,128,l),
+(256,128,l)
+);
 },
 {
-pos = (-27,-501);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(64,0,l),
+(128,0,l),
+(128,64,l),
+(64,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,64,l),
+(64,64,l),
+(64,128,l),
+(0,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,64,l),
+(192,64,l),
+(192,128,l),
+(128,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,448,l),
+(64,448,l),
+(64,512,l),
+(0,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,384,l),
+(128,384,l),
+(128,448,l),
+(64,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,448,l),
+(192,448,l),
+(192,512,l),
+(128,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,128,l),
+(128,128,l),
+(128,192,l),
+(64,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,128,l),
+(384,128,l),
+(384,192,l),
+(320,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(0,256,l),
+(64,256,l),
+(64,320,l),
+(0,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,256,l),
+(128,256,l),
+(128,320,l),
+(64,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(128,256,l),
+(192,256,l),
+(192,320,l),
+(128,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(64,512,l),
+(128,512,l),
+(128,576,l),
+(64,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,320,l),
+(256,320,l),
+(256,384,l),
+(192,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(256,320,l),
+(320,320,l),
+(320,384,l),
+(256,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(320,320,l),
+(384,320,l),
+(384,384,l),
+(320,384,l)
+);
 }
 );
 width = 448;
@@ -338733,21 +339085,166 @@ width = 448;
 layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
 shapes = (
 {
-alignment = -1;
-pos = (-54,0);
-ref = fraction.percent;
+closed = 1;
+nodes = (
+(275,0,l),
+(339,0,l),
+(352,64,l),
+(288,64,l)
+);
 },
 {
-pos = (169,-384);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(352,64,l),
+(416,64,l),
+(429,128,l),
+(365,128,l)
+);
 },
 {
-pos = (-54,0);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(224,64,l),
+(288,64,l),
+(301,128,l),
+(237,128,l)
+);
 },
 {
-pos = (-81,-501);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(19,0,l),
+(83,0,l),
+(96,64,l),
+(32,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-32,64,l),
+(32,64,l),
+(45,128,l),
+(-19,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,64,l),
+(160,64,l),
+(173,128,l),
+(109,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,448,l),
+(109,448,l),
+(122,512,l),
+(58,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,384,l),
+(160,384,l),
+(173,448,l),
+(109,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(173,448,l),
+(237,448,l),
+(250,512,l),
+(186,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,128,l),
+(109,128,l),
+(122,192,l),
+(58,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(301,128,l),
+(365,128,l),
+(378,192,l),
+(314,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(6,256,l),
+(70,256,l),
+(83,320,l),
+(19,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,256,l),
+(134,256,l),
+(147,320,l),
+(83,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,256,l),
+(198,256,l),
+(211,320,l),
+(147,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,512,l),
+(186,512,l),
+(198,576,l),
+(134,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(211,320,l),
+(275,320,l),
+(288,384,l),
+(224,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(275,320,l),
+(339,320,l),
+(352,384,l),
+(288,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(339,320,l),
+(403,320,l),
+(416,384,l),
+(352,384,l)
+);
 }
 );
 width = 448;
@@ -338756,21 +339253,166 @@ width = 448;
 layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
-alignment = -1;
-pos = (-54,0);
-ref = fraction.percent;
+closed = 1;
+nodes = (
+(275,0,l),
+(339,0,l),
+(352,64,l),
+(288,64,l)
+);
 },
 {
-pos = (169,-384);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(352,64,l),
+(416,64,l),
+(429,128,l),
+(365,128,l)
+);
 },
 {
-pos = (-54,0);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(224,64,l),
+(288,64,l),
+(301,128,l),
+(237,128,l)
+);
 },
 {
-pos = (-81,-501);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(19,0,l),
+(83,0,l),
+(96,64,l),
+(32,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-32,64,l),
+(32,64,l),
+(45,128,l),
+(-19,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,64,l),
+(160,64,l),
+(173,128,l),
+(109,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,448,l),
+(109,448,l),
+(122,512,l),
+(58,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,384,l),
+(160,384,l),
+(173,448,l),
+(109,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(173,448,l),
+(237,448,l),
+(250,512,l),
+(186,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,128,l),
+(109,128,l),
+(122,192,l),
+(58,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(301,128,l),
+(365,128,l),
+(378,192,l),
+(314,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(6,256,l),
+(70,256,l),
+(83,320,l),
+(19,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,256,l),
+(134,256,l),
+(147,320,l),
+(83,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,256,l),
+(198,256,l),
+(211,320,l),
+(147,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,512,l),
+(186,512,l),
+(198,576,l),
+(134,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(211,320,l),
+(275,320,l),
+(288,384,l),
+(224,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(275,320,l),
+(339,320,l),
+(352,384,l),
+(288,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(339,320,l),
+(403,320,l),
+(416,384,l),
+(352,384,l)
+);
 }
 );
 width = 448;
@@ -338779,21 +339421,166 @@ width = 448;
 layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 shapes = (
 {
-alignment = -1;
-pos = (-54,0);
-ref = fraction.percent;
+closed = 1;
+nodes = (
+(275,0,l),
+(339,0,l),
+(352,64,l),
+(288,64,l)
+);
 },
 {
-pos = (169,-384);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(352,64,l),
+(416,64,l),
+(429,128,l),
+(365,128,l)
+);
 },
 {
-pos = (-54,0);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(224,64,l),
+(288,64,l),
+(301,128,l),
+(237,128,l)
+);
 },
 {
-pos = (-81,-501);
-ref = zerosuperior.alt001;
+closed = 1;
+nodes = (
+(19,0,l),
+(83,0,l),
+(96,64,l),
+(32,64,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-32,64,l),
+(32,64,l),
+(45,128,l),
+(-19,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,64,l),
+(160,64,l),
+(173,128,l),
+(109,128,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,448,l),
+(109,448,l),
+(122,512,l),
+(58,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(96,384,l),
+(160,384,l),
+(173,448,l),
+(109,448,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(173,448,l),
+(237,448,l),
+(250,512,l),
+(186,512,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(45,128,l),
+(109,128,l),
+(122,192,l),
+(58,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(301,128,l),
+(365,128,l),
+(378,192,l),
+(314,192,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(6,256,l),
+(70,256,l),
+(83,320,l),
+(19,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(70,256,l),
+(134,256,l),
+(147,320,l),
+(83,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(134,256,l),
+(198,256,l),
+(211,320,l),
+(147,320,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(122,512,l),
+(186,512,l),
+(198,576,l),
+(134,576,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(211,320,l),
+(275,320,l),
+(288,384,l),
+(224,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(275,320,l),
+(339,320,l),
+(352,384,l),
+(288,384,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(339,320,l),
+(403,320,l),
+(416,384,l),
+(352,384,l)
+);
 }
 );
 width = 448;
@@ -429409,23 +430196,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -429436,7 +430206,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
+62,
 0,
 -192
 );
@@ -429583,28 +430353,11 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.41667;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.58333;
 };
 name = Light;
 weightClass = 300;
@@ -429758,23 +430511,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -429931,23 +430667,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -430106,23 +430825,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -430155,6 +430857,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Remove Features";
 value = (
 kern,
@@ -430289,31 +430997,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -430326,7 +431009,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
+62,
 100,
 -192
 );
@@ -430347,6 +431030,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Remove Features";
 value = (
 kern,
@@ -430481,36 +431170,11 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.58333;
+"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.41667;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -430540,6 +431204,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Remove Features";
 value = (
 kern,
@@ -430674,31 +431344,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -430730,6 +431375,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Remove Features";
 value = (
 kern,
@@ -430864,31 +431515,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -430923,6 +431549,10 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = "";
+},
+{
 name = "Remove Features";
 value = (
 kern,
@@ -431057,31 +431687,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -431350,23 +431955,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -431643,23 +432231,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -431937,23 +432508,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -432230,23 +432784,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -432525,23 +433062,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 0;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -432594,6 +433114,12 @@ six
 {
 name = italicAngle;
 value = "11.31";
+},
+{
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
 },
 {
 name = "Update Features";
@@ -432816,31 +433342,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 200;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -432897,6 +433398,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Update Features";
 value = 1;
 },
@@ -433117,31 +433624,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 300;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -433199,6 +433681,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Update Features";
 value = 1;
 },
@@ -433419,31 +433907,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -433499,6 +433962,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Update Features";
 value = 1;
 },
@@ -433719,31 +434188,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 600;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
@@ -433801,6 +434245,12 @@ name = italicAngle;
 value = "11.31";
 },
 {
+name = "Rename Glyphs_";
+value = (
+"f.italic=f"
+);
+},
+{
 name = "Update Features";
 value = 1;
 },
@@ -434021,31 +434471,6 @@ ss20
 {
 name = "Keep Overlapping Components";
 value = 1;
-},
-{
-name = "Rename Glyphs";
-value = (
-"f.italic=f",
-"germandbls.italic=germandbls",
-"longs.italic=longs"
-);
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-},
-{
-Axis = Italic;
-Location = 1;
-},
-{
-Axis = "y transparent descender";
-Location = -192;
-}
-);
 }
 );
 instanceInterpolations = {
