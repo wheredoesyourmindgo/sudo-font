@@ -432417,6 +432417,7 @@ instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -432775,6 +432776,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = 700;
 },
@@ -434148,6 +434150,8 @@ value = 1;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
 properties = (
 {
@@ -434992,6 +434996,7 @@ instanceInterpolations = {
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.16667;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = "Regular Italic";
 properties = (
 {
@@ -435554,6 +435559,7 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 properties = (
 {
