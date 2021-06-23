@@ -1,9 +1,8 @@
 {
-.appVersion = "3083";
+.appVersion = "3086";
 .formatVersion = 3;
 DisplayStrings = (
-TVA,
-"↓¢"
+"̈öȷjpg"
 );
 axes = (
 {
@@ -82,14 +81,14 @@ name = "Axis Mappings";
 value = {
 ital = {
 0 = 0;
-100 = 100;
+100 = 1;
 };
 wght = {
-48 = 48;
-60 = 62;
-72 = 72;
-98.7 = 92;
-112 = 112;
+48 = 200;
+62 = 300;
+72 = 400;
+92 = 600;
+112 = 700;
 };
 ytde = {
 -192 = -192;
@@ -98,7 +97,7 @@ ytde = {
 };
 }
 );
-date = "2020-09-28 18:41:54 +0000";
+date = "2021-06-03 13:08:27 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -141,21 +140,12 @@ tag = aalt;
 },
 {
 code = "#ifdef VARIABLE
-condition 0.5 < ital < 1;
+condition 50 < ital < 100;
 sub f by f.italic;
 sub germandbls by germandbls.italic;
 sub longs by longs.italic;
 #endif
 ";
-tag = rvrn;
-},
-{
-code = "#ifdef VARIABLE
-condition 0.5 < ital < 1;
-sub f by f.italic;
-sub germandbls by germandbls.italic;
-sub longs by longs.italic;
-#endif";
 tag = rlig;
 },
 {
@@ -58309,6 +58299,39 @@ ref = jdotless;
 },
 {
 pos = (12,0);
+ref = dotaccentcomb;
+}
+);
+width = 448;
+},
+{
+associatedMasterId = "95FB0C11-C828-4064-8966-34220AA4D426";
+attr = {
+coordinates = (
+72,
+0,
+-64
+);
+};
+background = {
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (-4,0);
+ref = dotaccentcomb;
+}
+);
+};
+layerId = "84840E00-47F1-4FAC-9753-769DB5A87CE9";
+name = "17. Mai 21, 10:11";
+shapes = (
+{
+ref = jdotless;
+},
+{
+pos = (24,0);
 ref = dotaccentcomb;
 }
 );
@@ -429741,176 +429764,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six,
-zero
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = fileName;
-value = SudoUIVariable;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
-};
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI Var";
-}
-);
-}
-);
-type = variable;
-},
-{
-axesValues = (
-72,
-0,
--192
-);
-customParameters = (
-{
 disabled = 1;
 name = "Rename Glyphs";
 value = (
@@ -430149,7 +430002,10 @@ nbspace.ss20
 {
 name = "Remove Features";
 value = (
-ss20
+ss20,
+kern,
+mark,
+mkmk
 );
 },
 {
@@ -430182,14 +430038,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Decompose Glyphs";
 value = (
 asterisk,
@@ -430216,120 +430064,37 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1;
 };
 name = Thin;
-weightClass = 100;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -430339,14 +430104,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Decompose Glyphs";
 value = (
 asterisk,
@@ -430373,113 +430130,30 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -430497,14 +430171,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Decompose Glyphs";
 value = (
 asterisk,
@@ -430531,117 +430197,33 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
 },
 {
 name = "Elidable STAT Axis Value Name";
 value = wght;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = ital;
 }
 );
 instanceInterpolations = {
@@ -430657,14 +430239,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Decompose Glyphs";
 value = (
 asterisk,
@@ -430691,113 +430265,30 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -430805,7 +430296,7 @@ instanceInterpolations = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.5;
 };
 name = Medium;
-weightClass = 500;
+weightClass = 600;
 },
 {
 axesValues = (
@@ -430815,14 +430306,6 @@ axesValues = (
 );
 customParameters = (
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Decompose Glyphs";
 value = (
 asterisk,
@@ -430849,119 +430332,37 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
 };
 isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = 700;
 },
@@ -430994,14 +430395,6 @@ value = (
 );
 },
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -431021,113 +430414,25 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431136,7 +430441,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Thin;
 name = "Thin Italic";
-weightClass = 100;
+weightClass = 200;
 },
 {
 axesValues = (
@@ -431167,14 +430472,6 @@ value = (
 );
 },
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -431194,113 +430491,25 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431341,14 +430550,6 @@ value = (
 );
 },
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -431368,116 +430569,29 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
 },
 {
-name = "Elidable STAT Axis Value Name";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
 value = ital;
 }
 );
@@ -431485,6 +430599,7 @@ instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -431516,14 +430631,6 @@ value = (
 );
 },
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -431543,113 +430650,25 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431659,7 +430678,7 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
-weightClass = 500;
+weightClass = 600;
 },
 {
 axesValues = (
@@ -431688,14 +430707,6 @@ name = "Rename Glyphs_";
 value = "";
 },
 {
-name = "Remove Features";
-value = (
-kern,
-mark,
-mkmk
-);
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -431715,113 +430726,25 @@ six
 );
 },
 {
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
 }
 );
 instanceInterpolations = {
@@ -431829,2812 +430752,8 @@ instanceInterpolations = {
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
-weightClass = 700;
-},
-{
-axesValues = (
-48,
-0,
--192
-);
-customParameters = (
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six,
-zero
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk
-);
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1;
-};
-name = Thin;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 100;
-},
-{
-axesValues = (
-58,
-0,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk
-);
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
-};
-name = Light;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 300;
-},
-{
-axesValues = (
-68,
-0,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk
-);
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.16667;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.83333;
-};
-name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-},
-{
-axesValues = (
-90,
-0,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk
-);
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.45;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.55;
-};
-name = Medium;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 500;
-},
-{
-axesValues = (
-112,
-0,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-s,
-g,
-r,
-o,
-n,
-k,
-one,
-zero,
-seven,
-six
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk
-);
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
-};
-name = Bold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 700;
-},
-{
-axesValues = (
-48,
-100,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = italicAngle;
-value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 1;
-};
-isItalic = 1;
-linkStyle = Thin;
-name = "Thin Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 100;
-},
-{
-axesValues = (
-58,
-100,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = italicAngle;
-value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
-};
-isItalic = 1;
-linkStyle = Light;
-name = "Light Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 300;
-},
-{
-axesValues = (
-68,
-100,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = italicAngle;
-value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.83333;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.16667;
-};
-isItalic = 1;
-name = "Regular Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-},
-{
-axesValues = (
-90,
-100,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = italicAngle;
-value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.55;
-"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.45;
-};
-isItalic = 1;
-linkStyle = Medium;
-name = "Medium Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
-weightClass = 500;
-},
-{
-axesValues = (
-112,
-100,
--192
-);
-customParameters = (
-{
-name = "Instance Preview";
-value = (
-A,
-H,
-I,
-T,
-AE,
-a,
-i,
-m,
-f,
-g,
-r,
-o,
-n,
-k,
-one,
-nine,
-seven,
-six
-);
-},
-{
-name = italicAngle;
-value = "11.31";
-},
-{
-name = "Rename Glyphs_";
-value = (
-"f.italic=f"
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = postscriptIsFixedPitch;
-value = 0;
-},
-{
-name = "Rename Glyphs";
-value = (
-"A.ss20=A",
-"C.ss20=C",
-"D.ss20=D",
-"F.ss20=F",
-"G.ss20=G",
-"H.ss20=H",
-"Hturned.ss20=Hturned",
-"I.ss20=I",
-"J.ss20=J",
-"K.ss20=K",
-"L.ss20=L",
-"M.ss20=M",
-"N.ss20=N",
-"O.ss20=O",
-"Q.ss20=Q",
-"S.ss20=S",
-"Germandbls.ss20=Germandbls",
-"T.ss20=T",
-"U.ss20=U",
-"V.ss20=V",
-"W.ss20=W",
-"X.ss20=X",
-"Y.ss20=Y",
-"Z.ss20=Z",
-"I.ss02.ss20=I.ss02",
-"a.ss20=a",
-"ae.ss20=ae",
-"c.ss20=c",
-"f.ss20=f",
-"i.ss20=i",
-"idotless.ss20=idotless",
-"j.ss20=j",
-"jdotless.ss20=jdotless",
-"l.ss20=l",
-"m.ss20=m",
-"oe.ss20=oe",
-"r.ss20=r",
-"s.ss20=s",
-"i.ss02.ss20=i.ss02",
-"t.ss20=t",
-"w.ss20=w",
-"z.ss20=z",
-"zero.zero=zero",
-"period.ss20=period",
-"comma.ss20=comma",
-"colon.ss20=colon",
-"semicolon.ss20=semicolon",
-"hyphen.ss20=hyphen",
-"quotesinglbase.ss20=quotesinglbase",
-"quotedblbase.ss20=quotedblbase",
-"quotedblleft.ss20=quotedblleft",
-"quotedblright.ss20=quotedblright",
-"quoteleft.ss20=quoteleft",
-"quoteright.ss20=quoteright",
-"quotereversed.ss20=quotereversed",
-"quotedblrightreversed.ss20=quotedblrightreversed",
-"guillemetleft.ss20=guillemetleft",
-"guillemetright.ss20=guillemetright",
-"guilsinglleft.ss20=guilsinglleft",
-"guilsinglright.ss20=guilsinglright",
-"quotedbl.ss20=quotedbl",
-"quotesingle.ss20=quotesingle",
-"Ge-cy.ss20=Ge-cy",
-"Geupturn-cy.ss20=Geupturn-cy",
-"Zhe-cy.ss20=Zhe-cy",
-"Ze-cy.ss20=Ze-cy",
-"Ii-cy.ss20=Ii-cy",
-"El-cy.ss20=El-cy",
-"Pe-cy.ss20=Pe-cy",
-"Ef-cy.ss20=Ef-cy",
-"Sha-cy.ss20=Sha-cy",
-"Shcha-cy.ss20=Shcha-cy",
-"Yeru-cy.ss20=Yeru-cy",
-"Lje-cy.ss20=Lje-cy",
-"Nje-cy.ss20=Nje-cy",
-"Tshe-cy.ss20=Tshe-cy",
-"Yu-cy.ss20=Yu-cy",
-"Dje-cy.ss20=Dje-cy",
-"ge-cy.ss20=ge-cy",
-"zhe-cy.ss20=zhe-cy",
-"em-cy.ss20=em-cy",
-"ef-cy.ss20=ef-cy",
-"sha-cy.ss20=sha-cy",
-"shcha-cy.ss20=shcha-cy",
-"yeru-cy.ss20=yeru-cy",
-"lje-cy.ss20=lje-cy",
-"nje-cy.ss20=nje-cy",
-"iu-cy.ss20=iu-cy",
-"Psi.ss20=Psi",
-"slash.ss20=slash",
-"backslash.ss20=backslash",
-"space=space.ss20",
-"nbspace=nbspace.ss20"
-);
-},
-{
-name = "Decompose Glyphs";
-value = (
-asterisk,
-gearWithoutHub
-);
-},
-{
-name = "Remove Glyphs";
-value = (
-A.ss20,
-C.ss20,
-D.ss20,
-F.ss20,
-G.ss20,
-H.ss20,
-Hturned.ss20,
-I.ss20,
-J.ss20,
-K.ss20,
-L.ss20,
-M.ss20,
-N.ss20,
-Eng.ss20,
-O.ss20,
-OE.ss20,
-Q.ss20,
-S.ss20,
-Germandbls.ss20,
-T.ss20,
-U.ss20,
-V.ss20,
-W.ss20,
-X.ss20,
-Y.ss20,
-Z.ss20,
-I.ss02.ss20,
-a.ss20,
-ae.ss20,
-c.ss20,
-f.ss20,
-i.ss20,
-idotless.ss20,
-j.ss20,
-jdotless.ss20,
-l.ss20,
-m.ss20,
-oe.ss20,
-r.ss20,
-s.ss20,
-t.ss20,
-w.ss20,
-z.ss20,
-idotless.ss02.ss20,
-"Ge-cy.ss20",
-"Geupturn-cy.ss20",
-"Zhe-cy.ss20",
-"Ze-cy.ss20",
-"Ii-cy.ss20",
-"El-cy.ss20",
-"Pe-cy.ss20",
-"Ef-cy.ss20",
-"Sha-cy.ss20",
-"Shcha-cy.ss20",
-"Yeru-cy.ss20",
-"Lje-cy.ss20",
-"Nje-cy.ss20",
-"Tshe-cy.ss20",
-"Yu-cy.ss20",
-"Dje-cy.ss20",
-"ge-cy.ss20",
-"zhe-cy.ss20",
-"em-cy.ss20",
-"ef-cy.ss20",
-"sha-cy.ss20",
-"shcha-cy.ss20",
-"yeru-cy.ss20",
-"lje-cy.ss20",
-"nje-cy.ss20",
-"yu-cy.ss20",
-Psi.ss20,
-period.ss20,
-comma.ss20,
-colon.ss20,
-semicolon.ss20,
-hyphen.ss20,
-quotesinglbase.ss20,
-quotedblbase.ss20,
-quotedblleft.ss20,
-quotedblright.ss20,
-quoteleft.ss20,
-quoteright.ss20,
-quotereversed.ss20,
-quotedblrightreversed.ss20,
-guillemetleft.ss20,
-guillemetright.ss20,
-guilsinglleft.ss20,
-guilsinglright.ss20,
-quotedbl.ss20,
-quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
-);
-},
-{
-name = "Remove Features";
-value = (
-ss20
-);
-},
-{
-name = "Keep Overlapping Components";
-value = 1;
-}
-);
-exports = 0;
-instanceInterpolations = {
-"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 1;
-};
-isBold = 1;
-isItalic = 1;
-name = "Bold Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Sudo UI";
-}
-);
-}
-);
 weightClass = 700;
 }
 );
@@ -435965,5 +432084,5 @@ type = glyphList;
 );
 };
 versionMajor = 0;
-versionMinor = 53;
+versionMinor = 54;
 }
