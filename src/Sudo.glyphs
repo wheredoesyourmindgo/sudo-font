@@ -217,7 +217,6 @@ lookup ccmp_latn_1 {
 script latn;
 lookup ccmp_latn_1;
 ";
-disabled = 1;
 tag = ccmp;
 },
 {
@@ -447552,7 +447551,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -447896,7 +447896,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -448241,7 +448242,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -448584,7 +448586,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -448929,7 +448932,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -449289,7 +449293,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -449652,7 +449657,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -450017,7 +450023,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -450379,7 +450386,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
@@ -450743,7 +450751,8 @@ value = (
 kern,
 mark,
 mkmk,
-ss20
+ss20,
+ccmp
 );
 },
 {
