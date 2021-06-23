@@ -447416,48 +447416,234 @@ name = "Remove Glyphs";
 value = (
 A.ss20,
 C.ss20,
+Cacute.ss20,
+Ccaron.ss20,
+Ccedilla.ss20,
+Ccedillaacute.ss20,
+Ccircumflex.ss20,
+Cdotaccent.ss20,
 D.ss20,
+Eth.ss20,
+Dcaron.ss20,
+Dcedilla.ss20,
+Dcroat.ss20,
+Ddotaccent.ss20,
+Ddotbelow.ss20,
 F.ss20,
+Fdotaccent.ss20,
 G.ss20,
 H.ss20,
+Hbar.ss20,
+Hcaron.ss20,
+Hcedilla.ss20,
+Hcircumflex.ss20,
+Hdieresis.ss20,
+Hdotaccent.ss20,
+Hdotbelow.ss20,
 Hturned.ss20,
 I.ss20,
+Iacute.ss20,
+Ibreve.ss20,
+Icaron.ss20,
+Icircumflex.ss20,
+Idieresis.ss20,
+Idotaccent.ss20,
+Idotbelow.ss20,
+Igrave.ss20,
+Ihookabove.ss20,
+Imacron.ss20,
+Iogonek.ss20,
+Itilde.ss20,
 J.ss20,
 K.ss20,
 L.ss20,
+Lacute.ss20,
+Lbar.ss20,
+Lcaron.ss20,
+Lcommaaccent.ss20,
+Ldot.ss20,
+Ldotbelow.ss20,
+Ldotbelowmacron.ss20,
+Lslash.ss20,
 M.ss20,
+Macute.ss20,
+Mdotaccent.ss20,
+Mdotbelow.ss20,
 N.ss20,
+Nacute.ss20,
+Ncaron.ss20,
+Ncommaaccent.ss20,
+Ndotaccent.ss20,
+Ndotbelow.ss20,
+Ngrave.ss20,
+Ntilde.ss20,
 Eng.ss20,
 O.ss20,
+Oacute.ss20,
+Obreve.ss20,
+Ocaron.ss20,
+Ocircumflex.ss20,
+Ocircumflexacute.ss20,
+Ocircumflexdotbelow.ss20,
+Ocircumflexgrave.ss20,
+Ocircumflexhookabove.ss20,
+Ocircumflextilde.ss20,
+Odieresis.ss20,
+Odotaccent.ss20,
+Odotbelow.ss20,
+Ograve.ss20,
+Ohookabove.ss20,
+Ohorn.ss20,
+Ohornacute.ss20,
+Ohorndotbelow.ss20,
+Ohorngrave.ss20,
+Ohornhookabove.ss20,
+Ohorntilde.ss20,
+Ohungarumlaut.ss20,
+Omacron.ss20,
+Oogonek.ss20,
+Oogonekmacron.ss20,
+Oslash.ss20,
+Oslashacute.ss20,
+Otilde.ss20,
 OE.ss20,
 Q.ss20,
 S.ss20,
 Germandbls.ss20,
 T.ss20,
 U.ss20,
+Uacute.ss20,
+Ubreve.ss20,
+Ucaron.ss20,
+Ucircumflex.ss20,
+Udieresis.ss20,
+Udotbelow.ss20,
+Ugrave.ss20,
+Uhookabove.ss20,
+Uhorn.ss20,
+Uhornacute.ss20,
+Uhorndotbelow.ss20,
+Uhorngrave.ss20,
+Uhornhookabove.ss20,
+Uhorntilde.ss20,
+Uhungarumlaut.ss20,
+Umacron.ss20,
+Uogonek.ss20,
+Uring.ss20,
+Utilde.ss20,
 V.ss20,
 W.ss20,
 X.ss20,
 Y.ss20,
 Z.ss20,
-I.ss02.ss20,
 a.ss20,
+aacute.ss20,
+abreve.ss20,
+abreveacute.ss20,
+abrevedotbelow.ss20,
+abrevegrave.ss20,
+abrevehookabove.ss20,
+abrevetilde.ss20,
+acaron.ss20,
+acircumflex.ss20,
+acircumflexacute.ss20,
+acircumflexdotbelow.ss20,
+acircumflexgrave.ss20,
+acircumflexhookabove.ss20,
+acircumflextilde.ss20,
+adieresis.ss20,
+adotaccent.ss20,
+adotbelow.ss20,
+agrave.ss20,
+ahookabove.ss20,
+amacron.ss20,
+aogonek.ss20,
+aring.ss20,
+aringacute.ss20,
+atilde.ss20,
 ae.ss20,
+aeacute.ss20,
+aemacron.ss20,
 c.ss20,
+cacute.ss20,
+ccaron.ss20,
+ccedilla.ss20,
+ccedillaacute.ss20,
+ccircumflex.ss20,
+cdotaccent.ss20,
+dcaron.ss20,
 f.ss20,
 i.ss20,
 idotless.ss20,
+iacute.ss20,
+ibreve.ss20,
+icaron.ss20,
+icircumflex.ss20,
+idieresis.ss20,
+idotaccent.ss20,
+idotbelow.ss20,
+igrave.ss20,
+ihookabove.ss20,
+imacron.ss20,
+iogonek.ss20,
+istroke.ss20,
+itilde.ss20,
 j.ss20,
 jdotless.ss20,
+jacute.ss20,
+jcaron.ss20,
+jcircumflex.ss20,
 l.ss20,
+lacute.ss20,
+lbar.ss20,
+lcaron.ss20,
+lcommaaccent.ss20,
+ldot.ss20,
+ldotbelow.ss20,
+ldotbelowmacron.ss20,
+longsdotaccent.ss20,
+lslash.ss20,
 m.ss20,
+macute.ss20,
+mdotaccent.ss20,
+mdotbelow.ss20,
 oe.ss20,
 r.ss20,
+racute.ss20,
+rcaron.ss20,
+rcommaaccent.ss20,
+rdotaccent.ss20,
+rdotbelow.ss20,
+rdotbelowmacron.ss20,
 s.ss20,
+sacute.ss20,
+scaron.ss20,
+scedilla.ss20,
+scircumflex.ss20,
+scommaaccent.ss20,
+sdotaccent.ss20,
+sdotbelow.ss20,
+sdotbelowdotaccent.ss20,
+longs.ss20,
 t.ss20,
+tbar.ss20,
+tcaron.ss20,
+tcedilla.ss20,
+tcommaaccent.ss20,
+tdieresis.ss20,
+tdotaccent.ss20,
+tdotbelow.ss20,
 w.ss20,
+wacute.ss20,
+wcircumflex.ss20,
+wdieresis.ss20,
+wdotaccent.ss20,
+wdotbelow.ss20,
+wgrave.ss20,
+wring.ss20,
 z.ss20,
-idotless.ss02.ss20,
+f.ss20.italic,
+longs.ss20.italic,
 "Ge-cy.ss20",
 "Geupturn-cy.ss20",
 "Zhe-cy.ss20",
@@ -447485,10 +447671,14 @@ idotless.ss02.ss20,
 "nje-cy.ss20",
 "yu-cy.ss20",
 Psi.ss20,
+space.ss20,
+nbspace.ss20,
 period.ss20,
 comma.ss20,
 colon.ss20,
 semicolon.ss20,
+slash.ss20,
+backslash.ss20,
 hyphen.ss20,
 quotesinglbase.ss20,
 quotedblbase.ss20,
@@ -447504,16 +447694,19 @@ guilsinglleft.ss20,
 guilsinglright.ss20,
 quotedbl.ss20,
 quotesingle.ss20,
-slash.ss20,
-backslash.ss20,
-space.ss20,
-nbspace.ss20
+f.ss20.italic,
+longs.ss20.italic,
+longsdotaccent.ss20.italic
 );
 },
 {
 name = "Remove Features";
 value = (
-ss20
+ss20,
+kern,
+mark,
+mkmk,
+ccmp
 );
 },
 {
@@ -447875,6 +448068,28 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -448220,6 +448435,28 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -448566,6 +448803,31 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = wght;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = ital;
 }
 );
 instanceInterpolations = {
@@ -448910,6 +449172,28 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -449256,6 +449540,28 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 0;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = wght;
 }
 );
 instanceInterpolations = {
@@ -449618,6 +449924,23 @@ value = (
 "germandbls=germandbls.italic",
 "longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
 );
 }
 );
@@ -449983,6 +450306,28 @@ value = (
 "longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic"
 );
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = ital;
 }
 );
 instanceInterpolations = {
@@ -450349,6 +450694,28 @@ longsdotaccent.ss20.italic
 {
 name = "Keep Overlapping Components";
 value = 1;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
+);
+},
+{
+disabled = 1;
+name = "Style Name as STAT entry";
+value = ital;
 }
 );
 instanceInterpolations = {
@@ -450711,6 +451078,23 @@ value = (
 "germandbls=germandbls.italic",
 "longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
 );
 }
 );
@@ -451076,6 +451460,23 @@ value = (
 "germandbls=germandbls.italic",
 "longs=longs.italic",
 "longsdotaccent=longsdotaccent.italic"
+);
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Italic;
+Location = 1;
+},
+{
+Axis = "y transparent descender";
+Location = -192;
+}
 );
 }
 );
@@ -451727,6 +452128,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1;
 };
@@ -452382,6 +452784,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
@@ -453038,6 +453441,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.16667;
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.83333;
@@ -453693,6 +454097,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.45;
 "95FB0C11-C828-4064-8966-34220AA4D426" = 0.55;
@@ -454350,6 +454755,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "92967D72-867E-4A8B-929F-F44D834DD4C9" = 1;
 };
@@ -455004,6 +455410,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 1;
 };
@@ -455658,6 +456065,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
@@ -456313,6 +456721,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.83333;
 "C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.16667;
@@ -456967,6 +457376,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.55;
 "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.45;
@@ -457622,6 +458032,7 @@ name = "Keep Overlapping Components";
 value = 1;
 }
 );
+exports = 0;
 instanceInterpolations = {
 "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 1;
 };
