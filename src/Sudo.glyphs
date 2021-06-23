@@ -6747,7 +6747,7 @@ width = 448;
 unicode = 199;
 },
 {
-color = 4;
+color = 6;
 glyphname = Ccedillaacute;
 layers = (
 {
@@ -8821,7 +8821,7 @@ width = 448;
 unicode = 552;
 },
 {
-color = 4;
+color = 6;
 glyphname = Ecedillabreve;
 layers = (
 {
@@ -16602,7 +16602,7 @@ width = 448;
 unicode = 313;
 },
 {
-color = 4;
+color = 6;
 glyphname = Lbar;
 layers = (
 {
@@ -21348,7 +21348,6 @@ width = 448;
 unicode = 7886;
 },
 {
-color = 6;
 glyphname = Ohorn;
 layers = (
 {
@@ -22747,7 +22746,7 @@ width = 448;
 unicode = 490;
 },
 {
-color = 4;
+color = 6;
 glyphname = Oogonekmacron;
 layers = (
 {
@@ -22826,7 +22825,7 @@ width = 448;
 unicode = 492;
 },
 {
-color = 4;
+color = 6;
 glyphname = Oslash;
 layers = (
 {
@@ -23960,7 +23959,6 @@ width = 448;
 unicode = 338;
 },
 {
-color = 4;
 glyphname = P;
 layers = (
 {
@@ -24911,7 +24909,6 @@ width = 448;
 unicode = 222;
 },
 {
-color = 4;
 glyphname = Q;
 layers = (
 {
@@ -25658,7 +25655,6 @@ width = 448;
 unicode = 81;
 },
 {
-color = 4;
 glyphname = R;
 layers = (
 {
@@ -37607,7 +37603,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = A.hex;
 layers = (
 {
@@ -37879,7 +37874,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = B.hex;
 layers = (
 {
@@ -38266,7 +38260,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = C.hex;
 layers = (
 {
@@ -38532,7 +38525,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = D.hex;
 layers = (
 {
@@ -38780,7 +38772,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = E.hex;
 layers = (
 {
@@ -38985,7 +38976,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = F.hex;
 layers = (
 {
@@ -39170,7 +39160,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = C.pl;
 layers = (
 {
@@ -39428,7 +39417,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = F.pl;
 layers = (
 {
@@ -39598,7 +39586,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = L.pl;
 layers = (
 {
@@ -39729,7 +39716,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = N.pl;
 layers = (
 {
@@ -39979,7 +39965,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = O.pl;
 layers = (
 {
@@ -40646,7 +40631,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = Cacute.ss20;
 kernLeft = O;
 kernRight = C;
@@ -40728,7 +40713,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ccaron.ss20;
 kernLeft = O;
 kernRight = C;
@@ -40810,7 +40795,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ccedilla.ss20;
 kernLeft = O;
 kernRight = C;
@@ -40896,7 +40881,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ccedillaacute.ss20;
 kernLeft = O;
 kernRight = C;
@@ -40978,7 +40963,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ccircumflex.ss20;
 kernLeft = O;
 kernRight = C;
@@ -41060,7 +41045,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Cdotaccent.ss20;
 kernLeft = O;
 kernRight = C;
@@ -41614,7 +41599,7 @@ width = 480;
 metricWidth = D.ss20;
 },
 {
-color = 4;
+color = 8;
 glyphname = Dcaron.ss20;
 kernRight = O;
 layers = (
@@ -41699,7 +41684,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Dcedilla.ss20;
 kernRight = O;
 layers = (
@@ -41784,7 +41769,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Dcroat.ss20;
 kernRight = O;
 layers = (
@@ -41845,7 +41830,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ddotaccent.ss20;
 kernRight = O;
 layers = (
@@ -41930,7 +41915,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ddotbelow.ss20;
 kernRight = O;
 layers = (
@@ -42259,7 +42244,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = Fdotaccent.ss20;
 kernRight = F;
 layers = (
@@ -42344,7 +42329,7 @@ width = 384;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = G.ss20;
 kernRight = G;
 layers = (
@@ -42784,7 +42769,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hcaron.ss20;
 layers = (
 {
@@ -42868,7 +42853,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hcedilla.ss20;
 layers = (
 {
@@ -42952,7 +42937,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hcircumflex.ss20;
 layers = (
 {
@@ -43036,7 +43021,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hdieresis.ss20;
 layers = (
 {
@@ -43120,7 +43105,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hdotaccent.ss20;
 layers = (
 {
@@ -43204,7 +43189,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Hdotbelow.ss20;
 layers = (
 {
@@ -43534,7 +43519,6 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 4;
 glyphname = I.ss20;
 layers = (
 {
@@ -43835,7 +43819,7 @@ width = 320;
 metricWidth = "=pixel*5";
 },
 {
-color = 4;
+color = 8;
 glyphname = Iacute.ss20;
 layers = (
 {
@@ -43919,7 +43903,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ibreve.ss20;
 layers = (
 {
@@ -44003,7 +43987,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Icaron.ss20;
 layers = (
 {
@@ -44087,7 +44071,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Icircumflex.ss20;
 layers = (
 {
@@ -44171,7 +44155,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Idieresis.ss20;
 layers = (
 {
@@ -44255,7 +44239,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Idotaccent.ss20;
 layers = (
 {
@@ -44339,7 +44323,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Idotbelow.ss20;
 layers = (
 {
@@ -44423,7 +44407,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Igrave.ss20;
 layers = (
 {
@@ -44507,7 +44491,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ihookabove.ss20;
 layers = (
 {
@@ -44591,7 +44575,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Imacron.ss20;
 layers = (
 {
@@ -44675,7 +44659,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Iogonek.ss20;
 layers = (
 {
@@ -44759,7 +44743,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Itilde.ss20;
 layers = (
 {
@@ -44843,7 +44827,7 @@ width = 320;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = J.ss20;
 kernRight = U;
 layers = (
@@ -44904,7 +44888,7 @@ width = 448;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = K.ss20;
 kernRight = K;
 layers = (
@@ -45211,7 +45195,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = Lacute.ss20;
 kernRight = L;
 layers = (
@@ -45296,7 +45280,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Lbar.ss20;
 kernRight = L;
 layers = (
@@ -45381,7 +45365,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Lcaron.ss20;
 kernRight = L;
 layers = (
@@ -45466,7 +45450,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Lcommaaccent.ss20;
 kernRight = L;
 layers = (
@@ -45551,7 +45535,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ldot.ss20;
 layers = (
 {
@@ -45635,7 +45619,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ldotbelow.ss20;
 kernRight = L;
 layers = (
@@ -45720,7 +45704,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ldotbelowmacron.ss20;
 kernRight = L;
 layers = (
@@ -45829,7 +45813,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Lslash.ss20;
 kernRight = L;
 layers = (
@@ -46249,7 +46233,7 @@ width = 576;
 metricWidth = "=pixel*9";
 },
 {
-color = 4;
+color = 8;
 glyphname = Macute.ss20;
 layers = (
 {
@@ -46333,7 +46317,7 @@ width = 576;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Mdotaccent.ss20;
 layers = (
 {
@@ -46417,7 +46401,7 @@ width = 576;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Mdotbelow.ss20;
 layers = (
 {
@@ -46842,7 +46826,7 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = Nacute.ss20;
 layers = (
 {
@@ -46926,7 +46910,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ncaron.ss20;
 layers = (
 {
@@ -47010,7 +46994,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ncommaaccent.ss20;
 layers = (
 {
@@ -47094,7 +47078,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ndotaccent.ss20;
 layers = (
 {
@@ -47178,7 +47162,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ndotbelow.ss20;
 layers = (
 {
@@ -47262,7 +47246,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ngrave.ss20;
 layers = (
 {
@@ -47346,7 +47330,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ntilde.ss20;
 layers = (
 {
@@ -47430,7 +47414,7 @@ width = 480;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = Eng.ss20;
 layers = (
 {
@@ -47883,7 +47867,7 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = Oacute.ss20;
 kernLeft = O;
 kernRight = O;
@@ -47969,7 +47953,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Obreve.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48055,7 +48039,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocaron.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48141,7 +48125,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflex.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48227,7 +48211,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflexacute.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48313,7 +48297,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflexdotbelow.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48423,7 +48407,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflexgrave.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48509,7 +48493,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflexhookabove.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48595,7 +48579,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ocircumflextilde.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48681,7 +48665,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Odieresis.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48767,7 +48751,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Odotaccent.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48853,7 +48837,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Odotbelow.ss20;
 kernLeft = O;
 kernRight = O;
@@ -48939,7 +48923,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ograve.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49025,7 +49009,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohookabove.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49111,7 +49095,6 @@ width = 480;
 );
 },
 {
-color = 4;
 glyphname = Ohorn.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49598,7 +49581,7 @@ metricLeft = O.ss20;
 metricWidth = O.ss20;
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohornacute.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49684,7 +49667,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohorndotbelow.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49770,7 +49753,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohorngrave.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49856,7 +49839,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohornhookabove.ss20;
 kernLeft = O;
 kernRight = O;
@@ -49942,7 +49925,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohorntilde.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50029,7 +50012,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ohungarumlaut.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50115,7 +50098,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Omacron.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50201,7 +50184,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Oogonek.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50287,7 +50270,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Oogonekmacron.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50373,7 +50356,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Oslash.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50459,7 +50442,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Oslashacute.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50545,7 +50528,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Otilde.ss20;
 kernLeft = O;
 kernRight = O;
@@ -50631,7 +50614,7 @@ width = 480;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = OE.ss20;
 kernLeft = O;
 layers = (
@@ -50907,7 +50890,7 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 8;
+color = 1;
 glyphname = S.ss20;
 kernLeft = S;
 kernRight = S;
@@ -51362,7 +51345,7 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 8;
+color = 1;
 glyphname = T.ss20;
 kernLeft = T;
 kernRight = T;
@@ -51798,7 +51781,7 @@ width = 480;
 metricWidth = "=pixel*7.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = Uacute.ss20;
 kernLeft = U;
 kernRight = U;
@@ -51884,7 +51867,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ubreve.ss20;
 kernLeft = U;
 kernRight = U;
@@ -51970,7 +51953,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ucaron.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52056,7 +52039,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ucircumflex.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52142,7 +52125,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Udieresis.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52228,7 +52211,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Udotbelow.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52314,7 +52297,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Ugrave.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52400,7 +52383,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhookabove.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52486,7 +52469,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhorn.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52572,7 +52555,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhornacute.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52658,7 +52641,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhorndotbelow.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52744,7 +52727,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhorngrave.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52830,7 +52813,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhornhookabove.ss20;
 kernLeft = U;
 kernRight = U;
@@ -52916,7 +52899,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhorntilde.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53005,7 +52988,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uhungarumlaut.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53091,7 +53074,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Umacron.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53177,7 +53160,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uogonek.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53263,7 +53246,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Uring.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53349,7 +53332,7 @@ width = 480;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = Utilde.ss20;
 kernLeft = U;
 kernRight = U;
@@ -53946,7 +53929,7 @@ width = 448;
 metricWidth = "=pixel*7";
 },
 {
-color = 8;
+color = 1;
 glyphname = X.ss20;
 kernLeft = X;
 kernRight = X;
@@ -54008,7 +53991,7 @@ width = 448;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = Y.ss20;
 kernLeft = Y;
 kernRight = Y;
@@ -54070,7 +54053,7 @@ width = 448;
 );
 },
 {
-color = 8;
+color = 1;
 glyphname = Z.ss20;
 kernLeft = Z;
 kernRight = Z;
@@ -59062,7 +59045,6 @@ width = 448;
 unicode = 227;
 },
 {
-color = 4;
 glyphname = ae;
 layers = (
 {
@@ -62807,7 +62789,7 @@ width = 448;
 unicode = 231;
 },
 {
-color = 4;
+color = 6;
 glyphname = ccedillaacute;
 layers = (
 {
@@ -65734,7 +65716,7 @@ width = 448;
 unicode = 553;
 },
 {
-color = 4;
+color = 6;
 glyphname = ecedillabreve;
 layers = (
 {
@@ -67690,7 +67672,6 @@ width = 448;
 unicode = 7711;
 },
 {
-color = 4;
 glyphname = g;
 layers = (
 {
@@ -71551,7 +71532,6 @@ width = 448;
 unicode = 7881;
 },
 {
-color = 4;
 glyphname = ij;
 layers = (
 {
@@ -73384,7 +73364,6 @@ width = 448;
 unicode = 106;
 },
 {
-color = 4;
 glyphname = jdotless;
 layers = (
 {
@@ -75841,7 +75820,7 @@ width = 448;
 unicode = 314;
 },
 {
-color = 4;
+color = 6;
 glyphname = lbar;
 layers = (
 {
@@ -76564,7 +76543,7 @@ width = 448;
 unicode = 7835;
 },
 {
-color = 4;
+color = 6;
 glyphname = lslash;
 layers = (
 {
@@ -79228,7 +79207,6 @@ width = 448;
 unicode = 241;
 },
 {
-color = 4;
 glyphname = eng;
 layers = (
 {
@@ -83168,7 +83146,7 @@ width = 448;
 unicode = 491;
 },
 {
-color = 4;
+color = 6;
 glyphname = oogonekmacron;
 layers = (
 {
@@ -83247,7 +83225,7 @@ width = 448;
 unicode = 493;
 },
 {
-color = 4;
+color = 6;
 glyphname = oslash;
 layers = (
 {
@@ -84595,7 +84573,6 @@ width = 448;
 unicode = 339;
 },
 {
-color = 4;
 glyphname = p;
 layers = (
 {
@@ -85460,7 +85437,6 @@ width = 448;
 unicode = 7767;
 },
 {
-color = 4;
 glyphname = thorn;
 layers = (
 {
@@ -86051,7 +86027,6 @@ width = 448;
 unicode = 254;
 },
 {
-color = 4;
 glyphname = q;
 layers = (
 {
@@ -91252,7 +91227,6 @@ width = 448;
 unicode = 383;
 },
 {
-color = 4;
 glyphname = t;
 layers = (
 {
@@ -91727,7 +91701,7 @@ width = 448;
 unicode = 116;
 },
 {
-color = 4;
+color = 6;
 glyphname = tbar;
 layers = (
 {
@@ -97805,7 +97779,6 @@ width = 448;
 unicode = 7819;
 },
 {
-color = 4;
 glyphname = y;
 layers = (
 {
@@ -100861,6 +100834,7 @@ width = 448;
 );
 },
 {
+color = 3;
 glyphname = f.italic;
 layers = (
 {
@@ -101961,6 +101935,7 @@ width = 448;
 );
 },
 {
+color = 3;
 glyphname = germandbls.italic;
 layers = (
 {
@@ -102882,6 +102857,7 @@ width = 448;
 );
 },
 {
+color = 3;
 glyphname = longs.italic;
 layers = (
 {
@@ -103489,7 +103465,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = g.ss01;
 layers = (
 {
@@ -106269,7 +106244,7 @@ width = 416;
 metricWidth = "=pixel*6.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = aacute.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106355,7 +106330,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abreve.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106441,7 +106416,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abreveacute.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106527,7 +106502,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abrevedotbelow.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106631,7 +106606,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abrevegrave.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106717,7 +106692,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abrevehookabove.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106803,7 +106778,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = abrevetilde.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106889,7 +106864,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acaron.ss20;
 kernLeft = a;
 kernRight = n;
@@ -106975,7 +106950,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflex.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107061,7 +107036,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflexacute.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107147,7 +107122,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflexdotbelow.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107251,7 +107226,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflexgrave.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107337,7 +107312,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflexhookabove.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107423,7 +107398,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = acircumflextilde.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107509,7 +107484,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = adieresis.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107595,7 +107570,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = adotaccent.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107681,7 +107656,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = adotbelow.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107761,7 +107736,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = agrave.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107847,7 +107822,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ahookabove.ss20;
 kernLeft = a;
 kernRight = n;
@@ -107933,7 +107908,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = amacron.ss20;
 kernLeft = a;
 kernRight = n;
@@ -108019,7 +107994,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = aogonek.ss20;
 kernLeft = a;
 kernRight = n;
@@ -108105,7 +108080,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = aring.ss20;
 kernLeft = a;
 kernRight = n;
@@ -108191,7 +108166,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = aringacute.ss20;
 kernLeft = a;
 kernRight = n;
@@ -108301,7 +108276,7 @@ width = 416;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = atilde.ss20;
 kernLeft = a;
 kernRight = n;
@@ -108981,7 +108956,7 @@ width = 704;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = aeacute.ss20;
 kernLeft = a;
 kernRight = e;
@@ -109067,7 +109042,7 @@ width = 704;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = aemacron.ss20;
 kernLeft = a;
 kernRight = e;
@@ -109482,7 +109457,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = cacute.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109568,7 +109543,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ccaron.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109654,7 +109629,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ccedilla.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109740,7 +109715,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ccedillaacute.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109826,7 +109801,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ccircumflex.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109912,7 +109887,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = cdotaccent.ss20;
 kernLeft = o;
 kernRight = c;
@@ -109998,7 +109973,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = dcaron.ss20;
 layers = (
 {
@@ -110090,7 +110065,7 @@ metricLeft = d;
 metricWidth = "=pixel*8.5";
 },
 {
-color = 6;
+color = 8;
 glyphname = f.ss20;
 kernLeft = f;
 kernRight = f;
@@ -110207,7 +110182,7 @@ width = 352;
 metricWidth = "=pixel*5.5";
 },
 {
-color = 6;
+color = 8;
 glyphname = i.ss20;
 kernLeft = i;
 layers = (
@@ -110567,7 +110542,7 @@ width = 288;
 metricWidth = "=pixel*4.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = iacute.ss20;
 kernLeft = i;
 layers = (
@@ -110652,7 +110627,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ibreve.ss20;
 kernLeft = idieresis;
 layers = (
@@ -110737,7 +110712,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = icaron.ss20;
 kernLeft = idieresis;
 layers = (
@@ -110822,7 +110797,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = icircumflex.ss20;
 kernLeft = idieresis;
 layers = (
@@ -110907,7 +110882,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = idieresis.ss20;
 kernLeft = idieresis;
 layers = (
@@ -110992,7 +110967,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = idotaccent.ss20;
 kernLeft = i;
 layers = (
@@ -111077,7 +111052,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = idotbelow.ss20;
 kernLeft = i;
 layers = (
@@ -111162,7 +111137,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = igrave.ss20;
 kernLeft = i;
 layers = (
@@ -111247,7 +111222,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ihookabove.ss20;
 kernLeft = idieresis;
 layers = (
@@ -111332,7 +111307,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = imacron.ss20;
 kernLeft = idieresis;
 layers = (
@@ -111417,7 +111392,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = iogonek.ss20;
 kernLeft = i;
 layers = (
@@ -111526,7 +111501,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = istroke.ss20;
 layers = (
 {
@@ -111634,7 +111609,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = itilde.ss20;
 kernLeft = idieresis;
 layers = (
@@ -111719,7 +111694,7 @@ width = 288;
 );
 },
 {
-color = 6;
+color = 8;
 glyphname = j.ss20;
 kernLeft = j;
 layers = (
@@ -111804,7 +111779,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = jdotless.ss20;
 kernLeft = j;
 layers = (
@@ -112208,7 +112183,7 @@ width = 288;
 metricWidth = "=pixel*4.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = jacute.ss20;
 kernLeft = j;
 layers = (
@@ -112293,7 +112268,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = jcaron.ss20;
 kernLeft = j;
 layers = (
@@ -112378,7 +112353,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = jcircumflex.ss20;
 kernLeft = j;
 layers = (
@@ -112463,7 +112438,7 @@ width = 288;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = l.ss20;
 kernRight = l;
 layers = (
@@ -112849,7 +112824,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = lacute.ss20;
 kernRight = l;
 layers = (
@@ -112934,7 +112909,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = lbar.ss20;
 layers = (
 {
@@ -113018,7 +112993,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = lcaron.ss20;
 kernLeft = l;
 layers = (
@@ -113110,7 +113085,7 @@ width = 320;
 metricWidth = "=pixel*5";
 },
 {
-color = 4;
+color = 8;
 glyphname = lcommaaccent.ss20;
 kernRight = l;
 layers = (
@@ -113195,7 +113170,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ldot.ss20;
 kernLeft = l;
 layers = (
@@ -113286,7 +113261,7 @@ width = 356;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ldotbelow.ss20;
 kernRight = l;
 layers = (
@@ -113371,7 +113346,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = ldotbelowmacron.ss20;
 kernRight = l;
 layers = (
@@ -113480,7 +113455,7 @@ width = 276;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = longsdotaccent.ss20;
 kernLeft = f;
 kernRight = longs;
@@ -113566,7 +113541,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = lslash.ss20;
 layers = (
 {
@@ -114999,7 +114974,7 @@ width = 608;
 metricWidth = "=pixel*9.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = macute.ss20;
 kernLeft = n;
 kernRight = n;
@@ -115085,7 +115060,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = mdotaccent.ss20;
 kernLeft = n;
 kernRight = n;
@@ -115171,7 +115146,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = mdotbelow.ss20;
 kernLeft = n;
 kernRight = n;
@@ -116698,7 +116673,7 @@ width = 320;
 metricWidth = "=pixel*5";
 },
 {
-color = 4;
+color = 8;
 glyphname = racute.ss20;
 kernRight = r;
 layers = (
@@ -116783,7 +116758,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = rcaron.ss20;
 kernRight = r;
 layers = (
@@ -116868,7 +116843,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = rcommaaccent.ss20;
 kernLeft = n;
 kernRight = r;
@@ -116954,7 +116929,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = rdotaccent.ss20;
 kernRight = r;
 layers = (
@@ -117039,7 +117014,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = rdotbelow.ss20;
 kernLeft = n;
 kernRight = r;
@@ -117125,7 +117100,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = rdotbelowmacron.ss20;
 kernRight = r;
 layers = (
@@ -117885,7 +117860,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = sacute.ss20;
 kernLeft = s;
 kernRight = s;
@@ -117971,7 +117946,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = scaron.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118057,7 +118032,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = scedilla.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118149,7 +118124,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = scircumflex.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118235,7 +118210,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = scommaaccent.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118321,7 +118296,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = sdotaccent.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118407,7 +118382,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = sdotbelow.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118493,7 +118468,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = sdotbelowdotaccent.ss20;
 kernLeft = s;
 kernRight = s;
@@ -118603,6 +118578,7 @@ width = 384;
 );
 },
 {
+color = 8;
 glyphname = longs.ss20;
 kernLeft = f;
 kernRight = longs;
@@ -118678,7 +118654,7 @@ metricLeft = f.ss20;
 metricWidth = "=pixel*5";
 },
 {
-color = 4;
+color = 8;
 glyphname = t.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119096,7 +119072,7 @@ width = 384;
 metricWidth = "=pixel*6";
 },
 {
-color = 4;
+color = 8;
 glyphname = tbar.ss20;
 layers = (
 {
@@ -119180,7 +119156,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tcaron.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119266,7 +119242,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tcedilla.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119358,7 +119334,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tcommaaccent.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119444,7 +119420,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tdieresis.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119530,7 +119506,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tdotaccent.ss20;
 kernLeft = t;
 kernRight = t;
@@ -119616,7 +119592,7 @@ width = 384;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = tdotbelow.ss20;
 kernLeft = t;
 kernRight = t;
@@ -120576,7 +120552,7 @@ width = 544;
 metricWidth = "=pixel*9.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = wacute.ss20;
 layers = (
 {
@@ -120660,7 +120636,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wcircumflex.ss20;
 layers = (
 {
@@ -120744,7 +120720,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wdieresis.ss20;
 layers = (
 {
@@ -120828,7 +120804,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wdotaccent.ss20;
 layers = (
 {
@@ -120912,7 +120888,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wdotbelow.ss20;
 layers = (
 {
@@ -120996,7 +120972,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wgrave.ss20;
 layers = (
 {
@@ -121080,7 +121056,7 @@ width = 608;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = wring.ss20;
 layers = (
 {
@@ -121164,7 +121140,7 @@ width = 608;
 );
 },
 {
-color = 6;
+color = 8;
 glyphname = z.ss20;
 kernLeft = z;
 layers = (
@@ -121225,7 +121201,7 @@ width = 448;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = f.ss20.italic;
 kernLeft = f;
 kernRight = f;
@@ -121301,7 +121277,7 @@ metricLeft = f.ss20;
 metricWidth = "=pixel*5.5";
 },
 {
-color = 4;
+color = 8;
 glyphname = longsdotaccent.ss20.italic;
 kernLeft = f;
 kernRight = longs;
@@ -121387,7 +121363,7 @@ width = 320;
 );
 },
 {
-color = 4;
+color = 8;
 glyphname = longs.ss20.italic;
 kernLeft = f;
 kernRight = longs;
@@ -126534,7 +126510,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = C.sups;
 layers = (
 {
@@ -127639,7 +127614,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = E.sups;
 layers = (
 {
@@ -128023,7 +127997,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = F.sups;
 layers = (
 {
@@ -129071,7 +129044,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = H.sups;
 layers = (
 {
@@ -133062,7 +133034,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = O.sups;
 layers = (
 {
@@ -133648,7 +133619,6 @@ nodes = (
 }
 );
 };
-color = 4;
 hints = (
 {
 horizontal = 1;
@@ -142541,7 +142511,6 @@ width = 448;
 unicode = 1042;
 },
 {
-color = 4;
 glyphname = "Ge-cy";
 layers = (
 {
@@ -159252,7 +159221,6 @@ width = 448;
 unicode = 1028;
 },
 {
-color = 4;
 glyphname = "Ereversed-cy";
 layers = (
 {
@@ -165547,7 +165515,6 @@ width = 448;
 unicode = 1026;
 },
 {
-color = 4;
 glyphname = "Ge-cy.ss20";
 kernRight = F;
 layers = (
@@ -167298,7 +167265,6 @@ width = 448;
 unicode = 1073;
 },
 {
-color = 4;
 glyphname = "ve-cy";
 layers = (
 {
@@ -168062,7 +168028,6 @@ width = 448;
 unicode = 1074;
 },
 {
-color = 4;
 glyphname = "ge-cy";
 layers = (
 {
@@ -194514,7 +194479,6 @@ width = 448;
 unicode = 929;
 },
 {
-color = 4;
 glyphname = Sigma;
 layers = (
 {
@@ -222798,7 +222762,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = zerosuperior;
 layers = (
 {
@@ -223139,7 +223102,6 @@ width = 448;
 unicode = 8304;
 },
 {
-color = 4;
 glyphname = onesuperior;
 layers = (
 {
@@ -223443,7 +223405,6 @@ width = 448;
 unicode = 185;
 },
 {
-color = 4;
 glyphname = twosuperior;
 layers = (
 {
@@ -224043,7 +224004,6 @@ width = 448;
 unicode = 178;
 },
 {
-color = 4;
 glyphname = threesuperior;
 layers = (
 {
@@ -224688,7 +224648,6 @@ width = 448;
 unicode = 179;
 },
 {
-color = 4;
 glyphname = foursuperior;
 layers = (
 {
@@ -231178,7 +231137,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = fraction.alt;
 layers = (
 {
@@ -232258,7 +232216,7 @@ width = 288;
 metricWidth = "=space.ss20";
 },
 {
-color = 4;
+color = 6;
 glyphname = anoteleia;
 layers = (
 {
@@ -234993,7 +234951,6 @@ width = 448;
 unicode = 8226;
 },
 {
-color = 4;
 glyphname = asterisk;
 layers = (
 {
@@ -236296,7 +236253,6 @@ width = 448;
 unicode = 92;
 },
 {
-color = 4;
 glyphname = slash.O;
 layers = (
 {
@@ -236428,7 +236384,6 @@ width = 448;
 );
 },
 {
-color = 4;
 glyphname = slash.o;
 layers = (
 {
@@ -236560,7 +236515,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = period.ss20;
 kernLeft = period;
 kernRight = period;
@@ -236629,7 +236584,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = comma.ss20;
 kernLeft = period;
 kernRight = period;
@@ -236698,7 +236653,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = colon.ss20;
 layers = (
 {
@@ -236765,7 +236720,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = semicolon.ss20;
 layers = (
 {
@@ -236832,7 +236787,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = slash.ss20;
 layers = (
 {
@@ -236899,7 +236854,7 @@ width = 320;
 metricWidth = "=pixel*5";
 },
 {
-color = 9;
+color = 8;
 glyphname = backslash.ss20;
 layers = (
 {
@@ -238211,7 +238166,6 @@ width = 448;
 unicode = 95;
 },
 {
-color = 4;
 glyphname = underscoredbl;
 layers = (
 {
@@ -241848,7 +241802,6 @@ width = 448;
 unicode = 8223;
 },
 {
-color = 4;
 glyphname = guillemetleft;
 layers = (
 {
@@ -242101,7 +242054,6 @@ width = 448;
 unicode = 171;
 },
 {
-color = 4;
 glyphname = guillemetright;
 layers = (
 {
@@ -242352,7 +242304,6 @@ width = 448;
 unicode = 187;
 },
 {
-color = 4;
 glyphname = guilsinglleft;
 layers = (
 {
@@ -242530,7 +242481,6 @@ width = 448;
 unicode = 8249;
 },
 {
-color = 4;
 glyphname = guilsinglright;
 layers = (
 {
@@ -243098,7 +243048,7 @@ width = 448;
 unicode = 39;
 },
 {
-color = 9;
+color = 8;
 glyphname = quotesinglbase.ss20;
 kernLeft = period;
 kernRight = period;
@@ -243160,7 +243110,7 @@ width = 256;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = quotedblbase.ss20;
 kernLeft = period;
 kernRight = period;
@@ -243222,7 +243172,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = quotedblleft.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243284,7 +243234,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = quotedblright.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243351,7 +243301,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = quoteleft.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243420,7 +243370,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = quoteright.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243489,7 +243439,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = quotereversed.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243558,7 +243508,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = quotedblrightreversed.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243620,7 +243570,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = guillemetleft.ss20;
 kernLeft = hyphen;
 kernRight = hyphen;
@@ -243682,7 +243632,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = guillemetright.ss20;
 kernLeft = hyphen;
 kernRight = hyphen;
@@ -243744,7 +243694,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = guilsinglleft.ss20;
 kernLeft = hyphen;
 kernRight = hyphen;
@@ -243813,7 +243763,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = guilsinglright.ss20;
 kernLeft = hyphen;
 kernRight = hyphen;
@@ -243882,7 +243832,7 @@ width = 256;
 metricWidth = "=pixel*4";
 },
 {
-color = 9;
+color = 8;
 glyphname = quotedbl.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -243944,7 +243894,7 @@ width = 448;
 );
 },
 {
-color = 9;
+color = 8;
 glyphname = quotesingle.ss20;
 kernLeft = quotesingle;
 kernRight = quotesingle;
@@ -251725,7 +251675,7 @@ width = 448;
 unicode = 10272;
 },
 {
-color = 4;
+color = 9;
 glyphname = lnSquare;
 layers = (
 {
@@ -262218,7 +262168,7 @@ width = 448;
 unicode = 9830;
 },
 {
-color = 4;
+color = 9;
 glyphname = whiteFlag;
 layers = (
 {
@@ -262567,7 +262517,7 @@ width = 448;
 unicode = 9872;
 },
 {
-color = 4;
+color = 9;
 glyphname = blackFlag;
 layers = (
 {
@@ -266528,7 +266478,7 @@ width = 448;
 unicode = 10007;
 },
 {
-color = 8;
+color = 9;
 glyphname = alternativekeysymbol;
 layers = (
 {
@@ -270860,7 +270810,6 @@ width = 448;
 unicode = 8471;
 },
 {
-color = 4;
 glyphname = trademark;
 layers = (
 {
@@ -271410,7 +271359,7 @@ width = 448;
 unicode = 8482;
 },
 {
-color = 4;
+color = 6;
 glyphname = careof;
 layers = (
 {
@@ -273402,7 +273351,6 @@ width = 448;
 unicode = 8467;
 },
 {
-color = 4;
 glyphname = daggerdbl;
 layers = (
 {
@@ -335789,7 +335737,7 @@ width = 448;
 unicode = 8984;
 },
 {
-color = 4;
+color = 9;
 glyphname = lineFeedControl;
 layers = (
 {
@@ -335954,7 +335902,7 @@ width = 448;
 unicode = 9226;
 },
 {
-color = 4;
+color = 9;
 glyphname = newlineControl;
 layers = (
 {
@@ -336093,7 +336041,6 @@ width = 448;
 unicode = 9252;
 },
 {
-color = 6;
 glyphname = whiteSmallStar;
 layers = (
 {
@@ -340489,7 +340436,6 @@ width = 448;
 unicode = 36;
 },
 {
-color = 4;
 glyphname = euro;
 layers = (
 {
@@ -342185,7 +342131,6 @@ width = 448;
 unicode = 8359;
 },
 {
-color = 4;
 glyphname = sterling;
 layers = (
 {
@@ -342544,7 +342489,6 @@ width = 448;
 unicode = 163;
 },
 {
-color = 4;
 glyphname = yen;
 layers = (
 {
@@ -345175,7 +345119,6 @@ width = 448;
 unicode = 8729;
 },
 {
-color = 4;
 glyphname = divisionslash;
 layers = (
 {
@@ -345461,7 +345404,6 @@ width = 448;
 unicode = 8901;
 },
 {
-color = 4;
 glyphname = equivalence;
 layers = (
 {
@@ -345770,7 +345712,6 @@ width = 448;
 unicode = 8801;
 },
 {
-color = 4;
 glyphname = estimates;
 layers = (
 {
@@ -346156,7 +346097,6 @@ width = 448;
 unicode = 8793;
 },
 {
-color = 4;
 glyphname = integralbt;
 layers = (
 {
@@ -346640,7 +346580,6 @@ width = 448;
 unicode = 8993;
 },
 {
-color = 4;
 glyphname = integraltp;
 layers = (
 {
@@ -347512,7 +347451,6 @@ width = 448;
 unicode = 8837;
 },
 {
-color = 4;
 glyphname = plus;
 layers = (
 {
@@ -347877,7 +347815,6 @@ width = 448;
 unicode = 8722;
 },
 {
-color = 4;
 glyphname = multiply;
 layers = (
 {
@@ -348154,7 +348091,6 @@ width = 448;
 unicode = 215;
 },
 {
-color = 4;
 glyphname = divide;
 layers = (
 {
@@ -349564,7 +349500,7 @@ width = 448;
 unicode = 8804;
 },
 {
-color = 4;
+color = 6;
 glyphname = plusminus;
 layers = (
 {
@@ -349679,7 +349615,6 @@ width = 448;
 unicode = 177;
 },
 {
-color = 4;
 glyphname = approxequal;
 layers = (
 {
@@ -350447,7 +350382,6 @@ width = 448;
 unicode = 126;
 },
 {
-color = 4;
 glyphname = logicalnot;
 layers = (
 {
@@ -350828,7 +350762,6 @@ width = 448;
 unicode = 94;
 },
 {
-color = 4;
 glyphname = infinity;
 layers = (
 {
@@ -351545,7 +351478,6 @@ width = 448;
 unicode = 8734;
 },
 {
-color = 4;
 glyphname = logicaland;
 layers = (
 {
@@ -351911,7 +351843,6 @@ width = 448;
 unicode = 8743;
 },
 {
-color = 4;
 glyphname = logicalor;
 layers = (
 {
@@ -352277,7 +352208,6 @@ width = 448;
 unicode = 8744;
 },
 {
-color = 4;
 glyphname = intersection;
 layers = (
 {
@@ -352533,7 +352463,6 @@ width = 448;
 unicode = 8745;
 },
 {
-color = 4;
 glyphname = union;
 layers = (
 {
@@ -352794,7 +352723,6 @@ width = 448;
 unicode = 8746;
 },
 {
-color = 4;
 glyphname = integral;
 layers = (
 {
@@ -353664,7 +353592,6 @@ width = 448;
 unicode = 8719;
 },
 {
-color = 4;
 glyphname = summation;
 layers = (
 {
@@ -355006,7 +354933,6 @@ width = 448;
 unicode = 8706;
 },
 {
-color = 4;
 glyphname = micro;
 layers = (
 {
@@ -356065,7 +355991,7 @@ width = 448;
 unicode = 37;
 },
 {
-color = 4;
+color = 6;
 glyphname = perthousand;
 layers = (
 {
@@ -356866,7 +356792,6 @@ width = 448;
 unicode = 8314;
 },
 {
-color = 4;
 glyphname = setminus;
 layers = (
 {
@@ -357908,7 +357833,7 @@ width = 448;
 unicode = 8835;
 },
 {
-color = 8;
+color = 9;
 glyphname = theredoesnotexist;
 layers = (
 {
@@ -358202,7 +358127,6 @@ width = 448;
 unicode = 8593;
 },
 {
-color = 4;
 glyphname = rightArrow;
 layers = (
 {
@@ -358561,7 +358485,6 @@ width = 448;
 unicode = 8595;
 },
 {
-color = 4;
 glyphname = leftArrow;
 layers = (
 {
@@ -358735,7 +358658,6 @@ width = 448;
 unicode = 8592;
 },
 {
-color = 4;
 glyphname = leftRightArrow;
 layers = (
 {
@@ -359337,7 +359259,6 @@ width = 448;
 unicode = 8616;
 },
 {
-color = 4;
 glyphname = carriagereturn;
 layers = (
 {
@@ -360444,7 +360365,7 @@ width = 448;
 unicode = 9616;
 },
 {
-color = 4;
+color = 6;
 glyphname = shadelight;
 layers = (
 {
@@ -361595,7 +361516,7 @@ width = 448;
 unicode = 9617;
 },
 {
-color = 4;
+color = 6;
 glyphname = shademedium;
 layers = (
 {
@@ -369442,7 +369363,6 @@ width = 448;
 unicode = 9675;
 },
 {
-color = 4;
 glyphname = whiteBullet;
 layers = (
 {
@@ -369791,7 +369711,6 @@ width = 448;
 unicode = 9702;
 },
 {
-color = 4;
 glyphname = inverseBullet;
 layers = (
 {
@@ -370072,7 +369991,6 @@ width = 448;
 unicode = 9688;
 },
 {
-color = 4;
 glyphname = inverseWhiteCircle;
 layers = (
 {
@@ -370758,7 +370676,6 @@ width = 448;
 unicode = 9674;
 },
 {
-color = 4;
 glyphname = filledRect;
 layers = (
 {
@@ -370881,7 +370798,6 @@ width = 448;
 unicode = 9644;
 },
 {
-color = 4;
 glyphname = blackSquare;
 layers = (
 {
@@ -371016,7 +370932,6 @@ width = 448;
 unicode = 9632;
 },
 {
-color = 4;
 glyphname = whiteSquare;
 layers = (
 {
@@ -371237,7 +371152,6 @@ width = 448;
 unicode = 9633;
 },
 {
-color = 4;
 glyphname = blackSmallSquare;
 layers = (
 {
@@ -371372,7 +371286,6 @@ width = 448;
 unicode = 9642;
 },
 {
-color = 4;
 glyphname = whiteSmallSquare;
 layers = (
 {
@@ -371593,7 +371506,6 @@ width = 448;
 unicode = 9643;
 },
 {
-color = 4;
 glyphname = upBlackTriangle;
 layers = (
 {
@@ -371805,7 +371717,6 @@ width = 448;
 unicode = 9654;
 },
 {
-color = 4;
 glyphname = downBlackTriangle;
 layers = (
 {
@@ -372017,7 +371928,6 @@ width = 448;
 unicode = 9664;
 },
 {
-color = 4;
 glyphname = rightBlackPointer;
 layers = (
 {
@@ -372168,7 +372078,6 @@ width = 448;
 unicode = 9658;
 },
 {
-color = 4;
 glyphname = leftBlackPointer;
 layers = (
 {
@@ -385175,7 +385084,6 @@ width = 448;
 unicode = 770;
 },
 {
-color = 4;
 glyphname = caroncomb;
 layers = (
 {
@@ -386472,7 +386380,6 @@ width = 448;
 unicode = 778;
 },
 {
-color = 4;
 glyphname = tildecomb;
 layers = (
 {
@@ -387369,7 +387276,6 @@ note = "\012    overline\012  ";
 unicode = 773;
 },
 {
-color = 4;
 glyphname = hookabovecomb;
 layers = (
 {
@@ -387964,7 +387870,6 @@ width = 448;
 unicode = 786;
 },
 {
-color = 4;
 glyphname = commaaboverightcomb;
 layers = (
 {
@@ -388711,7 +388616,6 @@ width = 448;
 unicode = 806;
 },
 {
-color = 4;
 glyphname = cedillacomb;
 layers = (
 {
@@ -388934,7 +388838,6 @@ width = 448;
 unicode = 807;
 },
 {
-color = 4;
 glyphname = ogonekcomb;
 layers = (
 {
@@ -395669,7 +395572,7 @@ width = 448;
 unicode = 57504;
 },
 {
-color = 4;
+color = 9;
 glyphname = uniE0A1;
 layers = (
 {
@@ -395842,7 +395745,7 @@ width = 448;
 unicode = 57505;
 },
 {
-color = 8;
+color = 9;
 glyphname = uniE0A2;
 layers = (
 {
@@ -395903,7 +395806,7 @@ width = 448;
 unicode = 57506;
 },
 {
-color = 4;
+color = 9;
 glyphname = uniE0A3;
 layers = (
 {
@@ -396281,7 +396184,7 @@ width = 448;
 unicode = 57521;
 },
 {
-color = 8;
+color = 9;
 glyphname = uniE0B2;
 layers = (
 {
@@ -396354,7 +396257,7 @@ width = 448;
 unicode = 57522;
 },
 {
-color = 8;
+color = 9;
 glyphname = uniE0B3;
 layers = (
 {
@@ -399565,7 +399468,7 @@ width = 448;
 unicode = 60426;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEC25;
 layers = (
 {
@@ -400253,7 +400156,7 @@ width = 448;
 unicode = 60453;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEC26;
 layers = (
 {
@@ -405441,7 +405344,7 @@ width = 448;
 unicode = 60463;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF00;
 layers = (
 {
@@ -405667,7 +405570,7 @@ width = 448;
 unicode = 61184;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF01;
 layers = (
 {
@@ -405893,7 +405796,7 @@ width = 448;
 unicode = 61185;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF02;
 layers = (
 {
@@ -406119,7 +406022,7 @@ width = 448;
 unicode = 61186;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF03;
 layers = (
 {
@@ -406345,7 +406248,7 @@ width = 448;
 unicode = 61187;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF04;
 layers = (
 {
@@ -406571,7 +406474,7 @@ width = 448;
 unicode = 61188;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF05;
 layers = (
 {
@@ -406797,7 +406700,7 @@ width = 448;
 unicode = 61189;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF06;
 layers = (
 {
@@ -407023,7 +406926,7 @@ width = 448;
 unicode = 61190;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF07;
 layers = (
 {
@@ -407249,7 +407152,7 @@ width = 448;
 unicode = 61191;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF08;
 layers = (
 {
@@ -407475,7 +407378,7 @@ width = 448;
 unicode = 61192;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF09;
 layers = (
 {
@@ -407701,7 +407604,7 @@ width = 448;
 unicode = 61193;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0A;
 layers = (
 {
@@ -407927,7 +407830,7 @@ width = 448;
 unicode = 61194;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0B;
 layers = (
 {
@@ -408153,7 +408056,7 @@ width = 448;
 unicode = 61195;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0C;
 layers = (
 {
@@ -408379,7 +408282,7 @@ width = 448;
 unicode = 61196;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0D;
 layers = (
 {
@@ -408605,7 +408508,7 @@ width = 448;
 unicode = 61197;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0E;
 layers = (
 {
@@ -408831,7 +408734,7 @@ width = 448;
 unicode = 61198;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF0F;
 layers = (
 {
@@ -409057,7 +408960,7 @@ width = 448;
 unicode = 61199;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF10;
 layers = (
 {
@@ -409283,7 +409186,7 @@ width = 448;
 unicode = 61200;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF11;
 layers = (
 {
@@ -409509,7 +409412,7 @@ width = 448;
 unicode = 61201;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF12;
 layers = (
 {
@@ -409735,7 +409638,7 @@ width = 448;
 unicode = 61202;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF13;
 layers = (
 {
@@ -409961,7 +409864,7 @@ width = 448;
 unicode = 61203;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF14;
 layers = (
 {
@@ -410187,7 +410090,7 @@ width = 448;
 unicode = 61204;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF15;
 layers = (
 {
@@ -410413,7 +410316,7 @@ width = 448;
 unicode = 61205;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF16;
 layers = (
 {
@@ -410639,7 +410542,7 @@ width = 448;
 unicode = 61206;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF17;
 layers = (
 {
@@ -410865,7 +410768,7 @@ width = 448;
 unicode = 61207;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF18;
 layers = (
 {
@@ -411091,7 +410994,7 @@ width = 448;
 unicode = 61208;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF19;
 layers = (
 {
@@ -411317,7 +411220,7 @@ width = 448;
 unicode = 61209;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1A;
 layers = (
 {
@@ -411543,7 +411446,7 @@ width = 448;
 unicode = 61210;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1B;
 layers = (
 {
@@ -411769,7 +411672,7 @@ width = 448;
 unicode = 61211;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1C;
 layers = (
 {
@@ -411995,7 +411898,7 @@ width = 448;
 unicode = 61212;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1D;
 layers = (
 {
@@ -412221,7 +412124,7 @@ width = 448;
 unicode = 61213;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1E;
 layers = (
 {
@@ -412447,7 +412350,7 @@ width = 448;
 unicode = 61214;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF1F;
 layers = (
 {
@@ -412673,7 +412576,7 @@ width = 448;
 unicode = 61215;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF20;
 layers = (
 {
@@ -412899,7 +412802,7 @@ width = 448;
 unicode = 61216;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF21;
 layers = (
 {
@@ -413125,7 +413028,7 @@ width = 448;
 unicode = 61217;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF22;
 layers = (
 {
@@ -413351,7 +413254,7 @@ width = 448;
 unicode = 61218;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF23;
 layers = (
 {
@@ -413577,7 +413480,7 @@ width = 448;
 unicode = 61219;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF24;
 layers = (
 {
@@ -413803,7 +413706,7 @@ width = 448;
 unicode = 61220;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF25;
 layers = (
 {
@@ -414029,7 +413932,7 @@ width = 448;
 unicode = 61221;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF26;
 layers = (
 {
@@ -414255,7 +414158,7 @@ width = 448;
 unicode = 61222;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF27;
 layers = (
 {
@@ -414481,7 +414384,7 @@ width = 448;
 unicode = 61223;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF28;
 layers = (
 {
@@ -414707,7 +414610,7 @@ width = 448;
 unicode = 61224;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF29;
 layers = (
 {
@@ -414933,7 +414836,7 @@ width = 448;
 unicode = 61225;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2A;
 layers = (
 {
@@ -415159,7 +415062,7 @@ width = 448;
 unicode = 61226;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2B;
 layers = (
 {
@@ -415385,7 +415288,7 @@ width = 448;
 unicode = 61227;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2C;
 layers = (
 {
@@ -415611,7 +415514,7 @@ width = 448;
 unicode = 61228;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2D;
 layers = (
 {
@@ -415837,7 +415740,7 @@ width = 448;
 unicode = 61229;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2E;
 layers = (
 {
@@ -416063,7 +415966,7 @@ width = 448;
 unicode = 61230;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF2F;
 layers = (
 {
@@ -416289,7 +416192,7 @@ width = 448;
 unicode = 61231;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF30;
 layers = (
 {
@@ -416515,7 +416418,7 @@ width = 448;
 unicode = 61232;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF31;
 layers = (
 {
@@ -416741,7 +416644,7 @@ width = 448;
 unicode = 61233;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF32;
 layers = (
 {
@@ -416967,7 +416870,7 @@ width = 448;
 unicode = 61234;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF33;
 layers = (
 {
@@ -417193,7 +417096,7 @@ width = 448;
 unicode = 61235;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF34;
 layers = (
 {
@@ -417419,7 +417322,7 @@ width = 448;
 unicode = 61236;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF35;
 layers = (
 {
@@ -417645,7 +417548,7 @@ width = 448;
 unicode = 61237;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF36;
 layers = (
 {
@@ -417871,7 +417774,7 @@ width = 448;
 unicode = 61238;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF37;
 layers = (
 {
@@ -418097,7 +418000,7 @@ width = 448;
 unicode = 61239;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF38;
 layers = (
 {
@@ -418323,7 +418226,7 @@ width = 448;
 unicode = 61240;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF39;
 layers = (
 {
@@ -418549,7 +418452,7 @@ width = 448;
 unicode = 61241;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3A;
 layers = (
 {
@@ -418775,7 +418678,7 @@ width = 448;
 unicode = 61242;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3B;
 layers = (
 {
@@ -419001,7 +418904,7 @@ width = 448;
 unicode = 61243;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3C;
 layers = (
 {
@@ -419227,7 +419130,7 @@ width = 448;
 unicode = 61244;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3D;
 layers = (
 {
@@ -419453,7 +419356,7 @@ width = 448;
 unicode = 61245;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3E;
 layers = (
 {
@@ -419679,7 +419582,7 @@ width = 448;
 unicode = 61246;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF3F;
 layers = (
 {
@@ -419905,7 +419808,7 @@ width = 448;
 unicode = 61247;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF40;
 layers = (
 {
@@ -420131,7 +420034,7 @@ width = 448;
 unicode = 61248;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF41;
 layers = (
 {
@@ -420357,7 +420260,7 @@ width = 448;
 unicode = 61249;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF42;
 layers = (
 {
@@ -420583,7 +420486,7 @@ width = 448;
 unicode = 61250;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF43;
 layers = (
 {
@@ -420809,7 +420712,7 @@ width = 448;
 unicode = 61251;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF44;
 layers = (
 {
@@ -421035,7 +420938,7 @@ width = 448;
 unicode = 61252;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF45;
 layers = (
 {
@@ -421261,7 +421164,7 @@ width = 448;
 unicode = 61253;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF46;
 layers = (
 {
@@ -421487,7 +421390,7 @@ width = 448;
 unicode = 61254;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF47;
 layers = (
 {
@@ -421713,7 +421616,7 @@ width = 448;
 unicode = 61255;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF48;
 layers = (
 {
@@ -421939,7 +421842,7 @@ width = 448;
 unicode = 61256;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF49;
 layers = (
 {
@@ -422165,7 +422068,7 @@ width = 448;
 unicode = 61257;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4A;
 layers = (
 {
@@ -422391,7 +422294,7 @@ width = 448;
 unicode = 61258;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4B;
 layers = (
 {
@@ -422617,7 +422520,7 @@ width = 448;
 unicode = 61259;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4C;
 layers = (
 {
@@ -422843,7 +422746,7 @@ width = 448;
 unicode = 61260;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4D;
 layers = (
 {
@@ -423069,7 +422972,7 @@ width = 448;
 unicode = 61261;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4E;
 layers = (
 {
@@ -423295,7 +423198,7 @@ width = 448;
 unicode = 61262;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF4F;
 layers = (
 {
@@ -423521,7 +423424,7 @@ width = 448;
 unicode = 61263;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF50;
 layers = (
 {
@@ -423747,7 +423650,7 @@ width = 448;
 unicode = 61264;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF51;
 layers = (
 {
@@ -423973,7 +423876,7 @@ width = 448;
 unicode = 61265;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF52;
 layers = (
 {
@@ -424199,7 +424102,7 @@ width = 448;
 unicode = 61266;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF53;
 layers = (
 {
@@ -424425,7 +424328,7 @@ width = 448;
 unicode = 61267;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF54;
 layers = (
 {
@@ -424651,7 +424554,7 @@ width = 448;
 unicode = 61268;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF55;
 layers = (
 {
@@ -424877,7 +424780,7 @@ width = 448;
 unicode = 61269;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF56;
 layers = (
 {
@@ -425103,7 +425006,7 @@ width = 448;
 unicode = 61270;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF57;
 layers = (
 {
@@ -425329,7 +425232,7 @@ width = 448;
 unicode = 61271;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF58;
 layers = (
 {
@@ -425555,7 +425458,7 @@ width = 448;
 unicode = 61272;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF59;
 layers = (
 {
@@ -425781,7 +425684,7 @@ width = 448;
 unicode = 61273;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5A;
 layers = (
 {
@@ -426007,7 +425910,7 @@ width = 448;
 unicode = 61274;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5B;
 layers = (
 {
@@ -426233,7 +426136,7 @@ width = 448;
 unicode = 61275;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5C;
 layers = (
 {
@@ -426459,7 +426362,7 @@ width = 448;
 unicode = 61276;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5D;
 layers = (
 {
@@ -426685,7 +426588,7 @@ width = 448;
 unicode = 61277;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5E;
 layers = (
 {
@@ -426911,7 +426814,7 @@ width = 448;
 unicode = 61278;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF5F;
 layers = (
 {
@@ -427137,7 +427040,7 @@ width = 448;
 unicode = 61279;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF60;
 layers = (
 {
@@ -427363,7 +427266,7 @@ width = 448;
 unicode = 61280;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF61;
 layers = (
 {
@@ -427589,7 +427492,7 @@ width = 448;
 unicode = 61281;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF62;
 layers = (
 {
@@ -427815,7 +427718,7 @@ width = 448;
 unicode = 61282;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF63;
 layers = (
 {
@@ -427981,7 +427884,7 @@ width = 448;
 unicode = 61283;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF64;
 layers = (
 {
@@ -428207,7 +428110,7 @@ width = 448;
 unicode = 61284;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF65;
 layers = (
 {
@@ -428433,7 +428336,7 @@ width = 448;
 unicode = 61285;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF66;
 layers = (
 {
@@ -428659,7 +428562,7 @@ width = 448;
 unicode = 61286;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF67;
 layers = (
 {
@@ -428885,7 +428788,7 @@ width = 448;
 unicode = 61287;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF68;
 layers = (
 {
@@ -429111,7 +429014,7 @@ width = 448;
 unicode = 61288;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF69;
 layers = (
 {
@@ -429337,7 +429240,7 @@ width = 448;
 unicode = 61289;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6A;
 layers = (
 {
@@ -429563,7 +429466,7 @@ width = 448;
 unicode = 61290;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6B;
 layers = (
 {
@@ -429789,7 +429692,7 @@ width = 448;
 unicode = 61291;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6C;
 layers = (
 {
@@ -430015,7 +429918,7 @@ width = 448;
 unicode = 61292;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6D;
 layers = (
 {
@@ -430241,7 +430144,7 @@ width = 448;
 unicode = 61293;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6E;
 layers = (
 {
@@ -430467,7 +430370,7 @@ width = 448;
 unicode = 61294;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF6F;
 layers = (
 {
@@ -430693,7 +430596,7 @@ width = 448;
 unicode = 61295;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF70;
 layers = (
 {
@@ -430919,7 +430822,7 @@ width = 448;
 unicode = 61296;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF71;
 layers = (
 {
@@ -431145,7 +431048,7 @@ width = 448;
 unicode = 61297;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF72;
 layers = (
 {
@@ -431371,7 +431274,7 @@ width = 448;
 unicode = 61298;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF73;
 layers = (
 {
@@ -431597,7 +431500,7 @@ width = 448;
 unicode = 61299;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF74;
 layers = (
 {
@@ -431823,7 +431726,7 @@ width = 448;
 unicode = 61300;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF75;
 layers = (
 {
@@ -432049,7 +431952,7 @@ width = 448;
 unicode = 61301;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF76;
 layers = (
 {
@@ -432275,7 +432178,7 @@ width = 448;
 unicode = 61302;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF77;
 layers = (
 {
@@ -432501,7 +432404,7 @@ width = 448;
 unicode = 61303;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF78;
 layers = (
 {
@@ -432727,7 +432630,7 @@ width = 448;
 unicode = 61304;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF79;
 layers = (
 {
@@ -432953,7 +432856,7 @@ width = 448;
 unicode = 61305;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7A;
 layers = (
 {
@@ -433179,7 +433082,7 @@ width = 448;
 unicode = 61306;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7B;
 layers = (
 {
@@ -433405,7 +433308,7 @@ width = 448;
 unicode = 61307;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7C;
 layers = (
 {
@@ -433631,7 +433534,7 @@ width = 448;
 unicode = 61308;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7D;
 layers = (
 {
@@ -433857,7 +433760,7 @@ width = 448;
 unicode = 61309;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7E;
 layers = (
 {
@@ -434083,7 +433986,7 @@ width = 448;
 unicode = 61310;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF7F;
 layers = (
 {
@@ -434309,7 +434212,7 @@ width = 448;
 unicode = 61311;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF80;
 layers = (
 {
@@ -434535,7 +434438,7 @@ width = 448;
 unicode = 61312;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF81;
 layers = (
 {
@@ -434761,7 +434664,7 @@ width = 448;
 unicode = 61313;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF82;
 layers = (
 {
@@ -434987,7 +434890,7 @@ width = 448;
 unicode = 61314;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF83;
 layers = (
 {
@@ -435213,7 +435116,7 @@ width = 448;
 unicode = 61315;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF84;
 layers = (
 {
@@ -435439,7 +435342,7 @@ width = 448;
 unicode = 61316;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF85;
 layers = (
 {
@@ -435665,7 +435568,7 @@ width = 448;
 unicode = 61317;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF86;
 layers = (
 {
@@ -435891,7 +435794,7 @@ width = 448;
 unicode = 61318;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF87;
 layers = (
 {
@@ -436117,7 +436020,7 @@ width = 448;
 unicode = 61319;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF88;
 layers = (
 {
@@ -436343,7 +436246,7 @@ width = 448;
 unicode = 61320;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF89;
 layers = (
 {
@@ -436569,7 +436472,7 @@ width = 448;
 unicode = 61321;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8A;
 layers = (
 {
@@ -436795,7 +436698,7 @@ width = 448;
 unicode = 61322;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8B;
 layers = (
 {
@@ -437021,7 +436924,7 @@ width = 448;
 unicode = 61323;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8C;
 layers = (
 {
@@ -437247,7 +437150,7 @@ width = 448;
 unicode = 61324;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8D;
 layers = (
 {
@@ -437473,7 +437376,7 @@ width = 448;
 unicode = 61325;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8E;
 layers = (
 {
@@ -437699,7 +437602,7 @@ width = 448;
 unicode = 61326;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF8F;
 layers = (
 {
@@ -437925,7 +437828,7 @@ width = 448;
 unicode = 61327;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF90;
 layers = (
 {
@@ -438151,7 +438054,7 @@ width = 448;
 unicode = 61328;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF91;
 layers = (
 {
@@ -438377,7 +438280,7 @@ width = 448;
 unicode = 61329;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF92;
 layers = (
 {
@@ -438603,7 +438506,7 @@ width = 448;
 unicode = 61330;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF93;
 layers = (
 {
@@ -438829,7 +438732,7 @@ width = 448;
 unicode = 61331;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF94;
 layers = (
 {
@@ -439055,7 +438958,7 @@ width = 448;
 unicode = 61332;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF95;
 layers = (
 {
@@ -439281,7 +439184,7 @@ width = 448;
 unicode = 61333;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF96;
 layers = (
 {
@@ -439507,7 +439410,7 @@ width = 448;
 unicode = 61334;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF97;
 layers = (
 {
@@ -439733,7 +439636,7 @@ width = 448;
 unicode = 61335;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF98;
 layers = (
 {
@@ -439959,7 +439862,7 @@ width = 448;
 unicode = 61336;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF99;
 layers = (
 {
@@ -440185,7 +440088,7 @@ width = 448;
 unicode = 61337;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9A;
 layers = (
 {
@@ -440411,7 +440314,7 @@ width = 448;
 unicode = 61338;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9B;
 layers = (
 {
@@ -440637,7 +440540,7 @@ width = 448;
 unicode = 61339;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9C;
 layers = (
 {
@@ -440863,7 +440766,7 @@ width = 448;
 unicode = 61340;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9D;
 layers = (
 {
@@ -441089,7 +440992,7 @@ width = 448;
 unicode = 61341;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9E;
 layers = (
 {
@@ -441315,7 +441218,7 @@ width = 448;
 unicode = 61342;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEF9F;
 layers = (
 {
@@ -441541,7 +441444,7 @@ width = 448;
 unicode = 61343;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA3;
 layers = (
 {
@@ -441767,7 +441670,7 @@ width = 448;
 unicode = 61347;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA4;
 layers = (
 {
@@ -441993,7 +441896,7 @@ width = 448;
 unicode = 61348;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA5;
 layers = (
 {
@@ -442219,7 +442122,7 @@ width = 448;
 unicode = 61349;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA6;
 layers = (
 {
@@ -442445,7 +442348,7 @@ width = 448;
 unicode = 61350;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA7;
 layers = (
 {
@@ -442671,7 +442574,7 @@ width = 448;
 unicode = 61351;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA8;
 layers = (
 {
@@ -442897,7 +442800,7 @@ width = 448;
 unicode = 61352;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFA9;
 layers = (
 {
@@ -443123,7 +443026,7 @@ width = 448;
 unicode = 61353;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFAA;
 layers = (
 {
@@ -443349,7 +443252,7 @@ width = 448;
 unicode = 61354;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFAB;
 layers = (
 {
@@ -443575,7 +443478,7 @@ width = 448;
 unicode = 61355;
 },
 {
-color = 4;
+color = 6;
 glyphname = uniEFAC;
 layers = (
 {
