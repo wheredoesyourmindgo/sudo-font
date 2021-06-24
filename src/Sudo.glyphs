@@ -217258,6 +217258,7 @@ type = TTStem;
 horizontal = 1;
 options = 4;
 origin = (0,18);
+stem = 0;
 target = (0,14,0,16);
 type = TTStem;
 },
