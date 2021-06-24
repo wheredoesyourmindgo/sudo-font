@@ -1444,12 +1444,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.055"/>
-    <checkSumAdjustment value="0x2cd1e1b3"/>
+    <checkSumAdjustment value="0x856b4f3f"/>
     <magicNumber value="0x5f0f3cf5"/>
-    <flags value="00100000 00000011"/>
+    <flags value="00000000 00000011"/>
     <unitsPerEm value="1024"/>
-    <created value="Wed Jun 23 15:46:28 2021"/>
-    <modified value="Wed Jun 23 17:22:04 2021"/>
+    <created value="Wed Jun 23 15:46:27 2021"/>
+    <modified value="Thu Jun 24 07:41:51 2021"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -24259,66 +24259,60 @@
 
     <TTGlyph name="one" xMin="54" yMin="0" xMax="404" yMax="580">
       <contour>
-        <pt x="404" y="64" on="1"/>
-        <pt x="404" y="0" on="1"/>
-        <pt x="64" y="0" on="1"/>
         <pt x="64" y="64" on="1"/>
-      </contour>
-      <contour>
-        <pt x="221" y="580" on="1"/>
-        <pt x="272" y="580" on="1"/>
-        <pt x="270" y="30" on="1"/>
-        <pt x="198" y="30" on="1"/>
-        <pt x="200" y="548" on="1"/>
-      </contour>
-      <contour>
-        <pt x="264" y="534" on="1"/>
+        <pt x="198" y="64" on="1"/>
+        <pt x="200" y="477" on="1"/>
         <pt x="97" y="386" on="1"/>
         <pt x="54" y="439" on="1"/>
         <pt x="221" y="580" on="1"/>
+        <pt x="272" y="580" on="1"/>
+        <pt x="270" y="64" on="1"/>
+        <pt x="404" y="64" on="1"/>
+        <pt x="404" y="0" on="1"/>
+        <pt x="64" y="0" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          3 15 2 8
+          1 15 10 8
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 2 values pushed */
-          3 3
+          7 1
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 2 values pushed */
-          4 4
+          5 4
           MIAP[1]	/* MoveIndirectAbsPt */
           PUSHB[ ]	/* 3 values pushed */
-          7 4 2
+          2 5 10
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 3 values pushed */
-          4 7 2
+          4 7 10
+          WS[ ]	/* WriteStore */
+          CALL[ ]	/* CallFunction */
+          PUSHB[ ]	/* 3 values pushed */
+          4 7 9
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           PUSHB[ ]	/* 3 values pushed */
           4 7 1
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
-          PUSHB[ ]	/* 3 values pushed */
-          4 7 3
-          WS[ ]	/* WriteStore */
-          CALL[ ]	/* CallFunction */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 3 values pushed */
-          3 16 3
+          7 16 1
           SRP0[ ]	/* SetRefPoint0 */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          4 3 3
+          5 1 7
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
@@ -80629,105 +80623,95 @@
     <glyphVariations glyph="one">
       <tuple>
         <coord axis="wght" value="1.0"/>
-        <delta pt="0" x="10" y="16"/>
-        <delta pt="1" x="10" y="0"/>
-        <delta pt="2" x="-10" y="0"/>
-        <delta pt="3" x="-10" y="16"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="20" y="0"/>
+        <delta pt="0" x="-10" y="16"/>
+        <delta pt="1" x="-20" y="16"/>
+        <delta pt="2" x="-20" y="-32"/>
+        <delta pt="3" x="-11" y="-13"/>
+        <delta pt="4" x="-20" y="0"/>
+        <delta pt="5" x="0" y="0"/>
         <delta pt="6" x="20" y="0"/>
-        <delta pt="7" x="-20" y="0"/>
-        <delta pt="8" x="-20" y="-20"/>
-        <delta pt="9" x="0" y="-25"/>
-        <delta pt="10" x="-11" y="-13"/>
-        <delta pt="11" x="-20" y="0"/>
+        <delta pt="7" x="20" y="16"/>
+        <delta pt="8" x="10" y="16"/>
+        <delta pt="9" x="10" y="0"/>
+        <delta pt="10" x="-10" y="0"/>
+        <delta pt="11" x="0" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
-        <delta pt="0" x="-6" y="-22"/>
-        <delta pt="1" x="-6" y="0"/>
-        <delta pt="2" x="6" y="0"/>
-        <delta pt="3" x="6" y="-22"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="-12" y="0"/>
+        <delta pt="0" x="6" y="-22"/>
+        <delta pt="1" x="12" y="-22"/>
+        <delta pt="2" x="12" y="39"/>
+        <delta pt="3" x="-4" y="21"/>
+        <delta pt="4" x="12" y="0"/>
+        <delta pt="5" x="0" y="0"/>
         <delta pt="6" x="-12" y="0"/>
-        <delta pt="7" x="12" y="0"/>
-        <delta pt="8" x="12" y="12"/>
-        <delta pt="9" x="-9" y="22"/>
-        <delta pt="10" x="-4" y="21"/>
-        <delta pt="11" x="12" y="0"/>
+        <delta pt="7" x="-12" y="-22"/>
+        <delta pt="8" x="-6" y="-22"/>
+        <delta pt="9" x="-6" y="0"/>
+        <delta pt="10" x="6" y="0"/>
+        <delta pt="11" x="0" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-32" y="0"/>
-        <delta pt="1" x="-45" y="0"/>
-        <delta pt="2" x="-45" y="0"/>
-        <delta pt="3" x="-32" y="0"/>
-        <delta pt="4" x="70" y="0"/>
-        <delta pt="5" x="71" y="0"/>
-        <delta pt="6" x="-39" y="0"/>
-        <delta pt="7" x="-39" y="0"/>
-        <delta pt="8" x="64" y="0"/>
-        <delta pt="9" x="62" y="0"/>
-        <delta pt="10" x="34" y="0"/>
-        <delta pt="11" x="43" y="0"/>
-        <delta pt="12" x="69" y="0"/>
+        <delta pt="1" x="-32" y="0"/>
+        <delta pt="2" x="49" y="-1"/>
+        <delta pt="3" x="34" y="0"/>
+        <delta pt="4" x="43" y="0"/>
+        <delta pt="5" x="70" y="0"/>
+        <delta pt="6" x="71" y="0"/>
+        <delta pt="7" x="-32" y="0"/>
+        <delta pt="8" x="-32" y="0"/>
+        <delta pt="9" x="-45" y="0"/>
+        <delta pt="10" x="-45" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="3" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="3" y="0"/>
+        <delta pt="1" x="3" y="0"/>
+        <delta pt="2" x="-6" y="-1"/>
+        <delta pt="3" x="-2" y="0"/>
         <delta pt="4" x="0" y="0"/>
         <delta pt="5" x="0" y="0"/>
         <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="-4" y="0"/>
-        <delta pt="9" x="-5" y="0"/>
-        <delta pt="10" x="-2" y="0"/>
+        <delta pt="7" x="3" y="0"/>
+        <delta pt="8" x="3" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-4" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="-4" y="0"/>
-        <delta pt="4" x="1" y="0"/>
-        <delta pt="5" x="0" y="0"/>
+        <delta pt="1" x="-5" y="0"/>
+        <delta pt="2" x="9" y="0"/>
+        <delta pt="3" x="4" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="1" y="0"/>
         <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="3" y="0"/>
-        <delta pt="9" x="5" y="0"/>
-        <delta pt="10" x="4" y="0"/>
+        <delta pt="7" x="-5" y="0"/>
+        <delta pt="8" x="-4" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="1" y="0"/>
+        <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="one.dnom">
