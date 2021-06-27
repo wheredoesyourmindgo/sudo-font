@@ -1,12 +1,13 @@
 {
-.appVersion = "3089";
+.appVersion = "3091";
 .formatVersion = 3;
 DisplayStrings = (
 "/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_tildecomb.case/brevecomb_hookabovecomb.case",
 "/circumflexcomb_gravecomb.case/circumflexcomb_acutecomb.case/circumflexcomb_tildecomb.case/brevecomb_tildecomb.case/circumflexcomb_hookabovecomb.case/brevecomb_gravecomb.case/brevecomb_acutecomb.case/brevecomb_hookabovecomb.case/macroncomb_brevecomb.case/brevecomb.case",
 "̧ȩ̨Ęeę",
 "/O.ss20 Ơ/Ohorn.ss20/Ohornacute.ss20",
-"ť/Oacute.ss20/Obreve.ss20/Ocaron.ss20/Ocircumflex.ss20/Ocircumflexacute.ss20/Ocircumflexdotbelow.ss20/Ocircumflexgrave.ss20/Ocircumflexhookabove.ss20/Ocircumflextilde.ss20/Odieresis.ss20/Odotaccent.ss20/Odotbelow.ss20/Ograve.ss20/Ohookabove.ss20/Ohungarumlaut.ss20/Omacron.ss20/Oogonek.ss20/Oslash.ss20/Otilde.ss20 ơ"
+"ť/Oacute.ss20/Obreve.ss20/Ocaron.ss20/Ocircumflex.ss20/Ocircumflexacute.ss20/Ocircumflexdotbelow.ss20/Ocircumflexgrave.ss20/Ocircumflexhookabove.ss20/Ocircumflextilde.ss20/Odieresis.ss20/Odotaccent.ss20/Odotbelow.ss20/Ograve.ss20/Ohookabove.ss20/Ohungarumlaut.ss20/Omacron.ss20/Oogonek.ss20/Oslash.ss20/Otilde.ss20 ơ",
+"∧"
 );
 axes = (
 {
@@ -352935,19 +352936,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(38,128,l),
-(154,128,l),
-(266,448,l),
-(171,448,l)
+(410,128,l),
+(277,448,l),
+(182,448,l),
+(294,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(277,448,l),
-(182,448,l),
-(294,128,l),
-(410,128,l)
+(154,128,l),
+(266,448,l),
+(171,448,l),
+(38,128,l)
 );
 }
 );
@@ -352959,19 +352960,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(54,128,l),
-(104,128,l),
-(240,456,l),
-(191,456,l)
+(394,128,l),
+(257,456,l),
+(208,456,l),
+(344,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(257,456,l),
-(208,456,l),
-(344,128,l),
-(394,128,l)
+(104,128,l),
+(240,456,l),
+(191,456,l),
+(54,128,l)
 );
 }
 );
@@ -352983,19 +352984,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(34,128,l),
 (85,128,l),
 (287,456,l),
-(237,456,l)
+(237,456,l),
+(34,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
+(374,128,l),
 (303,456,l),
 (255,456,l),
-(325,128,l),
-(374,128,l)
+(325,128,l)
 );
 }
 );
@@ -353007,19 +353008,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(380,128,l),
-(312,456,l),
-(245,456,l),
-(305,128,l)
+(105,128,l),
+(297,456,l),
+(226,456,l),
+(28,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(105,128,l),
-(297,456,l),
-(226,456,l),
-(28,128,l)
+(380,128,l),
+(312,456,l),
+(245,456,l),
+(305,128,l)
 );
 }
 );
@@ -353031,19 +353032,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(18,128,l),
 (136,128,l),
 (313,456,l),
-(216,456,l)
+(216,456,l),
+(18,128,l)
 );
 },
 {
 closed = 1;
 nodes = (
+(390,128,l),
 (322,456,l),
 (229,456,l),
-(276,128,l),
-(390,128,l)
+(276,128,l)
 );
 }
 );
