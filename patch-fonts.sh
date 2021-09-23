@@ -1,6 +1,6 @@
 #!/bin/sh
 export PATH="$PATH:$HOME/Downloads/nerd-fonts"
-ARCHIVE=sudo.zip
+ARCHIVE=sudo_patch.zip
 DIST_DIR=dist
 IN_FONT_DIR=sudo
 OUT_FONT_DIR=sudo/patch
