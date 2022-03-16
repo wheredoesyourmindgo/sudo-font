@@ -1462,63 +1462,73 @@ de.kutilek.instantAxis.effective = (
 {
 closed = 1;
 nodes = (
-(37,36,o,{
+(31,36,o,{
 de.kutilek.instantAxis.effective = (
 "69",
 "36"
 );
 }),
-(18,53,o,{
+(12,58,o,{
 de.kutilek.instantAxis.effective = (
 "43",
 "61"
 );
 }),
-(18,93,cs),
-(18,172,o),
-(85,209,o,{
+(22,111,cs,{
+de.kutilek.instantAxis.effective = (
+"43",
+"117"
+);
+}),
+(34,170,o,{
+de.kutilek.instantAxis.effective = (
+"43",
+"173"
+);
+}),
+(78,209,o,{
 de.kutilek.instantAxis.effective = (
 "77",
 "209"
 );
 }),
-(193,214,c,{
+(194,216,c,{
 de.kutilek.instantAxis.effective = (
 "193",
 "214"
 );
 }),
-(182,170,o,{
+(183,172,o,{
 de.kutilek.instantAxis.effective = (
 "193",
 "170"
 );
 }),
-(179,131,o,{
+(180,131,o,{
 de.kutilek.instantAxis.effective = (
 "197",
 "129"
 );
 }),
-(183,97,c,{
+(184,97,c,{
 de.kutilek.instantAxis.effective = (
 "209",
 "94"
 );
 }),
-(140,58,o,{
+(141,58,o,{
 de.kutilek.instantAxis.effective = (
 "174",
 "57"
 );
 }),
-(103,36,o,{
+(104,36,o,{
 de.kutilek.instantAxis.effective = (
 "143",
 "36"
 );
 }),
-(69,36,cs,{
+(66,36,cs,{
 de.kutilek.instantAxis.effective = (
 "106",
 "36"
@@ -1529,43 +1539,43 @@ de.kutilek.instantAxis.effective = (
 {
 closed = 1;
 nodes = (
-(274,351,o,{
+(275,350,o,{
 de.kutilek.instantAxis.effective = (
 "249",
 "352"
 );
 }),
-(307,411,o,{
+(308,411,o,{
 de.kutilek.instantAxis.effective = (
 "268",
 "411"
 );
 }),
-(367,411,cs,{
+(368,411,cs,{
 de.kutilek.instantAxis.effective = (
 "326",
 "411"
 );
 }),
-(422,411,o,{
+(423,411,o,{
 de.kutilek.instantAxis.effective = (
 "383",
 "411"
 );
 }),
-(429,346,o,{
+(430,347,o,{
 de.kutilek.instantAxis.effective = (
 "405",
 "345"
 );
 }),
-(412,257,c,{
+(413,259,c,{
 de.kutilek.instantAxis.effective = (
 "405",
 "257"
 );
 }),
-(251,257,l,{
+(252,255,l,{
 de.kutilek.instantAxis.effective = (
 "245",
 "257"
