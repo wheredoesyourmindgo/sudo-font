@@ -1,5 +1,5 @@
 {
-.appVersion = "3116";
+.appVersion = "3120";
 .formatVersion = 3;
 axes = (
 {
@@ -11,8 +11,8 @@ name = Italic;
 tag = ital;
 },
 {
-name = "y transparent descender";
-tag = ytde;
+name = Descender;
+tag = YTDE;
 }
 );
 classes = (
@@ -138,7 +138,7 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
+Axis = Descender;
 Location = -64;
 }
 );
@@ -160,9 +160,29 @@ value = "woff2 woff ttx";
 {
 name = de.kutilek.corretto.ttx;
 value = "../ttf_ttx";
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = panose;
+value = (
+2,
+13,
+0,
+9,
+6,
+5,
+2,
+2,
+11,
+4
+);
 }
 );
-date = "2022-03-05 12:45:33 +0000";
+date = "2022-04-05 09:16:27 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -1001,8 +1021,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1164,8 +1184,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1316,8 +1336,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1367,7 +1387,6 @@ GSOffsetMakeStroke = 1;
 GSOffsetProportional = 1;
 GSOffsetVertical = 10;
 };
-visible = 1;
 },
 {
 axesValues = (
@@ -1466,8 +1485,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1635,8 +1654,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -1789,8 +1808,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -2198,9 +2217,8 @@ name = "Update Features";
 value = 1;
 },
 {
-disabled = 1;
 name = postscriptIsFixedPitch;
-value = 0;
+value = 1;
 },
 {
 name = "Decompose Glyphs";
@@ -2563,6 +2581,10 @@ value = SudoVariable;
 {
 name = de.kutilek.corretto.merge;
 value = "../patch/SudoVariable.STAT.avar.ttx";
+},
+{
+name = "Export STAT Table";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -2981,13 +3003,12 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
 {
-disabled = 1;
 name = "Style Name as STAT entry";
 value = wght;
 }
@@ -3397,13 +3418,12 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
 {
-disabled = 1;
 name = "Style Name as STAT entry";
 value = wght;
 }
@@ -3818,8 +3838,8 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
@@ -4232,13 +4252,12 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
 {
-disabled = 1;
 name = "Style Name as STAT entry";
 value = wght;
 }
@@ -4649,13 +4668,12 @@ Axis = Italic;
 Location = 0;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
 {
-disabled = 1;
 name = "Style Name as STAT entry";
 value = wght;
 }
@@ -5083,8 +5101,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -5513,15 +5531,10 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
-},
-{
-disabled = 1;
-name = "Style Name as STAT entry";
-value = ital;
 }
 );
 instanceInterpolations = {
@@ -5950,13 +5963,12 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 },
 {
-disabled = 1;
 name = "Style Name as STAT entry";
 value = ital;
 }
@@ -6384,8 +6396,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -6815,8 +6827,8 @@ Axis = Italic;
 Location = 1;
 },
 {
-Axis = "y transparent descender";
-Location = -192;
+Axis = Descender;
+Location = -188;
 }
 );
 }
@@ -6834,7 +6846,7 @@ weightClass = 700;
 axesValues = (
 48,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -7618,7 +7630,7 @@ weightClass = 100;
 axesValues = (
 58,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -8402,7 +8414,7 @@ weightClass = 300;
 axesValues = (
 68,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -9185,7 +9197,7 @@ visible = 0;
 axesValues = (
 90,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -9969,7 +9981,7 @@ weightClass = 500;
 axesValues = (
 112,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -10755,7 +10767,7 @@ weightClass = 700;
 axesValues = (
 48,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -11537,7 +11549,7 @@ weightClass = 100;
 axesValues = (
 58,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -12603,7 +12615,7 @@ weightClass = 300;
 axesValues = (
 68,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -13668,7 +13680,7 @@ visible = 0;
 axesValues = (
 90,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -14734,7 +14746,7 @@ weightClass = 500;
 axesValues = (
 112,
 100,
--192
+-188
 );
 customParameters = (
 {
@@ -15913,7 +15925,7 @@ value = "Jens Kutilek";
 },
 {
 key = designerURL;
-value = "http://www.kutilek.de/";
+value = "https://www.kutilek.de/";
 },
 {
 key = manufacturers;
@@ -15926,7 +15938,7 @@ value = "Jens Kutilek";
 },
 {
 key = manufacturerURL;
-value = "http://www.kutilek.de/";
+value = "https://www.kutilek.de/";
 },
 {
 key = licenses;
@@ -15949,6 +15961,10 @@ language = dflt;
 value = "Sudo is a trademark of Jens Kutilek";
 }
 );
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 settings = {
@@ -15969,5 +15985,5 @@ name = vStem1;
 );
 unitsPerEm = 1024;
 versionMajor = 0;
-versionMinor = 63;
+versionMinor = 64;
 }

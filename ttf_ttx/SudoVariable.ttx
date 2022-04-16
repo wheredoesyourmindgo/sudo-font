@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.29">
+<ttFont sfntVersion="\x00\x01\x00\x00" ttLibVersion="4.31">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -1488,13 +1488,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="0.06299"/>
-    <checkSumAdjustment value="0xcbe0d18e"/>
+    <fontRevision value="0.064"/>
+    <checkSumAdjustment value="0xe05d6462"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sat Mar  5 12:45:34 2022"/>
-    <modified value="Sat Mar  5 12:59:43 2022"/>
+    <created value="Tue Apr  5 09:16:27 2022"/>
+    <modified value="Tue Apr  5 16:36:42 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -22471,7 +22471,7 @@
         <pt x="192" y="-200" on="0" overlap="1"/>
         <pt x="148" y="-194" on="1"/>
         <pt x="154" y="-136" on="1"/>
-        <pt x="196" y="-140" on="0"/>
+        <pt x="194" y="-140" on="0"/>
         <pt x="223" y="-140" on="1"/>
         <pt x="269" y="-140" on="0"/>
         <pt x="306" y="-96" on="0"/>
@@ -35422,7 +35422,7 @@
         <pt x="74" y="-200" on="0"/>
         <pt x="30" y="-194" on="1"/>
         <pt x="36" y="-136" on="1"/>
-        <pt x="78" y="-140" on="0"/>
+        <pt x="76" y="-140" on="0"/>
         <pt x="105" y="-140" on="1"/>
         <pt x="151" y="-140" on="0"/>
         <pt x="188" y="-96" on="0"/>
@@ -52473,7 +52473,7 @@
       Sudo Var Regular
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 0.063;FEAKit 1.0
+      Version 0.064;FEAKit 1.0
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SudoVar-Regular
@@ -52488,13 +52488,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      0.063;JENS;SudoVar-Regular
+      0.064;JENS;SudoVar-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Sudo Var Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 0.063;FEAKit 1.0
+      Version 0.064;FEAKit 1.0
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SudoVar-Regular
@@ -52533,7 +52533,7 @@
       Italic
     </namerecord>
     <namerecord nameID="258" platformID="3" platEncID="1" langID="0x409">
-      y transparent descender
+      Descender
     </namerecord>
     <namerecord nameID="259" platformID="3" platEncID="1" langID="0x409">
       Thin
@@ -54629,16 +54629,16 @@
             <FeatureIndex index="2" value="12"/>
             <FeatureIndex index="3" value="18"/>
             <FeatureIndex index="4" value="24"/>
-            <FeatureIndex index="5" value="33"/>
-            <FeatureIndex index="6" value="39"/>
-            <FeatureIndex index="7" value="45"/>
-            <FeatureIndex index="8" value="51"/>
-            <FeatureIndex index="9" value="57"/>
-            <FeatureIndex index="10" value="63"/>
-            <FeatureIndex index="11" value="69"/>
-            <FeatureIndex index="12" value="75"/>
-            <FeatureIndex index="13" value="81"/>
-            <FeatureIndex index="14" value="87"/>
+            <FeatureIndex index="5" value="34"/>
+            <FeatureIndex index="6" value="40"/>
+            <FeatureIndex index="7" value="46"/>
+            <FeatureIndex index="8" value="52"/>
+            <FeatureIndex index="9" value="58"/>
+            <FeatureIndex index="10" value="64"/>
+            <FeatureIndex index="11" value="70"/>
+            <FeatureIndex index="12" value="76"/>
+            <FeatureIndex index="13" value="82"/>
+            <FeatureIndex index="14" value="88"/>
           </DefaultLangSys>
           <!-- LangSysCount=0 -->
         </Script>
@@ -54654,16 +54654,16 @@
             <FeatureIndex index="2" value="13"/>
             <FeatureIndex index="3" value="19"/>
             <FeatureIndex index="4" value="25"/>
-            <FeatureIndex index="5" value="34"/>
-            <FeatureIndex index="6" value="40"/>
-            <FeatureIndex index="7" value="46"/>
-            <FeatureIndex index="8" value="52"/>
-            <FeatureIndex index="9" value="58"/>
-            <FeatureIndex index="10" value="64"/>
-            <FeatureIndex index="11" value="70"/>
-            <FeatureIndex index="12" value="76"/>
-            <FeatureIndex index="13" value="82"/>
-            <FeatureIndex index="14" value="88"/>
+            <FeatureIndex index="5" value="35"/>
+            <FeatureIndex index="6" value="41"/>
+            <FeatureIndex index="7" value="47"/>
+            <FeatureIndex index="8" value="53"/>
+            <FeatureIndex index="9" value="59"/>
+            <FeatureIndex index="10" value="65"/>
+            <FeatureIndex index="11" value="71"/>
+            <FeatureIndex index="12" value="77"/>
+            <FeatureIndex index="13" value="83"/>
+            <FeatureIndex index="14" value="89"/>
           </DefaultLangSys>
           <!-- LangSysCount=4 -->
           <LangSysRecord index="0">
@@ -54677,50 +54677,28 @@
               <FeatureIndex index="3" value="20"/>
               <FeatureIndex index="4" value="26"/>
               <FeatureIndex index="5" value="30"/>
-              <FeatureIndex index="6" value="35"/>
-              <FeatureIndex index="7" value="41"/>
-              <FeatureIndex index="8" value="47"/>
-              <FeatureIndex index="9" value="53"/>
-              <FeatureIndex index="10" value="59"/>
-              <FeatureIndex index="11" value="65"/>
-              <FeatureIndex index="12" value="71"/>
-              <FeatureIndex index="13" value="77"/>
-              <FeatureIndex index="14" value="83"/>
-              <FeatureIndex index="15" value="89"/>
+              <FeatureIndex index="6" value="36"/>
+              <FeatureIndex index="7" value="42"/>
+              <FeatureIndex index="8" value="48"/>
+              <FeatureIndex index="9" value="54"/>
+              <FeatureIndex index="10" value="60"/>
+              <FeatureIndex index="11" value="66"/>
+              <FeatureIndex index="12" value="72"/>
+              <FeatureIndex index="13" value="78"/>
+              <FeatureIndex index="14" value="84"/>
+              <FeatureIndex index="15" value="90"/>
             </LangSys>
           </LangSysRecord>
           <LangSysRecord index="1">
             <LangSysTag value="MOL "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
-              <!-- FeatureCount=15 -->
+              <!-- FeatureCount=16 -->
               <FeatureIndex index="0" value="3"/>
               <FeatureIndex index="1" value="9"/>
               <FeatureIndex index="2" value="15"/>
               <FeatureIndex index="3" value="21"/>
               <FeatureIndex index="4" value="27"/>
-              <FeatureIndex index="5" value="36"/>
-              <FeatureIndex index="6" value="42"/>
-              <FeatureIndex index="7" value="48"/>
-              <FeatureIndex index="8" value="54"/>
-              <FeatureIndex index="9" value="60"/>
-              <FeatureIndex index="10" value="66"/>
-              <FeatureIndex index="11" value="72"/>
-              <FeatureIndex index="12" value="78"/>
-              <FeatureIndex index="13" value="84"/>
-              <FeatureIndex index="14" value="90"/>
-            </LangSys>
-          </LangSysRecord>
-          <LangSysRecord index="2">
-            <LangSysTag value="NLD "/>
-            <LangSys>
-              <ReqFeatureIndex value="65535"/>
-              <!-- FeatureCount=16 -->
-              <FeatureIndex index="0" value="4"/>
-              <FeatureIndex index="1" value="10"/>
-              <FeatureIndex index="2" value="16"/>
-              <FeatureIndex index="3" value="22"/>
-              <FeatureIndex index="4" value="28"/>
               <FeatureIndex index="5" value="31"/>
               <FeatureIndex index="6" value="37"/>
               <FeatureIndex index="7" value="43"/>
@@ -54734,16 +54712,16 @@
               <FeatureIndex index="15" value="91"/>
             </LangSys>
           </LangSysRecord>
-          <LangSysRecord index="3">
-            <LangSysTag value="ROM "/>
+          <LangSysRecord index="2">
+            <LangSysTag value="NLD "/>
             <LangSys>
               <ReqFeatureIndex value="65535"/>
               <!-- FeatureCount=16 -->
-              <FeatureIndex index="0" value="5"/>
-              <FeatureIndex index="1" value="11"/>
-              <FeatureIndex index="2" value="17"/>
-              <FeatureIndex index="3" value="23"/>
-              <FeatureIndex index="4" value="29"/>
+              <FeatureIndex index="0" value="4"/>
+              <FeatureIndex index="1" value="10"/>
+              <FeatureIndex index="2" value="16"/>
+              <FeatureIndex index="3" value="22"/>
+              <FeatureIndex index="4" value="28"/>
               <FeatureIndex index="5" value="32"/>
               <FeatureIndex index="6" value="38"/>
               <FeatureIndex index="7" value="44"/>
@@ -54757,11 +54735,34 @@
               <FeatureIndex index="15" value="92"/>
             </LangSys>
           </LangSysRecord>
+          <LangSysRecord index="3">
+            <LangSysTag value="ROM "/>
+            <LangSys>
+              <ReqFeatureIndex value="65535"/>
+              <!-- FeatureCount=16 -->
+              <FeatureIndex index="0" value="5"/>
+              <FeatureIndex index="1" value="11"/>
+              <FeatureIndex index="2" value="17"/>
+              <FeatureIndex index="3" value="23"/>
+              <FeatureIndex index="4" value="29"/>
+              <FeatureIndex index="5" value="33"/>
+              <FeatureIndex index="6" value="39"/>
+              <FeatureIndex index="7" value="45"/>
+              <FeatureIndex index="8" value="51"/>
+              <FeatureIndex index="9" value="57"/>
+              <FeatureIndex index="10" value="63"/>
+              <FeatureIndex index="11" value="69"/>
+              <FeatureIndex index="12" value="75"/>
+              <FeatureIndex index="13" value="81"/>
+              <FeatureIndex index="14" value="87"/>
+              <FeatureIndex index="15" value="93"/>
+            </LangSys>
+          </LangSysRecord>
         </Script>
       </ScriptRecord>
     </ScriptList>
     <FeatureList>
-      <!-- FeatureCount=93 -->
+      <!-- FeatureCount=94 -->
       <FeatureRecord index="0">
         <FeatureTag value="aalt"/>
         <Feature>
@@ -54814,96 +54815,96 @@
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="7">
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="8">
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="9">
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="10">
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="11">
         <FeatureTag value="calt"/>
         <Feature>
           <!-- LookupCount=3 -->
-          <LookupListIndex index="0" value="15"/>
-          <LookupListIndex index="1" value="16"/>
-          <LookupListIndex index="2" value="17"/>
+          <LookupListIndex index="0" value="17"/>
+          <LookupListIndex index="1" value="18"/>
+          <LookupListIndex index="2" value="19"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="12">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="13">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="14">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="15">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="16">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="17">
         <FeatureTag value="case"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="0" value="14"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="18">
@@ -54951,43 +54952,55 @@
       <FeatureRecord index="24">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="25">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="26">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="27">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="28">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="29">
         <FeatureTag value="frac"/>
         <Feature>
-          <!-- LookupCount=1 -->
+          <!-- LookupCount=3 -->
           <LookupListIndex index="0" value="11"/>
+          <LookupListIndex index="1" value="12"/>
+          <LookupListIndex index="2" value="13"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="30">
@@ -55001,21 +55014,21 @@
         <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="4"/>
+          <LookupListIndex index="0" value="3"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="32">
         <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="3"/>
+          <LookupListIndex index="0" value="4"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="33">
-        <FeatureTag value="numr"/>
+        <FeatureTag value="locl"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="0" value="3"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="34">
@@ -55054,93 +55067,94 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="39">
-        <FeatureTag value="onum"/>
+        <FeatureTag value="numr"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="9"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="40">
         <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="41">
         <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="42">
         <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="43">
         <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="44">
         <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="20"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="45">
-        <FeatureTag value="ornm"/>
+        <FeatureTag value="onum"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="22"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="46">
         <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="47">
         <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="48">
         <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="49">
         <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="50">
         <FeatureTag value="ornm"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="51">
-        <FeatureTag value="rlig"/>
+        <FeatureTag value="ornm"/>
         <Feature>
-          <!-- LookupCount=0 -->
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="16"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="52">
@@ -55174,10 +55188,9 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="57">
-        <FeatureTag value="sinf"/>
+        <FeatureTag value="rlig"/>
         <Feature>
-          <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="7"/>
+          <!-- LookupCount=0 -->
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="58">
@@ -55216,14 +55229,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="63">
-        <FeatureTag value="ss01"/>
+        <FeatureTag value="sinf"/>
         <Feature>
-          <FeatureParamsStylisticSet>
-            <Version value="0"/>
-            <UINameID value="276"/>  <!-- Alternate g -->
-          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="7"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="64">
@@ -55234,7 +55243,7 @@
             <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="65">
@@ -55245,7 +55254,7 @@
             <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="66">
@@ -55256,7 +55265,7 @@
             <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="67">
@@ -55267,7 +55276,7 @@
             <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="68">
@@ -55278,18 +55287,18 @@
             <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="18"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="69">
-        <FeatureTag value="ss02"/>
+        <FeatureTag value="ss01"/>
         <Feature>
           <FeatureParamsStylisticSet>
             <Version value="0"/>
-            <UINameID value="277"/>  <!-- Typewriter quotes -->
+            <UINameID value="276"/>  <!-- Alternate g -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="20"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="70">
@@ -55300,7 +55309,7 @@
             <UINameID value="277"/>  <!-- Typewriter quotes -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="71">
@@ -55311,7 +55320,7 @@
             <UINameID value="277"/>  <!-- Typewriter quotes -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="72">
@@ -55322,7 +55331,7 @@
             <UINameID value="277"/>  <!-- Typewriter quotes -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="73">
@@ -55333,7 +55342,7 @@
             <UINameID value="277"/>  <!-- Typewriter quotes -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="74">
@@ -55344,14 +55353,18 @@
             <UINameID value="277"/>  <!-- Typewriter quotes -->
           </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="19"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="75">
-        <FeatureTag value="subs"/>
+        <FeatureTag value="ss02"/>
         <Feature>
+          <FeatureParamsStylisticSet>
+            <Version value="0"/>
+            <UINameID value="277"/>  <!-- Typewriter quotes -->
+          </FeatureParamsStylisticSet>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="6"/>
+          <LookupListIndex index="0" value="21"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="76">
@@ -55390,10 +55403,10 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="81">
-        <FeatureTag value="sups"/>
+        <FeatureTag value="subs"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="8"/>
+          <LookupListIndex index="0" value="6"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="82">
@@ -55432,50 +55445,57 @@
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="87">
-        <FeatureTag value="zero"/>
+        <FeatureTag value="sups"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="8"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="88">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="89">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="90">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="91">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
       <FeatureRecord index="92">
         <FeatureTag value="zero"/>
         <Feature>
           <!-- LookupCount=1 -->
-          <LookupListIndex index="0" value="13"/>
+          <LookupListIndex index="0" value="15"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="93">
+        <FeatureTag value="zero"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="15"/>
         </Feature>
       </FeatureRecord>
     </FeatureList>
     <LookupList>
-      <!-- LookupCount=24 -->
+      <!-- LookupCount=27 -->
       <Lookup index="0">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
@@ -55501,6 +55521,9 @@
           <Substitution in="X" out="X.sups"/>
           <Substitution in="Z" out="Z.sups"/>
           <Substitution in="acutecomb" out="acutecomb.case"/>
+          <Substitution in="eight.numr" out="eight.dnom"/>
+          <Substitution in="five.numr" out="five.dnom"/>
+          <Substitution in="four.numr" out="four.dnom"/>
           <Substitution in="g" out="g.ss01"/>
           <Substitution in="gbreve" out="gbreve.ss01"/>
           <Substitution in="gcaron" out="gcaron.ss01"/>
@@ -55514,6 +55537,8 @@
           <Substitution in="hookabovecomb" out="hookabovecomb.case"/>
           <Substitution in="hyphen" out="emdash"/>
           <Substitution in="minus" out="uni207B"/>
+          <Substitution in="nine.numr" out="nine.dnom"/>
+          <Substitution in="one.numr" out="one.dnom"/>
           <Substitution in="plus" out="uni207A"/>
           <Substitution in="quotedblbase" out="quotedbl"/>
           <Substitution in="quotedblleft" out="quotedbl"/>
@@ -55523,7 +55548,12 @@
           <Substitution in="quoteright" out="quotesingle"/>
           <Substitution in="quotesinglbase" out="quotesingle"/>
           <Substitution in="scedilla" out="uni0219"/>
+          <Substitution in="seven.numr" out="seven.dnom"/>
+          <Substitution in="six.numr" out="six.dnom"/>
+          <Substitution in="slash" out="fraction"/>
+          <Substitution in="three.numr" out="three.dnom"/>
           <Substitution in="tildecomb" out="tildecomb.case"/>
+          <Substitution in="two.numr" out="two.dnom"/>
           <Substitution in="uni0123" out="uni0123.ss01"/>
           <Substitution in="uni0162" out="uni021A"/>
           <Substitution in="uni0163" out="uni021B"/>
@@ -55549,6 +55579,7 @@
           <Substitution in="uni031B" out="uni031B.case"/>
           <Substitution in="uni1E21" out="uni1E21.ss01"/>
           <Substitution in="uni201F" out="quotedbl"/>
+          <Substitution in="zero.numr" out="zero.dnom"/>
           <Substitution in="zero.zero" out="zero.zero.osf"/>
           <Substitution in="zero.zero.osf" out="zero.zero"/>
         </SingleSubst>
@@ -55768,7 +55799,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="21"/>
+                <LookupListIndex value="23"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -55783,7 +55814,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="21"/>
+                <LookupListIndex value="23"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -55903,51 +55934,95 @@
         </SingleSubst>
       </Lookup>
       <Lookup index="11">
-        <LookupType value="4"/>
+        <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
-        <LigatureSubst index="0">
-          <LigatureSet glyph="eight">
-            <Ligature components="slash,nine" glyph="eight_fraction_nine"/>
-          </LigatureSet>
-          <LigatureSet glyph="five">
-            <Ligature components="slash,six" glyph="uni215A"/>
-            <Ligature components="slash,eight" glyph="fiveeighths"/>
-            <Ligature components="slash,nine" glyph="five_fraction_nine"/>
-          </LigatureSet>
-          <LigatureSet glyph="four">
-            <Ligature components="slash,five" glyph="uni2158"/>
-            <Ligature components="slash,nine" glyph="four_fraction_nine"/>
-          </LigatureSet>
-          <LigatureSet glyph="one">
-            <Ligature components="slash,two" glyph="onehalf"/>
-            <Ligature components="slash,three" glyph="uni2153"/>
-            <Ligature components="slash,four" glyph="onequarter"/>
-            <Ligature components="slash,five" glyph="uni2155"/>
-            <Ligature components="slash,six" glyph="uni2159"/>
-            <Ligature components="slash,eight" glyph="oneeighth"/>
-            <Ligature components="slash" glyph="uni215F"/>
-          </LigatureSet>
-          <LigatureSet glyph="seven">
-            <Ligature components="slash,eight" glyph="seveneighths"/>
-            <Ligature components="slash,nine" glyph="seven_fraction_nine"/>
-          </LigatureSet>
-          <LigatureSet glyph="three">
-            <Ligature components="slash,four" glyph="threequarters"/>
-            <Ligature components="slash,five" glyph="uni2157"/>
-            <Ligature components="slash,eight" glyph="threeeighths"/>
-          </LigatureSet>
-          <LigatureSet glyph="two">
-            <Ligature components="slash,three" glyph="uni2154"/>
-            <Ligature components="slash,five" glyph="uni2156"/>
-            <Ligature components="slash,nine" glyph="two_fraction_nine"/>
-          </LigatureSet>
-          <LigatureSet glyph="zero">
-            <Ligature components="slash,three" glyph="uni2189"/>
-          </LigatureSet>
-        </LigatureSubst>
+        <SingleSubst index="0">
+          <Substitution in="slash" out="fraction"/>
+        </SingleSubst>
       </Lookup>
       <Lookup index="12">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="eight" out="eight.numr"/>
+          <Substitution in="five" out="five.numr"/>
+          <Substitution in="four" out="four.numr"/>
+          <Substitution in="nine" out="nine.numr"/>
+          <Substitution in="one" out="one.numr"/>
+          <Substitution in="seven" out="seven.numr"/>
+          <Substitution in="six" out="six.numr"/>
+          <Substitution in="three" out="three.numr"/>
+          <Substitution in="two" out="two.numr"/>
+          <Substitution in="zero" out="zero.numr"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="13">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="fraction"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="zero.numr"/>
+            <Glyph value="one.numr"/>
+            <Glyph value="two.numr"/>
+            <Glyph value="three.numr"/>
+            <Glyph value="four.numr"/>
+            <Glyph value="five.numr"/>
+            <Glyph value="six.numr"/>
+            <Glyph value="seven.numr"/>
+            <Glyph value="eight.numr"/>
+            <Glyph value="nine.numr"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="24"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="zero.dnom"/>
+            <Glyph value="one.dnom"/>
+            <Glyph value="two.dnom"/>
+            <Glyph value="three.dnom"/>
+            <Glyph value="four.dnom"/>
+            <Glyph value="five.dnom"/>
+            <Glyph value="six.dnom"/>
+            <Glyph value="seven.dnom"/>
+            <Glyph value="eight.dnom"/>
+            <Glyph value="nine.dnom"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="zero.numr"/>
+            <Glyph value="one.numr"/>
+            <Glyph value="two.numr"/>
+            <Glyph value="three.numr"/>
+            <Glyph value="four.numr"/>
+            <Glyph value="five.numr"/>
+            <Glyph value="six.numr"/>
+            <Glyph value="seven.numr"/>
+            <Glyph value="eight.numr"/>
+            <Glyph value="nine.numr"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="24"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="14">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -55988,7 +56063,7 @@
           <Substitution in="zero.zero.osf" out="zero.zero"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="13">
+      <Lookup index="15">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -55996,7 +56071,7 @@
           <Substitution in="zero" out="zero.zero"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="14">
+      <Lookup index="16">
         <LookupType value="3"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -56007,7 +56082,7 @@
           </AlternateSet>
         </AlternateSubst>
       </Lookup>
-      <Lookup index="15">
+      <Lookup index="17">
         <LookupType value="6"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=2 -->
@@ -56020,24 +56095,24 @@
             <!-- ChainSubRuleCount=3 -->
             <ChainSubRule index="0">
               <!-- BacktrackGlyphCount=1 -->
-              <Backtrack index="0" value="arrowleft"/>
-              <!-- InputGlyphCount=1 -->
-              <!-- LookAheadGlyphCount=0 -->
-              <!-- SubstCount=1 -->
-              <SubstLookupRecord index="0">
-                <SequenceIndex value="0"/>
-                <LookupListIndex value="22"/>
-              </SubstLookupRecord>
-            </ChainSubRule>
-            <ChainSubRule index="1">
-              <!-- BacktrackGlyphCount=1 -->
               <Backtrack index="0" value="emdash"/>
               <!-- InputGlyphCount=1 -->
               <!-- LookAheadGlyphCount=0 -->
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="22"/>
+                <LookupListIndex value="25"/>
+              </SubstLookupRecord>
+            </ChainSubRule>
+            <ChainSubRule index="1">
+              <!-- BacktrackGlyphCount=1 -->
+              <Backtrack index="0" value="arrowleft"/>
+              <!-- InputGlyphCount=1 -->
+              <!-- LookAheadGlyphCount=0 -->
+              <!-- SubstCount=1 -->
+              <SubstLookupRecord index="0">
+                <SequenceIndex value="0"/>
+                <LookupListIndex value="25"/>
               </SubstLookupRecord>
             </ChainSubRule>
             <ChainSubRule index="2">
@@ -56048,7 +56123,7 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="22"/>
+                <LookupListIndex value="25"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
@@ -56082,11 +56157,11 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="22"/>
+            <LookupListIndex value="25"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
-      <Lookup index="16">
+      <Lookup index="18">
         <LookupType value="6"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -56105,13 +56180,13 @@
               <!-- SubstCount=1 -->
               <SubstLookupRecord index="0">
                 <SequenceIndex value="0"/>
-                <LookupListIndex value="22"/>
+                <LookupListIndex value="25"/>
               </SubstLookupRecord>
             </ChainSubRule>
           </ChainSubRuleSet>
         </ChainContextSubst>
       </Lookup>
-      <Lookup index="17">
+      <Lookup index="19">
         <LookupType value="6"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=8 -->
@@ -56136,7 +56211,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="1" Format="3">
@@ -56184,7 +56259,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="2" Format="3">
@@ -56256,7 +56331,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="3" Format="3">
@@ -56352,7 +56427,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="4" Format="3">
@@ -56472,7 +56547,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="5" Format="3">
@@ -56616,7 +56691,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="6" Format="3">
@@ -56784,7 +56859,7 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
         <ChainContextSubst index="7" Format="3">
@@ -56976,11 +57051,11 @@
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
             <SequenceIndex value="0"/>
-            <LookupListIndex value="23"/>
+            <LookupListIndex value="26"/>
           </SubstLookupRecord>
         </ChainContextSubst>
       </Lookup>
-      <Lookup index="18">
+      <Lookup index="20">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -56995,7 +57070,7 @@
           <Substitution in="uni1E21" out="uni1E21.ss01"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="19">
+      <Lookup index="21">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -57014,7 +57089,7 @@
           <Substitution in="uni201F" out="quotedbl"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="20">
+      <Lookup index="22">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -57032,7 +57107,7 @@
           <Substitution in="zero.zero" out="zero.zero.osf"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="21">
+      <Lookup index="23">
         <LookupType value="4"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -57045,7 +57120,24 @@
           </LigatureSet>
         </LigatureSubst>
       </Lookup>
-      <Lookup index="22">
+      <Lookup index="24">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="eight.numr" out="eight.dnom"/>
+          <Substitution in="five.numr" out="five.dnom"/>
+          <Substitution in="four.numr" out="four.dnom"/>
+          <Substitution in="nine.numr" out="nine.dnom"/>
+          <Substitution in="one.numr" out="one.dnom"/>
+          <Substitution in="seven.numr" out="seven.dnom"/>
+          <Substitution in="six.numr" out="six.dnom"/>
+          <Substitution in="three.numr" out="three.dnom"/>
+          <Substitution in="two.numr" out="two.dnom"/>
+          <Substitution in="zero.numr" out="zero.dnom"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="25">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -57061,7 +57153,7 @@
           <Substitution in="hyphen" out="emdash"/>
         </SingleSubst>
       </Lookup>
-      <Lookup index="23">
+      <Lookup index="26">
         <LookupType value="1"/>
         <LookupFlag value="0"/>
         <!-- SubTableCount=1 -->
@@ -57091,42 +57183,42 @@
           <Version value="0x00010000"/>
           <!-- SubstitutionCount=6 -->
           <SubstitutionRecord index="0">
-            <FeatureIndex value="51"/>
-            <Feature>
-              <!-- LookupCount=1 -->
-              <LookupListIndex index="0" value="2"/>
-            </Feature>
-          </SubstitutionRecord>
-          <SubstitutionRecord index="1">
             <FeatureIndex value="52"/>
             <Feature>
               <!-- LookupCount=1 -->
               <LookupListIndex index="0" value="2"/>
             </Feature>
           </SubstitutionRecord>
+          <SubstitutionRecord index="1">
+            <FeatureIndex value="53"/>
+            <Feature>
+              <!-- LookupCount=1 -->
+              <LookupListIndex index="0" value="2"/>
+            </Feature>
+          </SubstitutionRecord>
           <SubstitutionRecord index="2">
-            <FeatureIndex value="56"/>
+            <FeatureIndex value="57"/>
             <Feature>
               <!-- LookupCount=1 -->
               <LookupListIndex index="0" value="2"/>
             </Feature>
           </SubstitutionRecord>
           <SubstitutionRecord index="3">
-            <FeatureIndex value="54"/>
-            <Feature>
-              <!-- LookupCount=1 -->
-              <LookupListIndex index="0" value="2"/>
-            </Feature>
-          </SubstitutionRecord>
-          <SubstitutionRecord index="4">
             <FeatureIndex value="55"/>
             <Feature>
               <!-- LookupCount=1 -->
               <LookupListIndex index="0" value="2"/>
             </Feature>
           </SubstitutionRecord>
+          <SubstitutionRecord index="4">
+            <FeatureIndex value="56"/>
+            <Feature>
+              <!-- LookupCount=1 -->
+              <LookupListIndex index="0" value="2"/>
+            </Feature>
+          </SubstitutionRecord>
           <SubstitutionRecord index="5">
-            <FeatureIndex value="53"/>
+            <FeatureIndex value="54"/>
             <Feature>
               <!-- LookupCount=1 -->
               <LookupListIndex index="0" value="2"/>
@@ -57152,8 +57244,8 @@
         <AxisOrdering value="1"/>
       </Axis>
       <Axis index="2">
-        <AxisTag value="ytde"/>
-        <AxisNameID value="258"/>  <!-- y transparent descender -->
+        <AxisTag value="YTDE"/>
+        <AxisNameID value="258"/>  <!-- Descender -->
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
@@ -57206,7 +57298,7 @@
         <AxisIndex value="2"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
-        <Value value="-192.0"/>
+        <Value value="-188.0"/>
       </AxisValue>
     </AxisValueArray>
     <ElidedFallbackNameID value="2"/>  <!-- Regular -->
@@ -57222,7 +57314,7 @@
     </segment>
     <segment axis="ital">
     </segment>
-    <segment axis="ytde">
+    <segment axis="YTDE">
     </segment>
   </avar>
 
@@ -57275,7 +57367,7 @@
       <delta cvt="18" value="0"/>
     </tuple>
     <tuple>
-      <coord axis="ytde" value="1.0"/>
+      <coord axis="YTDE" value="1.0"/>
       <delta cvt="0" value="0"/>
       <delta cvt="1" value="0"/>
       <delta cvt="2" value="0"/>
@@ -57320,12 +57412,12 @@
       <AxisNameID>257</AxisNameID>
     </Axis>
 
-    <!-- y transparent descender -->
+    <!-- Descender -->
     <Axis>
-      <AxisTag>ytde</AxisTag>
+      <AxisTag>YTDE</AxisTag>
       <Flags>0x0</Flags>
-      <MinValue>-192.0</MinValue>
-      <DefaultValue>-192.0</DefaultValue>
+      <MinValue>-188.0</MinValue>
+      <DefaultValue>-188.0</DefaultValue>
       <MaxValue>-64.0</MaxValue>
       <AxisNameID>258</AxisNameID>
     </Axis>
@@ -57335,7 +57427,7 @@
     <NamedInstance flags="0x0" postscriptNameID="260" subfamilyNameID="259">
       <coord axis="wght" value="200.0"/>
       <coord axis="ital" value="0.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Light -->
@@ -57343,7 +57435,7 @@
     <NamedInstance flags="0x0" postscriptNameID="262" subfamilyNameID="261">
       <coord axis="wght" value="300.0"/>
       <coord axis="ital" value="0.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Regular -->
@@ -57351,7 +57443,7 @@
     <NamedInstance flags="0x0" postscriptNameID="6" subfamilyNameID="2">
       <coord axis="wght" value="400.0"/>
       <coord axis="ital" value="0.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Medium -->
@@ -57359,7 +57451,7 @@
     <NamedInstance flags="0x0" postscriptNameID="264" subfamilyNameID="263">
       <coord axis="wght" value="600.0"/>
       <coord axis="ital" value="0.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Bold -->
@@ -57367,7 +57459,7 @@
     <NamedInstance flags="0x0" postscriptNameID="266" subfamilyNameID="265">
       <coord axis="wght" value="700.0"/>
       <coord axis="ital" value="0.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Thin Italic -->
@@ -57375,7 +57467,7 @@
     <NamedInstance flags="0x0" postscriptNameID="268" subfamilyNameID="267">
       <coord axis="wght" value="200.0"/>
       <coord axis="ital" value="1.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Light Italic -->
@@ -57383,7 +57475,7 @@
     <NamedInstance flags="0x0" postscriptNameID="270" subfamilyNameID="269">
       <coord axis="wght" value="300.0"/>
       <coord axis="ital" value="1.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Italic -->
@@ -57391,7 +57483,7 @@
     <NamedInstance flags="0x0" postscriptNameID="271" subfamilyNameID="257">
       <coord axis="wght" value="400.0"/>
       <coord axis="ital" value="1.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Medium Italic -->
@@ -57399,7 +57491,7 @@
     <NamedInstance flags="0x0" postscriptNameID="273" subfamilyNameID="272">
       <coord axis="wght" value="600.0"/>
       <coord axis="ital" value="1.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
 
     <!-- Bold Italic -->
@@ -57407,7 +57499,7 @@
     <NamedInstance flags="0x0" postscriptNameID="275" subfamilyNameID="274">
       <coord axis="wght" value="700.0"/>
       <coord axis="ital" value="1.0"/>
-      <coord axis="ytde" value="-192.0"/>
+      <coord axis="YTDE" value="-188.0"/>
     </NamedInstance>
   </fvar>
 
@@ -59800,7 +59892,7 @@
         <delta pt="27" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="7" x="0" y="64"/>
         <delta pt="8" x="0" y="65"/>
         <delta pt="10" x="0" y="0"/>
@@ -63843,7 +63935,7 @@
         <delta pt="42" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="-1" y="61"/>
         <delta pt="1" x="8" y="42"/>
         <delta pt="2" x="13" y="14"/>
@@ -63890,7 +63982,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="14" y="0"/>
         <delta pt="1" x="9" y="0"/>
         <delta pt="2" x="4" y="0"/>
@@ -75114,13 +75206,13 @@
         <delta pt="30" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="10" x="0" y="128"/>
         <delta pt="26" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="1" y="0"/>
@@ -76322,7 +76414,7 @@
         <delta pt="30" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="8" x="-3" y="128"/>
         <delta pt="9" x="0" y="0"/>
         <delta pt="21" x="0" y="0"/>
@@ -76330,7 +76422,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -76366,7 +76458,7 @@
       <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -76402,7 +76494,7 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -77868,7 +77960,7 @@
         <delta pt="50" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="9" x="0" y="0"/>
         <delta pt="14" x="0" y="128"/>
         <delta pt="18" x="3" y="96"/>
@@ -77894,7 +77986,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="26" y="0"/>
         <delta pt="1" x="26" y="0"/>
         <delta pt="2" x="26" y="0"/>
@@ -78267,7 +78359,7 @@
         <delta pt="71" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="3" x="0" y="45"/>
         <delta pt="6" x="0" y="64"/>
@@ -78302,7 +78394,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="4" y="0"/>
         <delta pt="2" x="6" y="0"/>
@@ -79120,7 +79212,7 @@
         <delta pt="64" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="2" x="-3" y="128"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="55" x="0" y="0"/>
@@ -79128,7 +79220,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="25" y="0"/>
         <delta pt="1" x="25" y="0"/>
         <delta pt="2" x="25" y="0"/>
@@ -80415,6 +80507,9 @@
         <coord axis="wght" value="1.0"/>
         <delta pt="0" x="9" y="0"/>
         <delta pt="2" x="10" y="16"/>
+        <delta pt="3" x="6" y="16"/>
+        <delta pt="4" x="1" y="16"/>
+        <delta pt="6" x="-10" y="9"/>
         <delta pt="7" x="-10" y="0"/>
         <delta pt="8" x="-10" y="-17"/>
         <delta pt="9" x="-14" y="-12"/>
@@ -80439,7 +80534,7 @@
         <delta pt="0" x="-6" y="0"/>
         <delta pt="1" x="1" y="2"/>
         <delta pt="2" x="-1" y="-19"/>
-        <delta pt="3" x="-5" y="-20"/>
+        <delta pt="3" x="-3" y="-20"/>
         <delta pt="4" x="2" y="-20"/>
         <delta pt="5" x="6" y="-20"/>
         <delta pt="6" x="16" y="-13"/>
@@ -80492,7 +80587,7 @@
         <delta pt="0" x="-83" y="0"/>
         <delta pt="1" x="-81" y="0"/>
         <delta pt="2" x="-75" y="0"/>
-        <delta pt="3" x="-75" y="0"/>
+        <delta pt="3" x="-73" y="0"/>
         <delta pt="4" x="-78" y="0"/>
         <delta pt="5" x="-76" y="0"/>
         <delta pt="6" x="-63" y="3"/>
@@ -80546,7 +80641,7 @@
         <delta pt="0" x="8" y="0"/>
         <delta pt="1" x="1" y="1"/>
         <delta pt="2" x="3" y="0"/>
-        <delta pt="3" x="3" y="0"/>
+        <delta pt="3" x="1" y="0"/>
         <delta pt="4" x="2" y="0"/>
         <delta pt="5" x="2" y="0"/>
         <delta pt="6" x="1" y="0"/>
@@ -80600,7 +80695,7 @@
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="-1" y="0"/>
         <delta pt="2" x="-3" y="0"/>
-        <delta pt="3" x="-3" y="0"/>
+        <delta pt="3" x="-5" y="0"/>
         <delta pt="4" x="-2" y="0"/>
         <delta pt="5" x="-3" y="0"/>
         <delta pt="6" x="-3" y="-1"/>
@@ -80649,7 +80744,11 @@
         <delta pt="49" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
+        <delta pt="2" x="0" y="128"/>
+        <delta pt="3" x="2" y="128"/>
+        <delta pt="4" x="0" y="128"/>
+        <delta pt="7" x="0" y="128"/>
         <delta pt="8" x="0" y="0"/>
         <delta pt="12" x="0" y="128"/>
         <delta pt="16" x="0" y="0"/>
@@ -80657,11 +80756,11 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="27" y="0"/>
         <delta pt="1" x="25" y="0"/>
         <delta pt="2" x="26" y="0"/>
-        <delta pt="3" x="26" y="0"/>
+        <delta pt="3" x="24" y="0"/>
         <delta pt="4" x="26" y="0"/>
         <delta pt="5" x="26" y="0"/>
         <delta pt="6" x="26" y="0"/>
@@ -81975,7 +82074,7 @@
         <delta pt="5" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="28" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -83300,7 +83399,7 @@
         <delta pt="28" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="6" x="-3" y="128"/>
         <delta pt="7" x="0" y="0"/>
         <delta pt="19" x="0" y="0"/>
@@ -83308,7 +83407,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="6" x="25" y="0"/>
         <delta pt="7" x="0" y="0"/>
         <delta pt="8" x="0" y="1"/>
@@ -86688,7 +86787,7 @@
         <delta pt="39" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -86732,7 +86831,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -88190,7 +88289,7 @@
         <delta pt="39" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -88234,7 +88333,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
@@ -92706,7 +92805,7 @@
         <delta pt="36" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="128"/>
@@ -92747,7 +92846,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="25" y="0"/>
@@ -97724,13 +97823,13 @@
         <delta pt="11" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="0" y="128"/>
         <delta pt="4" x="0" y="128"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="25" y="0"/>
         <delta pt="4" x="26" y="0"/>
       </tuple>
@@ -99061,14 +99160,26 @@
     <glyphVariations glyph="uni0237">
       <tuple>
         <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="30" y="0"/>
         <delta pt="1" x="24" y="0"/>
         <delta pt="2" x="17" y="0"/>
         <delta pt="3" x="9" y="0"/>
+        <delta pt="4" x="10" y="1"/>
         <delta pt="5" x="10" y="16"/>
+        <delta pt="6" x="6" y="16"/>
+        <delta pt="7" x="1" y="16"/>
+        <delta pt="8" x="-5" y="16"/>
+        <delta pt="9" x="-10" y="9"/>
         <delta pt="10" x="-10" y="0"/>
         <delta pt="11" x="-10" y="-17"/>
         <delta pt="12" x="10" y="-16"/>
+        <delta pt="13" x="10" y="0"/>
         <delta pt="14" x="30" y="0"/>
+        <delta pt="15" x="30" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
@@ -99078,7 +99189,7 @@
         <delta pt="3" x="-16" y="0"/>
         <delta pt="4" x="-9" y="2"/>
         <delta pt="5" x="-11" y="-19"/>
-        <delta pt="6" x="-15" y="-20"/>
+        <delta pt="6" x="-13" y="-20"/>
         <delta pt="7" x="-8" y="-20"/>
         <delta pt="8" x="-4" y="-20"/>
         <delta pt="9" x="6" y="-13"/>
@@ -99095,7 +99206,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="-71" y="-3"/>
+        <delta pt="0" x="-70" y="-3"/>
         <delta pt="1" x="-81" y="0"/>
         <delta pt="2" x="-80" y="0"/>
         <delta pt="3" x="-83" y="0"/>
@@ -99119,13 +99230,13 @@
       <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="-1"/>
+        <delta pt="0" x="-2" y="-1"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="2" y="0"/>
         <delta pt="3" x="8" y="0"/>
         <delta pt="4" x="1" y="1"/>
         <delta pt="5" x="3" y="0"/>
-        <delta pt="6" x="3" y="0"/>
+        <delta pt="6" x="1" y="0"/>
         <delta pt="7" x="2" y="0"/>
         <delta pt="8" x="2" y="0"/>
         <delta pt="9" x="1" y="0"/>
@@ -99143,7 +99254,7 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="1"/>
+        <delta pt="0" x="-1" y="1"/>
         <delta pt="1" x="-2" y="0"/>
         <delta pt="2" x="-1" y="0"/>
         <delta pt="3" x="0" y="0"/>
@@ -99165,14 +99276,18 @@
         <delta pt="19" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
+        <delta pt="5" x="28" y="128"/>
+        <delta pt="6" x="30" y="128"/>
+        <delta pt="7" x="28" y="128"/>
+        <delta pt="10" x="28" y="128"/>
         <delta pt="11" x="28" y="0"/>
         <delta pt="15" x="28" y="128"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
-        <delta pt="0" x="26" y="0"/>
+        <coord axis="YTDE" value="1.0"/>
+        <delta pt="0" x="25" y="0"/>
         <delta pt="1" x="26" y="0"/>
         <delta pt="2" x="26" y="0"/>
         <delta pt="3" x="27" y="0"/>
@@ -120757,7 +120872,7 @@
         <delta pt="28" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="-3" y="115"/>
         <delta pt="1" x="-1" y="123"/>
         <delta pt="2" x="0" y="128"/>
@@ -120790,7 +120905,7 @@
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
-        <coord axis="ytde" value="1.0"/>
+        <coord axis="YTDE" value="1.0"/>
         <delta pt="0" x="23" y="0"/>
         <delta pt="1" x="25" y="0"/>
         <delta pt="2" x="26" y="0"/>
