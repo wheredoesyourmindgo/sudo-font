@@ -3,58 +3,16 @@ color = 9;
 glyphname = newlineControl;
 layers = (
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(84,384,l),
-(84,704,l),
-(24,704,l),
-(24,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(238,384,l),
-(108,704,l),
-(46,704,l),
-(176,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(260,384,l),
-(260,704,l),
-(200,704,l),
-(200,384,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(256,-6,l),
-(256,256,l),
-(192,256,l),
-(192,-64,l),
-(404,-64,l),
-(404,-6,l)
-);
-}
-);
-};
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
 alignment = -1;
-pos = (-65,448);
-ref = N.pl;
+pos = (-65,64);
+ref = N.sups;
 },
 {
-pos = (128,-448);
-ref = L.pl;
+pos = (64,-384);
+ref = L.sups;
 }
 );
 width = 448;
@@ -64,18 +22,18 @@ layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
 alignment = -1;
-pos = (-65,448);
-ref = N.pl;
+pos = (-65,64);
+ref = N.sups;
 },
 {
-pos = (128,-448);
-ref = L.pl;
+pos = (64,-384);
+ref = L.sups;
 }
 );
 width = 448;
 },
 {
-layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+background = {
 shapes = (
 {
 alignment = -1;
@@ -85,6 +43,19 @@ ref = N.pl;
 {
 pos = (128,-448);
 ref = L.pl;
+}
+);
+};
+layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
+shapes = (
+{
+alignment = -1;
+pos = (-65,64);
+ref = N.sups;
+},
+{
+pos = (64,-384);
+ref = L.sups;
 }
 );
 width = 448;
@@ -94,12 +65,12 @@ layerId = "C21910D5-47BB-472B-A83D-89B2B42B8F2A";
 shapes = (
 {
 alignment = -1;
-pos = (25,448);
-ref = N.pl;
+pos = (-51,64);
+ref = N.sups;
 },
 {
-pos = (38,-448);
-ref = L.pl;
+pos = (-13,-384);
+ref = L.sups;
 }
 );
 width = 448;
@@ -109,12 +80,12 @@ layerId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 shapes = (
 {
 alignment = -1;
-pos = (25,448);
-ref = N.pl;
+pos = (-51,64);
+ref = N.sups;
 },
 {
-pos = (38,-448);
-ref = L.pl;
+pos = (-13,-384);
+ref = L.sups;
 }
 );
 width = 448;
@@ -124,12 +95,12 @@ layerId = "EBAB10B0-9FDE-44C7-9B16-DD2313400F4E";
 shapes = (
 {
 alignment = -1;
-pos = (25,448);
-ref = N.pl;
+pos = (-51,64);
+ref = N.sups;
 },
 {
-pos = (38,-448);
-ref = L.pl;
+pos = (-13,-384);
+ref = L.sups;
 }
 );
 width = 448;

@@ -3,22 +3,15 @@ color = 7;
 glyphname = "Be-cy";
 layers = (
 {
-background = {
-shapes = (
+hints = (
 {
-closed = 1;
-nodes = (
-(64,576,l),
-(362,576,l),
-(362,640,l),
-(64,640,l)
-);
-},
-{
-ref = "Softsign-cy";
+horizontal = 1;
+options = 4;
+origin = (0,2);
+target = (0,1);
+type = TTStem;
 }
 );
-};
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
@@ -37,22 +30,6 @@ ref = "Softsign-cy";
 width = 448;
 },
 {
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(64,576,l),
-(362,576,l),
-(362,640,l),
-(64,640,l)
-);
-},
-{
-ref = "Softsign-cy";
-}
-);
-};
 layerId = "92967D72-867E-4A8B-929F-F44D834DD4C9";
 shapes = (
 {
@@ -76,10 +53,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(64,596,l),
+(90,596,l),
 (356,596,l),
 (356,640,l),
-(64,640,l)
+(90,640,l)
 );
 },
 {
@@ -95,10 +72,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(138,596,l),
+(164,596,l),
 (430,596,l),
 (439,640,l),
-(147,640,l)
+(173,640,l)
 );
 },
 {
