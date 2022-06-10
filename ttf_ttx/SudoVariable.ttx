@@ -1502,12 +1502,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06499"/>
-    <checkSumAdjustment value="0xe372da00"/>
+    <checkSumAdjustment value="0xec590674"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Sun Jun  5 22:40:53 2022"/>
-    <modified value="Sun Jun  5 22:41:48 2022"/>
+    <created value="Sun Jun  5 22:40:52 2022"/>
+    <modified value="Fri Jun 10 13:11:18 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -17895,17 +17895,17 @@
         <pt x="234" y="120" on="1"/>
       </contour>
       <contour>
-        <pt x="308" y="59" on="0"/>
-        <pt x="388" y="172" on="0"/>
+        <pt x="299" y="59" on="0"/>
+        <pt x="388" y="161" on="0"/>
         <pt x="388" y="256" on="1"/>
-        <pt x="388" y="339" on="0"/>
-        <pt x="308" y="453" on="0"/>
+        <pt x="388" y="351" on="0"/>
+        <pt x="299" y="453" on="0"/>
         <pt x="224" y="453" on="1"/>
-        <pt x="140" y="453" on="0"/>
-        <pt x="60" y="339" on="0"/>
+        <pt x="149" y="453" on="0"/>
+        <pt x="60" y="351" on="0"/>
         <pt x="60" y="256" on="1"/>
-        <pt x="60" y="172" on="0"/>
-        <pt x="140" y="59" on="0"/>
+        <pt x="60" y="161" on="0"/>
+        <pt x="149" y="59" on="0"/>
         <pt x="224" y="59" on="1"/>
       </contour>
       <instructions>
@@ -20099,8 +20099,9 @@
         <pt x="273" y="371" on="0"/>
         <pt x="248" y="407" on="0"/>
         <pt x="225" y="407" on="1"/>
-        <pt x="190" y="407" on="0"/>
-        <pt x="164" y="326" on="0"/>
+        <pt x="201" y="407" on="0"/>
+        <pt x="175" y="371" on="0"/>
+        <pt x="164" y="293" on="0"/>
         <pt x="164" y="225" on="1"/>
         <pt x="164" y="157" on="0"/>
         <pt x="178" y="79" on="0"/>
@@ -20125,21 +20126,21 @@
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          23 18 1 9
+          24 18 1 9
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 3 values pushed */
-          29 1 7
+          30 1 7
           SRP1[ ]	/* SetRefPoint1 */
           SRP2[ ]	/* SetRefPoint2 */
           IP[ ]	/* InterpolatePts */
           RTG[ ]	/* RoundToGrid */
           PUSHB[ ]	/* 1 value pushed */
-          29
+          30
           MDAP[1]	/* MoveDirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          30 18
+          31 18
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[0]	/* InterpolateUntPts */
         </assembly>
@@ -23751,7 +23752,7 @@
 
     <TTGlyph name="lslash" xMin="59" yMin="-4" xMax="361" yMax="640">
       <component glyphName="l" x="0" y="0" flags="0x400"/>
-      <component glyphName="_part.slash.comp" x="-14" y="124" flags="0x404"/>
+      <component glyphName="_part.slash.comp" x="-14" y="113" flags="0x404"/>
     </TTGlyph>
 
     <TTGlyph name="ltshade" xMin="-5" yMin="-198" xMax="389" yMax="772">
@@ -25633,42 +25634,42 @@
         <pt x="192" y="312" on="1"/>
       </contour>
       <contour>
-        <pt x="152" y="593" on="0"/>
-        <pt x="117" y="537" on="0"/>
-        <pt x="117" y="480" on="1"/>
-        <pt x="117" y="422" on="0"/>
-        <pt x="152" y="367" on="0"/>
-        <pt x="192" y="367" on="1"/>
         <pt x="233" y="367" on="0"/>
         <pt x="268" y="422" on="0"/>
         <pt x="268" y="480" on="1"/>
         <pt x="268" y="537" on="0"/>
         <pt x="232" y="593" on="0"/>
         <pt x="192" y="593" on="1"/>
+        <pt x="152" y="593" on="0"/>
+        <pt x="117" y="537" on="0"/>
+        <pt x="117" y="480" on="1"/>
+        <pt x="117" y="422" on="0"/>
+        <pt x="152" y="367" on="0"/>
+        <pt x="192" y="367" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          23 18 5 2
+          17 18 5 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           PUSHB[ ]	/* 4 values pushed */
-          17 18 11 12
+          23 18 11 12
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          14 17 4 7 2
+          20 17 4 7 2
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          8 17 4 7 20
+          8 17 4 7 14
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
@@ -27009,17 +27010,17 @@
         <pt x="269" y="324" on="1"/>
       </contour>
       <contour>
-        <pt x="308" y="250" on="0"/>
-        <pt x="388" y="363" on="0"/>
+        <pt x="299" y="250" on="0"/>
+        <pt x="388" y="352" on="0"/>
         <pt x="388" y="447" on="1"/>
-        <pt x="388" y="530" on="0"/>
-        <pt x="308" y="644" on="0"/>
+        <pt x="388" y="542" on="0"/>
+        <pt x="299" y="644" on="0"/>
         <pt x="224" y="644" on="1"/>
-        <pt x="140" y="644" on="0"/>
-        <pt x="60" y="530" on="0"/>
+        <pt x="149" y="644" on="0"/>
+        <pt x="60" y="542" on="0"/>
         <pt x="60" y="447" on="1"/>
-        <pt x="60" y="363" on="0"/>
-        <pt x="140" y="250" on="0"/>
+        <pt x="60" y="352" on="0"/>
+        <pt x="149" y="250" on="0"/>
         <pt x="224" y="250" on="1"/>
       </contour>
       <contour>
@@ -42607,65 +42608,66 @@
 
     <TTGlyph name="uni207F" xMin="60" yMin="320" xMax="320" yMax="643">
       <contour>
-        <pt x="60" y="640" on="1" overlap="1"/>
-        <pt x="120" y="640" on="1"/>
-        <pt x="128" y="590" on="1"/>
-        <pt x="128" y="320" on="1"/>
-        <pt x="64" y="320" on="1"/>
-        <pt x="64" y="589" on="1"/>
-      </contour>
-      <contour>
-        <pt x="256" y="554" on="0"/>
-        <pt x="237" y="587" on="0"/>
-        <pt x="209" y="587" on="1"/>
-        <pt x="184" y="587" on="0"/>
-        <pt x="131" y="554" on="0"/>
-        <pt x="112" y="531" on="1"/>
-        <pt x="80" y="560" on="1"/>
-        <pt x="102" y="594" on="0"/>
-        <pt x="179" y="643" on="0"/>
+        <pt x="256" y="559" on="0" overlap="1"/>
+        <pt x="233" y="587" on="0"/>
+        <pt x="207" y="587" on="1"/>
+        <pt x="182" y="587" on="0"/>
+        <pt x="136" y="559" on="0"/>
+        <pt x="110" y="531" on="1"/>
+        <pt x="82" y="557" on="1"/>
+        <pt x="108" y="593" on="0"/>
+        <pt x="180" y="643" on="0"/>
         <pt x="221" y="643" on="1"/>
-        <pt x="265" y="643" on="0"/>
-        <pt x="320" y="587" on="0"/>
-        <pt x="320" y="519" on="1"/>
+        <pt x="267" y="643" on="0"/>
+        <pt x="320" y="584" on="0"/>
+        <pt x="320" y="527" on="1"/>
         <pt x="320" y="320" on="1"/>
         <pt x="256" y="320" on="1"/>
-        <pt x="256" y="514" on="1"/>
+        <pt x="256" y="527" on="1"/>
+      </contour>
+      <contour>
+        <pt x="64" y="615" on="0"/>
+        <pt x="60" y="640" on="1"/>
+        <pt x="120" y="640" on="1"/>
+        <pt x="126" y="615" on="0"/>
+        <pt x="126" y="573" on="1"/>
+        <pt x="128" y="573" on="1"/>
+        <pt x="128" y="320" on="1"/>
+        <pt x="64" y="320" on="1"/>
+        <pt x="64" y="576" on="1"/>
       </contour>
       <instructions>
         <assembly>
           SVTCA[0]	/* SetFPVectorToAxis */
           PUSHB[ ]	/* 2 values pushed */
-          3 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          20 12
-          MIAP[1]	/* MoveIndirectAbsPt */
-          PUSHB[ ]	/* 2 values pushed */
-          0 2
+          17 2
           MIAP[1]	/* MoveIndirectAbsPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 4 values pushed */
-          8 18 15 2
+          2 18 9 2
           MIAP[1]	/* MoveIndirectAbsPt */
           MIRP[01101]	/* MoveIndirectRelPt */
+          PUSHB[ ]	/* 3 values pushed */
+          14 22 12
+          MIAP[1]	/* MoveIndirectAbsPt */
+          MDRP[00001]	/* MoveDirectRelPt */
           IUP[0]	/* InterpolateUntPts */
           SVTCA[1]	/* SetFPVectorToAxis */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          3 17 4 7 4
+          22 17 4 7 23
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 5 values pushed */
-          19 17 4 7 20
+          13 17 4 7 14
           WS[ ]	/* WriteStore */
           CALL[ ]	/* CallFunction */
           MIRP[01101]	/* MoveIndirectRelPt */
           ROFF[ ]	/* RoundOff */
           PUSHB[ ]	/* 2 values pushed */
-          2 3
+          17 22
           SRP0[ ]	/* SetRefPoint0 */
           MDRP[00001]	/* MoveDirectRelPt */
           IUP[1]	/* InterpolateUntPts */
@@ -44047,6 +44049,9 @@
         <pt x="66" y="151" on="1"/>
       </contour>
       <contour>
+        <pt x="190" y="256" on="1"/>
+        <pt x="211" y="288" on="1"/>
+        <pt x="190" y="320" on="1"/>
         <pt x="190" y="512" on="1"/>
         <pt x="264" y="512" on="1"/>
         <pt x="422" y="354" on="1"/>
@@ -56352,7 +56357,8 @@
       <delta cvt="15" value="16"/>
       <delta cvt="16" value="40"/>
       <delta cvt="17" value="16"/>
-      <delta cvt="18" value="0"/>
+      <delta cvt="18" value="14"/>
+      <delta cvt="19" value="0"/>
     </tuple>
     <tuple>
       <coord axis="wght" value="-1.0"/>
@@ -56375,7 +56381,8 @@
       <delta cvt="15" value="-20"/>
       <delta cvt="16" value="-24"/>
       <delta cvt="17" value="-20"/>
-      <delta cvt="18" value="0"/>
+      <delta cvt="18" value="-18"/>
+      <delta cvt="19" value="0"/>
     </tuple>
     <tuple>
       <coord axis="YTDE" value="1.0"/>
@@ -65785,6 +65792,28 @@
     </glyphVariations>
     <glyphVariations glyph="_part.slash.comp">
       <tuple>
+        <coord axis="wght" value="1.0"/>
+        <delta pt="0" x="7" y="14"/>
+        <delta pt="1" x="17" y="1"/>
+        <delta pt="2" x="-4" y="-13"/>
+        <delta pt="3" x="-14" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="-2" y="-14"/>
+        <delta pt="1" x="-14" y="2"/>
+        <delta pt="2" x="2" y="14"/>
+        <delta pt="3" x="14" y="-2"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="32" y="0"/>
         <delta pt="1" x="23" y="0"/>
@@ -65798,10 +65827,22 @@
       <tuple>
         <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="-1" y="0"/>
-        <delta pt="1" x="-1" y="0"/>
-        <delta pt="2" x="1" y="0"/>
-        <delta pt="3" x="1" y="0"/>
+        <delta pt="0" x="-1" y="-3"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="-1" y="0"/>
+        <delta pt="3" x="-2" y="-3"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="-7" y="-2"/>
+        <delta pt="1" x="-1" y="-1"/>
+        <delta pt="2" x="5" y="1"/>
+        <delta pt="3" x="-1" y="0"/>
         <delta pt="4" x="0" y="0"/>
         <delta pt="5" x="0" y="0"/>
         <delta pt="6" x="0" y="0"/>
@@ -70964,34 +71005,21 @@
         <delta pt="35" x="12" y="13"/>
         <delta pt="36" x="10" y="0"/>
         <delta pt="38" x="-5" y="0"/>
-        <delta pt="39" x="-12" y="8"/>
-        <delta pt="40" x="-10" y="-2"/>
-        <delta pt="41" x="-10" y="0"/>
-        <delta pt="42" x="-10" y="3"/>
-        <delta pt="43" x="-12" y="-8"/>
-        <delta pt="45" x="12" y="-8"/>
-        <delta pt="46" x="10" y="3"/>
-        <delta pt="47" x="10" y="0"/>
-        <delta pt="48" x="10" y="-2"/>
-        <delta pt="49" x="12" y="8"/>
+        <delta pt="39" x="-3" y="8"/>
+        <delta pt="40" x="-10" y="9"/>
+        <delta pt="42" x="-10" y="-9"/>
+        <delta pt="43" x="-3" y="-8"/>
+        <delta pt="45" x="3" y="-8"/>
+        <delta pt="46" x="10" y="-9"/>
+        <delta pt="48" x="10" y="9"/>
+        <delta pt="49" x="3" y="8"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
-        <delta pt="0" x="1" y="4"/>
-        <delta pt="1" x="4" y="3"/>
-        <delta pt="2" x="5" y="1"/>
         <delta pt="3" x="5" y="0"/>
-        <delta pt="4" x="5" y="-2"/>
         <delta pt="5" x="3" y="-4"/>
-        <delta pt="6" x="1" y="-4"/>
-        <delta pt="7" x="0" y="-4"/>
-        <delta pt="8" x="-1" y="-4"/>
         <delta pt="9" x="-3" y="-4"/>
-        <delta pt="10" x="-5" y="-2"/>
-        <delta pt="11" x="-5" y="0"/>
         <delta pt="12" x="-5" y="1"/>
-        <delta pt="13" x="-4" y="3"/>
-        <delta pt="14" x="-1" y="4"/>
         <delta pt="15" x="0" y="4"/>
         <delta pt="16" x="7" y="0"/>
         <delta pt="17" x="4" y="-8"/>
@@ -70999,7 +71027,6 @@
         <delta pt="19" x="4" y="5"/>
         <delta pt="20" x="7" y="0"/>
         <delta pt="21" x="1" y="0"/>
-        <delta pt="22" x="0" y="0"/>
         <delta pt="23" x="-3" y="1"/>
         <delta pt="24" x="-7" y="3"/>
         <delta pt="25" x="-1" y="15"/>
@@ -71007,7 +71034,6 @@
         <delta pt="27" x="0" y="13"/>
         <delta pt="28" x="-2" y="13"/>
         <delta pt="29" x="-9" y="2"/>
-        <delta pt="30" x="-9" y="-1"/>
         <delta pt="31" x="-9" y="-3"/>
         <delta pt="32" x="-1" y="-14"/>
         <delta pt="33" x="1" y="-14"/>
@@ -71016,22 +71042,12 @@
         <delta pt="36" x="-7" y="-3"/>
         <delta pt="37" x="-1" y="0"/>
         <delta pt="38" x="1" y="0"/>
-        <delta pt="39" x="-7" y="-4"/>
-        <delta pt="40" x="5" y="-14"/>
-        <delta pt="41" x="5" y="0"/>
-        <delta pt="42" x="5" y="15"/>
-        <delta pt="43" x="-7" y="4"/>
-        <delta pt="44" x="0" y="4"/>
-        <delta pt="45" x="7" y="4"/>
-        <delta pt="46" x="-5" y="15"/>
-        <delta pt="47" x="-5" y="0"/>
-        <delta pt="48" x="-5" y="-14"/>
-        <delta pt="49" x="7" y="-4"/>
-        <delta pt="50" x="0" y="-4"/>
-        <delta pt="51" x="0" y="0"/>
-        <delta pt="52" x="0" y="0"/>
-        <delta pt="53" x="0" y="0"/>
-        <delta pt="54" x="0" y="0"/>
+        <delta pt="39" x="2" y="-4"/>
+        <delta pt="40" x="5" y="-3"/>
+        <delta pt="42" x="5" y="3"/>
+        <delta pt="45" x="-2" y="4"/>
+        <delta pt="46" x="-5" y="3"/>
+        <delta pt="48" x="-5" y="-3"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
@@ -71074,17 +71090,17 @@
         <delta pt="36" x="-15" y="-1"/>
         <delta pt="37" x="-16" y="0"/>
         <delta pt="38" x="-16" y="0"/>
-        <delta pt="39" x="-37" y="0"/>
-        <delta pt="40" x="-10" y="4"/>
+        <delta pt="39" x="-28" y="0"/>
+        <delta pt="40" x="-10" y="15"/>
         <delta pt="41" x="8" y="6"/>
-        <delta pt="42" x="24" y="3"/>
-        <delta pt="43" x="48" y="0"/>
+        <delta pt="42" x="24" y="-9"/>
+        <delta pt="43" x="57" y="0"/>
         <delta pt="44" x="51" y="0"/>
-        <delta pt="45" x="49" y="0"/>
-        <delta pt="46" x="22" y="-4"/>
+        <delta pt="45" x="40" y="0"/>
+        <delta pt="46" x="22" y="-16"/>
         <delta pt="47" x="5" y="-6"/>
-        <delta pt="48" x="-11" y="-4"/>
-        <delta pt="49" x="-36" y="0"/>
+        <delta pt="48" x="-11" y="7"/>
+        <delta pt="49" x="-45" y="0"/>
         <delta pt="50" x="-38" y="0"/>
         <delta pt="51" x="0" y="0"/>
         <delta pt="52" x="0" y="0"/>
@@ -71133,17 +71149,17 @@
         <delta pt="36" x="0" y="0"/>
         <delta pt="37" x="2" y="0"/>
         <delta pt="38" x="1" y="0"/>
-        <delta pt="39" x="2" y="0"/>
-        <delta pt="40" x="0" y="1"/>
+        <delta pt="39" x="-7" y="0"/>
+        <delta pt="40" x="0" y="-10"/>
         <delta pt="41" x="0" y="3"/>
-        <delta pt="42" x="1" y="2"/>
-        <delta pt="43" x="0" y="0"/>
+        <delta pt="42" x="1" y="14"/>
+        <delta pt="43" x="-9" y="0"/>
         <delta pt="44" x="-1" y="0"/>
-        <delta pt="45" x="-2" y="0"/>
-        <delta pt="46" x="0" y="-1"/>
+        <delta pt="45" x="7" y="0"/>
+        <delta pt="46" x="0" y="11"/>
         <delta pt="47" x="-1" y="-3"/>
-        <delta pt="48" x="-1" y="-2"/>
-        <delta pt="49" x="0" y="0"/>
+        <delta pt="48" x="-1" y="-13"/>
+        <delta pt="49" x="9" y="0"/>
         <delta pt="50" x="0" y="0"/>
         <delta pt="51" x="0" y="0"/>
         <delta pt="52" x="0" y="0"/>
@@ -71192,17 +71208,17 @@
         <delta pt="36" x="-2" y="0"/>
         <delta pt="37" x="0" y="0"/>
         <delta pt="38" x="-2" y="0"/>
-        <delta pt="39" x="1" y="0"/>
-        <delta pt="40" x="-3" y="-1"/>
+        <delta pt="39" x="-8" y="0"/>
+        <delta pt="40" x="-3" y="-12"/>
         <delta pt="41" x="-1" y="-2"/>
-        <delta pt="42" x="2" y="-1"/>
-        <delta pt="43" x="0" y="0"/>
+        <delta pt="42" x="2" y="11"/>
+        <delta pt="43" x="-9" y="0"/>
         <delta pt="44" x="-1" y="0"/>
-        <delta pt="45" x="0" y="0"/>
-        <delta pt="46" x="3" y="1"/>
+        <delta pt="45" x="9" y="0"/>
+        <delta pt="46" x="3" y="13"/>
         <delta pt="47" x="0" y="2"/>
-        <delta pt="48" x="-3" y="2"/>
-        <delta pt="49" x="0" y="0"/>
+        <delta pt="48" x="-3" y="-9"/>
+        <delta pt="49" x="9" y="0"/>
         <delta pt="50" x="1" y="0"/>
         <delta pt="51" x="0" y="0"/>
         <delta pt="52" x="0" y="0"/>
@@ -73692,6 +73708,35 @@
     </glyphVariations>
     <glyphVariations glyph="emoji.eyes.angry">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="0" y="-10"/>
+        <delta pt="1" x="0" y="-10"/>
+        <delta pt="2" x="0" y="11"/>
+        <delta pt="3" x="0" y="10"/>
+        <delta pt="4" x="0" y="-10"/>
+        <delta pt="5" x="0" y="-10"/>
+        <delta pt="6" x="0" y="10"/>
+        <delta pt="7" x="0" y="11"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="59" y="0"/>
         <delta pt="1" x="51" y="0"/>
@@ -73720,8 +73765,61 @@
         <delta pt="24" x="0" y="0"/>
         <delta pt="25" x="0" y="0"/>
       </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="-1" y="0"/>
+        <delta pt="1" x="-1" y="0"/>
+        <delta pt="2" x="3" y="0"/>
+        <delta pt="3" x="2" y="0"/>
+        <delta pt="4" x="-1" y="0"/>
+        <delta pt="5" x="-1" y="0"/>
+        <delta pt="6" x="2" y="0"/>
+        <delta pt="7" x="3" y="0"/>
+        <delta pt="8" x="-1" y="0"/>
+        <delta pt="9" x="0" y="-1"/>
+        <delta pt="10" x="1" y="-1"/>
+        <delta pt="11" x="1" y="1"/>
+        <delta pt="12" x="1" y="1"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="-1" y="0"/>
+        <delta pt="15" x="-1" y="0"/>
+        <delta pt="16" x="0" y="-1"/>
+        <delta pt="17" x="1" y="-1"/>
+        <delta pt="18" x="1" y="1"/>
+        <delta pt="19" x="1" y="1"/>
+        <delta pt="20" x="0" y="0"/>
+        <delta pt="21" x="-1" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
     </glyphVariations>
     <glyphVariations glyph="emoji.eyes.smiling">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="11" y="0"/>
+        <delta pt="1" x="-11" y="0"/>
+        <delta pt="2" x="-11" y="0"/>
+        <delta pt="3" x="11" y="0"/>
+        <delta pt="4" x="0" y="22"/>
+        <delta pt="5" x="0" y="22"/>
+        <delta pt="6" x="-11" y="0"/>
+        <delta pt="7" x="11" y="0"/>
+        <delta pt="8" x="11" y="0"/>
+        <delta pt="9" x="-11" y="0"/>
+        <delta pt="10" x="-11" y="0"/>
+        <delta pt="11" x="11" y="0"/>
+        <delta pt="12" x="0" y="22"/>
+        <delta pt="13" x="0" y="22"/>
+        <delta pt="14" x="-11" y="0"/>
+        <delta pt="15" x="11" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="57" y="0"/>
@@ -73740,6 +73838,30 @@
         <delta pt="13" x="46" y="0"/>
         <delta pt="14" x="33" y="0"/>
         <delta pt="15" x="31" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="1" y="0"/>
+        <delta pt="1" x="1" y="0"/>
+        <delta pt="2" x="1" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="5" y="0"/>
+        <delta pt="5" x="5" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="1" y="0"/>
+        <delta pt="8" x="1" y="0"/>
+        <delta pt="9" x="1" y="0"/>
+        <delta pt="10" x="1" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="5" y="0"/>
+        <delta pt="13" x="5" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="1" y="0"/>
         <delta pt="16" x="0" y="0"/>
         <delta pt="17" x="0" y="0"/>
         <delta pt="18" x="0" y="0"/>
@@ -73832,6 +73954,41 @@
     </glyphVariations>
     <glyphVariations glyph="emoji.mouth.grinning">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="3" y="10"/>
+        <delta pt="1" x="10" y="3"/>
+        <delta pt="2" x="10" y="0"/>
+        <delta pt="3" x="10" y="-10"/>
+        <delta pt="4" x="-10" y="-10"/>
+        <delta pt="5" x="-10" y="0"/>
+        <delta pt="6" x="-10" y="3"/>
+        <delta pt="7" x="-3" y="10"/>
+        <delta pt="8" x="0" y="10"/>
+        <delta pt="9" x="0" y="10"/>
+        <delta pt="10" x="10" y="20"/>
+        <delta pt="11" x="-10" y="20"/>
+        <delta pt="12" x="-10" y="-16"/>
+        <delta pt="13" x="10" y="-16"/>
+        <delta pt="14" x="4" y="-10"/>
+        <delta pt="15" x="10" y="-4"/>
+        <delta pt="16" x="10" y="0"/>
+        <delta pt="17" x="10" y="10"/>
+        <delta pt="18" x="-10" y="10"/>
+        <delta pt="19" x="-10" y="0"/>
+        <delta pt="20" x="-10" y="-4"/>
+        <delta pt="21" x="-4" y="-10"/>
+        <delta pt="22" x="0" y="-10"/>
+        <delta pt="23" x="0" y="-10"/>
+        <delta pt="24" x="10" y="20"/>
+        <delta pt="25" x="-10" y="20"/>
+        <delta pt="26" x="-10" y="-16"/>
+        <delta pt="27" x="10" y="-16"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-29" y="0"/>
         <delta pt="1" x="-18" y="3"/>
@@ -73861,6 +74018,42 @@
         <delta pt="25" x="-5" y="0"/>
         <delta pt="26" x="-22" y="0"/>
         <delta pt="27" x="-22" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="1" y="0"/>
+        <delta pt="1" x="-1" y="-1"/>
+        <delta pt="2" x="-1" y="-1"/>
+        <delta pt="3" x="-2" y="0"/>
+        <delta pt="4" x="-2" y="0"/>
+        <delta pt="5" x="0" y="1"/>
+        <delta pt="6" x="1" y="1"/>
+        <delta pt="7" x="1" y="0"/>
+        <delta pt="8" x="1" y="0"/>
+        <delta pt="9" x="1" y="0"/>
+        <delta pt="10" x="4" y="0"/>
+        <delta pt="11" x="4" y="0"/>
+        <delta pt="12" x="-3" y="0"/>
+        <delta pt="13" x="-3" y="0"/>
+        <delta pt="14" x="-2" y="0"/>
+        <delta pt="15" x="-1" y="-1"/>
+        <delta pt="16" x="0" y="-1"/>
+        <delta pt="17" x="2" y="0"/>
+        <delta pt="18" x="2" y="0"/>
+        <delta pt="19" x="0" y="1"/>
+        <delta pt="20" x="-1" y="1"/>
+        <delta pt="21" x="-2" y="0"/>
+        <delta pt="22" x="-2" y="0"/>
+        <delta pt="23" x="-2" y="0"/>
+        <delta pt="24" x="4" y="0"/>
+        <delta pt="25" x="4" y="0"/>
+        <delta pt="26" x="-3" y="0"/>
+        <delta pt="27" x="-3" y="0"/>
         <delta pt="28" x="0" y="0"/>
         <delta pt="29" x="0" y="0"/>
         <delta pt="30" x="0" y="0"/>
@@ -74385,6 +74578,45 @@
     </glyphVariations>
     <glyphVariations glyph="estimated">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="-6" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="5" y="0"/>
+        <delta pt="3" x="10" y="-1"/>
+        <delta pt="4" x="10" y="0"/>
+        <delta pt="5" x="10" y="2"/>
+        <delta pt="6" x="5" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="-5" y="0"/>
+        <delta pt="9" x="-10" y="1"/>
+        <delta pt="10" x="-10" y="0"/>
+        <delta pt="11" x="-10" y="11"/>
+        <delta pt="12" x="10" y="3"/>
+        <delta pt="13" x="10" y="5"/>
+        <delta pt="14" x="9" y="8"/>
+        <delta pt="15" x="4" y="10"/>
+        <delta pt="16" x="0" y="10"/>
+        <delta pt="17" x="-5" y="10"/>
+        <delta pt="18" x="-9" y="7"/>
+        <delta pt="19" x="-10" y="4"/>
+        <delta pt="20" x="-10" y="0"/>
+        <delta pt="21" x="-10" y="-3"/>
+        <delta pt="22" x="-9" y="-7"/>
+        <delta pt="23" x="-4" y="-10"/>
+        <delta pt="24" x="0" y="-10"/>
+        <delta pt="25" x="-2" y="-10"/>
+        <delta pt="26" x="-8" y="-13"/>
+        <delta pt="27" x="-11" y="-3"/>
+        <delta pt="28" x="-7" y="-1"/>
+        <delta pt="29" x="-10" y="11"/>
+        <delta pt="30" x="10" y="11"/>
+        <delta pt="31" x="10" y="-1"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-42" y="0"/>
         <delta pt="1" x="-42" y="0"/>
@@ -74403,24 +74635,25 @@
         <delta pt="14" x="31" y="2"/>
         <delta pt="15" x="40" y="0"/>
         <delta pt="16" x="42" y="0"/>
-        <delta pt="17" x="40" y="0"/>
-        <delta pt="18" x="20" y="-4"/>
-        <delta pt="19" x="-1" y="-6"/>
-        <delta pt="20" x="-14" y="-5"/>
-        <delta pt="21" x="-31" y="-2"/>
-        <delta pt="22" x="-40" y="0"/>
-        <delta pt="23" x="-42" y="0"/>
+        <delta pt="17" x="41" y="0"/>
+        <delta pt="18" x="31" y="-2"/>
+        <delta pt="19" x="13" y="-5"/>
+        <delta pt="20" x="-1" y="-6"/>
+        <delta pt="21" x="-14" y="-5"/>
+        <delta pt="22" x="-31" y="-2"/>
+        <delta pt="23" x="-40" y="0"/>
         <delta pt="24" x="-42" y="0"/>
-        <delta pt="25" x="-36" y="1"/>
-        <delta pt="26" x="-41" y="-1"/>
-        <delta pt="27" x="4" y="0"/>
-        <delta pt="28" x="-8" y="0"/>
-        <delta pt="29" x="-7" y="0"/>
-        <delta pt="30" x="5" y="0"/>
-        <delta pt="31" x="0" y="0"/>
+        <delta pt="25" x="-42" y="0"/>
+        <delta pt="26" x="-36" y="1"/>
+        <delta pt="27" x="-41" y="-1"/>
+        <delta pt="28" x="4" y="0"/>
+        <delta pt="29" x="-8" y="0"/>
+        <delta pt="30" x="-7" y="0"/>
+        <delta pt="31" x="5" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
         <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="1.0"/>
@@ -74443,62 +74676,64 @@
         <delta pt="15" x="1" y="0"/>
         <delta pt="16" x="1" y="0"/>
         <delta pt="17" x="1" y="0"/>
-        <delta pt="18" x="-1" y="-2"/>
-        <delta pt="19" x="-1" y="-3"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="-1" y="-2"/>
         <delta pt="20" x="-1" y="-3"/>
-        <delta pt="21" x="-1" y="-1"/>
-        <delta pt="22" x="-1" y="0"/>
+        <delta pt="21" x="-1" y="-3"/>
+        <delta pt="22" x="-1" y="-1"/>
         <delta pt="23" x="-1" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="-1" y="0"/>
-        <delta pt="26" x="1" y="0"/>
-        <delta pt="27" x="-1" y="0"/>
-        <delta pt="28" x="0" y="0"/>
+        <delta pt="24" x="-1" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="-1" y="0"/>
+        <delta pt="27" x="1" y="0"/>
+        <delta pt="28" x="-1" y="0"/>
         <delta pt="29" x="0" y="0"/>
         <delta pt="30" x="0" y="0"/>
         <delta pt="31" x="0" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
         <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
+        <delta pt="0" x="-1" y="0"/>
         <delta pt="1" x="-2" y="0"/>
         <delta pt="2" x="-1" y="0"/>
         <delta pt="3" x="0" y="-2"/>
         <delta pt="4" x="0" y="-2"/>
         <delta pt="5" x="-1" y="-2"/>
-        <delta pt="6" x="1" y="0"/>
+        <delta pt="6" x="0" y="0"/>
         <delta pt="7" x="2" y="0"/>
-        <delta pt="8" x="2" y="0"/>
-        <delta pt="9" x="1" y="1"/>
-        <delta pt="10" x="1" y="1"/>
-        <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="-1" y="-1"/>
-        <delta pt="13" x="0" y="-2"/>
-        <delta pt="14" x="0" y="-1"/>
-        <delta pt="15" x="-1" y="0"/>
-        <delta pt="16" x="-2" y="0"/>
-        <delta pt="17" x="-1" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="3"/>
+        <delta pt="10" x="1" y="2"/>
+        <delta pt="11" x="2" y="0"/>
+        <delta pt="12" x="0" y="-1"/>
+        <delta pt="13" x="1" y="-1"/>
+        <delta pt="14" x="1" y="-1"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
         <delta pt="18" x="0" y="1"/>
-        <delta pt="19" x="0" y="2"/>
-        <delta pt="20" x="0" y="1"/>
-        <delta pt="21" x="1" y="0"/>
-        <delta pt="22" x="1" y="0"/>
-        <delta pt="23" x="2" y="0"/>
-        <delta pt="24" x="1" y="0"/>
-        <delta pt="25" x="1" y="0"/>
-        <delta pt="26" x="-1" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="1" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
+        <delta pt="19" x="1" y="2"/>
+        <delta pt="20" x="0" y="2"/>
+        <delta pt="21" x="-2" y="1"/>
+        <delta pt="22" x="-2" y="0"/>
+        <delta pt="23" x="-2" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="-2" y="0"/>
+        <delta pt="26" x="-2" y="0"/>
+        <delta pt="27" x="-1" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="3" y="0"/>
+        <delta pt="30" x="2" y="0"/>
+        <delta pt="31" x="-1" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
         <delta pt="34" x="0" y="0"/>
+        <delta pt="35" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="eta">
@@ -79225,6 +79460,24 @@
     </glyphVariations>
     <glyphVariations glyph="house">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="4" y="0"/>
+        <delta pt="1" x="-4" y="0"/>
+        <delta pt="2" x="-10" y="6"/>
+        <delta pt="3" x="-10" y="0"/>
+        <delta pt="4" x="10" y="0"/>
+        <delta pt="5" x="10" y="6"/>
+        <delta pt="6" x="10" y="9"/>
+        <delta pt="7" x="-1" y="21"/>
+        <delta pt="8" x="-10" y="12"/>
+        <delta pt="9" x="-10" y="-20"/>
+        <delta pt="10" x="10" y="-20"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="46" y="0"/>
         <delta pt="1" x="46" y="0"/>
@@ -79264,17 +79517,17 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="1" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="1" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="-1" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
+        <delta pt="0" x="1" y="0"/>
+        <delta pt="1" x="1" y="0"/>
+        <delta pt="2" x="3" y="0"/>
+        <delta pt="3" x="1" y="0"/>
+        <delta pt="4" x="1" y="0"/>
+        <delta pt="5" x="3" y="0"/>
+        <delta pt="6" x="3" y="0"/>
+        <delta pt="7" x="4" y="0"/>
+        <delta pt="8" x="3" y="0"/>
+        <delta pt="9" x="-3" y="0"/>
+        <delta pt="10" x="-3" y="0"/>
         <delta pt="11" x="0" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
@@ -82497,7 +82750,7 @@
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="34" y="0"/>
+        <delta pt="1" x="28" y="0"/>
         <delta pt="2" x="0" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
@@ -84147,10 +84400,10 @@
         <delta pt="5" x="0" y="-17"/>
         <delta pt="6" x="0" y="-17"/>
         <delta pt="7" x="0" y="7"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="0" y="0"/>
-        <delta pt="11" x="0" y="0"/>
+        <delta pt="8" x="-11" y="0"/>
+        <delta pt="9" x="-11" y="0"/>
+        <delta pt="10" x="11" y="0"/>
+        <delta pt="11" x="11" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
@@ -84206,9 +84459,9 @@
         <delta pt="5" x="-3" y="0"/>
         <delta pt="6" x="-3" y="0"/>
         <delta pt="7" x="2" y="0"/>
-        <delta pt="8" x="-1" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="1" y="0"/>
+        <delta pt="8" x="1" y="0"/>
+        <delta pt="9" x="2" y="0"/>
+        <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
         <delta pt="12" x="0" y="0"/>
         <delta pt="13" x="0" y="0"/>
@@ -84217,6 +84470,36 @@
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="notsubset">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="-11" y="0"/>
+        <delta pt="20" x="-11" y="0"/>
+        <delta pt="21" x="11" y="0"/>
+        <delta pt="22" x="11" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="45" y="0"/>
@@ -84280,9 +84563,9 @@
         <delta pt="16" x="0" y="-2"/>
         <delta pt="17" x="1" y="0"/>
         <delta pt="18" x="1" y="0"/>
-        <delta pt="19" x="-1" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="1" y="0"/>
+        <delta pt="19" x="1" y="0"/>
+        <delta pt="20" x="2" y="0"/>
+        <delta pt="21" x="0" y="0"/>
         <delta pt="22" x="0" y="0"/>
         <delta pt="23" x="0" y="0"/>
         <delta pt="24" x="0" y="0"/>
@@ -85119,6 +85402,50 @@
     </glyphVariations>
     <glyphVariations glyph="ordfeminine">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="6"/>
+        <delta pt="1" x="8" y="12"/>
+        <delta pt="2" x="3" y="15"/>
+        <delta pt="3" x="0" y="15"/>
+        <delta pt="4" x="-5" y="15"/>
+        <delta pt="5" x="-11" y="9"/>
+        <delta pt="6" x="-9" y="-7"/>
+        <delta pt="7" x="-7" y="0"/>
+        <delta pt="8" x="-2" y="0"/>
+        <delta pt="9" x="-7" y="0"/>
+        <delta pt="10" x="-10" y="1"/>
+        <delta pt="11" x="-10" y="0"/>
+        <delta pt="12" x="-10" y="0"/>
+        <delta pt="13" x="-10" y="0"/>
+        <delta pt="14" x="8" y="0"/>
+        <delta pt="15" x="10" y="0"/>
+        <delta pt="16" x="10" y="0"/>
+        <delta pt="17" x="-15" y="6"/>
+        <delta pt="18" x="-20" y="1"/>
+        <delta pt="19" x="-20" y="-6"/>
+        <delta pt="20" x="-20" y="-10"/>
+        <delta pt="21" x="-12" y="-16"/>
+        <delta pt="22" x="-4" y="-16"/>
+        <delta pt="23" x="-5" y="-16"/>
+        <delta pt="24" x="-5" y="-9"/>
+        <delta pt="25" x="-5" y="-5"/>
+        <delta pt="26" x="-2" y="15"/>
+        <delta pt="27" x="-1" y="7"/>
+        <delta pt="28" x="-1" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="-1" y="0"/>
+        <delta pt="31" x="0" y="-2"/>
+        <delta pt="32" x="0" y="-3"/>
+        <delta pt="33" x="0" y="-9"/>
+        <delta pt="34" x="-3" y="-9"/>
+        <delta pt="35" x="-10" y="-8"/>
+        <delta pt="36" x="-10" y="8"/>
+        <delta pt="37" x="0" y="0"/>
+        <delta pt="38" x="0" y="0"/>
+        <delta pt="39" x="0" y="0"/>
+        <delta pt="40" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="66" y="3"/>
         <delta pt="1" x="73" y="2"/>
@@ -85210,43 +85537,43 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="-1"/>
-        <delta pt="1" x="-1" y="-1"/>
-        <delta pt="2" x="-1" y="0"/>
-        <delta pt="3" x="-1" y="0"/>
-        <delta pt="4" x="-5" y="0"/>
-        <delta pt="5" x="-1" y="1"/>
-        <delta pt="6" x="1" y="-1"/>
-        <delta pt="7" x="5" y="0"/>
-        <delta pt="8" x="2" y="0"/>
-        <delta pt="9" x="2" y="0"/>
-        <delta pt="10" x="1" y="0"/>
-        <delta pt="11" x="0" y="1"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="-1" y="0"/>
+        <delta pt="0" x="2" y="-1"/>
+        <delta pt="1" x="2" y="-1"/>
+        <delta pt="2" x="3" y="0"/>
+        <delta pt="3" x="3" y="0"/>
+        <delta pt="4" x="1" y="0"/>
+        <delta pt="5" x="2" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="3" y="0"/>
+        <delta pt="8" x="3" y="0"/>
+        <delta pt="9" x="3" y="0"/>
+        <delta pt="10" x="2" y="0"/>
+        <delta pt="11" x="1" y="1"/>
+        <delta pt="12" x="1" y="0"/>
+        <delta pt="13" x="1" y="0"/>
+        <delta pt="14" x="0" y="0"/>
         <delta pt="15" x="0" y="0"/>
         <delta pt="16" x="0" y="-1"/>
-        <delta pt="17" x="0" y="0"/>
-        <delta pt="18" x="0" y="1"/>
+        <delta pt="17" x="2" y="0"/>
+        <delta pt="18" x="1" y="1"/>
         <delta pt="19" x="0" y="2"/>
-        <delta pt="20" x="1" y="1"/>
-        <delta pt="21" x="2" y="0"/>
-        <delta pt="22" x="1" y="0"/>
-        <delta pt="23" x="1" y="0"/>
-        <delta pt="24" x="2" y="0"/>
+        <delta pt="20" x="0" y="1"/>
+        <delta pt="21" x="-1" y="0"/>
+        <delta pt="22" x="-1" y="0"/>
+        <delta pt="23" x="-2" y="0"/>
+        <delta pt="24" x="0" y="-1"/>
         <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="1"/>
-        <delta pt="27" x="-2" y="0"/>
-        <delta pt="28" x="-2" y="0"/>
-        <delta pt="29" x="-2" y="0"/>
+        <delta pt="26" x="3" y="1"/>
+        <delta pt="27" x="0" y="1"/>
+        <delta pt="28" x="-1" y="0"/>
+        <delta pt="29" x="-1" y="0"/>
         <delta pt="30" x="-1" y="0"/>
         <delta pt="31" x="0" y="-1"/>
         <delta pt="32" x="0" y="-2"/>
-        <delta pt="33" x="-1" y="-2"/>
-        <delta pt="34" x="1" y="0"/>
-        <delta pt="35" x="1" y="0"/>
-        <delta pt="36" x="0" y="0"/>
+        <delta pt="33" x="-2" y="-1"/>
+        <delta pt="34" x="-1" y="0"/>
+        <delta pt="35" x="0" y="0"/>
+        <delta pt="36" x="2" y="0"/>
         <delta pt="37" x="0" y="0"/>
         <delta pt="38" x="0" y="0"/>
         <delta pt="39" x="0" y="0"/>
@@ -85254,6 +85581,22 @@
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="ordmasculine">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="1" x="7" y="-1"/>
+        <delta pt="3" x="7" y="1"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="7" x="-7" y="1"/>
+        <delta pt="9" x="-7" y="-1"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="5" y="-15"/>
+        <delta pt="13" x="11" y="-6"/>
+        <delta pt="15" x="11" y="6"/>
+        <delta pt="18" x="-6" y="15"/>
+        <delta pt="19" x="-11" y="7"/>
+        <delta pt="21" x="-11" y="-7"/>
+        <delta pt="23" x="0" y="-15"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="21" y="0"/>
@@ -85268,18 +85611,18 @@
         <delta pt="9" x="35" y="-3"/>
         <delta pt="10" x="21" y="0"/>
         <delta pt="11" x="23" y="0"/>
-        <delta pt="12" x="77" y="0"/>
-        <delta pt="13" x="62" y="-4"/>
-        <delta pt="14" x="50" y="-6"/>
-        <delta pt="15" x="38" y="-4"/>
-        <delta pt="16" x="25" y="0"/>
-        <delta pt="17" x="24" y="0"/>
-        <delta pt="18" x="25" y="0"/>
-        <delta pt="19" x="41" y="4"/>
-        <delta pt="20" x="52" y="6"/>
-        <delta pt="21" x="64" y="4"/>
-        <delta pt="22" x="77" y="0"/>
-        <delta pt="23" x="79" y="0"/>
+        <delta pt="12" x="25" y="0"/>
+        <delta pt="13" x="41" y="4"/>
+        <delta pt="14" x="52" y="6"/>
+        <delta pt="15" x="64" y="4"/>
+        <delta pt="16" x="77" y="0"/>
+        <delta pt="17" x="79" y="0"/>
+        <delta pt="18" x="77" y="0"/>
+        <delta pt="19" x="62" y="-4"/>
+        <delta pt="20" x="50" y="-6"/>
+        <delta pt="21" x="38" y="-4"/>
+        <delta pt="22" x="25" y="0"/>
+        <delta pt="23" x="24" y="0"/>
         <delta pt="24" x="0" y="0"/>
         <delta pt="25" x="0" y="0"/>
         <delta pt="26" x="0" y="0"/>
@@ -85300,18 +85643,18 @@
         <delta pt="9" x="0" y="-2"/>
         <delta pt="10" x="1" y="0"/>
         <delta pt="11" x="1" y="0"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="-1" y="-1"/>
-        <delta pt="14" x="-1" y="-3"/>
-        <delta pt="15" x="0" y="-2"/>
-        <delta pt="16" x="-1" y="0"/>
-        <delta pt="17" x="-2" y="0"/>
-        <delta pt="18" x="-1" y="0"/>
-        <delta pt="19" x="0" y="1"/>
-        <delta pt="20" x="1" y="3"/>
-        <delta pt="21" x="0" y="1"/>
-        <delta pt="22" x="1" y="0"/>
-        <delta pt="23" x="1" y="0"/>
+        <delta pt="12" x="-1" y="0"/>
+        <delta pt="13" x="0" y="1"/>
+        <delta pt="14" x="1" y="3"/>
+        <delta pt="15" x="0" y="1"/>
+        <delta pt="16" x="1" y="0"/>
+        <delta pt="17" x="1" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="-1" y="-1"/>
+        <delta pt="20" x="-1" y="-3"/>
+        <delta pt="21" x="0" y="-2"/>
+        <delta pt="22" x="-1" y="0"/>
+        <delta pt="23" x="-2" y="0"/>
         <delta pt="24" x="0" y="0"/>
         <delta pt="25" x="0" y="0"/>
         <delta pt="26" x="0" y="0"/>
@@ -85320,20 +85663,34 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="-1" y="0"/>
-        <delta pt="1" x="-1" y="-1"/>
-        <delta pt="3" x="0" y="-2"/>
-        <delta pt="4" x="1" y="0"/>
-        <delta pt="8" x="0" y="2"/>
-        <delta pt="9" x="1" y="1"/>
-        <delta pt="11" x="-2" y="0"/>
-        <delta pt="13" x="0" y="2"/>
-        <delta pt="15" x="1" y="1"/>
-        <delta pt="18" x="1" y="0"/>
-        <delta pt="19" x="-1" y="-2"/>
-        <delta pt="20" x="0" y="-2"/>
-        <delta pt="21" x="-1" y="-1"/>
-        <delta pt="23" x="-2" y="0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="-2"/>
+        <delta pt="2" x="1" y="-2"/>
+        <delta pt="3" x="1" y="-1"/>
+        <delta pt="4" x="2" y="0"/>
+        <delta pt="5" x="2" y="0"/>
+        <delta pt="6" x="1" y="0"/>
+        <delta pt="7" x="1" y="2"/>
+        <delta pt="8" x="1" y="2"/>
+        <delta pt="9" x="1" y="0"/>
+        <delta pt="10" x="-1" y="0"/>
+        <delta pt="11" x="-1" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="-1" y="-2"/>
+        <delta pt="14" x="1" y="-2"/>
+        <delta pt="15" x="1" y="-1"/>
+        <delta pt="16" x="3" y="0"/>
+        <delta pt="17" x="2" y="0"/>
+        <delta pt="18" x="2" y="0"/>
+        <delta pt="19" x="2" y="1"/>
+        <delta pt="20" x="1" y="2"/>
+        <delta pt="21" x="1" y="2"/>
+        <delta pt="22" x="-1" y="0"/>
+        <delta pt="23" x="-1" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="orn001">
@@ -88161,14 +88518,14 @@
         <delta pt="19" x="10" y="0"/>
         <delta pt="21" x="10" y="0"/>
         <delta pt="22" x="-20" y="0"/>
-        <delta pt="23" x="-11" y="8"/>
-        <delta pt="24" x="-20" y="4"/>
-        <delta pt="26" x="-20" y="-4"/>
-        <delta pt="27" x="-11" y="-8"/>
-        <delta pt="29" x="11" y="-8"/>
-        <delta pt="30" x="20" y="-4"/>
-        <delta pt="32" x="20" y="4"/>
-        <delta pt="33" x="11" y="8"/>
+        <delta pt="23" x="-2" y="8"/>
+        <delta pt="24" x="-20" y="15"/>
+        <delta pt="26" x="-20" y="-16"/>
+        <delta pt="27" x="-2" y="-8"/>
+        <delta pt="29" x="2" y="-8"/>
+        <delta pt="30" x="20" y="-16"/>
+        <delta pt="32" x="20" y="15"/>
+        <delta pt="33" x="2" y="8"/>
         <delta pt="35" x="-10" y="0"/>
         <delta pt="36" x="4" y="0"/>
         <delta pt="40" x="10" y="0"/>
@@ -88187,40 +88544,23 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <delta pt="0" x="1" y="5"/>
-        <delta pt="1" x="2" y="4"/>
-        <delta pt="2" x="3" y="2"/>
         <delta pt="3" x="3" y="0"/>
-        <delta pt="4" x="3" y="-2"/>
-        <delta pt="5" x="2" y="-4"/>
-        <delta pt="6" x="1" y="-5"/>
         <delta pt="7" x="0" y="-5"/>
         <delta pt="8" x="0" y="-5"/>
-        <delta pt="9" x="-2" y="-4"/>
-        <delta pt="10" x="-3" y="-2"/>
         <delta pt="11" x="-3" y="0"/>
-        <delta pt="12" x="-3" y="2"/>
-        <delta pt="13" x="-2" y="4"/>
-        <delta pt="14" x="-1" y="5"/>
-        <delta pt="15" x="0" y="5"/>
         <delta pt="16" x="5" y="-1"/>
         <delta pt="17" x="4" y="-2"/>
         <delta pt="18" x="3" y="0"/>
         <delta pt="19" x="-1" y="0"/>
-        <delta pt="20" x="-1" y="0"/>
         <delta pt="21" x="-1" y="0"/>
-        <delta pt="22" x="4" y="0"/>
-        <delta pt="23" x="-11" y="-3"/>
-        <delta pt="24" x="5" y="-15"/>
-        <delta pt="25" x="5" y="0"/>
-        <delta pt="26" x="5" y="16"/>
-        <delta pt="27" x="-11" y="3"/>
-        <delta pt="28" x="0" y="3"/>
-        <delta pt="29" x="11" y="3"/>
-        <delta pt="30" x="-5" y="16"/>
-        <delta pt="31" x="-5" y="0"/>
-        <delta pt="32" x="-5" y="-15"/>
-        <delta pt="33" x="11" y="-3"/>
-        <delta pt="34" x="0" y="-3"/>
+        <delta pt="23" x="-2" y="-3"/>
+        <delta pt="24" x="5" y="-4"/>
+        <delta pt="26" x="5" y="4"/>
+        <delta pt="27" x="-2" y="3"/>
+        <delta pt="29" x="2" y="3"/>
+        <delta pt="30" x="-5" y="4"/>
+        <delta pt="32" x="-5" y="-4"/>
+        <delta pt="33" x="2" y="-3"/>
         <delta pt="35" x="1" y="0"/>
         <delta pt="36" x="4" y="0"/>
         <delta pt="37" x="0" y="0"/>
@@ -88231,22 +88571,14 @@
         <delta pt="42" x="4" y="0"/>
         <delta pt="43" x="0" y="0"/>
         <delta pt="44" x="6" y="1"/>
-        <delta pt="45" x="-7" y="1"/>
         <delta pt="46" x="-7" y="0"/>
-        <delta pt="47" x="1" y="0"/>
         <delta pt="48" x="3" y="-1"/>
         <delta pt="49" x="4" y="1"/>
         <delta pt="50" x="4" y="0"/>
-        <delta pt="51" x="4" y="1"/>
         <delta pt="52" x="4" y="2"/>
         <delta pt="53" x="10" y="2"/>
-        <delta pt="54" x="-7" y="2"/>
         <delta pt="55" x="-7" y="-1"/>
         <delta pt="56" x="10" y="-1"/>
-        <delta pt="57" x="0" y="0"/>
-        <delta pt="58" x="0" y="0"/>
-        <delta pt="59" x="0" y="0"/>
-        <delta pt="60" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
@@ -88273,17 +88605,17 @@
         <delta pt="20" x="33" y="-3"/>
         <delta pt="21" x="19" y="0"/>
         <delta pt="22" x="21" y="0"/>
-        <delta pt="23" x="1" y="0"/>
-        <delta pt="24" x="28" y="4"/>
+        <delta pt="23" x="10" y="0"/>
+        <delta pt="24" x="28" y="15"/>
         <delta pt="25" x="46" y="6"/>
-        <delta pt="26" x="62" y="3"/>
-        <delta pt="27" x="86" y="0"/>
+        <delta pt="26" x="62" y="-9"/>
+        <delta pt="27" x="95" y="0"/>
         <delta pt="28" x="89" y="0"/>
-        <delta pt="29" x="87" y="0"/>
-        <delta pt="30" x="60" y="-4"/>
+        <delta pt="29" x="78" y="0"/>
+        <delta pt="30" x="60" y="-16"/>
         <delta pt="31" x="43" y="-6"/>
-        <delta pt="32" x="27" y="-4"/>
-        <delta pt="33" x="2" y="0"/>
+        <delta pt="32" x="27" y="7"/>
+        <delta pt="33" x="-7" y="0"/>
         <delta pt="34" x="0" y="0"/>
         <delta pt="35" x="71" y="0"/>
         <delta pt="36" x="68" y="0"/>
@@ -88338,17 +88670,17 @@
         <delta pt="20" x="-2" y="1"/>
         <delta pt="21" x="-2" y="0"/>
         <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="2" y="0"/>
-        <delta pt="24" x="1" y="1"/>
+        <delta pt="23" x="-7" y="0"/>
+        <delta pt="24" x="1" y="-10"/>
         <delta pt="25" x="0" y="3"/>
-        <delta pt="26" x="-1" y="2"/>
-        <delta pt="27" x="0" y="0"/>
+        <delta pt="26" x="-1" y="14"/>
+        <delta pt="27" x="-9" y="0"/>
         <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="-1" y="0"/>
-        <delta pt="30" x="-1" y="-1"/>
+        <delta pt="29" x="8" y="0"/>
+        <delta pt="30" x="-1" y="11"/>
         <delta pt="31" x="0" y="-3"/>
-        <delta pt="32" x="0" y="-1"/>
-        <delta pt="33" x="0" y="0"/>
+        <delta pt="32" x="0" y="-12"/>
+        <delta pt="33" x="9" y="0"/>
         <delta pt="34" x="0" y="0"/>
         <delta pt="35" x="0" y="0"/>
         <delta pt="36" x="0" y="0"/>
@@ -88403,17 +88735,17 @@
         <delta pt="20" x="-1" y="1"/>
         <delta pt="21" x="-1" y="0"/>
         <delta pt="22" x="-1" y="0"/>
-        <delta pt="23" x="1" y="0"/>
-        <delta pt="24" x="-3" y="-2"/>
+        <delta pt="23" x="-8" y="0"/>
+        <delta pt="24" x="-3" y="-13"/>
         <delta pt="25" x="-1" y="-2"/>
-        <delta pt="26" x="3" y="0"/>
-        <delta pt="27" x="1" y="0"/>
+        <delta pt="26" x="3" y="12"/>
+        <delta pt="27" x="-8" y="0"/>
         <delta pt="28" x="-1" y="0"/>
-        <delta pt="29" x="0" y="0"/>
-        <delta pt="30" x="4" y="2"/>
+        <delta pt="29" x="9" y="0"/>
+        <delta pt="30" x="4" y="14"/>
         <delta pt="31" x="1" y="2"/>
-        <delta pt="32" x="-3" y="1"/>
-        <delta pt="33" x="0" y="0"/>
+        <delta pt="32" x="-3" y="-10"/>
+        <delta pt="33" x="9" y="0"/>
         <delta pt="34" x="1" y="0"/>
         <delta pt="35" x="0" y="0"/>
         <delta pt="36" x="1" y="0"/>
@@ -110789,76 +111121,101 @@
     </glyphVariations>
     <glyphVariations glyph="uni207F">
       <tuple>
-        <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="83" y="0"/>
-        <delta pt="1" x="83" y="0"/>
-        <delta pt="2" x="73" y="0"/>
-        <delta pt="3" x="19" y="0"/>
-        <delta pt="4" x="19" y="0"/>
-        <delta pt="5" x="73" y="0"/>
-        <delta pt="6" x="67" y="3"/>
-        <delta pt="7" x="75" y="0"/>
-        <delta pt="8" x="78" y="0"/>
-        <delta pt="9" x="76" y="0"/>
-        <delta pt="10" x="68" y="-1"/>
-        <delta pt="11" x="63" y="-2"/>
-        <delta pt="12" x="66" y="2"/>
-        <delta pt="13" x="73" y="2"/>
-        <delta pt="14" x="80" y="0"/>
-        <delta pt="15" x="79" y="0"/>
-        <delta pt="16" x="80" y="0"/>
-        <delta pt="17" x="72" y="-2"/>
-        <delta pt="18" x="58" y="-3"/>
-        <delta pt="19" x="19" y="0"/>
-        <delta pt="20" x="19" y="0"/>
-        <delta pt="21" x="59" y="3"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="12" y="11"/>
+        <delta pt="1" x="6" y="15"/>
+        <delta pt="2" x="2" y="15"/>
+        <delta pt="3" x="1" y="15"/>
+        <delta pt="4" x="-5" y="14"/>
+        <delta pt="5" x="-1" y="19"/>
+        <delta pt="6" x="9" y="15"/>
+        <delta pt="7" x="5" y="9"/>
+        <delta pt="8" x="3" y="0"/>
+        <delta pt="9" x="-2" y="0"/>
+        <delta pt="10" x="-2" y="0"/>
+        <delta pt="11" x="-8" y="5"/>
+        <delta pt="12" x="-8" y="9"/>
+        <delta pt="13" x="-8" y="0"/>
+        <delta pt="14" x="12" y="0"/>
+        <delta pt="15" x="12" y="7"/>
+        <delta pt="16" x="8" y="-13"/>
+        <delta pt="17" x="8" y="0"/>
+        <delta pt="18" x="-11" y="0"/>
+        <delta pt="19" x="-11" y="-9"/>
+        <delta pt="20" x="-11" y="0"/>
+        <delta pt="21" x="-12" y="0"/>
+        <delta pt="22" x="-12" y="0"/>
+        <delta pt="23" x="8" y="0"/>
+        <delta pt="24" x="8" y="0"/>
         <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
       </tuple>
       <tuple>
-        <coord axis="wght" value="1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="6" x="0" y="1"/>
-        <delta pt="7" x="1" y="0"/>
-        <delta pt="10" x="0" y="-1"/>
-        <delta pt="11" x="1" y="-1"/>
-        <delta pt="12" x="0" y="2"/>
-        <delta pt="15" x="-2" y="0"/>
-        <delta pt="16" x="0" y="0"/>
-        <delta pt="17" x="0" y="-1"/>
-        <delta pt="20" x="0" y="0"/>
+        <delta pt="0" x="69" y="3"/>
+        <delta pt="1" x="76" y="0"/>
+        <delta pt="2" x="78" y="0"/>
+        <delta pt="3" x="77" y="0"/>
+        <delta pt="4" x="70" y="-1"/>
+        <delta pt="5" x="64" y="-2"/>
+        <delta pt="6" x="66" y="2"/>
+        <delta pt="7" x="74" y="2"/>
+        <delta pt="8" x="81" y="0"/>
+        <delta pt="9" x="80" y="0"/>
+        <delta pt="10" x="81" y="0"/>
+        <delta pt="11" x="72" y="-3"/>
+        <delta pt="12" x="61" y="-3"/>
+        <delta pt="13" x="20" y="0"/>
+        <delta pt="14" x="20" y="0"/>
+        <delta pt="15" x="62" y="3"/>
+        <delta pt="16" x="80" y="6"/>
+        <delta pt="17" x="85" y="0"/>
+        <delta pt="18" x="83" y="0"/>
+        <delta pt="19" x="77" y="-7"/>
+        <delta pt="20" x="70" y="-3"/>
+        <delta pt="21" x="71" y="0"/>
+        <delta pt="22" x="20" y="0"/>
+        <delta pt="23" x="20" y="0"/>
+        <delta pt="24" x="72" y="3"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="-1"/>
-        <delta pt="7" x="-1" y="0"/>
-        <delta pt="8" x="-2" y="0"/>
-        <delta pt="9" x="-2" y="0"/>
-        <delta pt="10" x="0" y="1"/>
-        <delta pt="11" x="0" y="1"/>
-        <delta pt="12" x="1" y="0"/>
+        <delta pt="0" x="1" y="-1"/>
+        <delta pt="1" x="3" y="0"/>
+        <delta pt="2" x="2" y="0"/>
+        <delta pt="3" x="2" y="0"/>
+        <delta pt="4" x="1" y="0"/>
+        <delta pt="5" x="4" y="1"/>
+        <delta pt="6" x="4" y="0"/>
+        <delta pt="7" x="1" y="-1"/>
+        <delta pt="8" x="1" y="0"/>
+        <delta pt="9" x="1" y="0"/>
+        <delta pt="10" x="2" y="0"/>
+        <delta pt="11" x="2" y="1"/>
+        <delta pt="12" x="2" y="1"/>
         <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="1" y="0"/>
-        <delta pt="15" x="1" y="0"/>
-        <delta pt="16" x="1" y="0"/>
-        <delta pt="17" x="0" y="1"/>
-        <delta pt="18" x="1" y="1"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="0" y="0"/>
-        <delta pt="21" x="-1" y="-1"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="1" y="-1"/>
+        <delta pt="16" x="0" y="14"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="10"/>
+        <delta pt="20" x="0" y="1"/>
+        <delta pt="21" x="0" y="0"/>
         <delta pt="22" x="0" y="0"/>
         <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
+        <delta pt="24" x="0" y="-1"/>
         <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="0" y="0"/>
+        <delta pt="28" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni2080">
@@ -111333,6 +111690,39 @@
     </glyphVariations>
     <glyphVariations glyph="uni2117">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="0" y="-6"/>
+        <delta pt="3" x="-3" y="-1"/>
+        <delta pt="7" x="0" y="4"/>
+        <delta pt="8" x="0" y="4"/>
+        <delta pt="9" x="2" y="2"/>
+        <delta pt="11" x="3" y="-1"/>
+        <delta pt="15" x="0" y="-6"/>
+        <delta pt="16" x="-11" y="-4"/>
+        <delta pt="17" x="5" y="-16"/>
+        <delta pt="18" x="5" y="-1"/>
+        <delta pt="19" x="5" y="15"/>
+        <delta pt="20" x="-11" y="2"/>
+        <delta pt="22" x="11" y="2"/>
+        <delta pt="23" x="-5" y="15"/>
+        <delta pt="24" x="-5" y="-1"/>
+        <delta pt="25" x="-5" y="-16"/>
+        <delta pt="26" x="11" y="-4"/>
+        <delta pt="28" x="0" y="4"/>
+        <delta pt="29" x="-4" y="5"/>
+        <delta pt="31" x="-4" y="3"/>
+        <delta pt="32" x="0" y="4"/>
+        <delta pt="33" x="0" y="4"/>
+        <delta pt="35" x="-4" y="4"/>
+        <delta pt="37" x="4" y="4"/>
+        <delta pt="38" x="0" y="4"/>
+        <delta pt="40" x="5" y="5"/>
+        <delta pt="42" x="5" y="4"/>
+        <delta pt="44" x="0" y="6"/>
+        <delta pt="46" x="-4" y="2"/>
+        <delta pt="47" x="0" y="2"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="52" y="0"/>
         <delta pt="1" x="43" y="-2"/>
@@ -111344,16 +111734,16 @@
         <delta pt="7" x="-38" y="0"/>
         <delta pt="8" x="-39" y="0"/>
         <delta pt="9" x="-30" y="2"/>
-        <delta pt="10" x="-8" y="5"/>
-        <delta pt="11" x="8" y="6"/>
+        <delta pt="10" x="-9" y="5"/>
+        <delta pt="11" x="7" y="6"/>
         <delta pt="12" x="23" y="4"/>
         <delta pt="13" x="43" y="1"/>
         <delta pt="14" x="51" y="0"/>
         <delta pt="15" x="50" y="0"/>
         <delta pt="16" x="-37" y="0"/>
         <delta pt="17" x="-10" y="4"/>
-        <delta pt="18" x="8" y="6"/>
-        <delta pt="19" x="24" y="3"/>
+        <delta pt="18" x="7" y="6"/>
+        <delta pt="19" x="23" y="3"/>
         <delta pt="20" x="48" y="0"/>
         <delta pt="21" x="51" y="0"/>
         <delta pt="22" x="49" y="0"/>
@@ -111364,11 +111754,11 @@
         <delta pt="27" x="-38" y="0"/>
         <delta pt="28" x="29" y="0"/>
         <delta pt="29" x="21" y="-4"/>
-        <delta pt="30" x="13" y="-6"/>
-        <delta pt="31" x="5" y="-4"/>
+        <delta pt="30" x="12" y="-6"/>
+        <delta pt="31" x="5" y="-3"/>
         <delta pt="32" x="-2" y="0"/>
         <delta pt="33" x="-2" y="0"/>
-        <delta pt="34" x="-4" y="0"/>
+        <delta pt="34" x="-5" y="0"/>
         <delta pt="35" x="-19" y="0"/>
         <delta pt="36" x="-19" y="0"/>
         <delta pt="37" x="32" y="0"/>
@@ -111377,10 +111767,10 @@
         <delta pt="40" x="10" y="4"/>
         <delta pt="41" x="15" y="6"/>
         <delta pt="42" x="19" y="4"/>
-        <delta pt="43" x="27" y="0"/>
-        <delta pt="44" x="27" y="0"/>
+        <delta pt="43" x="26" y="0"/>
+        <delta pt="44" x="26" y="0"/>
         <delta pt="45" x="24" y="0"/>
-        <delta pt="46" x="4" y="0"/>
+        <delta pt="46" x="3" y="0"/>
         <delta pt="47" x="1" y="0"/>
         <delta pt="48" x="0" y="0"/>
         <delta pt="49" x="0" y="0"/>
@@ -111392,107 +111782,81 @@
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-1" y="0"/>
         <delta pt="1" x="-1" y="-1"/>
-        <delta pt="2" x="0" y="-2"/>
         <delta pt="3" x="0" y="-3"/>
-        <delta pt="4" x="0" y="-2"/>
         <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="1" y="0"/>
         <delta pt="7" x="2" y="0"/>
-        <delta pt="8" x="2" y="0"/>
-        <delta pt="9" x="1" y="1"/>
-        <delta pt="10" x="0" y="2"/>
-        <delta pt="11" x="0" y="3"/>
+        <delta pt="11" x="1" y="3"/>
         <delta pt="12" x="0" y="2"/>
-        <delta pt="13" x="0" y="1"/>
-        <delta pt="14" x="-1" y="0"/>
-        <delta pt="15" x="-1" y="0"/>
         <delta pt="16" x="0" y="0"/>
-        <delta pt="17" x="1" y="2"/>
-        <delta pt="18" x="0" y="3"/>
-        <delta pt="19" x="0" y="2"/>
-        <delta pt="20" x="1" y="0"/>
-        <delta pt="21" x="1" y="0"/>
+        <delta pt="18" x="1" y="3"/>
         <delta pt="22" x="1" y="0"/>
-        <delta pt="23" x="0" y="-2"/>
         <delta pt="24" x="0" y="-3"/>
         <delta pt="25" x="0" y="-1"/>
         <delta pt="26" x="-1" y="0"/>
-        <delta pt="27" x="-1" y="0"/>
         <delta pt="28" x="0" y="0"/>
-        <delta pt="29" x="0" y="-2"/>
-        <delta pt="30" x="-1" y="-3"/>
-        <delta pt="31" x="-1" y="-1"/>
+        <delta pt="30" x="0" y="-3"/>
+        <delta pt="31" x="-1" y="-2"/>
         <delta pt="32" x="1" y="0"/>
-        <delta pt="33" x="1" y="0"/>
-        <delta pt="34" x="0" y="0"/>
+        <delta pt="34" x="1" y="0"/>
         <delta pt="35" x="0" y="0"/>
-        <delta pt="36" x="0" y="0"/>
-        <delta pt="37" x="0" y="0"/>
-        <delta pt="38" x="0" y="0"/>
         <delta pt="39" x="-1" y="0"/>
         <delta pt="40" x="0" y="2"/>
         <delta pt="41" x="1" y="3"/>
-        <delta pt="42" x="1" y="2"/>
-        <delta pt="43" x="0" y="0"/>
-        <delta pt="44" x="0" y="0"/>
+        <delta pt="44" x="1" y="0"/>
         <delta pt="45" x="0" y="0"/>
-        <delta pt="46" x="0" y="0"/>
+        <delta pt="46" x="1" y="0"/>
         <delta pt="47" x="-1" y="0"/>
-        <delta pt="48" x="0" y="0"/>
-        <delta pt="49" x="0" y="0"/>
-        <delta pt="50" x="0" y="0"/>
-        <delta pt="51" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="1" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="1" y="2"/>
-        <delta pt="3" x="1" y="2"/>
-        <delta pt="4" x="0" y="1"/>
-        <delta pt="5" x="-1" y="1"/>
-        <delta pt="6" x="-1" y="0"/>
+        <delta pt="0" x="-1" y="0"/>
+        <delta pt="1" x="-1" y="1"/>
+        <delta pt="2" x="0" y="2"/>
+        <delta pt="3" x="0" y="2"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="1"/>
+        <delta pt="6" x="0" y="0"/>
         <delta pt="7" x="-1" y="0"/>
-        <delta pt="8" x="-1" y="0"/>
-        <delta pt="9" x="0" y="-1"/>
-        <delta pt="10" x="-1" y="-2"/>
-        <delta pt="11" x="-1" y="-2"/>
-        <delta pt="12" x="0" y="-1"/>
-        <delta pt="13" x="1" y="0"/>
-        <delta pt="14" x="2" y="0"/>
-        <delta pt="15" x="2" y="0"/>
-        <delta pt="16" x="2" y="0"/>
-        <delta pt="17" x="0" y="-1"/>
-        <delta pt="18" x="-1" y="-2"/>
-        <delta pt="19" x="-1" y="-1"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="-2"/>
+        <delta pt="11" x="0" y="-2"/>
+        <delta pt="12" x="-1" y="-1"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="1" y="0"/>
+        <delta pt="17" x="-4" y="-2"/>
+        <delta pt="18" x="0" y="-2"/>
+        <delta pt="19" x="3" y="0"/>
         <delta pt="20" x="0" y="0"/>
         <delta pt="21" x="-2" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="1" y="1"/>
-        <delta pt="24" x="1" y="2"/>
-        <delta pt="25" x="0" y="2"/>
-        <delta pt="26" x="1" y="0"/>
-        <delta pt="27" x="2" y="0"/>
-        <delta pt="28" x="1" y="0"/>
-        <delta pt="29" x="0" y="1"/>
-        <delta pt="30" x="0" y="2"/>
-        <delta pt="31" x="0" y="2"/>
-        <delta pt="32" x="-1" y="0"/>
-        <delta pt="33" x="-1" y="0"/>
-        <delta pt="34" x="0" y="0"/>
+        <delta pt="22" x="-1" y="0"/>
+        <delta pt="23" x="4" y="2"/>
+        <delta pt="24" x="0" y="2"/>
+        <delta pt="25" x="-3" y="1"/>
+        <delta pt="26" x="0" y="0"/>
+        <delta pt="27" x="1" y="0"/>
+        <delta pt="28" x="2" y="0"/>
+        <delta pt="29" x="1" y="2"/>
+        <delta pt="30" x="2" y="2"/>
+        <delta pt="31" x="0" y="0"/>
+        <delta pt="32" x="0" y="0"/>
+        <delta pt="33" x="0" y="0"/>
+        <delta pt="34" x="1" y="0"/>
         <delta pt="35" x="0" y="0"/>
         <delta pt="36" x="0" y="0"/>
-        <delta pt="37" x="0" y="0"/>
-        <delta pt="38" x="1" y="0"/>
+        <delta pt="37" x="1" y="0"/>
+        <delta pt="38" x="2" y="0"/>
         <delta pt="39" x="0" y="0"/>
-        <delta pt="40" x="0" y="-1"/>
+        <delta pt="40" x="1" y="-2"/>
         <delta pt="41" x="0" y="-2"/>
-        <delta pt="42" x="0" y="-1"/>
-        <delta pt="43" x="-1" y="0"/>
-        <delta pt="44" x="-1" y="0"/>
-        <delta pt="45" x="0" y="0"/>
-        <delta pt="46" x="0" y="0"/>
+        <delta pt="42" x="1" y="-1"/>
+        <delta pt="43" x="1" y="0"/>
+        <delta pt="44" x="1" y="0"/>
+        <delta pt="45" x="1" y="0"/>
+        <delta pt="46" x="1" y="0"/>
         <delta pt="47" x="1" y="0"/>
         <delta pt="48" x="0" y="0"/>
         <delta pt="49" x="0" y="0"/>
@@ -111876,12 +112240,26 @@
       </tuple>
       <tuple>
         <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="-6" y="0"/>
         <delta pt="1" x="12" y="0"/>
+        <delta pt="2" x="12" y="-20"/>
         <delta pt="3" x="18" y="-20"/>
+        <delta pt="4" x="18" y="10"/>
         <delta pt="5" x="12" y="10"/>
+        <delta pt="6" x="12" y="-10"/>
         <delta pt="7" x="18" y="-10"/>
+        <delta pt="8" x="18" y="20"/>
         <delta pt="9" x="12" y="20"/>
+        <delta pt="10" x="12" y="0"/>
         <delta pt="11" x="-6" y="0"/>
+        <delta pt="12" x="-11" y="0"/>
+        <delta pt="13" x="-11" y="0"/>
+        <delta pt="14" x="11" y="0"/>
+        <delta pt="15" x="11" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
       </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
@@ -111945,9 +112323,9 @@
         <delta pt="9" x="4" y="0"/>
         <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
-        <delta pt="12" x="-1" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="1" y="0"/>
+        <delta pt="12" x="1" y="0"/>
+        <delta pt="13" x="2" y="0"/>
+        <delta pt="14" x="0" y="0"/>
         <delta pt="15" x="0" y="0"/>
         <delta pt="16" x="0" y="0"/>
         <delta pt="17" x="0" y="0"/>
@@ -112231,6 +112609,36 @@
     </glyphVariations>
     <glyphVariations glyph="uni2285">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="-11" y="0"/>
+        <delta pt="20" x="-11" y="0"/>
+        <delta pt="21" x="11" y="0"/>
+        <delta pt="22" x="11" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-19" y="0"/>
         <delta pt="1" x="-6" y="0"/>
@@ -112294,16 +112702,33 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
         <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="1" y="0"/>
         <delta pt="3" x="1" y="0"/>
         <delta pt="4" x="-1" y="-2"/>
+        <delta pt="5" x="0" y="-2"/>
         <delta pt="6" x="0" y="-1"/>
+        <delta pt="7" x="-1" y="0"/>
         <delta pt="8" x="-1" y="0"/>
+        <delta pt="9" x="0" y="0"/>
         <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="1" y="0"/>
+        <delta pt="12" x="1" y="0"/>
         <delta pt="13" x="1" y="1"/>
+        <delta pt="14" x="0" y="1"/>
+        <delta pt="15" x="0" y="2"/>
         <delta pt="16" x="0" y="2"/>
-        <delta pt="19" x="-1" y="0"/>
-        <delta pt="21" x="1" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="1" y="0"/>
+        <delta pt="20" x="2" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+        <delta pt="26" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni2318">
@@ -112660,6 +113085,35 @@
     </glyphVariations>
     <glyphVariations glyph="uni232B">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="-10" y="-10"/>
+        <delta pt="1" x="-10" y="10"/>
+        <delta pt="2" x="6" y="10"/>
+        <delta pt="3" x="12" y="0"/>
+        <delta pt="4" x="6" y="-10"/>
+        <delta pt="5" x="10" y="10"/>
+        <delta pt="6" x="-7" y="10"/>
+        <delta pt="7" x="-13" y="0"/>
+        <delta pt="8" x="-6" y="-10"/>
+        <delta pt="9" x="10" y="-10"/>
+        <delta pt="10" x="0" y="-14"/>
+        <delta pt="11" x="10" y="-4"/>
+        <delta pt="12" x="-4" y="10"/>
+        <delta pt="13" x="-14" y="0"/>
+        <delta pt="14" x="-4" y="-10"/>
+        <delta pt="15" x="10" y="4"/>
+        <delta pt="16" x="0" y="14"/>
+        <delta pt="17" x="-10" y="4"/>
+        <delta pt="18" x="4" y="-10"/>
+        <delta pt="19" x="14" y="0"/>
+        <delta pt="20" x="4" y="10"/>
+        <delta pt="21" x="-10" y="-4"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+        <delta pt="25" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
         <delta pt="1" x="-32" y="0"/>
@@ -112721,27 +113175,27 @@
       <tuple>
         <coord axis="wght" value="-1.0"/>
         <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="-1" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-        <delta pt="9" x="0" y="0"/>
-        <delta pt="10" x="1" y="0"/>
+        <delta pt="0" x="-2" y="0"/>
+        <delta pt="1" x="3" y="0"/>
+        <delta pt="2" x="2" y="0"/>
+        <delta pt="3" x="1" y="0"/>
+        <delta pt="4" x="-1" y="0"/>
+        <delta pt="5" x="3" y="0"/>
+        <delta pt="6" x="2" y="0"/>
+        <delta pt="7" x="1" y="0"/>
+        <delta pt="8" x="-1" y="0"/>
+        <delta pt="9" x="-1" y="0"/>
+        <delta pt="10" x="-1" y="0"/>
         <delta pt="11" x="1" y="0"/>
-        <delta pt="12" x="0" y="0"/>
-        <delta pt="13" x="0" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="0" y="0"/>
-        <delta pt="17" x="0" y="0"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="0" y="0"/>
+        <delta pt="12" x="3" y="0"/>
+        <delta pt="13" x="1" y="0"/>
+        <delta pt="14" x="-2" y="0"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="3" y="0"/>
+        <delta pt="17" x="1" y="0"/>
+        <delta pt="18" x="-2" y="0"/>
+        <delta pt="19" x="1" y="0"/>
+        <delta pt="20" x="3" y="0"/>
         <delta pt="21" x="1" y="0"/>
         <delta pt="22" x="0" y="0"/>
         <delta pt="23" x="0" y="0"/>
@@ -112750,6 +113204,34 @@
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23E9">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="0"/>
+        <delta pt="1" x="-4" y="0"/>
+        <delta pt="2" x="-10" y="-4"/>
+        <delta pt="3" x="-10" y="4"/>
+        <delta pt="4" x="-4" y="0"/>
+        <delta pt="5" x="10" y="0"/>
+        <delta pt="6" x="13" y="0"/>
+        <delta pt="7" x="-10" y="31"/>
+        <delta pt="8" x="-10" y="-31"/>
+        <delta pt="9" x="10" y="-4"/>
+        <delta pt="10" x="-6" y="0"/>
+        <delta pt="11" x="10" y="4"/>
+        <delta pt="12" x="10" y="0"/>
+        <delta pt="13" x="-4" y="0"/>
+        <delta pt="14" x="-10" y="-4"/>
+        <delta pt="15" x="-10" y="4"/>
+        <delta pt="16" x="-4" y="0"/>
+        <delta pt="17" x="10" y="0"/>
+        <delta pt="18" x="16" y="0"/>
+        <delta pt="19" x="-10" y="32"/>
+        <delta pt="20" x="-10" y="-32"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
@@ -112778,6 +113260,35 @@
         <delta pt="23" x="0" y="0"/>
         <delta pt="24" x="0" y="0"/>
       </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="6" y="0"/>
+        <delta pt="2" x="-1" y="2"/>
+        <delta pt="3" x="1" y="2"/>
+        <delta pt="4" x="-9" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="-6" y="-4"/>
+        <delta pt="7" x="6" y="-4"/>
+        <delta pt="8" x="-6" y="6"/>
+        <delta pt="9" x="-1" y="0"/>
+        <delta pt="10" x="2" y="2"/>
+        <delta pt="11" x="1" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="6" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="-9" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="-6" y="-4"/>
+        <delta pt="19" x="5" y="-5"/>
+        <delta pt="20" x="-6" y="6"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
+      </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23EA">
       <tuple>
@@ -112791,36 +113302,110 @@
     </glyphVariations>
     <glyphVariations glyph="uni23ED">
       <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="0"/>
+        <delta pt="1" x="-4" y="0"/>
+        <delta pt="2" x="-10" y="-4"/>
+        <delta pt="3" x="-10" y="4"/>
+        <delta pt="4" x="-4" y="0"/>
+        <delta pt="5" x="10" y="0"/>
+        <delta pt="6" x="14" y="0"/>
+        <delta pt="7" x="-10" y="32"/>
+        <delta pt="8" x="-10" y="-32"/>
+        <delta pt="9" x="10" y="-3"/>
+        <delta pt="10" x="7" y="0"/>
+        <delta pt="11" x="10" y="3"/>
+        <delta pt="12" x="10" y="0"/>
+        <delta pt="13" x="-4" y="0"/>
+        <delta pt="14" x="-10" y="-4"/>
+        <delta pt="15" x="-10" y="4"/>
+        <delta pt="16" x="-4" y="0"/>
+        <delta pt="17" x="10" y="0"/>
+        <delta pt="18" x="14" y="0"/>
+        <delta pt="19" x="-10" y="32"/>
+        <delta pt="20" x="-10" y="-32"/>
+        <delta pt="21" x="10" y="-4"/>
+        <delta pt="22" x="-6" y="0"/>
+        <delta pt="23" x="10" y="4"/>
+        <delta pt="24" x="10" y="0"/>
+        <delta pt="25" x="-10" y="0"/>
+        <delta pt="26" x="-10" y="0"/>
+        <delta pt="27" x="10" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
-        <delta pt="1" x="52" y="0"/>
-        <delta pt="2" x="26" y="-2"/>
-        <delta pt="3" x="1" y="-2"/>
-        <delta pt="4" x="-22" y="0"/>
+        <delta pt="1" x="58" y="0"/>
+        <delta pt="2" x="26" y="0"/>
+        <delta pt="3" x="1" y="0"/>
+        <delta pt="4" x="-30" y="0"/>
         <delta pt="5" x="-31" y="0"/>
-        <delta pt="6" x="20" y="4"/>
-        <delta pt="7" x="42" y="4"/>
-        <delta pt="8" x="-15" y="-6"/>
-        <delta pt="9" x="58" y="0"/>
-        <delta pt="10" x="52" y="0"/>
-        <delta pt="11" x="26" y="-2"/>
-        <delta pt="12" x="1" y="-2"/>
-        <delta pt="13" x="-22" y="0"/>
-        <delta pt="14" x="-31" y="0"/>
-        <delta pt="15" x="20" y="4"/>
-        <delta pt="16" x="42" y="4"/>
-        <delta pt="17" x="-15" y="-6"/>
-        <delta pt="18" x="7" y="0"/>
-        <delta pt="19" x="12" y="-2"/>
-        <delta pt="20" x="20" y="0"/>
-        <delta pt="21" x="58" y="0"/>
-        <delta pt="22" x="59" y="0"/>
-        <delta pt="23" x="-31" y="0"/>
-        <delta pt="24" x="-31" y="0"/>
+        <delta pt="6" x="14" y="0"/>
+        <delta pt="7" x="42" y="0"/>
+        <delta pt="8" x="-15" y="0"/>
+        <delta pt="9" x="6" y="0"/>
+        <delta pt="10" x="14" y="0"/>
+        <delta pt="11" x="21" y="0"/>
+        <delta pt="12" x="58" y="0"/>
+        <delta pt="13" x="58" y="0"/>
+        <delta pt="14" x="26" y="0"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="-30" y="0"/>
+        <delta pt="17" x="-31" y="0"/>
+        <delta pt="18" x="14" y="0"/>
+        <delta pt="19" x="42" y="0"/>
+        <delta pt="20" x="-15" y="0"/>
+        <delta pt="21" x="6" y="0"/>
+        <delta pt="22" x="14" y="0"/>
+        <delta pt="23" x="21" y="0"/>
+        <delta pt="24" x="58" y="0"/>
+        <delta pt="25" x="58" y="0"/>
+        <delta pt="26" x="-31" y="0"/>
+        <delta pt="27" x="-31" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="-1" y="0"/>
+        <delta pt="3" x="1" y="0"/>
+        <delta pt="4" x="-1" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="0" y="0"/>
+        <delta pt="7" x="6" y="0"/>
+        <delta pt="8" x="-6" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="-1" y="0"/>
+        <delta pt="15" x="1" y="0"/>
+        <delta pt="16" x="-1" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="6" y="0"/>
+        <delta pt="20" x="-6" y="0"/>
+        <delta pt="21" x="0" y="0"/>
+        <delta pt="22" x="0" y="0"/>
+        <delta pt="23" x="0" y="0"/>
+        <delta pt="24" x="0" y="0"/>
         <delta pt="25" x="0" y="0"/>
         <delta pt="26" x="0" y="0"/>
         <delta pt="27" x="0" y="0"/>
         <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23EE">
@@ -112834,6 +113419,24 @@
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23F5">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="0"/>
+        <delta pt="1" x="-4" y="0"/>
+        <delta pt="2" x="-10" y="-4"/>
+        <delta pt="3" x="-10" y="4"/>
+        <delta pt="4" x="-4" y="0"/>
+        <delta pt="5" x="10" y="0"/>
+        <delta pt="6" x="2" y="-20"/>
+        <delta pt="7" x="15" y="0"/>
+        <delta pt="8" x="2" y="20"/>
+        <delta pt="9" x="-10" y="20"/>
+        <delta pt="10" x="-10" y="-20"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
@@ -112852,8 +113455,36 @@
         <delta pt="13" x="0" y="0"/>
         <delta pt="14" x="0" y="0"/>
       </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="8" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="1" y="0"/>
+        <delta pt="4" x="-9" y="0"/>
+        <delta pt="5" x="0" y="0"/>
+        <delta pt="6" x="-10" y="0"/>
+        <delta pt="7" x="-5" y="-5"/>
+        <delta pt="8" x="2" y="0"/>
+        <delta pt="9" x="4" y="0"/>
+        <delta pt="10" x="-4" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+      </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23F8">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="0"/>
+        <delta pt="2" x="-10" y="0"/>
+        <delta pt="5" x="10" y="20"/>
+        <delta pt="7" x="-10" y="-20"/>
+        <delta pt="9" x="10" y="20"/>
+        <delta pt="11" x="-10" y="-20"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
@@ -112873,8 +113504,35 @@
         <delta pt="14" x="0" y="0"/>
         <delta pt="15" x="0" y="0"/>
       </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="-4" y="0"/>
+        <delta pt="5" x="4" y="0"/>
+        <delta pt="6" x="4" y="0"/>
+        <delta pt="7" x="-4" y="0"/>
+        <delta pt="8" x="-4" y="0"/>
+        <delta pt="9" x="4" y="0"/>
+        <delta pt="10" x="4" y="0"/>
+        <delta pt="11" x="-4" y="0"/>
+        <delta pt="12" x="0" y="0"/>
+        <delta pt="13" x="0" y="0"/>
+        <delta pt="14" x="0" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+      </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23F9">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="10" y="0"/>
+        <delta pt="2" x="-10" y="0"/>
+        <delta pt="5" x="10" y="20"/>
+        <delta pt="7" x="-10" y="-20"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="58" y="0"/>
@@ -112890,8 +113548,59 @@
         <delta pt="10" x="0" y="0"/>
         <delta pt="11" x="0" y="0"/>
       </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="-4" y="0"/>
+        <delta pt="5" x="4" y="0"/>
+        <delta pt="6" x="4" y="0"/>
+        <delta pt="7" x="-4" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="0"/>
+        <delta pt="10" x="0" y="0"/>
+        <delta pt="11" x="0" y="0"/>
+      </tuple>
     </glyphVariations>
     <glyphVariations glyph="uni23FA">
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <delta pt="0" x="2" y="0"/>
+        <delta pt="1" x="7" y="-2"/>
+        <delta pt="2" x="10" y="-4"/>
+        <delta pt="3" x="10" y="0"/>
+        <delta pt="4" x="10" y="4"/>
+        <delta pt="5" x="6" y="3"/>
+        <delta pt="6" x="2" y="0"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="-1" y="0"/>
+        <delta pt="9" x="-6" y="3"/>
+        <delta pt="10" x="-10" y="4"/>
+        <delta pt="11" x="-10" y="0"/>
+        <delta pt="12" x="-10" y="-4"/>
+        <delta pt="13" x="-6" y="-3"/>
+        <delta pt="14" x="-2" y="0"/>
+        <delta pt="15" x="0" y="0"/>
+        <delta pt="16" x="6" y="-20"/>
+        <delta pt="17" x="10" y="-11"/>
+        <delta pt="18" x="10" y="0"/>
+        <delta pt="19" x="10" y="11"/>
+        <delta pt="20" x="5" y="20"/>
+        <delta pt="21" x="0" y="20"/>
+        <delta pt="22" x="-6" y="20"/>
+        <delta pt="23" x="-10" y="12"/>
+        <delta pt="24" x="-10" y="0"/>
+        <delta pt="25" x="-10" y="-12"/>
+        <delta pt="26" x="-6" y="-20"/>
+        <delta pt="27" x="0" y="-20"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
       <tuple>
         <coord axis="ital" value="1.0"/>
         <delta pt="0" x="-31" y="0"/>
@@ -112922,6 +113631,42 @@
         <delta pt="25" x="-3" y="-4"/>
         <delta pt="26" x="-24" y="0"/>
         <delta pt="27" x="-26" y="0"/>
+        <delta pt="28" x="0" y="0"/>
+        <delta pt="29" x="0" y="0"/>
+        <delta pt="30" x="0" y="0"/>
+        <delta pt="31" x="0" y="0"/>
+      </tuple>
+      <tuple>
+        <coord axis="wght" value="-1.0"/>
+        <coord axis="ital" value="1.0"/>
+        <delta pt="0" x="-1" y="0"/>
+        <delta pt="1" x="-1" y="-1"/>
+        <delta pt="2" x="-2" y="-1"/>
+        <delta pt="3" x="-1" y="-2"/>
+        <delta pt="4" x="0" y="-2"/>
+        <delta pt="5" x="2" y="-1"/>
+        <delta pt="6" x="1" y="0"/>
+        <delta pt="7" x="2" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="1" y="0"/>
+        <delta pt="10" x="2" y="1"/>
+        <delta pt="11" x="1" y="2"/>
+        <delta pt="12" x="0" y="2"/>
+        <delta pt="13" x="-1" y="1"/>
+        <delta pt="14" x="-1" y="0"/>
+        <delta pt="15" x="-2" y="0"/>
+        <delta pt="16" x="-4" y="0"/>
+        <delta pt="17" x="-2" y="-1"/>
+        <delta pt="18" x="-1" y="-2"/>
+        <delta pt="19" x="1" y="-1"/>
+        <delta pt="20" x="4" y="0"/>
+        <delta pt="21" x="2" y="0"/>
+        <delta pt="22" x="3" y="0"/>
+        <delta pt="23" x="3" y="1"/>
+        <delta pt="24" x="1" y="2"/>
+        <delta pt="25" x="-1" y="2"/>
+        <delta pt="26" x="-3" y="0"/>
+        <delta pt="27" x="-3" y="0"/>
         <delta pt="28" x="0" y="0"/>
         <delta pt="29" x="0" y="0"/>
         <delta pt="30" x="0" y="0"/>
@@ -117473,10 +118218,10 @@
         <delta pt="38" x="-7" y="-2"/>
         <delta pt="39" x="0" y="0"/>
         <delta pt="40" x="13" y="0"/>
-        <delta pt="41" x="0" y="0"/>
-        <delta pt="42" x="0" y="0"/>
-        <delta pt="43" x="0" y="0"/>
-        <delta pt="44" x="0" y="0"/>
+        <delta pt="41" x="-11" y="0"/>
+        <delta pt="42" x="-11" y="0"/>
+        <delta pt="43" x="11" y="0"/>
+        <delta pt="44" x="11" y="0"/>
         <delta pt="45" x="0" y="0"/>
         <delta pt="46" x="0" y="0"/>
         <delta pt="47" x="0" y="0"/>
@@ -117631,9 +118376,9 @@
         <delta pt="38" x="0" y="1"/>
         <delta pt="39" x="-3" y="0"/>
         <delta pt="40" x="-13" y="0"/>
-        <delta pt="41" x="-1" y="0"/>
-        <delta pt="42" x="0" y="0"/>
-        <delta pt="43" x="1" y="0"/>
+        <delta pt="41" x="1" y="0"/>
+        <delta pt="42" x="2" y="0"/>
+        <delta pt="43" x="0" y="0"/>
         <delta pt="44" x="0" y="0"/>
         <delta pt="45" x="0" y="0"/>
         <delta pt="46" x="0" y="0"/>
