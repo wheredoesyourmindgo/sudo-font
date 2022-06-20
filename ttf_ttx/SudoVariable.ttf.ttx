@@ -1522,12 +1522,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.066"/>
-    <checkSumAdjustment value="0x3d957d8d"/>
+    <checkSumAdjustment value="0xbc993bd1"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Thu Jun 16 14:38:22 2022"/>
-    <modified value="Mon Jun 20 12:06:46 2022"/>
+    <modified value="Mon Jun 20 12:33:53 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -56547,8 +56547,9 @@
   </GSUB>
 
   <STAT>
-    <Version value="0x00010001"/>
+    <Version value="0x00010000"/>
     <DesignAxisRecordSize value="8"/>
+    <!-- DesignAxisCount=2 -->
     <DesignAxisRecord>
       <Axis index="0">
         <AxisTag value="wght"/>
@@ -56560,65 +56561,22 @@
         <AxisNameID value="257"/>  <!-- Italic -->
         <AxisOrdering value="1"/>
       </Axis>
-      <Axis index="2">
-        <AxisTag value="YTDE"/>
-        <AxisNameID value="258"/>  <!-- Descender -->
-        <AxisOrdering value="2"/>
-      </Axis>
     </DesignAxisRecord>
+    <!-- AxisValueCount=2 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
-        <ValueNameID value="259"/>  <!-- Thin -->
-        <Value value="200.0"/>
-      </AxisValue>
-      <AxisValue index="1" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="261"/>  <!-- Light -->
-        <Value value="300.0"/>
-      </AxisValue>
-      <AxisValue index="2" Format="3">
-        <AxisIndex value="0"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
         <Value value="400.0"/>
-        <LinkedValue value="700.0"/>
       </AxisValue>
-      <AxisValue index="3" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="263"/>  <!-- Medium -->
-        <Value value="600.0"/>
-      </AxisValue>
-      <AxisValue index="4" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="0"/>
-        <ValueNameID value="265"/>  <!-- Bold -->
-        <Value value="700.0"/>
-      </AxisValue>
-      <AxisValue index="5" Format="3">
+      <AxisValue index="1" Format="1">
         <AxisIndex value="1"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
         <Value value="0.0"/>
-        <LinkedValue value="1.0"/>
-      </AxisValue>
-      <AxisValue index="6" Format="1">
-        <AxisIndex value="1"/>
-        <Flags value="0"/>
-        <ValueNameID value="257"/>  <!-- Italic -->
-        <Value value="1.0"/>
-      </AxisValue>
-      <AxisValue index="7" Format="1">
-        <AxisIndex value="2"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="2"/>  <!-- Regular -->
-        <Value value="-188.0"/>
       </AxisValue>
     </AxisValueArray>
-    <ElidedFallbackNameID value="2"/>  <!-- Regular -->
   </STAT>
 
   <avar>
@@ -56630,8 +56588,14 @@
       <mapping from="1.0" to="1.0"/>
     </segment>
     <segment axis="ital">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
     </segment>
     <segment axis="YTDE">
+      <mapping from="-1.0" to="-1.0"/>
+      <mapping from="0.0" to="0.0"/>
+      <mapping from="1.0" to="1.0"/>
     </segment>
   </avar>
 
@@ -56684,28 +56648,6 @@
       <delta cvt="17" value="-20"/>
       <delta cvt="18" value="-18"/>
       <delta cvt="19" value="0"/>
-    </tuple>
-    <tuple>
-      <coord axis="YTDE" value="1.0"/>
-      <delta cvt="0" value="0"/>
-      <delta cvt="1" value="0"/>
-      <delta cvt="2" value="0"/>
-      <delta cvt="3" value="0"/>
-      <delta cvt="4" value="0"/>
-      <delta cvt="5" value="0"/>
-      <delta cvt="6" value="0"/>
-      <delta cvt="7" value="0"/>
-      <delta cvt="8" value="0"/>
-      <delta cvt="9" value="0"/>
-      <delta cvt="10" value="128"/>
-      <delta cvt="11" value="128"/>
-      <delta cvt="12" value="0"/>
-      <delta cvt="13" value="0"/>
-      <delta cvt="14" value="0"/>
-      <delta cvt="15" value="0"/>
-      <delta cvt="16" value="0"/>
-      <delta cvt="17" value="0"/>
-      <delta cvt="18" value="0"/>
     </tuple>
   </cvar>
 
