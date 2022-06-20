@@ -56715,7 +56715,7 @@
     <Axis>
       <AxisTag>wght</AxisTag>
       <Flags>0x0</Flags>
-      <MinValue>72.0</MinValue>
+      <MinValue>200.0</MinValue>
       <DefaultValue>400.0</DefaultValue>
       <MaxValue>700.0</MaxValue>
       <AxisNameID>256</AxisNameID>
