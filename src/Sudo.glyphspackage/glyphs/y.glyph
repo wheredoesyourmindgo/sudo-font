@@ -54,7 +54,7 @@ type = TTShift;
 },
 {
 horizontal = 1;
-options = 8;
+options = 4;
 origin = (0,7);
 other1 = (0,7,1,3);
 target = (0,1);
@@ -62,7 +62,6 @@ type = TTInterpolate;
 },
 {
 horizontal = 1;
-options = 8;
 origin = (0,7);
 other1 = (0,7,1,3);
 target = (0,1);
@@ -583,7 +582,7 @@ pos = (224,448);
 associatedMasterId = "95FB0C11-C828-4064-8966-34220AA4D426";
 attr = {
 coordinates = (
-72,
+400,
 0,
 -64
 );
@@ -676,8 +675,8 @@ pos = (269,448);
 associatedMasterId = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
 attr = {
 coordinates = (
-72,
-100,
+400,
+1,
 -64
 );
 };

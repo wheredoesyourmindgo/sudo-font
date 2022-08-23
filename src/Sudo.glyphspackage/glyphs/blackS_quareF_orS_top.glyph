@@ -2,6 +2,32 @@
 glyphname = blackSquareForStop;
 layers = (
 {
+hints = (
+{
+horizontal = 1;
+origin = (0,2);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,2);
+target = (1,0);
+type = TTStem;
+},
+{
+horizontal = 1;
+origin = (0,3);
+type = TTSnap;
+},
+{
+horizontal = 1;
+options = 4;
+origin = (0,3);
+target = (1,3);
+type = TTStem;
+}
+);
 layerId = "95FB0C11-C828-4064-8966-34220AA4D426";
 shapes = (
 {
@@ -51,25 +77,24 @@ nodes = (
 width = 448;
 },
 {
-color = 1;
 layerId = "7DDCEF54-C770-4FAD-B154-EE8058BAA7E5";
 shapes = (
 {
 closed = 1;
 nodes = (
-(396,64,l),
-(396,512,l),
-(52,512,l),
-(52,64,l)
+(386,64,l),
+(386,512,l),
+(62,512,l),
+(62,64,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(120,448,l),
-(328,448,l),
-(328,128,l),
-(120,128,l)
+(110,468,l),
+(338,468,l),
+(338,108,l),
+(110,108,l)
 );
 }
 );
@@ -81,19 +106,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(365,64,l),
-(454,512,l),
-(110,512,l),
-(21,64,l)
+(355,64,l),
+(444,512,l),
+(120,512,l),
+(31,64,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(166,448,l),
-(374,448,l),
-(310,128,l),
-(102,128,l)
+(160,468,l),
+(388,468,l),
+(316,108,l),
+(88,108,l)
 );
 }
 );

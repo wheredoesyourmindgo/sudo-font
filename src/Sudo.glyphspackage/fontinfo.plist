@@ -1,5 +1,5 @@
 {
-.appVersion = "3130";
+.appVersion = "3134";
 .formatVersion = 3;
 axes = (
 {
@@ -18,7 +18,7 @@ tag = YTDE;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotaccent Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute AEmacron B Bdotaccent Bdotbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D Eth Dcaron Dcedilla Dcroat Ddotaccent Ddotbelow E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Ereversed Etilde Schwa F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Hturned I IJ Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kacute Kcaron Kcommaaccent Kdotbelow L Lacute Lbar Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Ngrave Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotaccent Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde OE P Pacute Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdotaccent Rdotbelow Rdotbelowmacron S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent Tdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V Vdotbelow Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zstroke Iacute_J.loclNLD A.hex B.hex C.hex D.hex E.hex F.hex Eng.loclNSM A.short E.short I.short O.short Ohorn.short U.short Uhorn.short Y.short A.ss20 Aacute.ss20 Abreve.ss20 Abreveacute.ss20 Abrevedotbelow.ss20 Abrevegrave.ss20 Abrevehookabove.ss20 Abrevetilde.ss20 Acaron.ss20 Acircumflex.ss20 Acircumflexacute.ss20 Acircumflexdotbelow.ss20 Acircumflexgrave.ss20 Acircumflexhookabove.ss20 Acircumflextilde.ss20 Adieresis.ss20 Adotaccent.ss20 Adotbelow.ss20 Agrave.ss20 Ahookabove.ss20 Amacron.ss20 Aogonek.ss20 Aring.ss20 Aringacute.ss20 Atilde.ss20 C.ss20 Cacute.ss20 Ccaron.ss20 Ccedilla.ss20 Ccedillaacute.ss20 Ccircumflex.ss20 Cdotaccent.ss20 D.ss20 Eth.ss20 Dcaron.ss20 Dcedilla.ss20 Dcroat.ss20 Ddotaccent.ss20 Ddotbelow.ss20 E.ss20 Eacute.ss20 Ebreve.ss20 Ecaron.ss20 Ecedilla.ss20 Ecedillabreve.ss20 Ecircumflex.ss20 Ecircumflexacute.ss20 Ecircumflexdotbelow.ss20 Ecircumflexgrave.ss20 Ecircumflexhookabove.ss20 Ecircumflextilde.ss20 Edieresis.ss20 Edotaccent.ss20 Edotbelow.ss20 Egrave.ss20 Ehookabove.ss20 Emacron.ss20 Eogonek.ss20 Ereversed.ss20 Etilde.ss20 F.ss20 Fdotaccent.ss20 G.ss20 H.ss20 Hbar.ss20 Hcaron.ss20 Hcedilla.ss20 Hcircumflex.ss20 Hdieresis.ss20 Hdotaccent.ss20 Hdotbelow.ss20 Hturned.ss20 I.ss20 Iacute.ss20 Ibreve.ss20 Icaron.ss20 Icircumflex.ss20 Idieresis.ss20 Idotaccent.ss20 Idotbelow.ss20 Igrave.ss20 Ihookabove.ss20 Imacron.ss20 Iogonek.ss20 Itilde.ss20 J.ss20 K.ss20 L.ss20 Lacute.ss20 Lbar.ss20 Lcaron.ss20 Lcommaaccent.ss20 Ldot.ss20 Ldotbelow.ss20 Ldotbelowmacron.ss20 Lslash.ss20 M.ss20 Macute.ss20 Mdotaccent.ss20 Mdotbelow.ss20 N.ss20 Nacute.ss20 Ncaron.ss20 Ncommaaccent.ss20 Ndotaccent.ss20 Ndotbelow.ss20 Ngrave.ss20 Ntilde.ss20 Eng.ss20 O.ss20 Oacute.ss20 Obreve.ss20 Ocaron.ss20 Ocircumflex.ss20 Ocircumflexacute.ss20 Ocircumflexdotbelow.ss20 Ocircumflexgrave.ss20 Ocircumflexhookabove.ss20 Ocircumflextilde.ss20 Odieresis.ss20 Odotaccent.ss20 Odotbelow.ss20 Ograve.ss20 Ohookabove.ss20 Ohorn.ss20 Ohornacute.ss20 Ohorndotbelow.ss20 Ohorngrave.ss20 Ohornhookabove.ss20 Ohorntilde.ss20 Ohungarumlaut.ss20 Omacron.ss20 Oogonek.ss20 Oogonekmacron.ss20 Oslash.ss20 Oslashacute.ss20 Otilde.ss20 OE.ss20 Q.ss20 S.ss20 Germandbls.ss20 T.ss20 U.ss20 Uacute.ss20 Ubreve.ss20 Ucaron.ss20 Ucircumflex.ss20 Udieresis.ss20 Udotbelow.ss20 Ugrave.ss20 Uhookabove.ss20 Uhorn.ss20 Uhornacute.ss20 Uhorndotbelow.ss20 Uhorngrave.ss20 Uhornhookabove.ss20 Uhorntilde.ss20 Uhungarumlaut.ss20 Umacron.ss20 Uogonek.ss20 Uring.ss20 Utilde.ss20 V.ss20 W.ss20 X.ss20 Y.ss20 Z.ss20 Eng.loclNSM.ss20 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Ge-cy.ss20 Geupturn-cy.ss20 Zhe-cy.ss20 Ze-cy.ss20 Ii-cy.ss20 El-cy.ss20 Pe-cy.ss20 Ef-cy.ss20 Sha-cy.ss20 Shcha-cy.ss20 Yeru-cy.ss20 Lje-cy.ss20 Nje-cy.ss20 Tshe-cy.ss20 Yu-cy.ss20 Dje-cy.ss20 Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis UpsilonhookSymbol Psi.ss20";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotaccent Adotbelow Agrave Ahookabove Amacron Aogonek Aring Aringacute Atilde AE AEacute AEmacron B Bdotaccent Bdotbelow Bstroke C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D Eth Dcaron Dcedilla Dcroat Ddotaccent Ddotbelow E Eacute Ebreve Ecaron Ecedilla Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Ereversed Etilde Schwa F Fdotaccent G Gacute Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hcaron Hcedilla Hcircumflex Hdieresis Hdotaccent Hdotbelow Hturned I Iacute Ibreve Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kacute Kcaron Kcommaaccent Kdotbelow L Lacute Lbar Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Lslash M Macute Mdotaccent Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Ngrave Ntilde Eng O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotaccent Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oogonek Oogonekmacron Oopen Oslash Oslashacute Otilde OE P Pacute Pdotaccent Thorn Q R Racute Rcaron Rcommaaccent Rdotaccent Rdotbelow Rdotbelowmacron S Sacute Scaron Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Sobliquestroke T Tbar Tcaron Tcedilla Tcommaaccent Tdotaccent Tdotbelow U Uacute Ubreve Ucaron Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V Vdotbelow Vtilde Vturned W Wacute Wcircumflex Wdieresis Wdotaccent Wdotbelow Wgrave X Xdieresis Xdotaccent Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zcircumflex Zdotaccent Zdotbelow Zstroke Iacute_J.loclNLD A.hex B.hex C.hex D.hex E.hex F.hex Eng.loclNSM A.short E.short I.short O.short Ohorn.short U.short Uhorn.short Y.short A.ss20 Aacute.ss20 Abreve.ss20 Abreveacute.ss20 Abrevedotbelow.ss20 Abrevegrave.ss20 Abrevehookabove.ss20 Abrevetilde.ss20 Acaron.ss20 Acircumflex.ss20 Acircumflexacute.ss20 Acircumflexdotbelow.ss20 Acircumflexgrave.ss20 Acircumflexhookabove.ss20 Acircumflextilde.ss20 Adieresis.ss20 Adotaccent.ss20 Adotbelow.ss20 Agrave.ss20 Ahookabove.ss20 Amacron.ss20 Aogonek.ss20 Aring.ss20 Aringacute.ss20 Atilde.ss20 C.ss20 Cacute.ss20 Ccaron.ss20 Ccedilla.ss20 Ccedillaacute.ss20 Ccircumflex.ss20 Cdotaccent.ss20 D.ss20 Eth.ss20 Dcaron.ss20 Dcedilla.ss20 Dcroat.ss20 Ddotaccent.ss20 Ddotbelow.ss20 E.ss20 Eacute.ss20 Ebreve.ss20 Ecaron.ss20 Ecedilla.ss20 Ecedillabreve.ss20 Ecircumflex.ss20 Ecircumflexacute.ss20 Ecircumflexdotbelow.ss20 Ecircumflexgrave.ss20 Ecircumflexhookabove.ss20 Ecircumflextilde.ss20 Edieresis.ss20 Edotaccent.ss20 Edotbelow.ss20 Egrave.ss20 Ehookabove.ss20 Emacron.ss20 Eogonek.ss20 Ereversed.ss20 Etilde.ss20 F.ss20 Fdotaccent.ss20 G.ss20 H.ss20 Hbar.ss20 Hcaron.ss20 Hcedilla.ss20 Hcircumflex.ss20 Hdieresis.ss20 Hdotaccent.ss20 Hdotbelow.ss20 Hturned.ss20 I.ss20 Iacute.ss20 Ibreve.ss20 Icaron.ss20 Icircumflex.ss20 Idieresis.ss20 Idotaccent.ss20 Idotbelow.ss20 Igrave.ss20 Ihookabove.ss20 Imacron.ss20 Iogonek.ss20 Itilde.ss20 J.ss20 K.ss20 L.ss20 Lacute.ss20 Lbar.ss20 Lcaron.ss20 Lcommaaccent.ss20 Ldot.ss20 Ldotbelow.ss20 Ldotbelowmacron.ss20 Lslash.ss20 M.ss20 Macute.ss20 Mdotaccent.ss20 Mdotbelow.ss20 N.ss20 Nacute.ss20 Ncaron.ss20 Ncommaaccent.ss20 Ndotaccent.ss20 Ndotbelow.ss20 Ngrave.ss20 Ntilde.ss20 Eng.ss20 O.ss20 Oacute.ss20 Obreve.ss20 Ocaron.ss20 Ocircumflex.ss20 Ocircumflexacute.ss20 Ocircumflexdotbelow.ss20 Ocircumflexgrave.ss20 Ocircumflexhookabove.ss20 Ocircumflextilde.ss20 Odieresis.ss20 Odotaccent.ss20 Odotbelow.ss20 Ograve.ss20 Ohookabove.ss20 Ohorn.ss20 Ohornacute.ss20 Ohorndotbelow.ss20 Ohorngrave.ss20 Ohornhookabove.ss20 Ohorntilde.ss20 Ohungarumlaut.ss20 Omacron.ss20 Oogonek.ss20 Oogonekmacron.ss20 Oslash.ss20 Oslashacute.ss20 Otilde.ss20 OE.ss20 Q.ss20 S.ss20 Germandbls.ss20 T.ss20 U.ss20 Uacute.ss20 Ubreve.ss20 Ucaron.ss20 Ucircumflex.ss20 Udieresis.ss20 Udotbelow.ss20 Ugrave.ss20 Uhookabove.ss20 Uhorn.ss20 Uhornacute.ss20 Uhorndotbelow.ss20 Uhorngrave.ss20 Uhornhookabove.ss20 Uhorntilde.ss20 Uhungarumlaut.ss20 Umacron.ss20 Uogonek.ss20 Uring.ss20 Utilde.ss20 V.ss20 W.ss20 X.ss20 Y.ss20 Z.ss20 Eng.loclNSM.ss20 A-cy Be-cy Ve-cy Ge-cy Gje-cy Geupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Yeru-cy Hardsign-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Yu-cy Ya-cy Dje-cy Ge-cy.ss20 Geupturn-cy.ss20 Zhe-cy.ss20 Ze-cy.ss20 Ii-cy.ss20 El-cy.ss20 Pe-cy.ss20 Ef-cy.ss20 Sha-cy.ss20 Shcha-cy.ss20 Yeru-cy.ss20 Lje-cy.ss20 Nje-cy.ss20 Tshe-cy.ss20 Yu-cy.ss20 Dje-cy.ss20 Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis UpsilonhookSymbol Psi.ss20";
 name = Uppercase;
 },
 {
@@ -131,7 +131,7 @@ name = "Virtual Master";
 value = (
 {
 Axis = Weight;
-Location = 72;
+Location = 400;
 },
 {
 Axis = Italic;
@@ -180,9 +180,22 @@ value = (
 11,
 4
 );
+},
+{
+name = TTFOvershootSuppressionBelowPPM;
+value = 50;
+},
+{
+disabled = 1;
+name = TTFMinimumDistance;
+value = 0.25;
+},
+{
+name = TTFZoneRoundingThreshold;
+value = 0.052;
 }
 );
-date = "2022-06-05 22:40:52 +0000";
+date = "2022-08-23 07:48:02 +0000";
 familyName = Sudo;
 featurePrefixes = (
 {
@@ -222,7 +235,7 @@ tag = aalt;
 },
 {
 code = "#ifdef VARIABLE
-condition 50 < ital < 100;
+condition 0.5 < ital < 1.0;
 sub f by f.italic;
 sub germandbls by germandbls.italic;
 sub longs by longs.italic;
@@ -797,6 +810,28 @@ sub ccedillaacute by ccedillaacute.ss20;
 sub ccircumflex by ccircumflex.ss20;
 sub cdotaccent by cdotaccent.ss20;
 sub dcaron by dcaron.ss20;
+sub e by e.ss20;
+sub eacute by eacute.ss20;
+sub ebreve by ebreve.ss20;
+sub ecaron by ecaron.ss20;
+sub ecedilla by ecedilla.ss20;
+sub ecedillabreve by ecedillabreve.ss20;
+sub ecircumflex by ecircumflex.ss20;
+sub ecircumflexacute by ecircumflexacute.ss20;
+sub ecircumflexdotbelow by ecircumflexdotbelow.ss20;
+sub ecircumflexgrave by ecircumflexgrave.ss20;
+sub ecircumflexhookabove by ecircumflexhookabove.ss20;
+sub ecircumflextilde by ecircumflextilde.ss20;
+sub edieresis by edieresis.ss20;
+sub edotaccent by edotaccent.ss20;
+sub edotbelow by edotbelow.ss20;
+sub egrave by egrave.ss20;
+sub ehookabove by ehookabove.ss20;
+sub emacron by emacron.ss20;
+sub eogonek by eogonek.ss20;
+sub etilde by etilde.ss20;
+sub eturned by eturned.ss20;
+sub schwa by schwa.ss20;
 sub f by f.ss20;
 sub i by i.ss20;
 sub idotless by idotless.ss20;
@@ -934,9 +969,9 @@ tag = ss20;
 fontMaster = (
 {
 axesValues = (
-72,
+400,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -1094,9 +1129,9 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
-112,
+700,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -1178,10 +1213,6 @@ size = -14;
 );
 },
 {
-name = "Link Metrics With First Master";
-value = 1;
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -1197,6 +1228,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1247,9 +1282,9 @@ stemValues = (
 },
 {
 axesValues = (
-48,
+200,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -1326,13 +1361,9 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
-},
-{
-name = "Link Metrics With First Master";
-value = 1;
 },
 {
 name = "Axis Location";
@@ -1350,6 +1381,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1400,9 +1435,9 @@ GSOffsetVertical = -10;
 },
 {
 axesValues = (
-72,
-100,
--192
+400,
+1,
+-188
 );
 customParameters = (
 {
@@ -1479,7 +1514,7 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
 },
@@ -1524,7 +1559,7 @@ pos = (224,906);
 },
 {
 angle = 78.69;
-pos = (41,171);
+pos = (268,448);
 }
 );
 id = "BA106321-29DE-4FD0-898D-B7B08A4D4215";
@@ -1566,9 +1601,9 @@ GSOffsetVertical = 32;
 },
 {
 axesValues = (
-112,
-100,
--192
+700,
+1,
+-188
 );
 customParameters = (
 {
@@ -1645,13 +1680,9 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
-},
-{
-name = "Link Metrics With First Master";
-value = 1;
 },
 {
 name = "Axis Location";
@@ -1669,6 +1700,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -1721,9 +1756,9 @@ stemValues = (
 },
 {
 axesValues = (
-48,
-100,
--192
+200,
+1,
+-188
 );
 customParameters = (
 {
@@ -1800,13 +1835,9 @@ options = "{
 alignToZone = capHeight;
 }";
 pos = 320;
-size = -20;
+size = -14;
 }
 );
-},
-{
-name = "Link Metrics With First Master";
-value = 1;
 },
 {
 name = "Axis Location";
@@ -1824,6 +1855,10 @@ Axis = Descender;
 Location = -188;
 }
 );
+},
+{
+name = "Link Metrics With First Master";
+value = 1;
 },
 {
 name = "Alignment Zones";
@@ -2080,7 +2115,8 @@ value = SudoUIVariable;
 );
 exports = 0;
 instanceInterpolations = {
-"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 1.256;
+"92967D72-867E-4A8B-929F-F44D834DD4C9" = -0.256;
 };
 name = Regular;
 properties = (
@@ -2098,9 +2134,9 @@ type = variable;
 },
 {
 axesValues = (
-72,
+400,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -2618,9 +2654,9 @@ type = variable;
 },
 {
 axesValues = (
-48,
+200,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -2996,7 +3032,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -3004,6 +3062,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3033,9 +3092,9 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
+316.667,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -3411,7 +3470,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -3449,9 +3530,9 @@ weightClass = 300;
 },
 {
 axesValues = (
-72,
+400,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -3827,7 +3908,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -3839,6 +3942,7 @@ name = "Elidable STAT Axis Value Name";
 value = wght;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3858,6 +3962,10 @@ Location = -188;
 {
 name = "Elidable STAT Axis Value Name";
 value = ital;
+},
+{
+name = "Elidable STAT Axis Value Name";
+value = YTDE;
 }
 );
 instanceInterpolations = {
@@ -3867,9 +3975,9 @@ name = Regular;
 },
 {
 axesValues = (
-92,
+550,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -4245,7 +4353,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -4283,9 +4413,9 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
+700,
 0,
--192
+-188
 );
 customParameters = (
 {
@@ -4661,7 +4791,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -4669,6 +4821,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4699,9 +4852,9 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
-100,
--192
+200,
+1,
+-188
 );
 customParameters = (
 {
@@ -5085,7 +5238,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -5102,6 +5277,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5129,9 +5305,9 @@ weightClass = 100;
 },
 {
 axesValues = (
-62,
-100,
--192
+316.667,
+1,
+-188
 );
 customParameters = (
 {
@@ -5515,7 +5691,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -5560,9 +5758,9 @@ weightClass = 300;
 },
 {
 axesValues = (
-72,
-100,
--192
+400,
+1,
+-188
 );
 customParameters = (
 {
@@ -5956,7 +6154,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -5964,6 +6184,7 @@ name = "Keep Overlapping Components";
 value = 1;
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5994,9 +6215,9 @@ name = Italic;
 },
 {
 axesValues = (
-92,
-100,
--192
+550,
+1,
+-188
 );
 customParameters = (
 {
@@ -6380,7 +6601,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -6425,9 +6668,9 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
-100,
--192
+700,
+1,
+-188
 );
 customParameters = (
 {
@@ -6811,7 +7054,29 @@ Ehookabove.ss20,
 Emacron.ss20,
 Eogonek.ss20,
 Ereversed.ss20,
-Etilde.ss20
+Etilde.ss20,
+e.ss20,
+eacute.ss20,
+ebreve.ss20,
+ecaron.ss20,
+ecedilla.ss20,
+ecedillabreve.ss20,
+ecircumflex.ss20,
+ecircumflexacute.ss20,
+ecircumflexdotbelow.ss20,
+ecircumflexgrave.ss20,
+ecircumflexhookabove.ss20,
+ecircumflextilde.ss20,
+edieresis.ss20,
+edotaccent.ss20,
+edotbelow.ss20,
+egrave.ss20,
+ehookabove.ss20,
+emacron.ss20,
+eogonek.ss20,
+etilde.ss20,
+eturned.ss20,
+schwa.ss20
 );
 },
 {
@@ -6828,6 +7093,7 @@ value = (
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -6856,7 +7122,7 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
+200,
 0,
 -188
 );
@@ -7022,6 +7288,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -7640,7 +7928,7 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
+316.667,
 0,
 -188
 );
@@ -7843,6 +8131,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -8404,8 +8714,8 @@ double_accents
 }
 );
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.58333;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.41667;
+"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.41667;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.58333;
 };
 name = Light;
 properties = (
@@ -8424,7 +8734,7 @@ weightClass = 300;
 },
 {
 axesValues = (
-68,
+400,
 0,
 -188
 );
@@ -8627,6 +8937,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -9188,8 +9520,7 @@ double_accents
 }
 );
 instanceInterpolations = {
-"7DDCEF54-C770-4FAD-B154-EE8058BAA7E5" = 0.16667;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.83333;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 1;
 };
 name = Regular;
 properties = (
@@ -9207,7 +9538,7 @@ visible = 0;
 },
 {
 axesValues = (
-90,
+550,
 0,
 -188
 );
@@ -9410,6 +9741,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -9971,8 +10324,8 @@ double_accents
 }
 );
 instanceInterpolations = {
-"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.45;
-"95FB0C11-C828-4064-8966-34220AA4D426" = 0.55;
+"92967D72-867E-4A8B-929F-F44D834DD4C9" = 0.5;
+"95FB0C11-C828-4064-8966-34220AA4D426" = 0.5;
 };
 name = Medium;
 properties = (
@@ -9991,7 +10344,7 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
+700,
 0,
 -188
 );
@@ -10195,6 +10548,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -10777,8 +11152,8 @@ weightClass = 700;
 },
 {
 axesValues = (
-48,
-100,
+200,
+1,
 -188
 );
 customParameters = (
@@ -10978,6 +11353,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20.italic",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -11559,8 +11956,8 @@ weightClass = 100;
 },
 {
 axesValues = (
-58,
-100,
+316.667,
+1,
 -188
 );
 customParameters = (
@@ -11760,289 +12157,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
-"f=f.ss20.italic",
-"i=i.ss20",
-"idotless=idotless.ss20",
-"iacute=iacute.ss20",
-"ibreve=ibreve.ss20",
-"icaron=icaron.ss20",
-"icircumflex=icircumflex.ss20",
-"idieresis=idieresis.ss20",
-"idotaccent=idotaccent.ss20",
-"idotbelow=idotbelow.ss20",
-"igrave=igrave.ss20",
-"ihookabove=ihookabove.ss20",
-"imacron=imacron.ss20",
-"iogonek=iogonek.ss20",
-"istroke=istroke.ss20",
-"itilde=itilde.ss20",
-"j=j.ss20",
-"jdotless=jdotless.ss20",
-"jacute=jacute.ss20",
-"jcaron=jcaron.ss20",
-"jcircumflex=jcircumflex.ss20",
-"l=l.ss20",
-"lacute=lacute.ss20",
-"lbar=lbar.ss20",
-"lcaron=lcaron.ss20",
-"lcommaaccent=lcommaaccent.ss20",
-"ldot=ldot.ss20",
-"ldotbelow=ldotbelow.ss20",
-"ldotbelowmacron=ldotbelowmacron.ss20",
-"longsdotaccent=longsdotaccent.ss20.italic",
-"lslash=lslash.ss20",
-"m=m.ss20",
-"macute=macute.ss20",
-"mdotaccent=mdotaccent.ss20",
-"mdotbelow=mdotbelow.ss20",
-"oe=oe.ss20",
-"r=r.ss20",
-"racute=racute.ss20",
-"rcaron=rcaron.ss20",
-"rcommaaccent=rcommaaccent.ss20",
-"rdotaccent=rdotaccent.ss20",
-"rdotbelow=rdotbelow.ss20",
-"rdotbelowmacron=rdotbelowmacron.ss20",
-"s=s.ss20",
-"sacute=sacute.ss20",
-"scaron=scaron.ss20",
-"scedilla=scedilla.ss20",
-"scircumflex=scircumflex.ss20",
-"scommaaccent=scommaaccent.ss20",
-"sdotaccent=sdotaccent.ss20",
-"sdotbelow=sdotbelow.ss20",
-"sdotbelowdotaccent=sdotbelowdotaccent.ss20",
-"longs=longs.ss20.italic",
-"t=t.ss20",
-"tbar=tbar.ss20",
-"tcaron=tcaron.ss20",
-"tcedilla=tcedilla.ss20",
-"tcommaaccent=tcommaaccent.ss20",
-"tdieresis=tdieresis.ss20",
-"tdotaccent=tdotaccent.ss20",
-"tdotbelow=tdotbelow.ss20",
-"w=w.ss20",
-"wacute=wacute.ss20",
-"wcircumflex=wcircumflex.ss20",
-"wdieresis=wdieresis.ss20",
-"wdotaccent=wdotaccent.ss20",
-"wdotbelow=wdotbelow.ss20",
-"wgrave=wgrave.ss20",
-"wring=wring.ss20",
-"z=z.ss20",
-"Ge-cy=Ge-cy.ss20",
-"Geupturn-cy=Geupturn-cy.ss20",
-"Zhe-cy=Zhe-cy.ss20",
-"Ze-cy=Ze-cy.ss20",
-"Ii-cy=Ii-cy.ss20",
-"El-cy=El-cy.ss20",
-"Pe-cy=Pe-cy.ss20",
-"Ef-cy=Ef-cy.ss20",
-"Sha-cy=Sha-cy.ss20",
-"Shcha-cy=Shcha-cy.ss20",
-"Yeru-cy=Yeru-cy.ss20",
-"Lje-cy=Lje-cy.ss20",
-"Nje-cy=Nje-cy.ss20",
-"Tshe-cy=Tshe-cy.ss20",
-"Yu-cy=Yu-cy.ss20",
-"Dje-cy=Dje-cy.ss20",
-"ge-cy=ge-cy.ss20",
-"zhe-cy=zhe-cy.ss20",
-"em-cy=em-cy.ss20",
-"ef-cy=ef-cy.ss20",
-"sha-cy=sha-cy.ss20",
-"shcha-cy=shcha-cy.ss20",
-"yeru-cy=yeru-cy.ss20",
-"lje-cy=lje-cy.ss20",
-"nje-cy=nje-cy.ss20",
-"yu-cy=yu-cy.ss20",
-"Psi=Psi.ss20",
-"space=space.ss20",
-"nbspace=nbspace.ss20",
-"period=period.ss20",
-"comma=comma.ss20",
-"colon=colon.ss20",
-"semicolon=semicolon.ss20",
-"slash=slash.ss20",
-"backslash=backslash.ss20",
-"hyphen=hyphen.ss20",
-"quotesinglbase=quotesinglbase.ss20",
-"quotedblbase=quotedblbase.ss20",
-"quotedblleft=quotedblleft.ss20",
-"quotedblright=quotedblright.ss20",
-"quoteleft=quoteleft.ss20",
-"quoteright=quoteright.ss20",
-"quotereversed=quotereversed.ss20",
-"quotedblrightreversed=quotedblrightreversed.ss20",
-"guillemetleft=guillemetleft.ss20",
-"guillemetright=guillemetright.ss20",
-"guilsinglleft=guilsinglleft.ss20",
-"guilsinglright=guilsinglright.ss20",
-"quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic",
-"ratio=ratio.ss20",
-"apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20",
-"sobliquestroke=sobliquestroke.ss20",
-"A=A.ss20",
-"C=C.ss20",
-"Cacute=Cacute.ss20",
-"Ccaron=Ccaron.ss20",
-"Ccedilla=Ccedilla.ss20",
-"Ccedillaacute=Ccedillaacute.ss20",
-"Ccircumflex=Ccircumflex.ss20",
-"Cdotaccent=Cdotaccent.ss20",
-"D=D.ss20",
-"Eth=Eth.ss20",
-"Dcaron=Dcaron.ss20",
-"Dcedilla=Dcedilla.ss20",
-"Dcroat=Dcroat.ss20",
-"Ddotaccent=Ddotaccent.ss20",
-"Ddotbelow=Ddotbelow.ss20",
-"F=F.ss20",
-"Fdotaccent=Fdotaccent.ss20",
-"G=G.ss20",
-"H=H.ss20",
-"Hbar=Hbar.ss20",
-"Hcaron=Hcaron.ss20",
-"Hcedilla=Hcedilla.ss20",
-"Hcircumflex=Hcircumflex.ss20",
-"Hdieresis=Hdieresis.ss20",
-"Hdotaccent=Hdotaccent.ss20",
-"Hdotbelow=Hdotbelow.ss20",
-"Hturned=Hturned.ss20",
-"I=I.ss20",
-"Iacute=Iacute.ss20",
-"Ibreve=Ibreve.ss20",
-"Icaron=Icaron.ss20",
-"Icircumflex=Icircumflex.ss20",
-"Idieresis=Idieresis.ss20",
-"Idotaccent=Idotaccent.ss20",
-"Idotbelow=Idotbelow.ss20",
-"Igrave=Igrave.ss20",
-"Ihookabove=Ihookabove.ss20",
-"Imacron=Imacron.ss20",
-"Iogonek=Iogonek.ss20",
-"Itilde=Itilde.ss20",
-"J=J.ss20",
-"K=K.ss20",
-"L=L.ss20",
-"Lacute=Lacute.ss20",
-"Lbar=Lbar.ss20",
-"Lcaron=Lcaron.ss20",
-"Lcommaaccent=Lcommaaccent.ss20",
-"Ldot=Ldot.ss20",
-"Ldotbelow=Ldotbelow.ss20",
-"Ldotbelowmacron=Ldotbelowmacron.ss20",
-"Lslash=Lslash.ss20",
-"M=M.ss20",
-"Macute=Macute.ss20",
-"Mdotaccent=Mdotaccent.ss20",
-"Mdotbelow=Mdotbelow.ss20",
-"N=N.ss20",
-"Nacute=Nacute.ss20",
-"Ncaron=Ncaron.ss20",
-"Ncommaaccent=Ncommaaccent.ss20",
-"Ndotaccent=Ndotaccent.ss20",
-"Ndotbelow=Ndotbelow.ss20",
-"Ngrave=Ngrave.ss20",
-"Ntilde=Ntilde.ss20",
-"Eng=Eng.ss20",
-"O=O.ss20",
-"Oacute=Oacute.ss20",
-"Obreve=Obreve.ss20",
-"Ocaron=Ocaron.ss20",
-"Ocircumflex=Ocircumflex.ss20",
-"Ocircumflexacute=Ocircumflexacute.ss20",
-"Ocircumflexdotbelow=Ocircumflexdotbelow.ss20",
-"Ocircumflexgrave=Ocircumflexgrave.ss20",
-"Ocircumflexhookabove=Ocircumflexhookabove.ss20",
-"Ocircumflextilde=Ocircumflextilde.ss20",
-"Odieresis=Odieresis.ss20",
-"Odotaccent=Odotaccent.ss20",
-"Odotbelow=Odotbelow.ss20",
-"Ograve=Ograve.ss20",
-"Ohookabove=Ohookabove.ss20",
-"Ohorn=Ohorn.ss20",
-"Ohornacute=Ohornacute.ss20",
-"Ohorndotbelow=Ohorndotbelow.ss20",
-"Ohorngrave=Ohorngrave.ss20",
-"Ohornhookabove=Ohornhookabove.ss20",
-"Ohorntilde=Ohorntilde.ss20",
-"Ohungarumlaut=Ohungarumlaut.ss20",
-"Omacron=Omacron.ss20",
-"Oogonek=Oogonek.ss20",
-"Oogonekmacron=Oogonekmacron.ss20",
-"Oslash=Oslash.ss20",
-"Oslashacute=Oslashacute.ss20",
-"Otilde=Otilde.ss20",
-"OE=OE.ss20",
-"Q=Q.ss20",
-"S=S.ss20",
-"Germandbls=Germandbls.ss20",
-"T=T.ss20",
-"U=U.ss20",
-"Uacute=Uacute.ss20",
-"Ubreve=Ubreve.ss20",
-"Ucaron=Ucaron.ss20",
-"Ucircumflex=Ucircumflex.ss20",
-"Udieresis=Udieresis.ss20",
-"Udotbelow=Udotbelow.ss20",
-"Ugrave=Ugrave.ss20",
-"Uhookabove=Uhookabove.ss20",
-"Uhorn=Uhorn.ss20",
-"Uhornacute=Uhornacute.ss20",
-"Uhorndotbelow=Uhorndotbelow.ss20",
-"Uhorngrave=Uhorngrave.ss20",
-"Uhornhookabove=Uhornhookabove.ss20",
-"Uhorntilde=Uhorntilde.ss20",
-"Uhungarumlaut=Uhungarumlaut.ss20",
-"Umacron=Umacron.ss20",
-"Uogonek=Uogonek.ss20",
-"Uring=Uring.ss20",
-"Utilde=Utilde.ss20",
-"V=V.ss20",
-"W=W.ss20",
-"X=X.ss20",
-"Y=Y.ss20",
-"Z=Z.ss20",
-"a=a.ss20",
-"aacute=aacute.ss20",
-"abreve=abreve.ss20",
-"abreveacute=abreveacute.ss20",
-"abrevedotbelow=abrevedotbelow.ss20",
-"abrevegrave=abrevegrave.ss20",
-"abrevehookabove=abrevehookabove.ss20",
-"abrevetilde=abrevetilde.ss20",
-"acaron=acaron.ss20",
-"acircumflex=acircumflex.ss20",
-"acircumflexacute=acircumflexacute.ss20",
-"acircumflexdotbelow=acircumflexdotbelow.ss20",
-"acircumflexgrave=acircumflexgrave.ss20",
-"acircumflexhookabove=acircumflexhookabove.ss20",
-"acircumflextilde=acircumflextilde.ss20",
-"adieresis=adieresis.ss20",
-"adotaccent=adotaccent.ss20",
-"adotbelow=adotbelow.ss20",
-"agrave=agrave.ss20",
-"ahookabove=ahookabove.ss20",
-"amacron=amacron.ss20",
-"aogonek=aogonek.ss20",
-"aring=aring.ss20",
-"aringacute=aringacute.ss20",
-"atilde=atilde.ss20",
-"ae=ae.ss20",
-"aeacute=aeacute.ss20",
-"aemacron=aemacron.ss20",
-"c=c.ss20",
-"cacute=cacute.ss20",
-"ccaron=ccaron.ss20",
-"ccedilla=ccedilla.ss20",
-"ccedillaacute=ccedillaacute.ss20",
-"ccircumflex=ccircumflex.ss20",
-"cdotaccent=cdotaccent.ss20",
-"dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20.italic",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -12603,8 +12739,8 @@ double_accents
 }
 );
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.41667;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.58333;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.58333;
+"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.41667;
 };
 isItalic = 1;
 linkStyle = Light;
@@ -12625,8 +12761,8 @@ weightClass = 300;
 },
 {
 axesValues = (
-68,
-100,
+400,
+1,
 -188
 );
 customParameters = (
@@ -12826,289 +12962,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
-"f=f.ss20.italic",
-"i=i.ss20",
-"idotless=idotless.ss20",
-"iacute=iacute.ss20",
-"ibreve=ibreve.ss20",
-"icaron=icaron.ss20",
-"icircumflex=icircumflex.ss20",
-"idieresis=idieresis.ss20",
-"idotaccent=idotaccent.ss20",
-"idotbelow=idotbelow.ss20",
-"igrave=igrave.ss20",
-"ihookabove=ihookabove.ss20",
-"imacron=imacron.ss20",
-"iogonek=iogonek.ss20",
-"istroke=istroke.ss20",
-"itilde=itilde.ss20",
-"j=j.ss20",
-"jdotless=jdotless.ss20",
-"jacute=jacute.ss20",
-"jcaron=jcaron.ss20",
-"jcircumflex=jcircumflex.ss20",
-"l=l.ss20",
-"lacute=lacute.ss20",
-"lbar=lbar.ss20",
-"lcaron=lcaron.ss20",
-"lcommaaccent=lcommaaccent.ss20",
-"ldot=ldot.ss20",
-"ldotbelow=ldotbelow.ss20",
-"ldotbelowmacron=ldotbelowmacron.ss20",
-"longsdotaccent=longsdotaccent.ss20.italic",
-"lslash=lslash.ss20",
-"m=m.ss20",
-"macute=macute.ss20",
-"mdotaccent=mdotaccent.ss20",
-"mdotbelow=mdotbelow.ss20",
-"oe=oe.ss20",
-"r=r.ss20",
-"racute=racute.ss20",
-"rcaron=rcaron.ss20",
-"rcommaaccent=rcommaaccent.ss20",
-"rdotaccent=rdotaccent.ss20",
-"rdotbelow=rdotbelow.ss20",
-"rdotbelowmacron=rdotbelowmacron.ss20",
-"s=s.ss20",
-"sacute=sacute.ss20",
-"scaron=scaron.ss20",
-"scedilla=scedilla.ss20",
-"scircumflex=scircumflex.ss20",
-"scommaaccent=scommaaccent.ss20",
-"sdotaccent=sdotaccent.ss20",
-"sdotbelow=sdotbelow.ss20",
-"sdotbelowdotaccent=sdotbelowdotaccent.ss20",
-"longs=longs.ss20.italic",
-"t=t.ss20",
-"tbar=tbar.ss20",
-"tcaron=tcaron.ss20",
-"tcedilla=tcedilla.ss20",
-"tcommaaccent=tcommaaccent.ss20",
-"tdieresis=tdieresis.ss20",
-"tdotaccent=tdotaccent.ss20",
-"tdotbelow=tdotbelow.ss20",
-"w=w.ss20",
-"wacute=wacute.ss20",
-"wcircumflex=wcircumflex.ss20",
-"wdieresis=wdieresis.ss20",
-"wdotaccent=wdotaccent.ss20",
-"wdotbelow=wdotbelow.ss20",
-"wgrave=wgrave.ss20",
-"wring=wring.ss20",
-"z=z.ss20",
-"Ge-cy=Ge-cy.ss20",
-"Geupturn-cy=Geupturn-cy.ss20",
-"Zhe-cy=Zhe-cy.ss20",
-"Ze-cy=Ze-cy.ss20",
-"Ii-cy=Ii-cy.ss20",
-"El-cy=El-cy.ss20",
-"Pe-cy=Pe-cy.ss20",
-"Ef-cy=Ef-cy.ss20",
-"Sha-cy=Sha-cy.ss20",
-"Shcha-cy=Shcha-cy.ss20",
-"Yeru-cy=Yeru-cy.ss20",
-"Lje-cy=Lje-cy.ss20",
-"Nje-cy=Nje-cy.ss20",
-"Tshe-cy=Tshe-cy.ss20",
-"Yu-cy=Yu-cy.ss20",
-"Dje-cy=Dje-cy.ss20",
-"ge-cy=ge-cy.ss20",
-"zhe-cy=zhe-cy.ss20",
-"em-cy=em-cy.ss20",
-"ef-cy=ef-cy.ss20",
-"sha-cy=sha-cy.ss20",
-"shcha-cy=shcha-cy.ss20",
-"yeru-cy=yeru-cy.ss20",
-"lje-cy=lje-cy.ss20",
-"nje-cy=nje-cy.ss20",
-"yu-cy=yu-cy.ss20",
-"Psi=Psi.ss20",
-"space=space.ss20",
-"nbspace=nbspace.ss20",
-"period=period.ss20",
-"comma=comma.ss20",
-"colon=colon.ss20",
-"semicolon=semicolon.ss20",
-"slash=slash.ss20",
-"backslash=backslash.ss20",
-"hyphen=hyphen.ss20",
-"quotesinglbase=quotesinglbase.ss20",
-"quotedblbase=quotedblbase.ss20",
-"quotedblleft=quotedblleft.ss20",
-"quotedblright=quotedblright.ss20",
-"quoteleft=quoteleft.ss20",
-"quoteright=quoteright.ss20",
-"quotereversed=quotereversed.ss20",
-"quotedblrightreversed=quotedblrightreversed.ss20",
-"guillemetleft=guillemetleft.ss20",
-"guillemetright=guillemetright.ss20",
-"guilsinglleft=guilsinglleft.ss20",
-"guilsinglright=guilsinglright.ss20",
-"quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic",
-"ratio=ratio.ss20",
-"apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20",
-"sobliquestroke=sobliquestroke.ss20",
-"A=A.ss20",
-"C=C.ss20",
-"Cacute=Cacute.ss20",
-"Ccaron=Ccaron.ss20",
-"Ccedilla=Ccedilla.ss20",
-"Ccedillaacute=Ccedillaacute.ss20",
-"Ccircumflex=Ccircumflex.ss20",
-"Cdotaccent=Cdotaccent.ss20",
-"D=D.ss20",
-"Eth=Eth.ss20",
-"Dcaron=Dcaron.ss20",
-"Dcedilla=Dcedilla.ss20",
-"Dcroat=Dcroat.ss20",
-"Ddotaccent=Ddotaccent.ss20",
-"Ddotbelow=Ddotbelow.ss20",
-"F=F.ss20",
-"Fdotaccent=Fdotaccent.ss20",
-"G=G.ss20",
-"H=H.ss20",
-"Hbar=Hbar.ss20",
-"Hcaron=Hcaron.ss20",
-"Hcedilla=Hcedilla.ss20",
-"Hcircumflex=Hcircumflex.ss20",
-"Hdieresis=Hdieresis.ss20",
-"Hdotaccent=Hdotaccent.ss20",
-"Hdotbelow=Hdotbelow.ss20",
-"Hturned=Hturned.ss20",
-"I=I.ss20",
-"Iacute=Iacute.ss20",
-"Ibreve=Ibreve.ss20",
-"Icaron=Icaron.ss20",
-"Icircumflex=Icircumflex.ss20",
-"Idieresis=Idieresis.ss20",
-"Idotaccent=Idotaccent.ss20",
-"Idotbelow=Idotbelow.ss20",
-"Igrave=Igrave.ss20",
-"Ihookabove=Ihookabove.ss20",
-"Imacron=Imacron.ss20",
-"Iogonek=Iogonek.ss20",
-"Itilde=Itilde.ss20",
-"J=J.ss20",
-"K=K.ss20",
-"L=L.ss20",
-"Lacute=Lacute.ss20",
-"Lbar=Lbar.ss20",
-"Lcaron=Lcaron.ss20",
-"Lcommaaccent=Lcommaaccent.ss20",
-"Ldot=Ldot.ss20",
-"Ldotbelow=Ldotbelow.ss20",
-"Ldotbelowmacron=Ldotbelowmacron.ss20",
-"Lslash=Lslash.ss20",
-"M=M.ss20",
-"Macute=Macute.ss20",
-"Mdotaccent=Mdotaccent.ss20",
-"Mdotbelow=Mdotbelow.ss20",
-"N=N.ss20",
-"Nacute=Nacute.ss20",
-"Ncaron=Ncaron.ss20",
-"Ncommaaccent=Ncommaaccent.ss20",
-"Ndotaccent=Ndotaccent.ss20",
-"Ndotbelow=Ndotbelow.ss20",
-"Ngrave=Ngrave.ss20",
-"Ntilde=Ntilde.ss20",
-"Eng=Eng.ss20",
-"O=O.ss20",
-"Oacute=Oacute.ss20",
-"Obreve=Obreve.ss20",
-"Ocaron=Ocaron.ss20",
-"Ocircumflex=Ocircumflex.ss20",
-"Ocircumflexacute=Ocircumflexacute.ss20",
-"Ocircumflexdotbelow=Ocircumflexdotbelow.ss20",
-"Ocircumflexgrave=Ocircumflexgrave.ss20",
-"Ocircumflexhookabove=Ocircumflexhookabove.ss20",
-"Ocircumflextilde=Ocircumflextilde.ss20",
-"Odieresis=Odieresis.ss20",
-"Odotaccent=Odotaccent.ss20",
-"Odotbelow=Odotbelow.ss20",
-"Ograve=Ograve.ss20",
-"Ohookabove=Ohookabove.ss20",
-"Ohorn=Ohorn.ss20",
-"Ohornacute=Ohornacute.ss20",
-"Ohorndotbelow=Ohorndotbelow.ss20",
-"Ohorngrave=Ohorngrave.ss20",
-"Ohornhookabove=Ohornhookabove.ss20",
-"Ohorntilde=Ohorntilde.ss20",
-"Ohungarumlaut=Ohungarumlaut.ss20",
-"Omacron=Omacron.ss20",
-"Oogonek=Oogonek.ss20",
-"Oogonekmacron=Oogonekmacron.ss20",
-"Oslash=Oslash.ss20",
-"Oslashacute=Oslashacute.ss20",
-"Otilde=Otilde.ss20",
-"OE=OE.ss20",
-"Q=Q.ss20",
-"S=S.ss20",
-"Germandbls=Germandbls.ss20",
-"T=T.ss20",
-"U=U.ss20",
-"Uacute=Uacute.ss20",
-"Ubreve=Ubreve.ss20",
-"Ucaron=Ucaron.ss20",
-"Ucircumflex=Ucircumflex.ss20",
-"Udieresis=Udieresis.ss20",
-"Udotbelow=Udotbelow.ss20",
-"Ugrave=Ugrave.ss20",
-"Uhookabove=Uhookabove.ss20",
-"Uhorn=Uhorn.ss20",
-"Uhornacute=Uhornacute.ss20",
-"Uhorndotbelow=Uhorndotbelow.ss20",
-"Uhorngrave=Uhorngrave.ss20",
-"Uhornhookabove=Uhornhookabove.ss20",
-"Uhorntilde=Uhorntilde.ss20",
-"Uhungarumlaut=Uhungarumlaut.ss20",
-"Umacron=Umacron.ss20",
-"Uogonek=Uogonek.ss20",
-"Uring=Uring.ss20",
-"Utilde=Utilde.ss20",
-"V=V.ss20",
-"W=W.ss20",
-"X=X.ss20",
-"Y=Y.ss20",
-"Z=Z.ss20",
-"a=a.ss20",
-"aacute=aacute.ss20",
-"abreve=abreve.ss20",
-"abreveacute=abreveacute.ss20",
-"abrevedotbelow=abrevedotbelow.ss20",
-"abrevegrave=abrevegrave.ss20",
-"abrevehookabove=abrevehookabove.ss20",
-"abrevetilde=abrevetilde.ss20",
-"acaron=acaron.ss20",
-"acircumflex=acircumflex.ss20",
-"acircumflexacute=acircumflexacute.ss20",
-"acircumflexdotbelow=acircumflexdotbelow.ss20",
-"acircumflexgrave=acircumflexgrave.ss20",
-"acircumflexhookabove=acircumflexhookabove.ss20",
-"acircumflextilde=acircumflextilde.ss20",
-"adieresis=adieresis.ss20",
-"adotaccent=adotaccent.ss20",
-"adotbelow=adotbelow.ss20",
-"agrave=agrave.ss20",
-"ahookabove=ahookabove.ss20",
-"amacron=amacron.ss20",
-"aogonek=aogonek.ss20",
-"aring=aring.ss20",
-"aringacute=aringacute.ss20",
-"atilde=atilde.ss20",
-"ae=ae.ss20",
-"aeacute=aeacute.ss20",
-"aemacron=aemacron.ss20",
-"c=c.ss20",
-"cacute=cacute.ss20",
-"ccaron=ccaron.ss20",
-"ccedilla=ccedilla.ss20",
-"ccedillaacute=ccedillaacute.ss20",
-"ccircumflex=ccircumflex.ss20",
-"cdotaccent=cdotaccent.ss20",
-"dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20.italic",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -13669,8 +13544,7 @@ double_accents
 }
 );
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.83333;
-"C21910D5-47BB-472B-A83D-89B2B42B8F2A" = 0.16667;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 1;
 };
 isItalic = 1;
 linkStyle = Regular;
@@ -13690,8 +13564,8 @@ visible = 0;
 },
 {
 axesValues = (
-90,
-100,
+550,
+1,
 -188
 );
 customParameters = (
@@ -13891,289 +13765,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
-"f=f.ss20.italic",
-"i=i.ss20",
-"idotless=idotless.ss20",
-"iacute=iacute.ss20",
-"ibreve=ibreve.ss20",
-"icaron=icaron.ss20",
-"icircumflex=icircumflex.ss20",
-"idieresis=idieresis.ss20",
-"idotaccent=idotaccent.ss20",
-"idotbelow=idotbelow.ss20",
-"igrave=igrave.ss20",
-"ihookabove=ihookabove.ss20",
-"imacron=imacron.ss20",
-"iogonek=iogonek.ss20",
-"istroke=istroke.ss20",
-"itilde=itilde.ss20",
-"j=j.ss20",
-"jdotless=jdotless.ss20",
-"jacute=jacute.ss20",
-"jcaron=jcaron.ss20",
-"jcircumflex=jcircumflex.ss20",
-"l=l.ss20",
-"lacute=lacute.ss20",
-"lbar=lbar.ss20",
-"lcaron=lcaron.ss20",
-"lcommaaccent=lcommaaccent.ss20",
-"ldot=ldot.ss20",
-"ldotbelow=ldotbelow.ss20",
-"ldotbelowmacron=ldotbelowmacron.ss20",
-"longsdotaccent=longsdotaccent.ss20.italic",
-"lslash=lslash.ss20",
-"m=m.ss20",
-"macute=macute.ss20",
-"mdotaccent=mdotaccent.ss20",
-"mdotbelow=mdotbelow.ss20",
-"oe=oe.ss20",
-"r=r.ss20",
-"racute=racute.ss20",
-"rcaron=rcaron.ss20",
-"rcommaaccent=rcommaaccent.ss20",
-"rdotaccent=rdotaccent.ss20",
-"rdotbelow=rdotbelow.ss20",
-"rdotbelowmacron=rdotbelowmacron.ss20",
-"s=s.ss20",
-"sacute=sacute.ss20",
-"scaron=scaron.ss20",
-"scedilla=scedilla.ss20",
-"scircumflex=scircumflex.ss20",
-"scommaaccent=scommaaccent.ss20",
-"sdotaccent=sdotaccent.ss20",
-"sdotbelow=sdotbelow.ss20",
-"sdotbelowdotaccent=sdotbelowdotaccent.ss20",
-"longs=longs.ss20.italic",
-"t=t.ss20",
-"tbar=tbar.ss20",
-"tcaron=tcaron.ss20",
-"tcedilla=tcedilla.ss20",
-"tcommaaccent=tcommaaccent.ss20",
-"tdieresis=tdieresis.ss20",
-"tdotaccent=tdotaccent.ss20",
-"tdotbelow=tdotbelow.ss20",
-"w=w.ss20",
-"wacute=wacute.ss20",
-"wcircumflex=wcircumflex.ss20",
-"wdieresis=wdieresis.ss20",
-"wdotaccent=wdotaccent.ss20",
-"wdotbelow=wdotbelow.ss20",
-"wgrave=wgrave.ss20",
-"wring=wring.ss20",
-"z=z.ss20",
-"Ge-cy=Ge-cy.ss20",
-"Geupturn-cy=Geupturn-cy.ss20",
-"Zhe-cy=Zhe-cy.ss20",
-"Ze-cy=Ze-cy.ss20",
-"Ii-cy=Ii-cy.ss20",
-"El-cy=El-cy.ss20",
-"Pe-cy=Pe-cy.ss20",
-"Ef-cy=Ef-cy.ss20",
-"Sha-cy=Sha-cy.ss20",
-"Shcha-cy=Shcha-cy.ss20",
-"Yeru-cy=Yeru-cy.ss20",
-"Lje-cy=Lje-cy.ss20",
-"Nje-cy=Nje-cy.ss20",
-"Tshe-cy=Tshe-cy.ss20",
-"Yu-cy=Yu-cy.ss20",
-"Dje-cy=Dje-cy.ss20",
-"ge-cy=ge-cy.ss20",
-"zhe-cy=zhe-cy.ss20",
-"em-cy=em-cy.ss20",
-"ef-cy=ef-cy.ss20",
-"sha-cy=sha-cy.ss20",
-"shcha-cy=shcha-cy.ss20",
-"yeru-cy=yeru-cy.ss20",
-"lje-cy=lje-cy.ss20",
-"nje-cy=nje-cy.ss20",
-"yu-cy=yu-cy.ss20",
-"Psi=Psi.ss20",
-"space=space.ss20",
-"nbspace=nbspace.ss20",
-"period=period.ss20",
-"comma=comma.ss20",
-"colon=colon.ss20",
-"semicolon=semicolon.ss20",
-"slash=slash.ss20",
-"backslash=backslash.ss20",
-"hyphen=hyphen.ss20",
-"quotesinglbase=quotesinglbase.ss20",
-"quotedblbase=quotedblbase.ss20",
-"quotedblleft=quotedblleft.ss20",
-"quotedblright=quotedblright.ss20",
-"quoteleft=quoteleft.ss20",
-"quoteright=quoteright.ss20",
-"quotereversed=quotereversed.ss20",
-"quotedblrightreversed=quotedblrightreversed.ss20",
-"guillemetleft=guillemetleft.ss20",
-"guillemetright=guillemetright.ss20",
-"guilsinglleft=guilsinglleft.ss20",
-"guilsinglright=guilsinglright.ss20",
-"quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic",
-"ratio=ratio.ss20",
-"apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20",
-"sobliquestroke=sobliquestroke.ss20",
-"A=A.ss20",
-"C=C.ss20",
-"Cacute=Cacute.ss20",
-"Ccaron=Ccaron.ss20",
-"Ccedilla=Ccedilla.ss20",
-"Ccedillaacute=Ccedillaacute.ss20",
-"Ccircumflex=Ccircumflex.ss20",
-"Cdotaccent=Cdotaccent.ss20",
-"D=D.ss20",
-"Eth=Eth.ss20",
-"Dcaron=Dcaron.ss20",
-"Dcedilla=Dcedilla.ss20",
-"Dcroat=Dcroat.ss20",
-"Ddotaccent=Ddotaccent.ss20",
-"Ddotbelow=Ddotbelow.ss20",
-"F=F.ss20",
-"Fdotaccent=Fdotaccent.ss20",
-"G=G.ss20",
-"H=H.ss20",
-"Hbar=Hbar.ss20",
-"Hcaron=Hcaron.ss20",
-"Hcedilla=Hcedilla.ss20",
-"Hcircumflex=Hcircumflex.ss20",
-"Hdieresis=Hdieresis.ss20",
-"Hdotaccent=Hdotaccent.ss20",
-"Hdotbelow=Hdotbelow.ss20",
-"Hturned=Hturned.ss20",
-"I=I.ss20",
-"Iacute=Iacute.ss20",
-"Ibreve=Ibreve.ss20",
-"Icaron=Icaron.ss20",
-"Icircumflex=Icircumflex.ss20",
-"Idieresis=Idieresis.ss20",
-"Idotaccent=Idotaccent.ss20",
-"Idotbelow=Idotbelow.ss20",
-"Igrave=Igrave.ss20",
-"Ihookabove=Ihookabove.ss20",
-"Imacron=Imacron.ss20",
-"Iogonek=Iogonek.ss20",
-"Itilde=Itilde.ss20",
-"J=J.ss20",
-"K=K.ss20",
-"L=L.ss20",
-"Lacute=Lacute.ss20",
-"Lbar=Lbar.ss20",
-"Lcaron=Lcaron.ss20",
-"Lcommaaccent=Lcommaaccent.ss20",
-"Ldot=Ldot.ss20",
-"Ldotbelow=Ldotbelow.ss20",
-"Ldotbelowmacron=Ldotbelowmacron.ss20",
-"Lslash=Lslash.ss20",
-"M=M.ss20",
-"Macute=Macute.ss20",
-"Mdotaccent=Mdotaccent.ss20",
-"Mdotbelow=Mdotbelow.ss20",
-"N=N.ss20",
-"Nacute=Nacute.ss20",
-"Ncaron=Ncaron.ss20",
-"Ncommaaccent=Ncommaaccent.ss20",
-"Ndotaccent=Ndotaccent.ss20",
-"Ndotbelow=Ndotbelow.ss20",
-"Ngrave=Ngrave.ss20",
-"Ntilde=Ntilde.ss20",
-"Eng=Eng.ss20",
-"O=O.ss20",
-"Oacute=Oacute.ss20",
-"Obreve=Obreve.ss20",
-"Ocaron=Ocaron.ss20",
-"Ocircumflex=Ocircumflex.ss20",
-"Ocircumflexacute=Ocircumflexacute.ss20",
-"Ocircumflexdotbelow=Ocircumflexdotbelow.ss20",
-"Ocircumflexgrave=Ocircumflexgrave.ss20",
-"Ocircumflexhookabove=Ocircumflexhookabove.ss20",
-"Ocircumflextilde=Ocircumflextilde.ss20",
-"Odieresis=Odieresis.ss20",
-"Odotaccent=Odotaccent.ss20",
-"Odotbelow=Odotbelow.ss20",
-"Ograve=Ograve.ss20",
-"Ohookabove=Ohookabove.ss20",
-"Ohorn=Ohorn.ss20",
-"Ohornacute=Ohornacute.ss20",
-"Ohorndotbelow=Ohorndotbelow.ss20",
-"Ohorngrave=Ohorngrave.ss20",
-"Ohornhookabove=Ohornhookabove.ss20",
-"Ohorntilde=Ohorntilde.ss20",
-"Ohungarumlaut=Ohungarumlaut.ss20",
-"Omacron=Omacron.ss20",
-"Oogonek=Oogonek.ss20",
-"Oogonekmacron=Oogonekmacron.ss20",
-"Oslash=Oslash.ss20",
-"Oslashacute=Oslashacute.ss20",
-"Otilde=Otilde.ss20",
-"OE=OE.ss20",
-"Q=Q.ss20",
-"S=S.ss20",
-"Germandbls=Germandbls.ss20",
-"T=T.ss20",
-"U=U.ss20",
-"Uacute=Uacute.ss20",
-"Ubreve=Ubreve.ss20",
-"Ucaron=Ucaron.ss20",
-"Ucircumflex=Ucircumflex.ss20",
-"Udieresis=Udieresis.ss20",
-"Udotbelow=Udotbelow.ss20",
-"Ugrave=Ugrave.ss20",
-"Uhookabove=Uhookabove.ss20",
-"Uhorn=Uhorn.ss20",
-"Uhornacute=Uhornacute.ss20",
-"Uhorndotbelow=Uhorndotbelow.ss20",
-"Uhorngrave=Uhorngrave.ss20",
-"Uhornhookabove=Uhornhookabove.ss20",
-"Uhorntilde=Uhorntilde.ss20",
-"Uhungarumlaut=Uhungarumlaut.ss20",
-"Umacron=Umacron.ss20",
-"Uogonek=Uogonek.ss20",
-"Uring=Uring.ss20",
-"Utilde=Utilde.ss20",
-"V=V.ss20",
-"W=W.ss20",
-"X=X.ss20",
-"Y=Y.ss20",
-"Z=Z.ss20",
-"a=a.ss20",
-"aacute=aacute.ss20",
-"abreve=abreve.ss20",
-"abreveacute=abreveacute.ss20",
-"abrevedotbelow=abrevedotbelow.ss20",
-"abrevegrave=abrevegrave.ss20",
-"abrevehookabove=abrevehookabove.ss20",
-"abrevetilde=abrevetilde.ss20",
-"acaron=acaron.ss20",
-"acircumflex=acircumflex.ss20",
-"acircumflexacute=acircumflexacute.ss20",
-"acircumflexdotbelow=acircumflexdotbelow.ss20",
-"acircumflexgrave=acircumflexgrave.ss20",
-"acircumflexhookabove=acircumflexhookabove.ss20",
-"acircumflextilde=acircumflextilde.ss20",
-"adieresis=adieresis.ss20",
-"adotaccent=adotaccent.ss20",
-"adotbelow=adotbelow.ss20",
-"agrave=agrave.ss20",
-"ahookabove=ahookabove.ss20",
-"amacron=amacron.ss20",
-"aogonek=aogonek.ss20",
-"aring=aring.ss20",
-"aringacute=aringacute.ss20",
-"atilde=atilde.ss20",
-"ae=ae.ss20",
-"aeacute=aeacute.ss20",
-"aemacron=aemacron.ss20",
-"c=c.ss20",
-"cacute=cacute.ss20",
-"ccaron=ccaron.ss20",
-"ccedilla=ccedilla.ss20",
-"ccedillaacute=ccedillaacute.ss20",
-"ccircumflex=ccircumflex.ss20",
-"cdotaccent=cdotaccent.ss20",
-"dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20.italic",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -14734,8 +14347,8 @@ double_accents
 }
 );
 instanceInterpolations = {
-"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.55;
-"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.45;
+"BA106321-29DE-4FD0-898D-B7B08A4D4215" = 0.5;
+"EBAB10B0-9FDE-44C7-9B16-DD2313400F4E" = 0.5;
 };
 isItalic = 1;
 linkStyle = Medium;
@@ -14756,8 +14369,8 @@ weightClass = 500;
 },
 {
 axesValues = (
-112,
-100,
+700,
+1,
 -188
 );
 customParameters = (
@@ -14957,289 +14570,28 @@ value = (
 "ccircumflex=ccircumflex.ss20",
 "cdotaccent=cdotaccent.ss20",
 "dcaron=dcaron.ss20",
-"f=f.ss20.italic",
-"i=i.ss20",
-"idotless=idotless.ss20",
-"iacute=iacute.ss20",
-"ibreve=ibreve.ss20",
-"icaron=icaron.ss20",
-"icircumflex=icircumflex.ss20",
-"idieresis=idieresis.ss20",
-"idotaccent=idotaccent.ss20",
-"idotbelow=idotbelow.ss20",
-"igrave=igrave.ss20",
-"ihookabove=ihookabove.ss20",
-"imacron=imacron.ss20",
-"iogonek=iogonek.ss20",
-"istroke=istroke.ss20",
-"itilde=itilde.ss20",
-"j=j.ss20",
-"jdotless=jdotless.ss20",
-"jacute=jacute.ss20",
-"jcaron=jcaron.ss20",
-"jcircumflex=jcircumflex.ss20",
-"l=l.ss20",
-"lacute=lacute.ss20",
-"lbar=lbar.ss20",
-"lcaron=lcaron.ss20",
-"lcommaaccent=lcommaaccent.ss20",
-"ldot=ldot.ss20",
-"ldotbelow=ldotbelow.ss20",
-"ldotbelowmacron=ldotbelowmacron.ss20",
-"longsdotaccent=longsdotaccent.ss20.italic",
-"lslash=lslash.ss20",
-"m=m.ss20",
-"macute=macute.ss20",
-"mdotaccent=mdotaccent.ss20",
-"mdotbelow=mdotbelow.ss20",
-"oe=oe.ss20",
-"r=r.ss20",
-"racute=racute.ss20",
-"rcaron=rcaron.ss20",
-"rcommaaccent=rcommaaccent.ss20",
-"rdotaccent=rdotaccent.ss20",
-"rdotbelow=rdotbelow.ss20",
-"rdotbelowmacron=rdotbelowmacron.ss20",
-"s=s.ss20",
-"sacute=sacute.ss20",
-"scaron=scaron.ss20",
-"scedilla=scedilla.ss20",
-"scircumflex=scircumflex.ss20",
-"scommaaccent=scommaaccent.ss20",
-"sdotaccent=sdotaccent.ss20",
-"sdotbelow=sdotbelow.ss20",
-"sdotbelowdotaccent=sdotbelowdotaccent.ss20",
-"longs=longs.ss20.italic",
-"t=t.ss20",
-"tbar=tbar.ss20",
-"tcaron=tcaron.ss20",
-"tcedilla=tcedilla.ss20",
-"tcommaaccent=tcommaaccent.ss20",
-"tdieresis=tdieresis.ss20",
-"tdotaccent=tdotaccent.ss20",
-"tdotbelow=tdotbelow.ss20",
-"w=w.ss20",
-"wacute=wacute.ss20",
-"wcircumflex=wcircumflex.ss20",
-"wdieresis=wdieresis.ss20",
-"wdotaccent=wdotaccent.ss20",
-"wdotbelow=wdotbelow.ss20",
-"wgrave=wgrave.ss20",
-"wring=wring.ss20",
-"z=z.ss20",
-"Ge-cy=Ge-cy.ss20",
-"Geupturn-cy=Geupturn-cy.ss20",
-"Zhe-cy=Zhe-cy.ss20",
-"Ze-cy=Ze-cy.ss20",
-"Ii-cy=Ii-cy.ss20",
-"El-cy=El-cy.ss20",
-"Pe-cy=Pe-cy.ss20",
-"Ef-cy=Ef-cy.ss20",
-"Sha-cy=Sha-cy.ss20",
-"Shcha-cy=Shcha-cy.ss20",
-"Yeru-cy=Yeru-cy.ss20",
-"Lje-cy=Lje-cy.ss20",
-"Nje-cy=Nje-cy.ss20",
-"Tshe-cy=Tshe-cy.ss20",
-"Yu-cy=Yu-cy.ss20",
-"Dje-cy=Dje-cy.ss20",
-"ge-cy=ge-cy.ss20",
-"zhe-cy=zhe-cy.ss20",
-"em-cy=em-cy.ss20",
-"ef-cy=ef-cy.ss20",
-"sha-cy=sha-cy.ss20",
-"shcha-cy=shcha-cy.ss20",
-"yeru-cy=yeru-cy.ss20",
-"lje-cy=lje-cy.ss20",
-"nje-cy=nje-cy.ss20",
-"yu-cy=yu-cy.ss20",
-"Psi=Psi.ss20",
-"space=space.ss20",
-"nbspace=nbspace.ss20",
-"period=period.ss20",
-"comma=comma.ss20",
-"colon=colon.ss20",
-"semicolon=semicolon.ss20",
-"slash=slash.ss20",
-"backslash=backslash.ss20",
-"hyphen=hyphen.ss20",
-"quotesinglbase=quotesinglbase.ss20",
-"quotedblbase=quotedblbase.ss20",
-"quotedblleft=quotedblleft.ss20",
-"quotedblright=quotedblright.ss20",
-"quoteleft=quoteleft.ss20",
-"quoteright=quoteright.ss20",
-"quotereversed=quotereversed.ss20",
-"quotedblrightreversed=quotedblrightreversed.ss20",
-"guillemetleft=guillemetleft.ss20",
-"guillemetright=guillemetright.ss20",
-"guilsinglleft=guilsinglleft.ss20",
-"guilsinglright=guilsinglright.ss20",
-"quotedbl=quotedbl.ss20",
-"quotesingle=quotesingle.ss20",
-"germandbls=germandbls.italic",
-"ratio=ratio.ss20",
-"apostrophemod=apostrophemod.ss20",
-"commaturnedmod=commaturnedmod.ss20",
-"sobliquestroke=sobliquestroke.ss20",
-"A=A.ss20",
-"C=C.ss20",
-"Cacute=Cacute.ss20",
-"Ccaron=Ccaron.ss20",
-"Ccedilla=Ccedilla.ss20",
-"Ccedillaacute=Ccedillaacute.ss20",
-"Ccircumflex=Ccircumflex.ss20",
-"Cdotaccent=Cdotaccent.ss20",
-"D=D.ss20",
-"Eth=Eth.ss20",
-"Dcaron=Dcaron.ss20",
-"Dcedilla=Dcedilla.ss20",
-"Dcroat=Dcroat.ss20",
-"Ddotaccent=Ddotaccent.ss20",
-"Ddotbelow=Ddotbelow.ss20",
-"F=F.ss20",
-"Fdotaccent=Fdotaccent.ss20",
-"G=G.ss20",
-"H=H.ss20",
-"Hbar=Hbar.ss20",
-"Hcaron=Hcaron.ss20",
-"Hcedilla=Hcedilla.ss20",
-"Hcircumflex=Hcircumflex.ss20",
-"Hdieresis=Hdieresis.ss20",
-"Hdotaccent=Hdotaccent.ss20",
-"Hdotbelow=Hdotbelow.ss20",
-"Hturned=Hturned.ss20",
-"I=I.ss20",
-"Iacute=Iacute.ss20",
-"Ibreve=Ibreve.ss20",
-"Icaron=Icaron.ss20",
-"Icircumflex=Icircumflex.ss20",
-"Idieresis=Idieresis.ss20",
-"Idotaccent=Idotaccent.ss20",
-"Idotbelow=Idotbelow.ss20",
-"Igrave=Igrave.ss20",
-"Ihookabove=Ihookabove.ss20",
-"Imacron=Imacron.ss20",
-"Iogonek=Iogonek.ss20",
-"Itilde=Itilde.ss20",
-"J=J.ss20",
-"K=K.ss20",
-"L=L.ss20",
-"Lacute=Lacute.ss20",
-"Lbar=Lbar.ss20",
-"Lcaron=Lcaron.ss20",
-"Lcommaaccent=Lcommaaccent.ss20",
-"Ldot=Ldot.ss20",
-"Ldotbelow=Ldotbelow.ss20",
-"Ldotbelowmacron=Ldotbelowmacron.ss20",
-"Lslash=Lslash.ss20",
-"M=M.ss20",
-"Macute=Macute.ss20",
-"Mdotaccent=Mdotaccent.ss20",
-"Mdotbelow=Mdotbelow.ss20",
-"N=N.ss20",
-"Nacute=Nacute.ss20",
-"Ncaron=Ncaron.ss20",
-"Ncommaaccent=Ncommaaccent.ss20",
-"Ndotaccent=Ndotaccent.ss20",
-"Ndotbelow=Ndotbelow.ss20",
-"Ngrave=Ngrave.ss20",
-"Ntilde=Ntilde.ss20",
-"Eng=Eng.ss20",
-"O=O.ss20",
-"Oacute=Oacute.ss20",
-"Obreve=Obreve.ss20",
-"Ocaron=Ocaron.ss20",
-"Ocircumflex=Ocircumflex.ss20",
-"Ocircumflexacute=Ocircumflexacute.ss20",
-"Ocircumflexdotbelow=Ocircumflexdotbelow.ss20",
-"Ocircumflexgrave=Ocircumflexgrave.ss20",
-"Ocircumflexhookabove=Ocircumflexhookabove.ss20",
-"Ocircumflextilde=Ocircumflextilde.ss20",
-"Odieresis=Odieresis.ss20",
-"Odotaccent=Odotaccent.ss20",
-"Odotbelow=Odotbelow.ss20",
-"Ograve=Ograve.ss20",
-"Ohookabove=Ohookabove.ss20",
-"Ohorn=Ohorn.ss20",
-"Ohornacute=Ohornacute.ss20",
-"Ohorndotbelow=Ohorndotbelow.ss20",
-"Ohorngrave=Ohorngrave.ss20",
-"Ohornhookabove=Ohornhookabove.ss20",
-"Ohorntilde=Ohorntilde.ss20",
-"Ohungarumlaut=Ohungarumlaut.ss20",
-"Omacron=Omacron.ss20",
-"Oogonek=Oogonek.ss20",
-"Oogonekmacron=Oogonekmacron.ss20",
-"Oslash=Oslash.ss20",
-"Oslashacute=Oslashacute.ss20",
-"Otilde=Otilde.ss20",
-"OE=OE.ss20",
-"Q=Q.ss20",
-"S=S.ss20",
-"Germandbls=Germandbls.ss20",
-"T=T.ss20",
-"U=U.ss20",
-"Uacute=Uacute.ss20",
-"Ubreve=Ubreve.ss20",
-"Ucaron=Ucaron.ss20",
-"Ucircumflex=Ucircumflex.ss20",
-"Udieresis=Udieresis.ss20",
-"Udotbelow=Udotbelow.ss20",
-"Ugrave=Ugrave.ss20",
-"Uhookabove=Uhookabove.ss20",
-"Uhorn=Uhorn.ss20",
-"Uhornacute=Uhornacute.ss20",
-"Uhorndotbelow=Uhorndotbelow.ss20",
-"Uhorngrave=Uhorngrave.ss20",
-"Uhornhookabove=Uhornhookabove.ss20",
-"Uhorntilde=Uhorntilde.ss20",
-"Uhungarumlaut=Uhungarumlaut.ss20",
-"Umacron=Umacron.ss20",
-"Uogonek=Uogonek.ss20",
-"Uring=Uring.ss20",
-"Utilde=Utilde.ss20",
-"V=V.ss20",
-"W=W.ss20",
-"X=X.ss20",
-"Y=Y.ss20",
-"Z=Z.ss20",
-"a=a.ss20",
-"aacute=aacute.ss20",
-"abreve=abreve.ss20",
-"abreveacute=abreveacute.ss20",
-"abrevedotbelow=abrevedotbelow.ss20",
-"abrevegrave=abrevegrave.ss20",
-"abrevehookabove=abrevehookabove.ss20",
-"abrevetilde=abrevetilde.ss20",
-"acaron=acaron.ss20",
-"acircumflex=acircumflex.ss20",
-"acircumflexacute=acircumflexacute.ss20",
-"acircumflexdotbelow=acircumflexdotbelow.ss20",
-"acircumflexgrave=acircumflexgrave.ss20",
-"acircumflexhookabove=acircumflexhookabove.ss20",
-"acircumflextilde=acircumflextilde.ss20",
-"adieresis=adieresis.ss20",
-"adotaccent=adotaccent.ss20",
-"adotbelow=adotbelow.ss20",
-"agrave=agrave.ss20",
-"ahookabove=ahookabove.ss20",
-"amacron=amacron.ss20",
-"aogonek=aogonek.ss20",
-"aring=aring.ss20",
-"aringacute=aringacute.ss20",
-"atilde=atilde.ss20",
-"ae=ae.ss20",
-"aeacute=aeacute.ss20",
-"aemacron=aemacron.ss20",
-"c=c.ss20",
-"cacute=cacute.ss20",
-"ccaron=ccaron.ss20",
-"ccedilla=ccedilla.ss20",
-"ccedillaacute=ccedillaacute.ss20",
-"ccircumflex=ccircumflex.ss20",
-"cdotaccent=cdotaccent.ss20",
-"dcaron=dcaron.ss20",
+"e=e.ss20",
+"eacute=eacute.ss20",
+"ebreve=ebreve.ss20",
+"ecaron=ecaron.ss20",
+"ecedilla=ecedilla.ss20",
+"ecedillabreve=ecedillabreve.ss20",
+"ecircumflex=ecircumflex.ss20",
+"ecircumflexacute=ecircumflexacute.ss20",
+"ecircumflexdotbelow=ecircumflexdotbelow.ss20",
+"ecircumflexgrave=ecircumflexgrave.ss20",
+"ecircumflexhookabove=ecircumflexhookabove.ss20",
+"ecircumflextilde=ecircumflextilde.ss20",
+"edieresis=edieresis.ss20",
+"edotaccent=edotaccent.ss20",
+"edotbelow=edotbelow.ss20",
+"egrave=egrave.ss20",
+"ehookabove=ehookabove.ss20",
+"emacron=emacron.ss20",
+"eogonek=eogonek.ss20",
+"etilde=etilde.ss20",
+"eturned=eturned.ss20",
+"schwa=schwa.ss20",
 "f=f.ss20.italic",
 "i=i.ss20",
 "idotless=idotless.ss20",
@@ -15824,10 +15176,13 @@ weightClass = 700;
 kerningLTR = {
 "95FB0C11-C828-4064-8966-34220AA4D426" = {
 "@MMK_L_A" = {
-"@MMK_R_T" = -72;
+"@MMK_R_T" = -64;
 "@MMK_R_V" = -32;
 "@MMK_R_v" = -16;
 "@MMK_R_y" = -16;
+};
+"@MMK_L_E" = {
+"@MMK_R_o" = -16;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -32;
@@ -15845,11 +15200,20 @@ kerningLTR = {
 "@MMK_R_y" = -32;
 "@MMK_R_z" = -32;
 };
+"@MMK_L_K" = {
+"@MMK_R_w" = -16;
+};
 "@MMK_L_L" = {
 "@MMK_R_T" = -96;
+"@MMK_R_o" = -16;
+"@MMK_R_quotesingle" = -64;
+};
+"@MMK_L_S" = {
+"@MMK_R_o" = -16;
+"@MMK_R_t" = -32;
 };
 "@MMK_L_T" = {
-"@MMK_R_A" = -72;
+"@MMK_R_A" = -64;
 "@MMK_R_a" = -80;
 "@MMK_R_f" = -48;
 "@MMK_R_hyphen" = -96;
@@ -15859,7 +15223,7 @@ kerningLTR = {
 "@MMK_R_o" = -80;
 "@MMK_R_period" = -80;
 "@MMK_R_s" = -80;
-"@MMK_R_t" = -72;
+"@MMK_R_t" = -64;
 "@MMK_R_v" = -80;
 "@MMK_R_w" = -80;
 "@MMK_R_x" = -80;
@@ -15871,16 +15235,56 @@ kerningLTR = {
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -32;
+"@MMK_R_a" = -32;
+"@MMK_R_o" = -32;
+};
+"@MMK_L_X" = {
+"@MMK_R_o" = -16;
+};
+"@MMK_L_Y" = {
+"@MMK_R_n" = -16;
+"@MMK_R_o" = -48;
+"@MMK_R_s" = -32;
+"@MMK_R_t" = -32;
+"@MMK_R_v" = -32;
+"@MMK_R_w" = -32;
+p = -16;
+u = -16;
+};
+"@MMK_L_Z" = {
+"@MMK_R_o" = -32;
+"@MMK_R_w" = -32;
+"@MMK_R_y" = -16;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_T" = -96;
+};
+"@MMK_L_o" = {
+"@MMK_R_quotesingle" = -32;
+"@MMK_R_t" = -16;
 };
 "@MMK_L_period" = {
 "@MMK_R_T" = -80;
 "@MMK_R_U" = -16;
 };
+"@MMK_L_quotesingle" = {
+"@MMK_R_A" = -32;
+"@MMK_R_o" = -32;
+"@MMK_R_period" = -96;
+"@MMK_R_s" = -32;
+};
 "@MMK_L_r" = {
 "@MMK_R_period" = -80;
+};
+"@MMK_L_s" = {
+"@MMK_R_quotesingle" = -32;
+"@MMK_R_z" = -16;
+};
+I.ss20 = {
+"@MMK_R_o" = -16;
+};
+P = {
+"@MMK_R_o" = -16;
 };
 };
 "BA106321-29DE-4FD0-898D-B7B08A4D4215" = {
@@ -16001,5 +15405,5 @@ name = sups;
 );
 unitsPerEm = 1024;
 versionMajor = 0;
-versionMinor = 65;
+versionMinor = 67;
 }
