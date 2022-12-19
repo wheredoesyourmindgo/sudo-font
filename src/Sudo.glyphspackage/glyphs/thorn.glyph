@@ -44,7 +44,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -62,7 +62,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -80,7 +80,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -98,7 +98,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -116,7 +116,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -134,7 +134,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -208,7 +208,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;
@@ -235,7 +235,7 @@ nodes = (
 );
 },
 {
-ref = _part.bowl;
+ref = _part.bowl.descender;
 }
 );
 width = 448;

@@ -11,7 +11,6 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-options = 4;
 origin = (1,13);
 target = (1,19);
 type = TTShift;
@@ -23,7 +22,6 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-options = 4;
 origin = (1,5);
 target = (1,27);
 type = TTShift;

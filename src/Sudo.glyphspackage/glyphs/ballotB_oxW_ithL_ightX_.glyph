@@ -6,20 +6,19 @@ layers = (
 hints = (
 {
 horizontal = 1;
+origin = (0,3);
+type = TTSnap;
+},
+{
+horizontal = 1;
 origin = (2,1);
 type = TTSnap;
 },
 {
 horizontal = 1;
-options = 4;
 origin = (2,1);
 target = (0,1);
 type = TTShift;
-},
-{
-horizontal = 1;
-origin = (0,3);
-type = TTSnap;
 },
 {
 horizontal = 1;
