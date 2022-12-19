@@ -1610,12 +1610,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06898"/>
-    <checkSumAdjustment value="0x2696d005"/>
+    <checkSumAdjustment value="0x25954ff9"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
-    <created value="Mon Sep 12 17:18:50 2022"/>
-    <modified value="Mon Dec 19 11:13:37 2022"/>
+    <created value="Mon Dec 19 11:59:40 2022"/>
+    <modified value="Mon Dec 19 11:59:48 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -9619,7 +9619,7 @@
       EIF[ ]	/* EndIf */
       SCVTCI[ ]	/* SetCVTCutIn */
       PUSHB[ ]	/* 1 value pushed */
-      64
+      13
       SMD[ ]	/* SetMinimumDistance */
     </assembly>
   </prep>
@@ -55607,8 +55607,10 @@
   </post>
 
   <gasp>
-    <gaspRange rangeMaxPPEM="7" rangeGaspBehavior="10"/>
-    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="15"/>
+    <gaspRange rangeMaxPPEM="8" rangeGaspBehavior="10"/>
+    <gaspRange rangeMaxPPEM="16" rangeGaspBehavior="7"/>
+    <gaspRange rangeMaxPPEM="96" rangeGaspBehavior="15"/>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="10"/>
   </gasp>
 
   <GDEF>
@@ -59111,7 +59113,6 @@
   <STAT>
     <Version value="0x00010001"/>
     <DesignAxisRecordSize value="8"/>
-    <!-- DesignAxisCount=3 -->
     <DesignAxisRecord>
       <Axis index="0">
         <AxisTag value="wght"/>
@@ -59129,7 +59130,6 @@
         <AxisOrdering value="2"/>
       </Axis>
     </DesignAxisRecord>
-    <!-- AxisValueCount=9 -->
     <AxisValueArray>
       <AxisValue index="0" Format="1">
         <AxisIndex value="0"/>
@@ -59143,44 +59143,39 @@
         <ValueNameID value="261"/>  <!-- Light -->
         <Value value="300.0"/>
       </AxisValue>
-      <AxisValue index="2" Format="1">
-        <AxisIndex value="0"/>
-        <Flags value="2"/>  <!-- ElidableAxisValueName -->
-        <ValueNameID value="2"/>  <!-- Regular -->
-        <Value value="400.0"/>
-      </AxisValue>
-      <AxisValue index="3" Format="3">
+      <AxisValue index="2" Format="3">
         <AxisIndex value="0"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
         <Value value="400.0"/>
         <LinkedValue value="700.0"/>
       </AxisValue>
-      <AxisValue index="4" Format="1">
+      <AxisValue index="3" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="264"/>  <!-- Medium -->
         <Value value="600.0"/>
       </AxisValue>
-      <AxisValue index="5" Format="1">
+      <AxisValue index="4" Format="1">
         <AxisIndex value="0"/>
         <Flags value="0"/>
         <ValueNameID value="266"/>  <!-- Bold -->
         <Value value="700.0"/>
       </AxisValue>
-      <AxisValue index="6" Format="1">
+      <AxisValue index="5" Format="3">
         <AxisIndex value="1"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
         <Value value="0.0"/>
+        <LinkedValue value="1.0"/>
       </AxisValue>
-      <AxisValue index="7" Format="1">
+      <AxisValue index="6" Format="1">
         <AxisIndex value="1"/>
         <Flags value="0"/>
         <ValueNameID value="257"/>  <!-- Italic -->
         <Value value="1.0"/>
       </AxisValue>
-      <AxisValue index="8" Format="1">
+      <AxisValue index="7" Format="1">
         <AxisIndex value="2"/>
         <Flags value="2"/>  <!-- ElidableAxisValueName -->
         <ValueNameID value="2"/>  <!-- Regular -->
