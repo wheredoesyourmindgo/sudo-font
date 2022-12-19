@@ -46,12 +46,12 @@
     <GlyphID id="40" name="Ccircumflex"/>
     <GlyphID id="41" name="Cdotaccent"/>
     <GlyphID id="42" name="D"/>
-    <GlyphID id="43" name="Eth"/>
-    <GlyphID id="44" name="Dcaron"/>
-    <GlyphID id="45" name="uni1E10"/>
-    <GlyphID id="46" name="Dcroat"/>
-    <GlyphID id="47" name="uni1E0A"/>
-    <GlyphID id="48" name="uni1E0C"/>
+    <GlyphID id="43" name="Dcaron"/>
+    <GlyphID id="44" name="uni1E10"/>
+    <GlyphID id="45" name="Dcroat"/>
+    <GlyphID id="46" name="uni1E0A"/>
+    <GlyphID id="47" name="uni1E0C"/>
+    <GlyphID id="48" name="Eth"/>
     <GlyphID id="49" name="E"/>
     <GlyphID id="50" name="Eacute"/>
     <GlyphID id="51" name="Ebreve"/>
@@ -325,12 +325,12 @@
     <GlyphID id="319" name="ccircumflex"/>
     <GlyphID id="320" name="cdotaccent"/>
     <GlyphID id="321" name="d"/>
-    <GlyphID id="322" name="eth"/>
-    <GlyphID id="323" name="dcaron"/>
-    <GlyphID id="324" name="uni1E11"/>
-    <GlyphID id="325" name="dcroat"/>
-    <GlyphID id="326" name="uni1E0B"/>
-    <GlyphID id="327" name="uni1E0D"/>
+    <GlyphID id="322" name="dcaron"/>
+    <GlyphID id="323" name="uni1E11"/>
+    <GlyphID id="324" name="dcroat"/>
+    <GlyphID id="325" name="uni1E0B"/>
+    <GlyphID id="326" name="uni1E0D"/>
+    <GlyphID id="327" name="eth"/>
     <GlyphID id="328" name="e"/>
     <GlyphID id="329" name="eacute"/>
     <GlyphID id="330" name="ebreve"/>
@@ -872,11 +872,11 @@
     <GlyphID id="866" name="uni2078"/>
     <GlyphID id="867" name="uni2079"/>
     <GlyphID id="868" name="uni2070.alt001"/>
-    <GlyphID id="869" name="uniFEFF"/>
-    <GlyphID id="870" name="uni200D"/>
+    <GlyphID id="869" name="uni00A0"/>
+    <GlyphID id="870" name="uni200B"/>
     <GlyphID id="871" name="uni200C"/>
-    <GlyphID id="872" name="uni00A0"/>
-    <GlyphID id="873" name="uni200B"/>
+    <GlyphID id="872" name="uni200D"/>
+    <GlyphID id="873" name="uniFEFF"/>
     <GlyphID id="874" name="space.frac"/>
     <GlyphID id="875" name="anoteleia"/>
     <GlyphID id="876" name="period"/>
@@ -1401,206 +1401,206 @@
     <GlyphID id="1395" name="uni02BC"/>
     <GlyphID id="1396" name="uni02BB"/>
     <GlyphID id="1397" name="uni2BE8"/>
-    <GlyphID id="1398" name="uniE0A0"/>
-    <GlyphID id="1399" name="uniE0A1"/>
-    <GlyphID id="1400" name="uniE0A2"/>
-    <GlyphID id="1401" name="uniE0A3"/>
-    <GlyphID id="1402" name="uniE0B0"/>
-    <GlyphID id="1403" name="uniE0B1"/>
-    <GlyphID id="1404" name="uniE0B2"/>
-    <GlyphID id="1405" name="uniE0B3"/>
-    <GlyphID id="1406" name="uniEC00"/>
-    <GlyphID id="1407" name="uniEC01"/>
-    <GlyphID id="1408" name="uniEC02"/>
-    <GlyphID id="1409" name="uniEC03"/>
-    <GlyphID id="1410" name="uniEC07"/>
-    <GlyphID id="1411" name="uniEC08"/>
-    <GlyphID id="1412" name="uniEC09"/>
-    <GlyphID id="1413" name="uniEC0A"/>
-    <GlyphID id="1414" name="uniEC25"/>
-    <GlyphID id="1415" name="uniEC26"/>
-    <GlyphID id="1416" name="uniEC27"/>
-    <GlyphID id="1417" name="uniEC28"/>
-    <GlyphID id="1418" name="uniEC2A"/>
-    <GlyphID id="1419" name="uniEC2B"/>
-    <GlyphID id="1420" name="uniEC2C"/>
-    <GlyphID id="1421" name="uniEC2E"/>
-    <GlyphID id="1422" name="uniEC2F"/>
-    <GlyphID id="1423" name="uniEF00"/>
-    <GlyphID id="1424" name="uniEF01"/>
-    <GlyphID id="1425" name="uniEF02"/>
-    <GlyphID id="1426" name="uniEF03"/>
-    <GlyphID id="1427" name="uniEF04"/>
-    <GlyphID id="1428" name="uniEF05"/>
-    <GlyphID id="1429" name="uniEF06"/>
-    <GlyphID id="1430" name="uniEF07"/>
-    <GlyphID id="1431" name="uniEF08"/>
-    <GlyphID id="1432" name="uniEF09"/>
-    <GlyphID id="1433" name="uniEF0A"/>
-    <GlyphID id="1434" name="uniEF0B"/>
-    <GlyphID id="1435" name="uniEF0C"/>
-    <GlyphID id="1436" name="uniEF0D"/>
-    <GlyphID id="1437" name="uniEF0E"/>
-    <GlyphID id="1438" name="uniEF0F"/>
-    <GlyphID id="1439" name="uniEF10"/>
-    <GlyphID id="1440" name="uniEF11"/>
-    <GlyphID id="1441" name="uniEF12"/>
-    <GlyphID id="1442" name="uniEF13"/>
-    <GlyphID id="1443" name="uniEF14"/>
-    <GlyphID id="1444" name="uniEF15"/>
-    <GlyphID id="1445" name="uniEF16"/>
-    <GlyphID id="1446" name="uniEF17"/>
-    <GlyphID id="1447" name="uniEF18"/>
-    <GlyphID id="1448" name="uniEF19"/>
-    <GlyphID id="1449" name="uniEF1A"/>
-    <GlyphID id="1450" name="uniEF1B"/>
-    <GlyphID id="1451" name="uniEF1C"/>
-    <GlyphID id="1452" name="uniEF1D"/>
-    <GlyphID id="1453" name="uniEF1E"/>
-    <GlyphID id="1454" name="uniEF1F"/>
-    <GlyphID id="1455" name="uniEF20"/>
-    <GlyphID id="1456" name="uniEF21"/>
-    <GlyphID id="1457" name="uniEF22"/>
-    <GlyphID id="1458" name="uniEF23"/>
-    <GlyphID id="1459" name="uniEF24"/>
-    <GlyphID id="1460" name="uniEF25"/>
-    <GlyphID id="1461" name="uniEF26"/>
-    <GlyphID id="1462" name="uniEF27"/>
-    <GlyphID id="1463" name="uniEF28"/>
-    <GlyphID id="1464" name="uniEF29"/>
-    <GlyphID id="1465" name="uniEF2A"/>
-    <GlyphID id="1466" name="uniEF2B"/>
-    <GlyphID id="1467" name="uniEF2C"/>
-    <GlyphID id="1468" name="uniEF2D"/>
-    <GlyphID id="1469" name="uniEF2E"/>
-    <GlyphID id="1470" name="uniEF2F"/>
-    <GlyphID id="1471" name="uniEF30"/>
-    <GlyphID id="1472" name="uniEF31"/>
-    <GlyphID id="1473" name="uniEF32"/>
-    <GlyphID id="1474" name="uniEF33"/>
-    <GlyphID id="1475" name="uniEF34"/>
-    <GlyphID id="1476" name="uniEF35"/>
-    <GlyphID id="1477" name="uniEF36"/>
-    <GlyphID id="1478" name="uniEF37"/>
-    <GlyphID id="1479" name="uniEF38"/>
-    <GlyphID id="1480" name="uniEF39"/>
-    <GlyphID id="1481" name="uniEF3A"/>
-    <GlyphID id="1482" name="uniEF3B"/>
-    <GlyphID id="1483" name="uniEF3C"/>
-    <GlyphID id="1484" name="uniEF3D"/>
-    <GlyphID id="1485" name="uniEF3E"/>
-    <GlyphID id="1486" name="uniEF3F"/>
-    <GlyphID id="1487" name="uniEF40"/>
-    <GlyphID id="1488" name="uniEF41"/>
-    <GlyphID id="1489" name="uniEF42"/>
-    <GlyphID id="1490" name="uniEF43"/>
-    <GlyphID id="1491" name="uniEF44"/>
-    <GlyphID id="1492" name="uniEF45"/>
-    <GlyphID id="1493" name="uniEF46"/>
-    <GlyphID id="1494" name="uniEF47"/>
-    <GlyphID id="1495" name="uniEF48"/>
-    <GlyphID id="1496" name="uniEF49"/>
-    <GlyphID id="1497" name="uniEF4A"/>
-    <GlyphID id="1498" name="uniEF4B"/>
-    <GlyphID id="1499" name="uniEF4C"/>
-    <GlyphID id="1500" name="uniEF4D"/>
-    <GlyphID id="1501" name="uniEF4E"/>
-    <GlyphID id="1502" name="uniEF4F"/>
-    <GlyphID id="1503" name="uniEF50"/>
-    <GlyphID id="1504" name="uniEF51"/>
-    <GlyphID id="1505" name="uniEF52"/>
-    <GlyphID id="1506" name="uniEF53"/>
-    <GlyphID id="1507" name="uniEF54"/>
-    <GlyphID id="1508" name="uniEF55"/>
-    <GlyphID id="1509" name="uniEF56"/>
-    <GlyphID id="1510" name="uniEF57"/>
-    <GlyphID id="1511" name="uniEF58"/>
-    <GlyphID id="1512" name="uniEF59"/>
-    <GlyphID id="1513" name="uniEF5A"/>
-    <GlyphID id="1514" name="uniEF5B"/>
-    <GlyphID id="1515" name="uniEF5C"/>
-    <GlyphID id="1516" name="uniEF5D"/>
-    <GlyphID id="1517" name="uniEF5E"/>
-    <GlyphID id="1518" name="uniEF5F"/>
-    <GlyphID id="1519" name="uniEF60"/>
-    <GlyphID id="1520" name="uniEF61"/>
-    <GlyphID id="1521" name="uniEF62"/>
-    <GlyphID id="1522" name="uniEF63"/>
-    <GlyphID id="1523" name="uniEF64"/>
-    <GlyphID id="1524" name="uniEF65"/>
-    <GlyphID id="1525" name="uniEF66"/>
-    <GlyphID id="1526" name="uniEF67"/>
-    <GlyphID id="1527" name="uniEF68"/>
-    <GlyphID id="1528" name="uniEF69"/>
-    <GlyphID id="1529" name="uniEF6A"/>
-    <GlyphID id="1530" name="uniEF6B"/>
-    <GlyphID id="1531" name="uniEF6C"/>
-    <GlyphID id="1532" name="uniEF6D"/>
-    <GlyphID id="1533" name="uniEF6E"/>
-    <GlyphID id="1534" name="uniEF6F"/>
-    <GlyphID id="1535" name="uniEF70"/>
-    <GlyphID id="1536" name="uniEF71"/>
-    <GlyphID id="1537" name="uniEF72"/>
-    <GlyphID id="1538" name="uniEF73"/>
-    <GlyphID id="1539" name="uniEF74"/>
-    <GlyphID id="1540" name="uniEF75"/>
-    <GlyphID id="1541" name="uniEF76"/>
-    <GlyphID id="1542" name="uniEF77"/>
-    <GlyphID id="1543" name="uniEF78"/>
-    <GlyphID id="1544" name="uniEF79"/>
-    <GlyphID id="1545" name="uniEF7A"/>
-    <GlyphID id="1546" name="uniEF7B"/>
-    <GlyphID id="1547" name="uniEF7C"/>
-    <GlyphID id="1548" name="uniEF7D"/>
-    <GlyphID id="1549" name="uniEF7E"/>
-    <GlyphID id="1550" name="uniEF7F"/>
-    <GlyphID id="1551" name="uniEF80"/>
-    <GlyphID id="1552" name="uniEF81"/>
-    <GlyphID id="1553" name="uniEF82"/>
-    <GlyphID id="1554" name="uniEF83"/>
-    <GlyphID id="1555" name="uniEF84"/>
-    <GlyphID id="1556" name="uniEF85"/>
-    <GlyphID id="1557" name="uniEF86"/>
-    <GlyphID id="1558" name="uniEF87"/>
-    <GlyphID id="1559" name="uniEF88"/>
-    <GlyphID id="1560" name="uniEF89"/>
-    <GlyphID id="1561" name="uniEF8A"/>
-    <GlyphID id="1562" name="uniEF8B"/>
-    <GlyphID id="1563" name="uniEF8C"/>
-    <GlyphID id="1564" name="uniEF8D"/>
-    <GlyphID id="1565" name="uniEF8E"/>
-    <GlyphID id="1566" name="uniEF8F"/>
-    <GlyphID id="1567" name="uniEF90"/>
-    <GlyphID id="1568" name="uniEF91"/>
-    <GlyphID id="1569" name="uniEF92"/>
-    <GlyphID id="1570" name="uniEF93"/>
-    <GlyphID id="1571" name="uniEF94"/>
-    <GlyphID id="1572" name="uniEF95"/>
-    <GlyphID id="1573" name="uniEF96"/>
-    <GlyphID id="1574" name="uniEF97"/>
-    <GlyphID id="1575" name="uniEF98"/>
-    <GlyphID id="1576" name="uniEF99"/>
-    <GlyphID id="1577" name="uniEF9A"/>
-    <GlyphID id="1578" name="uniEF9B"/>
-    <GlyphID id="1579" name="uniEF9C"/>
-    <GlyphID id="1580" name="uniEF9D"/>
-    <GlyphID id="1581" name="uniEF9E"/>
-    <GlyphID id="1582" name="uniEF9F"/>
-    <GlyphID id="1583" name="uniEFA3"/>
-    <GlyphID id="1584" name="uniEFA4"/>
-    <GlyphID id="1585" name="uniEFA5"/>
-    <GlyphID id="1586" name="uniEFA6"/>
-    <GlyphID id="1587" name="uniEFA7"/>
-    <GlyphID id="1588" name="uniEFA8"/>
-    <GlyphID id="1589" name="uniEFA9"/>
-    <GlyphID id="1590" name="uniEFAA"/>
-    <GlyphID id="1591" name="uniEFAB"/>
-    <GlyphID id="1592" name="uniEFAC"/>
-    <GlyphID id="1593" name="orn001"/>
-    <GlyphID id="1594" name="orn002"/>
-    <GlyphID id="1595" name="emoji.eyes"/>
-    <GlyphID id="1596" name="emoji.mouth"/>
-    <GlyphID id="1597" name="_part.slash.comp"/>
+    <GlyphID id="1398" name="_part.slash.comp"/>
+    <GlyphID id="1399" name="uniE0A0"/>
+    <GlyphID id="1400" name="uniE0A1"/>
+    <GlyphID id="1401" name="uniE0A2"/>
+    <GlyphID id="1402" name="uniE0A3"/>
+    <GlyphID id="1403" name="uniE0B0"/>
+    <GlyphID id="1404" name="uniE0B1"/>
+    <GlyphID id="1405" name="uniE0B2"/>
+    <GlyphID id="1406" name="uniE0B3"/>
+    <GlyphID id="1407" name="uniEC00"/>
+    <GlyphID id="1408" name="uniEC01"/>
+    <GlyphID id="1409" name="uniEC02"/>
+    <GlyphID id="1410" name="uniEC03"/>
+    <GlyphID id="1411" name="uniEC07"/>
+    <GlyphID id="1412" name="uniEC08"/>
+    <GlyphID id="1413" name="uniEC09"/>
+    <GlyphID id="1414" name="uniEC0A"/>
+    <GlyphID id="1415" name="uniEC25"/>
+    <GlyphID id="1416" name="uniEC26"/>
+    <GlyphID id="1417" name="uniEC27"/>
+    <GlyphID id="1418" name="uniEC28"/>
+    <GlyphID id="1419" name="uniEC2A"/>
+    <GlyphID id="1420" name="uniEC2B"/>
+    <GlyphID id="1421" name="uniEC2C"/>
+    <GlyphID id="1422" name="uniEC2E"/>
+    <GlyphID id="1423" name="uniEC2F"/>
+    <GlyphID id="1424" name="uniEF00"/>
+    <GlyphID id="1425" name="uniEF01"/>
+    <GlyphID id="1426" name="uniEF02"/>
+    <GlyphID id="1427" name="uniEF03"/>
+    <GlyphID id="1428" name="uniEF04"/>
+    <GlyphID id="1429" name="uniEF05"/>
+    <GlyphID id="1430" name="uniEF06"/>
+    <GlyphID id="1431" name="uniEF07"/>
+    <GlyphID id="1432" name="uniEF08"/>
+    <GlyphID id="1433" name="uniEF09"/>
+    <GlyphID id="1434" name="uniEF0A"/>
+    <GlyphID id="1435" name="uniEF0B"/>
+    <GlyphID id="1436" name="uniEF0C"/>
+    <GlyphID id="1437" name="uniEF0D"/>
+    <GlyphID id="1438" name="uniEF0E"/>
+    <GlyphID id="1439" name="uniEF0F"/>
+    <GlyphID id="1440" name="uniEF10"/>
+    <GlyphID id="1441" name="uniEF11"/>
+    <GlyphID id="1442" name="uniEF12"/>
+    <GlyphID id="1443" name="uniEF13"/>
+    <GlyphID id="1444" name="uniEF14"/>
+    <GlyphID id="1445" name="uniEF15"/>
+    <GlyphID id="1446" name="uniEF16"/>
+    <GlyphID id="1447" name="uniEF17"/>
+    <GlyphID id="1448" name="uniEF18"/>
+    <GlyphID id="1449" name="uniEF19"/>
+    <GlyphID id="1450" name="uniEF1A"/>
+    <GlyphID id="1451" name="uniEF1B"/>
+    <GlyphID id="1452" name="uniEF1C"/>
+    <GlyphID id="1453" name="uniEF1D"/>
+    <GlyphID id="1454" name="uniEF1E"/>
+    <GlyphID id="1455" name="uniEF1F"/>
+    <GlyphID id="1456" name="uniEF20"/>
+    <GlyphID id="1457" name="uniEF21"/>
+    <GlyphID id="1458" name="uniEF22"/>
+    <GlyphID id="1459" name="uniEF23"/>
+    <GlyphID id="1460" name="uniEF24"/>
+    <GlyphID id="1461" name="uniEF25"/>
+    <GlyphID id="1462" name="uniEF26"/>
+    <GlyphID id="1463" name="uniEF27"/>
+    <GlyphID id="1464" name="uniEF28"/>
+    <GlyphID id="1465" name="uniEF29"/>
+    <GlyphID id="1466" name="uniEF2A"/>
+    <GlyphID id="1467" name="uniEF2B"/>
+    <GlyphID id="1468" name="uniEF2C"/>
+    <GlyphID id="1469" name="uniEF2D"/>
+    <GlyphID id="1470" name="uniEF2E"/>
+    <GlyphID id="1471" name="uniEF2F"/>
+    <GlyphID id="1472" name="uniEF30"/>
+    <GlyphID id="1473" name="uniEF31"/>
+    <GlyphID id="1474" name="uniEF32"/>
+    <GlyphID id="1475" name="uniEF33"/>
+    <GlyphID id="1476" name="uniEF34"/>
+    <GlyphID id="1477" name="uniEF35"/>
+    <GlyphID id="1478" name="uniEF36"/>
+    <GlyphID id="1479" name="uniEF37"/>
+    <GlyphID id="1480" name="uniEF38"/>
+    <GlyphID id="1481" name="uniEF39"/>
+    <GlyphID id="1482" name="uniEF3A"/>
+    <GlyphID id="1483" name="uniEF3B"/>
+    <GlyphID id="1484" name="uniEF3C"/>
+    <GlyphID id="1485" name="uniEF3D"/>
+    <GlyphID id="1486" name="uniEF3E"/>
+    <GlyphID id="1487" name="uniEF3F"/>
+    <GlyphID id="1488" name="uniEF40"/>
+    <GlyphID id="1489" name="uniEF41"/>
+    <GlyphID id="1490" name="uniEF42"/>
+    <GlyphID id="1491" name="uniEF43"/>
+    <GlyphID id="1492" name="uniEF44"/>
+    <GlyphID id="1493" name="uniEF45"/>
+    <GlyphID id="1494" name="uniEF46"/>
+    <GlyphID id="1495" name="uniEF47"/>
+    <GlyphID id="1496" name="uniEF48"/>
+    <GlyphID id="1497" name="uniEF49"/>
+    <GlyphID id="1498" name="uniEF4A"/>
+    <GlyphID id="1499" name="uniEF4B"/>
+    <GlyphID id="1500" name="uniEF4C"/>
+    <GlyphID id="1501" name="uniEF4D"/>
+    <GlyphID id="1502" name="uniEF4E"/>
+    <GlyphID id="1503" name="uniEF4F"/>
+    <GlyphID id="1504" name="uniEF50"/>
+    <GlyphID id="1505" name="uniEF51"/>
+    <GlyphID id="1506" name="uniEF52"/>
+    <GlyphID id="1507" name="uniEF53"/>
+    <GlyphID id="1508" name="uniEF54"/>
+    <GlyphID id="1509" name="uniEF55"/>
+    <GlyphID id="1510" name="uniEF56"/>
+    <GlyphID id="1511" name="uniEF57"/>
+    <GlyphID id="1512" name="uniEF58"/>
+    <GlyphID id="1513" name="uniEF59"/>
+    <GlyphID id="1514" name="uniEF5A"/>
+    <GlyphID id="1515" name="uniEF5B"/>
+    <GlyphID id="1516" name="uniEF5C"/>
+    <GlyphID id="1517" name="uniEF5D"/>
+    <GlyphID id="1518" name="uniEF5E"/>
+    <GlyphID id="1519" name="uniEF5F"/>
+    <GlyphID id="1520" name="uniEF60"/>
+    <GlyphID id="1521" name="uniEF61"/>
+    <GlyphID id="1522" name="uniEF62"/>
+    <GlyphID id="1523" name="uniEF63"/>
+    <GlyphID id="1524" name="uniEF64"/>
+    <GlyphID id="1525" name="uniEF65"/>
+    <GlyphID id="1526" name="uniEF66"/>
+    <GlyphID id="1527" name="uniEF67"/>
+    <GlyphID id="1528" name="uniEF68"/>
+    <GlyphID id="1529" name="uniEF69"/>
+    <GlyphID id="1530" name="uniEF6A"/>
+    <GlyphID id="1531" name="uniEF6B"/>
+    <GlyphID id="1532" name="uniEF6C"/>
+    <GlyphID id="1533" name="uniEF6D"/>
+    <GlyphID id="1534" name="uniEF6E"/>
+    <GlyphID id="1535" name="uniEF6F"/>
+    <GlyphID id="1536" name="uniEF70"/>
+    <GlyphID id="1537" name="uniEF71"/>
+    <GlyphID id="1538" name="uniEF72"/>
+    <GlyphID id="1539" name="uniEF73"/>
+    <GlyphID id="1540" name="uniEF74"/>
+    <GlyphID id="1541" name="uniEF75"/>
+    <GlyphID id="1542" name="uniEF76"/>
+    <GlyphID id="1543" name="uniEF77"/>
+    <GlyphID id="1544" name="uniEF78"/>
+    <GlyphID id="1545" name="uniEF79"/>
+    <GlyphID id="1546" name="uniEF7A"/>
+    <GlyphID id="1547" name="uniEF7B"/>
+    <GlyphID id="1548" name="uniEF7C"/>
+    <GlyphID id="1549" name="uniEF7D"/>
+    <GlyphID id="1550" name="uniEF7E"/>
+    <GlyphID id="1551" name="uniEF7F"/>
+    <GlyphID id="1552" name="uniEF80"/>
+    <GlyphID id="1553" name="uniEF81"/>
+    <GlyphID id="1554" name="uniEF82"/>
+    <GlyphID id="1555" name="uniEF83"/>
+    <GlyphID id="1556" name="uniEF84"/>
+    <GlyphID id="1557" name="uniEF85"/>
+    <GlyphID id="1558" name="uniEF86"/>
+    <GlyphID id="1559" name="uniEF87"/>
+    <GlyphID id="1560" name="uniEF88"/>
+    <GlyphID id="1561" name="uniEF89"/>
+    <GlyphID id="1562" name="uniEF8A"/>
+    <GlyphID id="1563" name="uniEF8B"/>
+    <GlyphID id="1564" name="uniEF8C"/>
+    <GlyphID id="1565" name="uniEF8D"/>
+    <GlyphID id="1566" name="uniEF8E"/>
+    <GlyphID id="1567" name="uniEF8F"/>
+    <GlyphID id="1568" name="uniEF90"/>
+    <GlyphID id="1569" name="uniEF91"/>
+    <GlyphID id="1570" name="uniEF92"/>
+    <GlyphID id="1571" name="uniEF93"/>
+    <GlyphID id="1572" name="uniEF94"/>
+    <GlyphID id="1573" name="uniEF95"/>
+    <GlyphID id="1574" name="uniEF96"/>
+    <GlyphID id="1575" name="uniEF97"/>
+    <GlyphID id="1576" name="uniEF98"/>
+    <GlyphID id="1577" name="uniEF99"/>
+    <GlyphID id="1578" name="uniEF9A"/>
+    <GlyphID id="1579" name="uniEF9B"/>
+    <GlyphID id="1580" name="uniEF9C"/>
+    <GlyphID id="1581" name="uniEF9D"/>
+    <GlyphID id="1582" name="uniEF9E"/>
+    <GlyphID id="1583" name="uniEF9F"/>
+    <GlyphID id="1584" name="uniEFA3"/>
+    <GlyphID id="1585" name="uniEFA4"/>
+    <GlyphID id="1586" name="uniEFA5"/>
+    <GlyphID id="1587" name="uniEFA6"/>
+    <GlyphID id="1588" name="uniEFA7"/>
+    <GlyphID id="1589" name="uniEFA8"/>
+    <GlyphID id="1590" name="uniEFA9"/>
+    <GlyphID id="1591" name="uniEFAA"/>
+    <GlyphID id="1592" name="uniEFAB"/>
+    <GlyphID id="1593" name="uniEFAC"/>
+    <GlyphID id="1594" name="orn001"/>
+    <GlyphID id="1595" name="orn002"/>
+    <GlyphID id="1596" name="emoji.eyes"/>
+    <GlyphID id="1597" name="emoji.mouth"/>
     <GlyphID id="1598" name="emoji.eyes.angry"/>
     <GlyphID id="1599" name="emoji.eyes.smiling"/>
     <GlyphID id="1600" name="emoji.mouth.grinning"/>
@@ -1610,12 +1610,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="0.06898"/>
-    <checkSumAdjustment value="0x25954ff9"/>
+    <checkSumAdjustment value="0x9eb436b5"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00100000 00001111"/>
     <unitsPerEm value="1024"/>
     <created value="Mon Dec 19 11:59:40 2022"/>
-    <modified value="Mon Dec 19 11:59:48 2022"/>
+    <modified value="Mon Dec 19 12:43:20 2022"/>
     <xMin value="-192"/>
     <yMin value="-202"/>
     <xMax value="640"/>
@@ -4680,7 +4680,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="12148" language="0" nGroups="1011">
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="12124" language="0" nGroups="1009">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -7441,7 +7441,7 @@
       <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
       <map code="0xfffd" name="uniFFFD"/><!-- REPLACEMENT CHARACTER -->
     </cmap_format_4>
-    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="12148" language="0" nGroups="1011">
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="12124" language="0" nGroups="1009">
       <map code="0xd" name="nonmarkingreturn"/><!-- ???? -->
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
@@ -54964,11 +54964,11 @@
       <psName name="uni2078"/>
       <psName name="uni2079"/>
       <psName name="uni2070.alt001"/>
-      <psName name="uniFEFF"/>
-      <psName name="uni200D"/>
-      <psName name="uni200C"/>
       <psName name="uni00A0"/>
       <psName name="uni200B"/>
+      <psName name="uni200C"/>
+      <psName name="uni200D"/>
+      <psName name="uniFEFF"/>
       <psName name="space.frac"/>
       <psName name="anoteleia"/>
       <psName name="exclamdbl"/>
@@ -55400,6 +55400,7 @@
       <psName name="uni02BC"/>
       <psName name="uni02BB"/>
       <psName name="uni2BE8"/>
+      <psName name="_part.slash.comp"/>
       <psName name="uniE0A0"/>
       <psName name="uniE0A1"/>
       <psName name="uniE0A2"/>
@@ -55599,7 +55600,6 @@
       <psName name="orn002"/>
       <psName name="emoji.eyes"/>
       <psName name="emoji.mouth"/>
-      <psName name="_part.slash.comp"/>
       <psName name="emoji.eyes.angry"/>
       <psName name="emoji.eyes.smiling"/>
       <psName name="emoji.mouth.grinning"/>
@@ -119375,32 +119375,6 @@
         <delta pt="2" x="26" y="0"/>
         <delta pt="3" x="-85" y="0"/>
         <delta pt="4" x="-85" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-      </tuple>
-      <tuple>
-        <coord axis="wght" value="1.0"/>
-        <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="-26" y="0"/>
-        <delta pt="2" x="-26" y="0"/>
-        <delta pt="3" x="85" y="0"/>
-        <delta pt="4" x="85" y="0"/>
-        <delta pt="5" x="0" y="0"/>
-        <delta pt="6" x="0" y="0"/>
-        <delta pt="7" x="0" y="0"/>
-        <delta pt="8" x="0" y="0"/>
-      </tuple>
-      <tuple>
-        <coord axis="wght" value="-1.0"/>
-        <coord axis="ital" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="-26" y="0"/>
-        <delta pt="2" x="-26" y="0"/>
-        <delta pt="3" x="85" y="0"/>
-        <delta pt="4" x="85" y="0"/>
         <delta pt="5" x="0" y="0"/>
         <delta pt="6" x="0" y="0"/>
         <delta pt="7" x="0" y="0"/>
